@@ -1,0 +1,59 @@
+Aby dodać do naszego repozytorium na Githubie istniejący projekt z zawartością należy wykonać następujące kroki:
+1. Na naszym koncie na
+Githubie
+dodajemy nowe repozytorium, np. ExpertSummit2018. Możemy też użyć istniejącego repozytorium.
+Aby dodać nowe repozytorium przechodzimy na zakładkę
+Repositories
+, a następnie klikamy na przycisk
+New
+.
+2. Na stronie
+Create a new repository
+podajemy nazwę repozytorium (
+Repository name
+) i opis (
+Description
+). Jeśli chcemy, aby został utworzony automatycznie plik README zaznaczamy odpowiednią opcję (
+Initialize the repository with a README
+). Następnie klikamy przycisk
+Create repository
+.
+3. Jeśli nie potrzebujemy już jakiegoś repozytorium, zawsze możemy je usunąć. Aby to zrobić przechodzimy na stronę główną naszego konta. Możemy to m. in. zrobić klikając link w lewym górnym rogu z nazwą naszego konta (u mnie jest to link bzalewa). Przechodzimy na zakładkę
+Repositories
+, wybieramy repozytorium, które chcemy usunąć, potem
+Settings
+i na samym dole wybieramy opcję
+Delete this repository
+.
+Pojawi się okno dialogowe
+Are you absolutely sure?
+, w którym podajemy nazwę repozytorium, które chcemy usunąć, a następnie potwierdzamy naszą decyzję klikając na przycisk
+I understand the consequences, delete this repository
+.
+4. Po stworzeniu repozytorium przechodzimy do aplikacji
+Github Desktop
+. Klikamy
+File
+, potem
+Clone Directory
+, a następnie na zakładce
+GitHub.com
+wybieramy nasze repozytorium i tworzymy dla niego lokalny folder. U mnie
+local path
+to: E:\Source\Repos\ExpertSmmit2018. Po wybraniu lokalizacji dla folderu lokalnego klikamy przycisk
+Clone
+.
+5. Do folderu, który został właśnie utworzony lokalnie, kopiujemy nasz projekt.
+6. W Github Desktop widzimy wszystkie nasze pliki.
+7. Dodajemy podsumowanie (
+Summary
+) i opis (
+Description
+) w sekcji w lewym dolnym rogu i klikamy przycisk
+Commit to master
+.
+8. Na górze aplikacji klikamy przycisk
+Push to Origin
+, aby dodać projekt do naszego repozytorium na Gitubie.
+9. Po wykonaniu wszystkich tych czynności nasz projekt został wdrożony na Githuba.
+Share this post:

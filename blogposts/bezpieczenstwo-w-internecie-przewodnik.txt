@@ -1,0 +1,289 @@
+Bezpieczeństwo w internecie – Twój cyfrowy niezbędnik
+Jak skutecznie dbać o
+bezpieczeństwo w internecie
+w dzisiejszych czasach, gdy sieć to nie tylko źródło rozrywki. To także przestrzeń pełna cyfrowych pułapek, dezinformacji oraz zaawansowanych wyłudzeń danych.  Gdzie weryfikować informacje i szukać pomocy w razie oszustwa?
+Przygotowaliśmy dla Ciebie kompleksowy przewodnik po sieci. Znajdziesz tutaj najważniejsze państwowe instytucje, narzędzia do ochrony prywatności oraz edukacyjne quizy. Ponadto zebraliśmy przydatne linki do codziennej pracy. Koniecznie dodaj ten wpis do zakładek!
+Co znajdziesz w tym artykule?
+Bezpieczeństwo w internecie – Twój cyfrowy niezbędnik
+1. Oficjalne instytucje: Gdzie zgłaszać zagrożenia w sieci?
+2. Edukacja cyfrowa i bezpieczeństwo w internecie najmłodszych
+Ważne raporty do pobrania:
+Organizacje edukacyjne:
+3. Silne hasła i menedżery haseł
+4. Wycieki danych a Twoje bezpieczeństwo w internecie
+5. Prywatność i bezpieczeństwo w internecie: rola przeglądarki
+6. Walka z dezinformacją: portale Fact-checkingowe
+7. Mapy ataków na żywo a bezpieczeństwo w internecie
+8. Gry i quizy: Przetestuj swoje bezpieczeństwo w internecie
+9. Najlepsze blogi: Poznaj bezpieczeństwo w internecie od kuchni
+10. Weryfikacja linków a codzienne bezpieczeństwo w internecie
+11. Cyfrowy e-Urząd a bezpieczeństwo w internecie
+12. Komunikatory, social media i bezpieczeństwo w internecie
+13. Nowoczesne AI, grafika i bezpieczeństwo w internecie
+14. Dodatkowe zasoby cyfrowe i bezpieczeństwo w internecie
+1. Oficjalne instytucje: Gdzie zgłaszać zagrożenia w sieci?
+Jeśli staniesz się oficjalną ofiarą oszustwa, nie musisz działać po omacku. W Polsce funkcjonują wyspecjalizowane instytucje, które pomagają utrzymać codzienne bezpieczeństwo w internecie.
+CERT Polska
+– To główny zespół reagowania na incydenty komputerowe w kraju. Na stronie sprawdzisz aktualne ostrzeżenia i szybko zgłosisz oszustwo.
+Zgłoszenie incydentu (CSIRT NASK)
+– Prosty formularz do zgłaszania fałszywych SMS-ów czy stron wyłudzających dane.
+Oficjalna lista ostrzeżeń CERT
+oraz panel
+Moje CERT
+.
+NASK (Naukowa i Akademicka Sieć Komputerowa)
+– Państwowy instytut badawczy. Zarządza domenami
+.pl
+oraz rozwija nowoczesną infrastrukturę IT.
+Dyżurnet.pl
+– Zespół ekspertów NASK. Działa jako punkt kontaktowy do zgłaszania nielegalnych treści, szczególnie związanych z krzywdzeniem dzieci.
+Formularz zgłoszeniowy Dyżurnet
+oraz ich
+Raport roczny za rok 2025
+.
+Centralne Biuro Zwalczania Cyberprzestępczości (CBZC)
+– Specjalna jednostka Policji stworzona do bezpośredniej walki z cyberprzestępcami.
+Zgłoś przestępstwo na Gov.pl
+– Rządowy przewodnik, który dokładnie wyjaśnia, jak zgłosić sprawę na Policję lub do Prokuratury.
+Raport 2025 od Dyżurnet, dostęp 05.07.2026
+2. Edukacja cyfrowa i bezpieczeństwo w internecie najmłodszych
+Edukacja to fundament, na którym opiera się bezpieczeństwo w internecie. Poniższe projekty pomogą podnieść świadomość zarówno najmłodszych, jak i starszych użytkowników sieci.
+OSE (Ogólnopolska Sieć Edukacyjna)
+– Program darmowego i bezpiecznego internetu dla szkół w całej Polsce.
+Poradnik Bezpiecznego Rodzica
+– Praktyczne wskazówki od OSE o tym, jak skutecznie chronić dziecko przed cyfrowymi zagrożeniami.
+System PEGI
+– Ogólnoeuropejski system klasyfikacji gier według kategorii wiekowych (3, 7, 12, 16, 18 lat). Ułatwia rodzicom świadomy wybór rozrywki.
+Ważne raporty do pobrania:
+Raport Nastolatki 3.0
+– Diagnoza tego, jak polska młodzież korzysta z sieci.
+Raport o Patotreściach w Internecie (FDDS)
+– Szczegółowa analiza problemu szkodliwych materiałów online.
+Organizacje edukacyjne:
+ISSA Polska
+oraz sekcja
+Wydarzenia
+– Darmowe szkolenia z zakresu cyberbezpieczeństwa dla dzieci i seniorów.
+Fundacja Bezpieczna Cyberprzestrzeń
+– Organizacja podnosząca poziom wiedzy o zagrożeniach w sieci.
+Instytut Kościuszki
+– Znany think-tank zajmujący się strategią IT. Warto przeczytać także
+artykuł w Polskim Radiu
+na ich temat.
+IT Szkoła – Poradnik ABC Cyberbezpieczeństwa
+– Darmowy plik pdf z przystępnym objaśnieniem najważniejszych pojęć.
+3. Silne hasła i menedżery haseł
+Właściwa ochrona kont to kluczowy element dbania o prywatność. Dlatego podstawą każdego profilu powinno być unikalne hasło oraz dwuskładnikowe uwierzytelnianie (MFA).
+Przykład silnego hasła:
+Ciepierkowa75#Bundermuza43!xd
+(jest długie, skomplikowane i zawiera różne znaki). I wbrew pozorom łatwe do zapamiętania przez Twój mózg.
+Testowanie odporności haseł:
+Password Monster
+oraz
+CatsWhoCode
+. Narzędzia te pokazują, jak szybko algorytm mógłby złamać Twoje zabezpieczenia.
+Menedżery haseł:
+KeePassXC
+– Bezpieczny, w pełni lokalny program do haseł. Przeczytaj również pomocny
+poradnik o KeePassXC na Sekuraku
+.
+Bitwarden
+– Popularny menedżer haseł działający w chmurze, który oferuje wygodną synchronizację między urządzeniami.
+Narzędzia MFA (Uwierzytelnianie dwuskładnikowe):
+Google Authenticator
+– Mobilna aplikacja generująca jednorazowe kody logowania. Można pobrać na telefony z
+Androidem
+lub
+iOSem/iPadOSem
+.
+Yubikey
+– Fizyczne klucze bezpieczeństwa, które gwarantują najwyższy poziom ochrony przed phishingiem.
+Klucz Yubikey 5C NFC, pomoc w dbaniu o bezpieczeństwo w internecie
+4. Wycieki danych a Twoje bezpieczeństwo w internecie
+Czy Twoje prywatne dane krążą po sieci z powodu masowych wycieków? Możesz to łatwo zweryfikować za pomocą darmowych narzędzi i uchronić się przed kradzieżą tożsamości.
+Bezpieczne Dane gov.pl
+– Państwowy system. Pozwala sprawdzić, czy Twój numer PESEL znalazł się w publicznych wyciekach.
+Have I Been Pwned
+– Najpopularniejsza globalna baza danych. Sprawdzisz tu wycieki powiązane z adresem e-mail lub numerem telefonu.
+BreachDirectory
+– Kolejna przydatna wyszukiwarka naruszeń danych i haseł.
+Have I Been Zuckered
+– Serwis dedykowany wyłącznie weryfikacji wycieków z portalu Facebook.
+How Normal Am I?
+– Interaktywny eksperyment pokazujący, jak algorytmy AI oceniają naszą twarz i jak wpływa to na prywatność.
+Strona HaveIBeenPwned, dostęp: 20.06.2026
+5. Prywatność i bezpieczeństwo w internecie: rola przeglądarki
+Czasami nie zdajemy sobie sprawy, jak wiele śladów zostawiamy podczas zwykłego przeglądania stron. Poniższe zaawansowane serwisy pomogą Ci przejąć kontrolę i zwiększyć bezpieczeństwo w internecie.
+BrowserLeaks
+– Niezwykle szczegółowe narzędzie. Pokazuje dokładnie, jakie dane techniczne (IP, WebRTC, odczyt karty graficznej) zdradza Twoja przeglądarka każdej odwiedzanej stronie.
+Terms of Service; Didn’t Read (ToS;DR)
+– Genialny projekt, który analizuje długie regulaminy znanych portali za Ciebie. Ponadto przyznaje im oceny od A do F pod kątem szacunku do prywatności użytkownika.
+Privacy Guides
+– Niezależny przewodnik rekomendujący bezpieczne systemy, przeglądarki i aplikacje, które realnie chronią Twoje dane.
+Strona główna browserleaks.com, dostęp 05.07.2026
+6. Walka z dezinformacją: portale Fact-checkingowe
+Nie wierz we wszystko, co czytasz w mediach społecznościowych. Aby zachować pełne bezpieczeństwo w internecie, należy zawsze korzystać ze sprawdzonych źródeł informacji oraz weryfikować fakty.
+Polskie serwisy fact-checkingowe:
+Demagog
+– Pierwsza w Polsce organizacja weryfikująca wypowiedzi polityków i fake newsy.
+Fakenews.pl
+– Portal analizujący teorie spiskowe oraz fałszywe doniesienia medialne.
+OKO.press
+– Serwis zajmujący się dziennikarstwem śledczym i sprawdzaniem faktów.
+Narzędzia do samodzielnej weryfikacji treści:
+Google Fact Check Explorer
+– Światowa wyszukiwarka zweryfikowanych informacji.
+TinEye
+– Wyszukiwanie obrazem, które pozwala odkryć pierwotne źródło danego zdjęcia.
+YTlarge
+– Zestaw narzędzi do zaawansowanej analizy materiałów wideo.
+Gov.pl – Poradnik przeciwdziałania dezinformacji
+– Oficjalny dokument rządowy o tym, jak nie dać się zmanipulować (plik, który pobiera się automatycznie).
+Globalne serwisy:
+Zapoznaj się także z
+FactCheck.org
+oraz
+PolitiFact
+.
+Sprawdzanie faktów to jeden ze sposobów dbania o bezpieczeństwo w internecie, strona główna demagog.org, dostęp 05.07.2026
+7. Mapy ataków na żywo a bezpieczeństwo w internecie
+Chcesz zobaczyć internet z zupełnie innej perspektywy? Te fascynujące linki pokazują globalną sieć w sposób interaktywny i pozwalają lepiej zrozumieć, czym jest bezpieczeństwo w internecie.
+Kaspersky Cyberthreat Real-Time Map
+– Niesamowity, interaktywny globus 3D. Pokazuje on blokowane cyberataki na całym świecie w czasie rzeczywistym.
+Wayback Machine (Internet Archive)
+– Cyfrowe archiwum sieci. Pozwala sprawdzić, jak dowolna strona internetowa wyglądała 5, 10 czy 20 lat temu.
+The Internet Map
+– Zdumiewająca dwuwymiarowa mapa sieci. Przedstawia ona tysiące najpopularniejszych witryn jako gwiazdy w ogromnej, cyfrowej galaktyce.
+Strona główna web.arrchive.org, dostęp 05.07.2026
+8. Gry i quizy: Przetestuj swoje bezpieczeństwo w internecie
+Nauka przez zabawę przynosi najlepsze rezultaty. Sprawdź sam, czy potrafisz skutecznie odróżnić prawdę od cyberataku i utrzymać wysokie bezpieczeństwo w internecie.
+Rozpoznawanie Phishingu (fałszywych wiadomości):
+Phishing Quiz od Google
+Quiz CyberRescue
+Quiz misjacyber.pl
+Security Inside Quiz
+AI czy rzeczywistość?
+Real or Not Quiz
+– Czy to zdjęcie przedstawia prawdziwego człowieka, czy grafikę AI?
+AI or Not Quiz (Farid Berkeley)
+– Kolejny świetny test na rozpoznawanie obrazów wygenerowanych przez sztuczną inteligencję.
+Inne gry i symulacje:
+CyberMindOS Messenger Simulation
+– Edukacyjna symulacja czatu, która uczy bezpiecznych zachowań.
+Rozrywka ogólna: Sprawdź, czy jesteś
+Bezpieczny w internecie
+..
+Quiz AI or not na stronie farid.berkeley.edu, dostęp 05.07.2026
+9. Najlepsze blogi: Poznaj bezpieczeństwo w internecie od kuchni
+Chcesz regularnie poszerzać swoją wiedzę? Oto trzy legendarne polskie serwisy informacyjne, które musisz znać, aby dbać o stałe bezpieczeństwo w internecie:
+Niebezpiecznik
+Sekurak
+Zaufana Trzecia Strona
+10. Weryfikacja linków a codzienne bezpieczeństwo w internecie
+Poniższe serwisy ułatwią Ci codzienne, wolne od zagrożeń korzystanie z sieci, przesyłanie danych oraz błyskawiczne skanowanie odnośników. Wpływają one bezpośrednio na Twoje bezpieczeństwo w internecie.
+Skanowanie i weryfikacja adresów oraz plików:
+VirusTotal
+– Absolutny fundament bezpieczeństwa. Umożliwia jednoczesne przeskanowanie dowolnego pliku lub linku przez ponad 70 różnych silników antywirusowych. Ale pamiętaj, jak wrzucisz plik do tego narzędzia, to będzie widoczny dla innych.
+Urlscan.io
+– Pozwala bezpiecznie podejrzeć zawartość strony bez bezpośredniego wchodzenia na nią.
+Unshorten.it
+– Rozwija skrócone linki. Dzięki temu widzisz pełny adres, zanim w niego klikniesz.
+SiteStatus.pl
+– Służy do monitorowania dostępności stron i aplikacji online.
+Google Transparency Report
+– Oficjalny raport bezpiecznego przeglądania stron od Google.
+Skracanie linków:
+Szybko skrócisz długi adres za pomocą
+TinyURL
+.
+Bezpieczne przesyłanie danych:
+TransferNow
+umożliwia bezpieczne wysyłanie dużych plików i folderów.
+Aplikacje mobilne:
+Orange Phone
+to świetna aplikacja na telefon, która skutecznie blokuje SPAM.
+Zaawansowane narzędzia:
+Dla celów technicznych warto znać program
+Hashcat
+.
+Dbanie o bezpieczeństwo w internecie ułatwiają takie aplikacje jak Orange Phone – Antispam, dostęp 05.07.2026
+11. Cyfrowy e-Urząd a bezpieczeństwo w internecie
+Polska e-administracja pozwala na załatwienie wielu spraw bez wychodzenia z domu. Pamiętaj jednak, aby zawsze logować się tylko przez oficjalne serwisy, które gwarantują bezpieczeństwo w internecie.
+Gov.pl
+– Główny portal rządu RP oraz brama do większości usług państwowych.
+Profil Zaufany
+– Twój darmowy podpis elektroniczny służący do bezpiecznego logowania.
+e-Urząd Skarbowy
+– Szybkie rozliczenia podatków, PIT-y i stały kontakt ze skarbówką.
+E-doręczenia
+– Elektroniczny odpowiednik listu poleconego z potwierdzeniem odbioru.
+ZUS i e-ZUS:
+Portal
+ZUS
+oraz bezpośrednie, bezpieczne
+Logowanie do e-ZUS
+.
+Infrastruktura chmurowa:
+Przeczytaj o tym, jak działają
+Rządowa Chmura Obliczeniowa
+oraz
+Publiczna Chmura Obliczeniowa
+.
+System Zapewniania Usług Chmurowych, dostęp 05.07.2026
+12. Komunikatory, social media i bezpieczeństwo w internecie
+Wybór odpowiedniego komunikatora ma kluczowe znaczenie dla zachowania poufności Twoich rozmów. Dlatego warto wybierać narzędzia szyfrowane end-to-end, które dbają o bezpieczeństwo w internecie.
+Rekomendowany bezpieczny komunikator:
+Signal
+– Bezkompromisowy lider w dziedzinie pełnego szyfrowania end-to-end i ochrony danych. Nie gromadzi metadanych i stanowi obecnie wzór bezpiecznej komunikacji.
+Pozostałe platformy i pomoc techniczna:
+Discord Safety
+– Oficjalne centrum bezpieczeństwa dla platformy społecznościowej i graczy.
+Centrum pomocy Facebooka
+– Poradnik, jak właściwie skonfigurować prywatność i bezpieczeństwo na profilu FB.
+Statystyki:
+Sprawdź ciekawy
+ranking najpopularniejszych komunikatorów na świecie
+na platformie SimilarWeb.
+Obsługa poczty e-mail:
+Centrum pomocy Google Gmail
+– Instrukcje dotyczące blokowania niechcianych wiadomości.
+ZPE – Poradnik wysyłania załączników
+– Podstawy korzystania z e-maila dla początkujących użytkowników.
+ZPE – Zintegrowana Platforma Edukacyjna, dostęp 05.07.2026
+13. Nowoczesne AI, grafika i bezpieczeństwo w internecie
+Na koniec zebraliśmy przydatne platformy dla twórców internetowych oraz innowacyjne rozwiązania oparte na sztucznej inteligencji. Pamiętaj, że nowe technologie to także nowe wyzwania dla hasła bezpieczeństwo w internecie.
+Projektowanie graficzne i wideo:
+Canva
+– Intuicyjne i bardzo popularne narzędzie do tworzenia projektów graficznych.
+Adobe Express
+– Świetna alternatywa od firmy Adobe do szybkich grafik i prostych animacji.
+Picsart
+– Webowe narzędzie do generowania obrazów wspomagane przez AI.
+CapCut
+– Genialny program do montażu wideo na social media (TikTok, Reels, YouTube).
+Bazy darmowych materiałów:
+Pobieraj bezpieczne zdjęcia i ikony z serwisu
+Freepik
+.
+Polskie i globalne innowacje AI:
+PLLuM
+– Polski Uniwersalny Model Językowy, w pełni dostosowany do specyfiki naszego języka.
+Google NotebookLM
+– Twój osobisty, inteligentny asystent do robienia i analizowania notatek.
+Strona główna NotebookLM, dostęp 05.07.2026
+14. Dodatkowe zasoby cyfrowe i bezpieczeństwo w internecie
+Wyszukiwarki domen WHOIS:
+Skorzystaj z
+WHOIS (domeny .pl)
+lub
+WHOIS (Globalne)
+. Narzędzia te pomagają sprawdzić właściciela oraz datę rejestracji podejrzanej witryny.
+Tabela Bezpiecznych Transakcji Finansowych
+– Zewnętrzny arkusz wiedzy na temat bezpiecznego korzystania z bankowości elektronicznej.
+Ciekawostka geopolityczna:
+Przeczytaj artykuł o
+Pentagon Pizza Index
+. Dowiesz się z niego, jak masowe zamówienia jedzenia mogą zwiastować międzynarodowe kryzysy.
+Pentagon Pizza Index, dostęp 05.07.2026
+Pamiętaj: Bezpieczeństwo w sieci to ciągły proces, a nie jednorazowe zadanie. Korzystaj z powyższych narzędzi mądrze i podziel się tym artykułem ze swoimi bliskimi!
+Share this post:

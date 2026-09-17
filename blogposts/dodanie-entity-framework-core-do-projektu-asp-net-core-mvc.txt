@@ -1,0 +1,205 @@
+W ramach programu mentoringowego (organizowanego przez
+Tech Leaders Poland
+) razem z Michaliną tworzymy aplikację w ASP.NET Core, która w założeniu ma być portalem ogłoszeniowym. Projekt został stworzony w ASP.NET Core 2.0 i cały czas jest modyfikowany.
+Diagram bazy danych, utworzonej podczas naszych spotkań, wygląda tak jak na rysunku poniżej.  Jak stworzyć wykorzystywaną tutaj bazę danych opisałam w
+tym wpisie
+.
+Obecnie w rozwiązaniu
+ET
+mamy 2 projekty i pliki:
+projekt ze skryptem bazy danych
+ET
+(opis, jak go stworzyć dodałam na blogu)
+projekt
+Frontend
+(ASP.NET Core MVC 2.0)
+Aby ułatwić i przyspieszyć proces tworzenia aplikacji, możemy przy użyciu naszej bazy danych i
+Entity Framework Core,
+wygenerować wszystkie potrzebne nam encje.  Najpierw musimy zainstalować pakiet EF Core dla wybranego przez nas dostawcy bazodanowego. W tym projekcie korzystamy z bazy Microsoft SQL Server 2017.
+Aby w przyszłości łatwiej można było zarządzać projektem, przeniesiemy folder
+Models
+do nowego projektu i tam dodamy Entity Framework Core. W tym celu w Visual Studio 2017 (lub Visual Studio 2019) klikamy prawym przyciskiem myszy na
+Solution
+i wybieramy opcję
+Add -> New Project ->.NET Core ->Class Library (.NET Core)
+. Zarówno nowy projekt, jak i projekt
+Frontend
+mają jako
+Target Framework
+wersję .NET Core 2.0.
+Do projektu
+Frontend
+dodajemy referencję do projektu
+ETBackend
+. W projekcie
+Frontend
+klikamy prawym przyciskiem myszy na
+Dependencies
+, potem wybieramy
+Add Reference …
+i w oknie dialogowym
+Reference Manager – Frontend
+zaznaczamy pole wyboru obok projektu
+ETBackend
+i klikamy przycisk
+OK
+.
+W nowo utworzonym projekcie tworzymy folder
+Models
+(prawym klikamy na projekcie
+ETBackend
+, potem wybieramy
+Add -> New Folder
+i zmieniamy nazwę na
+Models
+). Z folderu
+Models
+w projekcie
+Frontend
+wycinamy plik
+ErrorViewModel.cs
+i wklejamy go do folderu
+Models
+w projekcie
+ETBackend
+. Po przeniesieniu pliku
+ErrorViewModel.cs
+zmieniamy w nim namespace z
+Frontend.Models
+na
+ETBackend.Models
+. Przebudowujemy całe rozwiązanie (z menu
+Build
+wybieramy opcję
+Rebuild Solution
+), poprawiamy ewentualne błędy, aż zobaczymy informację
+Rebuild Succeeded
+(na samym dole na niebieskim pasku).
+Następnie z menu wybieramy
+Tools,
+potem
+NuGet Package Manager,
+a następnie
+Package Manager Console
+. W oknie dialogowym
+Package Manager Console
+w
+Package source
+wybieramy
+All
+, a w
+Default project
+wskazujemy nasz projekt (
+ETBackend
+). U mnie jest to
+ETBackend.
+Uruchamiamy następujące polecenie, aby stworzyć model z istniejącej bazy danych
+ETDatabase
+. Polecenie to wygeneruje dla każdej tabeli znajdującej się w bazie danych plik w folderze
+Models
+z nazwą taką samą, jak nazwa tabeli.
+Server
+– podajemy nazwę naszgo servera bazodanowego
+Database
+– nazwa bazy danych
+Trusted_Connection = True
+– gdy nasze połączenie do serwera jest oparte na Windows Authentication
+Scaffold-DbContext "Server=ZALNET-PC\SQLCOURSE2017;Database=ETDatabase;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Po wykonaniu tego polecenia możemy zobaczyć, że proces reverse engineering (inżynierii odwrotnej) utworzył klasy encji (
+Adverts.cs
+,
+AdvertsCategories.cs
+,
+Categories.cs
+,
+Locations.cs
+i
+Users.cs
+) oraz klasę derived context (
+ETDatabaseContext.cs
+) w oparciu o schemat istniejącej bazy danych. Możemy też określić, dla których wybranych tabel chcemy wygenerować klasy, dodając argument
+-Tables
+do powyższego polecenia, np.
+-Tables Adverts, Categories
+.
+Aby usunąć widoczne na screenie błędy, należy dodać referencję do trzech pakietów NuGet. Aby to zrobić, klikamy prawym przyciskiem myszy na projekcie
+ETBackend
+i wybieramy
+Manage NuGet Packages
+. Następnie dodajemy pakiety:
+Microsoft.EntityFrameworkCore (2.0.3)
+,
+Microsoft.EntityFrameworkCore.Design (2.0.3)
+i
+Microsoft.EntityFrameworkCore.SqlServer (2.0.3)
+.
+Klasa
+context
+reprezentuje połączenie z bazą danych i pozwala na wykonywanie zapytań do bazy danych i zapisywanie instancji klas encji (poniżej fragment kodu).
+Kolejny krok to rejestracja kontekstu
+(ETDatabaseContext.cs)
+z
+dependency injection
+. Koncepcja wstrzykiwania zależności (dependency injection) jest kluczowa dla ASP.NET Core. Usługi (
+services
+), takie jak w ETDatabaseContext, są rejestrowane z dependency injection podczas uruchamiania aplikacji. Komponenty, które wymagają tych usług (takie jak kontrolery MVC), są następnie dostarczane tym usługom za pośrednictwem parametrów lub właściwości konstruktora.
+Kolejny krok w tworzeniu naszej aplikacji to rejestracja i konfiguracja naszego kontekstu(context) w klasie
+Startup.cs
+w projekcie
+Frontend
+. Robimy to, aby ETDatabaseContext był dostępny dla kontrolerów MVC oraz rejestracji kontekstu jako usługi. Aby to zrobić otwieramy plik
+Startup.cs
+i dodajemy następujące instrukcje
+using
+na początku pliku:
+using ETBackend.Models;
+using Microsoft.EntityFrameworkCore;
+Teraz przy użyciu metody
+AddDbContext(…)
+rejestrujemy kontekst jako usługę. W pliku Startup.cs lokalizujemy metodę
+ConfigureServices(…)
+i dodajemy poniższy kod, aby zarejestrować kontekst jako usługę.
+Aktualnie połączenie do bazy danych, czyli
+connection string
+, znajduje się w pliku
+Startup.cs
+. Nie jest to jednak najlepsze rozwiązanie w środowiskach produkcyjnych i dlatego w późniejszym czasie, aby zapewnić większe bezpieczeństwo aplikacji, to połączenie dodamy do pliku konfiguracyjnego.
+Jak po przebudowaniu rozwiązania dalej będą jakieś błędy, to może być konieczne dodanie do projektu Frontend 2 dodatkowe pakiety NuGet:
+Microsoft.EntityFrameworkCore (2.0.3)
+i
+Microsoft.EntityFrameworkCore.Design (2.0.3).
+Teraz, jak mamy już zarejestrowany kontekst, możemy dodać kontrolery i widoki.
+Najpierw musimy przebudować całe rozwiązanie
+(Rebuild Solution)
+. W innym przypadku nasze klasy z folderu Models będą niewidoczne dla kontrolerów. Prawym przyciskiem myszy klikamy na folderze
+Controllers
+w
+Solution Explorer
+i wybieramy opcję
+Add -> Controller…
+.Z dostępnych opcji wybieramy
+MVC Controller with views, using Entity Framework
+i klikamy
+OK.
+W
+Model class
+wybieramy:
+Adverts(ETBackend.Models)
+, a w
+Data context class
+wybieramy:
+ETDatabaseContext(ETBackend.Models)
+.Podajemy nazwę kontrolera (liczba pojedyncza) i do nazwy obowiązkowo dodajemy słowo
+Controller
+(po tym słowie są rozpoznawane klasy kontrolera). Klikamy przycisk
+Add.
+Po wykonaniu wszystkich tych czynności mamy nowy kontroler z automatycznie utworzonymi akcjami do przeglądania, tworzenia, edycji i usuwania ogłoszeń, a także nowe widoki do wyświetlania tych informacji. Wykonujemy te same czynności dla pozostałych klas z folderu
+Models
+.
+Jeśli wszystko poszło tak jak trzeba, możemy uruchomić naszą aplikację i sprawdzić rezultaty. W menu przechodzimy do sekcji
+Debug
+, a potem wybieramy
+Start Without Debugging
+. Aplikacja uruchomi się w nowym oknie przeglądarki. Możemy przejść do jakiegokolwiek kontrolera i sprawdzić działanie strony.
+Otrzymaliśmy aplikację z podstawowymi metodami, za pomocą których możemy manipulować danymi i zapisywać je w bazie danych.
+Share this post:

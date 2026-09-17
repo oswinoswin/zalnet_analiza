@@ -1,0 +1,194 @@
+Cyber Advent  – historia, która zaczęła się przypadkiem… i urosła do czegoś wielkiego
+Wszystko zaczęło się
+14 listopada 2024 roku
+.
+Dzień jak każdy inny – aż do momentu, kiedy na Linkiedinie napisałam spontaniczny post o inicjatywie nazwanej „Cyber Advent”. W zamyśle miało to być kilka sesji w grudniu, projekt kameralny, robiony „po godzinach” i z potrzeby serca. A jednak w ciągu kilkunastu godzin wydarzyło się coś, co dziś wspominam z uśmiechem. To był początek historii, którą dziś chcę opowiedzieć, aby zaprosić Cię do jej dalszego rozdziału:
+Cyber Adventu 2025
+.
+Zanim jednak otworzymy pierwsze okienko tegorocznego kalendarza, wróćmy na chwilę do wydarzeń sprzed roku. Do dnia, który zmienił grudzień dla setek pasjonatów bezpieczeństwa w Polsce.
+Co znajdziesz w tym artykule?
+Cyber Advent  – historia, która zaczęła się przypadkiem… i urosła do czegoś wielkiego
+Od rozmowy na Discordzie do ogólnopolskiej (i nie tylko) inicjatywy
+Cyber Advent stał się czymś więcej niż serią spotkań
+Youtube Not The Hidden Wiki- miejsce, w którym wiedza jest dostępna za darmo
+Cyber Advent 2025 to:
+Historia, którą napisały filmy, dyskusje i… emocje
+Cyber Advent 2025 – dołącz do nas
+Publikacje o Cyber Advent 2024:
+Od rozmowy na Discordzie do ogólnopolskiej (i nie tylko) inicjatywy
+26 października 2024 roku na Discordzie społeczności 1753c napisałam pytanie – z pozoru proste:
+„Moi drodzy, niedługo Mikołajki i święta, a może warto zrobić coś dobrego? Może kurs w formule
+Seniorzy – juniorom
+, cykliczne spotkania, oczywiście pro bono?”
+Odezwały się dwie osoby –
+Michał Błaszczak
+i
+Krystian Kaczmarek
+ze społeczności
+Not The Hidden Wiki
+, które – jak to mówią – zgodziły się „ukraść ze mną księżyc”. Chwilę później już nie rozmawialiśmy o jednym spotkaniu tygodniowo. Ani dwóch. Pojawił się pomysł, aby podczas całego adwentu –
+od 1 do 23 grudnia
+– codziennie była inna sesja o cyberbezpieczeństwie.
+I tak narodził się
+Cyber Advent 2024
+, w którym udział wzięły setki osób, a 99% wystąpień trafiło jako nagrania na
+kanale Not The Hidden Wiki na platformie Youtube
+, gdzie są dostępne dla każdego. Bezpłatnie. Nie za paywallem. Po prostu – darmowa wiedza, od specjalistów dla przyszłych specjalistów.
+Zamiast kilku luźnych spotkań, powstała potężna agenda:
+23 dni spotkań, codziennie o godzinie 18:00
+. W 2024 roku poruszyliśmy tematy, które są podstawą cyberbezpieczeństwa:
+Deepfake
+– zagrożenie czy szansa?
+Tożsamość w chmurze
+i bezpieczeństwo sieci
+Analiza malware
+i honeypoty
+Pentesty
+i łamanie haseł
+Cyber Advent stał się czymś więcej niż serią spotkań
+Już w trakcie Cyber Adventu 2024 wiedzieliśmy, że wydarza się coś wyjątkowego.
+Codzienne sesje zaczęły być jak rytuał: ludzie odkładali telefony, przygotowywali kubki z herbatą i siadali przed laptopami, żeby przez godzinę (lub dłużej) posłuchać ekspertów.
+Cyber Advent połączył wiele społeczności, takich jak:
+1753c
+,
+Not The Hidden Wiki
+oraz  specjalistów
+ISSA Polska
+, ekspertów z tytułami Microsoft Valuable Professional i wielu innych.
+To był projekt ponad podziałami. Projekt, który pokazał, że w świecie cyberbezpieczeństwa są ludzie, którzy chcą edukować – nie dla reklamy, nie dla zasięgów, lecz dlatego, że wierzą, że
+świadomość to najlepsza ochrona
+.
+Youtube Not The Hidden Wiki
+– miejsce, w którym wiedza jest dostępna za darmo
+Sesje z 2024 roku stały się czymś więcej niż jednorazowym wydarzeniem. Dla wielu osób to
+pierwszy kurs cyberbezpieczeństwa
+, dostępny w formie filmów, które można odtwarzać w dowolnym momencie. A licznik wyświetleń rósł i rośnie dalej.
+Sesje #CyberAdvent 2024
+można obejrzeć na
+kanale Not The Hidden Wiki na platformie Youtube
+:
+01 grudnia 2024 –
+Artur Markiewicz
+: Jak myśli specjalista: Cyberzagrożenia w praktyce dla młodych adeptów branży
+02 grudnia 2024 –
+Agnieszka Mietz-Blijleven
+: Deepfake – zagrożenie cyberbezpieczeństwa czy szansa rozwoju technologicznego?
+03 grudnia 2024 –
+Jakub Przepióra
+: Wstęp do cyberbezpieczeństwa
+04 grudnia 2024 –
+Robert Przybylski
+: Tożsamość w chmurze
+05 grudnia 2024 –
+Konrad Sagała
+: Zrozumienie CIA Triad. Zarządzanie ryzykiem
+06 grudnia 2024 –
+Jakub Staśkiewicz
+: Wazuh i deception technology, czyli po co nam honeypoty
+07 grudnia 2024 –
+Łukasz Lamparski
+: Podstawy analizy malware
+08 grudnia 2024  –
+Oskar Klimczuk
+: Dziennikarstwo a cyberbezpieczeństwo
+09 grudnia 2024  –
+Andrzej Kokociński
+: Bezpieczeństwo sieci w chmurze
+10 grudnia 2024  –
+Daniel Krzyczkowski
+: Wyzwania dotyczące tożsamości w chmurze z perspektywy dewelopera aplikacji
+11 grudnia 2024  –
+Adrian Kapczyński
+: Stegomalware
+12 grudnia 2024  –
+Michał Błaszczak
+: Wprowadzenie do testów penetracyjnych
+13 grudnia 2024  –
+Marcin Naskręt
+: Admin na wyciągnięcie ręki: O audycie haseł i sztuce ich łamania
+14 grudnia 2024  –
+M. Kucharskov
+: Od CTFów do włanego biznesu
+15 grudnia 2024  –
+Michał Żaczek
+: Oops!… I Did It Again – czyli Security Misconfiguration w akcji!
+16 grudnia 2024  –
+Andrzej Kokociński
+: Analiza Logów Systemowych i Monitorowania Aktywności
+17 grudnia 2024  –
+Lena Sędkiewicz
+: AppSec 101, czyli bezpieczeństwo aplikacji webowych z perspektywy OWASP Top 10
+18 grudnia 2024  –
+Marcin Gąstół
+: Managed Identities vs Service Principals w Azure
+19 grudnia 2024  –
+Michał Kłaput
+: Wprowadzenie do OSINT: Jak odkrywać to, co ukryte na widoku?
+20 grudnia 2024  –
+Grzegorz Tworek
+: Obsługa incydentów malware
+21 grudnia 2024  –
+Mateusz Kopacz
+i
+Krzysztof Smaga
+: Najczęstsze typy ataków sieciowych w kontekście ochrony dzieci i seniorów
+22 grudnia 2024  –
+Lena Sędkiewicz
+: Mózg w sieci: Jak zadbać o higienę cyfrową
+23 grudnia 2024  –
+Beata Zalewa
+i
+Paula Januszkiewicz
+: Przygotowanie do kariery w cyberbezpieczeństwie + Introduction to Threat Hunting
+W 2025 roku chcemy rozszerzyć tę ideę jeszcze bardziej. Dlatego
+będą również sesje prowadzone w języku angielskim
+, aby docierać także do społeczności globalnej. To duży krok – jeden z wielu, na które jesteśmy gotowi.
+W 2024 roku prelegenci zgadzali się wystąpić natychmiast, często mimo wypełnionych grafików. Publiczność wracała dzień po dniu, mówiąc, że pierwszy raz czują, że cyberbezpieczeństwo jest dla wszystkich – nie tylko dla wąskiej grupy ekspertów. W 2025 roku chcemy kontynuować tę misję i jednocześnie ją poszerzyć.
+Cyber Advent 2025 to:
+codzienne spotkania od 1 do 23 grudnia
+sesje po polsku i po angielsku
+wykłady o cyberbezpieczeństwa
+sesje z ludźmi, którzy w branży cyber „robią robotę” – bez nadęcia, bez marketingu.
+Otworzymy nowe okienka.
+Nowe historie.
+Nowe inspiracje.
+Historia, którą napisały filmy, dyskusje i… emocje
+Jedną z najpiękniejszych rzeczy w Cyber Adventach jest to, że obok twardej technologii pojawia się też refleksja. W jednym z postów z 2024 roku padło zdanie:
+„
+Gdybyśmy tak samo poważnie podchodzili do phishingu czy scamów, jak do wyboru odpowiednich lampek na choince, świat byłby znacznie bezpieczniejszy
+.”
+bo Cyber Advent to także opowieść o ludziach – ich bliskich, ich danych, ich codzienności
+rozmowach z rodzicami o bezpieczeństwie
+o tym, jak uczyć dzieci bezpiecznego internetu
+o tym, jak edukacja może być prezentem – ważniejszym niż skarpety czy perfumy pod choinkę
+Cyber Advent 2025 – dołącz do nas
+Jeśli chcesz wziąć udział, wystarczy:
+śledzić informacje na na
+Discordzie społeczności Not The Hidden Wiki
+śledzić organizatorów na LinkedIn
+w grudniu o 18:00 klikać w ten sam link do sesji na Google Meet:
+https://meet.google.com/pjk-kunk-dqc
+, aby dołączyć do sesji
+śledź nasze social media:
+GitHub:
+github.com/notthehiddenwiki/NTHW
+LinkedIn:
+linkedin.com/company/not-the-hidden-wiki
+Discord:
+discord.gg/fjwzWFWuzg
+Meetup:
+meetup.com/notthehiddenwiki
+Reszta wydarzy się sama.
+Zapraszamy. Bo Cyber Advent 2025 będzie wyjątkowy.
+Większy.
+Dwujęzyczny.
+Jeszcze bardziej dostępny.
+I pełen wiedzy, która może zmienić czyjeś życie – być może Twoje.
+Publikacje o Cyber Advent 2024:
+#CyberMagazyn: Cyber Adwent. Skorzystaj z darmowej wiedzy dla każdego
+–
+https://cyberdefence24.pl/cyberbezpieczenstwo/cybermagazyn-cyber-adwent-skorzystaj-z-darmowej-wiedzy-dla-kazdego
+Hackuj Dobroczynnie i Cyber Adwent, czyli prezent od seniorów dla juniorów
+–
+https://www.securitymagazine.pl/pl/a/hackuj-dobroczynnie-i-cyber-adwent-czyli-prezent-od-seniorow-dla-juniorow
+Share this post:

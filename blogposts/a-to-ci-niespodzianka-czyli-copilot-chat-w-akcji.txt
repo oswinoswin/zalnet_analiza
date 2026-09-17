@@ -1,0 +1,48 @@
+A to ci niespodzianka, czyli Copilot Chat w akcji
+AI zabierze Ci pracę!!!
+AI pozbawi nas pracy szybciej, niż sądzimy? Najnowsze badania dają do myślenia.
+AI może pozbawić pracy 3,68 mln Polaków.
+Takie teksty można przeczytać u wielu osób zachęcających do zakupu tego jednego, jedynego kursu. Który zrobi z Ciebie eksperta, programistę z człowieka, który nigdy w życiu nie napisał ani ujednej linii kodu. Jak to jednak wygląda w praktyce i jak radzi sobie z tym chociażby
+Copilot Chat
+?
+Co znajdziesz w tym artykule?
+A to ci niespodzianka, czyli Copilot Chat w akcji
+Dlaczego sztuczna inteligencja to tylko asystent?
+Copilot Chat w praktyce: przygotowanie materiałów
+Dlaczego sztuczna inteligencja to tylko asystent?
+A ja cały czas powtarzam moim studentom i kursantom, że AI, czy to ChatGPT, czy Gemini, czy Copilot, to tylko pomoc, wsparcie, taki asystent czy kolega, którego podpowiedzi nie zawsze są poprawne i prawdziwe. To taki człowiek na forum, który odpowiada, bo wydaje mu się, że to co mówi, jest prawdą.
+I trzeba być na to przygotowanym. Ale nawet mnie, osobę, która z AI ma do czynienia codziennie, od lat, czasami zachowanie AI potrafi wbić w ziemię.
+Copilot Chat w praktyce: przygotowanie materiałów
+Przygotowuję materiały do mentoringu
+Sierpniowe kolonie na chmurze Azure
+. I Copilota używam do tworzenia szkicu dokumentu, a potem robię poprawki, zmieniam, modyfikuję. Copilot ułatwia pracę. I wczoraj, w niedzielę, koło 23:00 wrzuciłam w
+Microsoft Copilot
+Chat
+w wersji
+Web
+prompta jak na rysunku poniżej:
+Microsoft Copilot Chat – Web
+W odpowiedzi otrzymałam link do dokumentu Word do pobrania. Zaniepokoiło mnie trochę pytanie, czy chcę rozbudować dokument do pełnych 30 stron A4.
+Skąd taka propozycja?
+Zerkam do dokumentu i już znalazłam odpowiedź: jest tylko
+1 strona
+, tylko
+265 słów
+. A gdzie reszta?
+Word
+Decyduję się więc na sugestię Copilota i proszę o
+dodanie większej ilości przykładów. Do pełnych 30 stron
+. I Copilot w odpowiedzi napisał, że aktualnie dokument zawiera 30 stron A4. Copilot zmienił nawet nazwę pliku i dodał 30 stron.
+Dokument nie ma 30 stron, tylko
+10 stron
+. Wciąż za mało. Do wcześniejszego dokumentu Copilot dodał kilka przykładów. Tekst zajmuje nieco
+ponad 1 stronę, 302 słowa z 3102
+.
+Poprawiony dokument Word
+Ale co z brakującymi 2800 słowami? Co wpisał Copilot do dokumentu?
+100 razy tą samą frazę składającą się z 28 słów
+:
+Azure oferuje szeroki wachlarz usług, które wspierają rozwój nowoczesnych aplikacji. Dzięki globalnej infrastrukturze, wysokiej dostępności i integracji z narzędziami open-source, Azure jest wyborem wielu firm na całym świecie.
+Powtórzona fraza
+I tak oto mamy 10 stron. Niby wszystko się zgadza, ale nie do końca. Więc ja bym na razie dalej uważam, że AI to mój pomocnik, a nie zastępca.
+Share this post:

@@ -1,0 +1,374 @@
+Twoi pracownicy już wdrożyli AI – tylko Ty o tym nie wiesz
+Shadow AI w firmie
+nie zaczyna się od wielkiego, tajnego projektu. Częściej zaczyna się od prostego zdania: „wrzucę tylko ten dokument do ChatGPT, żeby szybciej go podsumować”. Potem pojawia się arkusz z makrem wygenerowanym przez model, automatyzacja z dostępem do poczty, niewielka aplikacja zbudowana w weekend albo agent, który potrafi pobierać dane z kilku systemów.
+„Wrzuciłem do AI tylko umowę, ale przecież niczego nie publikowałem”.
+„Zrobiłam przy użyciu AI aplikację w weekend. Działa, więc zespół już jej używa”.
+„Agent ma dostęp do skrzynki i CRM. Na razie tylko testowo”.
+Nie mogę wklejać kodu do narzędzia AI, ale zawsze mogę zrobić zdjęcie i użyć prywatnego narzędzia.
+Z perspektywy pracownika to zwykle nie jest bunt przeciwko bezpieczeństwu. To próba wykonania zadania szybciej, poradzenia sobie z liczbą wiadomości albo usunięcia ręcznej czynności, która od miesięcy utrudnia pracę. Z perspektywy organizacji powstaje jednak nowe przetwarzanie danych, nowa zależność od dostawcy i czasem nowa aplikacja produkcyjna. Tyle że nikt nie nazwał jej wdrożeniem.
+AI może być obecne w firmie, nawet jeśli nikt oficjalnie go nie wdrożył.
+Wystarczy, że pracownicy zaczynają używać go do pracy z danymi, podejmowania
+decyzji albo realizacji codziennych zadań.
+Twoi pracownicy prawdopodobnie nie czekają, aż organizacja zakończy strategię AI. Korzystają z modeli, budują automatyzacje i tworzą aplikacje metodą vibe coding. Jak odzyskać widoczność, ustalić zasady i nie zamienić działu cyberbezpieczeństwa w urząd wydający zakazy?
+Co znajdziecie w tym artykule?
+Twoi pracownicy już wdrożyli AI – tylko Ty o tym nie wiesz
+Czym jest Shadow AI w firmie?
+Kiedy niepozorne Shadow AI w firmie zmienia się w poważny problem?
+Pięć scenariuszy pokazujących konsekwencje Shadow AI
+1. Ukryta instrukcja w analizowanej umowie
+2. Zatruta polityka rabatowa w RAG
+3. RAG zwraca dane spoza uprawnień użytkownika
+4. Agent wykonuje nieautoryzowany zwrot pieniędzy
+5. Agent AI, mający dostęp do internetu, może doprowadzić do wycieku firmowych danych na zewnątrz (Eksfiltracja danych)
+Jak rozwiązać problem Shadow AI w firmie?
+Zakaz używania nie rozwiąże problemu braku polityk i Shadow AI
+Jak wprowadzić politykę AI w firmie?
+Polityka AI w w firmie jest kluczowa
+Gotowy szablon polityki AI w firmie
+Co organizacja może zrobić w ciągu pierwszych 90 dni?
+Pierwszy miesiąc (dni 0-30): Obserwacja
+Drugi miesiąc (dni 31-60): Ustalenie zasad
+Trzeci miesiąc (dni 61-90): Weryfikacja w praktyce
+Dzięki AI, pracownik może tworzyć proste rozwiązania programistyczne. Vibecoding otwiera nową kategorięryzyka.
+Brak decyzyjności również jest ryzykiem
+AI Act nie zastępuje analizy ryzyka
+Case study: analiza ryzyka agenta obsługującego klientów
+AI Audit checklist
+Chcesz lepiej zrozumieć Shadow AI izobaczyć, jak ograniczać związane znim ryzyka? Obejrzyj nasz webinar!
+Shadow AI w firmie to problem globalny
+Podsumowanie
+Dodatkowe źródła i materiały
+Czym jest Shadow AI w firmie?
+Shadow AI to wykorzystanie narzędzi, modeli, aplikacji i agentów AI poza oficjalnymi procesami organizacji. Bez formalnej akceptacji, analizy ryzyka, oceny dostawcy, dokumentacji, kontroli bezpieczeństwa albo jasno wskazanego właściciela.
+Shadow AI nie oznacza wyłącznie korzystania z prywatnego konta w popularnym chatbocie. Zjawisko obejmuje kilka poziomów:
+wprowadzanie danych firmowych do narzędzia AI,
+tworzenie powtarzalnych promptów wpływających na proces biznesowy,
+budowę automatyzacji i workflow,
+tworzenie aplikacji metodą vibe codingu,
+wykorzystywanie RAG i firmowych baz wiedzy,
+uruchamianie agentów mających dostęp do poczty, CRM, plików lub innych systemów,
+powierzanie AI wykonywania działań bez zatwierdzenia przez człowieka.
+Każdy kolejny poziom zwiększa dostęp do danych, zależność organizacji od rozwiązania oraz zdolność systemu do wyrządzenia szkody.
+Samo narzędzie nie definiuje więc poziomu ryzyka. Decydują o nim dane, cel, integracje, uprawnienia, autonomia oraz możliwe konsekwencje błędu.
+Więcej o praktycznym podejściu do wykorzystania sztucznej inteligencji można przeczytać na stronie
+AI dla firm – od pomysłu do działającego rozwiązania
+.
+Kiedy niepozorne Shadow AI w firmie zmienia się w poważny problem?
+Największym błędem jest założenie, że dopóki pracownik niczego nie opublikował i nie uruchomił oficjalnej aplikacji produkcyjnej, nie doszło do wdrożenia.
+Jeżeli pracownik regularnie wykorzystuje AI do analizowania umów, podejmowania decyzji, przygotowywania ofert albo obsługi klientów, narzędzie staje się elementem procesu biznesowego.
+Firma może nie mieć podpisanej umowy z dostawcą, projektu w portfolio i pozycji w CMDB. Mimo to wynik wygenerowany przez AI wpływa już na rzeczywiste decyzje.
+Konsekwencją nie musi być klasyczny incydent wykryty przez SOC. Może nią być:
+podpisanie niekorzystnej umowy,
+ujawnienie tajemnicy przedsiębiorstwa,
+zaproponowanie nieprawidłowej ceny,
+wykonanie nieautoryzowanej operacji,
+naruszenie praw klienta lub pracownika,
+podjęcie decyzji na podstawie zmanipulowanego źródła,
+brak możliwości ustalenia, dlaczego system zachował się w określony sposób.
+Pięć scenariuszy pokazujących konsekwencje Shadow AI
+Poniższe przypadki są scenariuszami testowymi zbudowanymi na podstawie typowych architektur i problemów występujących w aplikacjach wykorzystujących LLM, RAG oraz agentów AI.
+1. Ukryta instrukcja w analizowanej umowie
+Pracownik otrzymuje umowę i przesyła ją do asystenta AI z prośbą o podsumowanie ryzyka.
+W dokumencie znajduje się biały tekst, niewidoczny dla człowieka na białym tle. Instrukcja nakazuje asystentowi stwierdzić, że dział prawny zaakceptował warunki dokumentu.
+Model wykonuje polecenie znajdujące się w dokumencie i przygotowuje wiarygodnie brzmiącą odpowiedź. Pracownik podejmuje decyzję na podstawie fałszywej rekomendacji.
+To przykład pośredniego prompt injection. Atakujący nie musi włamywać się do systemu ani instalować złośliwego oprogramowania. Wystarczy, że umieści instrukcję w treści, którą później przetworzy model.
+O prompt injection i jailbraking wielokrotnie już opowiadałam na konferencjach. Można o tym poczytać w artykule:
+AI jailbreaking and injecti
+on: threats & mitigations
+.
+AI jailbreaking and injection:  threats & mitigations
+2. Zatruta polityka rabatowa w RAG
+Do firmowej bazy wiedzy trafia niezatwierdzony dokument przypominający oficjalną politykę handlową.
+Dokument zostaje podzielony na fragmenty, przekształcony w embeddingi i zapisany we wspólnym indeksie wektorowym. Asystent korzystający z RAG zaczyna traktować go jako wiarygodne źródło.
+W rezultacie system wielokrotnie rekomenduje rabaty przekraczające zatwierdzone limity. Technicznie aplikacja działa poprawnie. Problem polega na tym, że korzysta ze zmanipulowanego źródła.
+Konsekwencją może być utrata marży, błędna oferta albo stworzenie precedensu handlowego, z którego trudno się później wycofać.
+Więcej o pracy z RAG można dowiedzieć się z artykułu:
+Add your data for RAG with Azure OpenAI Service
+.
+Add your data for RAG with Azure OpenAI Service
+3. RAG zwraca dane spoza uprawnień użytkownika
+Użytkownik prawidłowo loguje się do aplikacji. Interfejs sprawdza jego tożsamość, ale wspólny indeks wektorowy pobiera poufne fragmenty dokumentów przed zastosowaniem kontroli dostępu.
+Treść trafia do kontekstu modelu. Model nie musi jej zacytować dosłownie. Może ujawnić ją w podsumowaniu, parafrazie albo odpowiedzi na dodatkowe pytanie.
+Prawidłowe logowanie do aplikacji nie oznacza zatem prawidłowej autoryzacji danych. Kontrola dostępu powinna działać przed pobraniem dokumentów, a nie dopiero podczas wyświetlania odpowiedzi.
+4. Agent wykonuje nieautoryzowany zwrot pieniędzy
+Agent obsługujący klientów otrzymuje numer zamówienia. Następnie wywołuje poprawnie działającą usługę realizującą zwrot środków.
+Backend sprawdza format numeru zamówienia, ale nie weryfikuje, czy zamówienie należy do zalogowanego klienta. Agent wykorzystuje właściwe narzędzie, ale wykonuje operację na niewłaściwym obiekcie.
+Firma przeprowadza więc technicznie poprawną, lecz nieautoryzowaną operację finansową.
+Prompt systemowy z instrukcją „wykonuj tylko dozwolone działania” nie zastępuje kontroli autoryzacji po stronie usługi. Model nie może być jedynym elementem decydującym o tym, czy operacja jest dozwolona.
+5.
+Agent AI, mający dostęp do internetu,
+może doprowadzić do wycieku firmowych danych na zewnątrz (Eksfiltracja danych)
+Eksfiltracja danych to nieautoryzowane, często ukryte kopiowanie lub przenoszenie poufnych informacji z systemu informatycznego organizacji do zewnętrznej lokalizacji kontrolowanej przez atakującego.
+Agent ma jednocześnie dostęp do internetu i dokumentów firmowych. Odwiedza stronę zawierającą ukrytą instrukcję, aby odszukać nazwy wewnętrznych projektów i przesłać je pod zewnętrzny adres.
+Dane opuszczają organizację jako parametr adresu URL albo argument wywołania narzędzia.
+Końcowa odpowiedź widoczna w oknie czatu może wyglądać całkowicie niewinnie. Nie zawiera nazw projektów ani informacji o wysłaniu danych.
+Monitoring samego tekstu odpowiedzi nie wystarczy. Organizacja musi rejestrować źródła danych, kolejne kroki agenta, wywołania narzędzi, argumenty operacji oraz miejsca docelowe ruchu.
+Opisane scenariusze odpowiadają zagrożeniom takim jak prompt injection, ujawnienie informacji, zatruwanie danych, nadmierna autonomia oraz słabości baz wektorowych, wskazywanym przez
+OWASP Top 10 for LLM and Generative AI Applications
+.
+Praktyczne testowanie podobnych problemów jest również częścią szkolenia ZALNET
+Praktyczne testy penetracyjne i bezpieczeństwo AI i LLM
+.
+Jak rozwiązać problem Shadow AI w firmie?
+Zakaz używania nie rozwiąże problemu braku polityk i Shadow AI
+Organizacja może zablokować popularne domeny, ograniczyć instalowanie aplikacji i zabronić wykorzystywania prywatnych kont. To może zmniejszyć widoczny ruch, ale nie usunie potrzeby biznesowej.
+Jeżeli oficjalna zgoda zajmuje kilka tygodni, a narzędzie rozwiązuje problem w godzinę, część pracowników wybierze drogę na skróty.
+Dobra polityka AI nie powinna być wyłącznie listą zakazanych produktów. Powinna jasno określać:
+jakie dane można wprowadzać do narzędzi AI,
+które zastosowania są zabronione,
+jakie narzędzia zostały zatwierdzone,
+kiedy trzeba zgłosić przypadek użycia,
+kto podejmuje decyzję,
+jakie wymagania obowiązują przed uruchomieniem rozwiązania,
+jak zgłosić błąd lub incydent,
+kiedy rozwiązanie musi zostać ponownie ocenione.
+Najważniejszym elementem polityki jest bezpieczna droga od pomysłu do wdrożenia. Bez niej polityka staje się dokumentem opisującym zakazy, których przestrzegania organizacja nie potrafi zweryfikować. osobę, która podejmie decyzję.
+Jak wprowadzić politykę AI w firmie?
+W praktyce warto połączyć działania organizacyjne z widocznością techniczną.
+Microsoft w swoim poradniku zabezpieczenia firmy przed
+wyciekamy z shadow AI
+opisuje proces następująco:
+Wykryj używane aplikacje AI. Najpierw firma powinna ustalić, z jakich narzędzi AI faktycznie korzystają pracownicy i w jaki sposób z nimi wchodzą w interakcję.
+Zablokuj dostęp do niezatwierdzonych aplikacji. Narzędzia, które nie przeszły oceny organizacji, mogą zostać całkowicie zablokowane albo udostępnione tylko wybranym użytkownikom.
+Chroń dane wysyłane do zatwierdzonych narzędzi. Sam fakt, że aplikacja AI została dopuszczona do użytku, nie oznacza, że można przesyłać do niej dowolne informacje. Microsoft zaleca blokowanie przesyłania danych wrażliwych.
+Monitoruj i kontroluj sposób korzystania z AI. Organizacja powinna mieć możliwość audytowania interakcji, przechowywania promptów i analizowania potencjalnie ryzykownych zachowań.
+Zapobieganie Shadow AI w firmie z Microsoft
+Polityka AI w w firmie jest kluczowa
+Wprowadzenie polityki korzystania z AI powinno być jednym z podstawowych elementów zarządzania sztuczną inteligencją w organizacji. Pracownicy często sięgają po narzędzia AI samodzielnie, dlatego brak jasno określonych zasad może prowadzić do niekontrolowanego przetwarzania danych firmowych, informacji poufnych, danych klientów czy fragmentów kodu źródłowego.
+Dobra polityka AI powinna jasno określać, z jakich narzędzi pracownicy mogą korzystać, jakie dane mogą do nich wprowadzać oraz które zastosowania wymagają wcześniejszej zgody lub konsultacji. Powinna również wskazywać, kto odpowiada za zatwierdzanie nowych narzędzi i przypadków użycia AI, w jaki sposób należy zgłaszać incydenty oraz jakie wymagania bezpieczeństwa, prywatności i zgodności z regulacjami muszą zostać spełnione.
+Co istotne, polityka nie powinna być dokumentem tworzonym jednorazowo. Narzędzia AI, modele oraz związane z nimi zagrożenia zmieniają się bardzo szybko, dlatego zasady korzystania ze sztucznej inteligencji powinny być regularnie przeglądane i aktualizowane. Równie ważne jest przeszkolenie pracowników, aby wiedzieli nie tylko, czego nie wolno robić, ale przede wszystkim jak korzystać z AI bezpiecznie i odpowiedzialnie.
+Gotowy szablon polityki AI w firmie
+Można także wykorzystać przykładowy szablon przygotowany przez ZALNET:
+Szablon polityki korzystania z AI
+. Dokument może stanowić punkt wyjścia do opracowania własnych zasad, dostosowanych do specyfiki organizacji, rodzaju przetwarzanych danych oraz wykorzystywanych rozwiązań AI.
+Pierwszym krokiem nie powinno być poszukiwanie winnych. Jeżeli pracownicy obawiają się konsekwencji, będą nadal ukrywać wykorzystywane narzędzia.
+Co organizacja może zrobić w ciągu pierwszych 90 dni?
+Pierwszy miesiąc (dni 0–30): Obserwacja
+przeprowadzienie ankiety bez sankcji,
+zidentyfikowanie narzędzi i przypadków użycia,
+sprawdzienie ruchu sieciowego oraz wykorzystywanych integracji,
+wskazanie procesów o największym znaczeniu,
+zinwentaryzowanie agentów, automatyzacji i aplikacji stworzone metodą vibe codingu.
+Drugi miesiąc (dni 31–60): Ustalenie zasad
+przygotowanie krótkiej polityki wykorzystania AI,
+określenie progów ryzyka,
+wskazanie właścicieli decyzji,
+utworzenie rejestru systemów i przypadków użycia,
+uruchomienie szybkiej ścieżki zgłaszania pomysłów.
+Trzeci miesiąc (dni 61–90): Weryfikacja w praktyce
+wybranie dwóch lub trzyech kontrolowanych pilotaży
+przeprowadzenie testów bezpieczeństwa i AI Red Teaming,
+zweryfikowanie monitoringu oraz możliwości wyłączenia rozwiązania,
+ocena działania przy błędnych i złośliwych danych,
+przejrzenie podjętych decyzji oraz zgłoszonych wyjątków.
+Celem pierwszych 90 dni nie jest stworzenie perfekcyjnej dokumentacji. Celem jest uzyskanie widoczności i zdolności do podejmowania decyzji.
+Dzięki AI, pracownik może tworzyć proste rozwiązania
+programistyczne. Vibecoding otwiera nową kategorię
+ryzyka.
+Vibe coding pozwala w krótkim czasie zbudować formularz, dashboard, integrację, narzędzie raportowe albo niewielką aplikację biznesową.
+Problem pojawia się wtedy, gdy prototyp zaczyna być wykorzystywany produkcyjnie, chociaż nie ma:
+repozytorium i historii zmian,
+przeglądu kodu,
+testów autoryzacji,
+zarządzania sekretami,
+kontroli zależności,
+monitoringu,
+właściciela utrzymania,
+planu wycofania lub odtworzenia działania.
+Kod wygenerowany przez AI podlega tym samym wymaganiom co kod napisany ręcznie. Dodatkowo trzeba zweryfikować założenia przyjęte przez model, zastosowane biblioteki oraz mechanizmy obsługi błędów.
+Więcej o tym problemie piszę we wpisie
+Pułapka „wystarczalności” w vibe codingu
+.
+Rozwiązaniem nie jest zatrzymanie eksperymentów. Potrzebny jest lekki SSDLC, który pozwoli szybko zbudować PoC, ale jednocześnie określi warunki przejścia do produkcji. Szersze omówienie tego procesu znajduje się we wpisie
+SSDLC: Dlaczego bezpieczeństwo musi stać się podstawą każdego projektu
+.
+Vibe coding a Shadow AI w firmie
+Brak decyzyjności również jest ryzykiem
+W wielu organizacjach problem nie polega na braku ekspertów. Problemem jest brak osoby, która ma prawo powiedzieć: „tak, ale pod tymi warunkami”.
+Biznes pyta IT. IT kieruje pytanie do cyberbezpieczeństwa. Cyberbezpieczeństwo pyta dział prawny. Dział prawny prosi o dokumentację rozwiązania, którego nikt jeszcze formalnie nie zatwierdził.
+Projekt zatrzymuje się w kolejce, ale potrzeba biznesowa nie znika. W tym czasie pracownik tworzy własne rozwiązanie.
+Dlatego odpowiedzialność trzeba rozdzielić:
+właściciel biznesowy odpowiada za cel, skutek błędu i wynik procesu,
+właściciel danych decyduje o dopuszczalnym wykorzystaniu informacji,
+IT lub zespół produktowy odpowiada za architekturę i utrzymanie,
+cyberbezpieczeństwo określa wymagane kontrole,
+dział prawny i DPO oceniają obowiązki regulacyjne oraz prywatność,
+osoba posiadająca właściwy mandat podejmuje decyzję o akceptacji ryzyka.
+Bez wskazania właściciela decyzji nawet najlepsza polityka nie będzie działać.
+AI Act nie zastępuje analizy ryzyka
+AI Act wykorzystuje podejście oparte na ryzyku, ale klasyfikacja prawna systemu nie jest tym samym co wewnętrzna analiza ryzyka organizacji.
+System, który nie zostanie zakwalifikowany jako system wysokiego ryzyka, może nadal:
+ujawnić dane klientów,
+naruszyć tajemnicę przedsiębiorstwa,
+wygenerować błędną ofertę,
+spowodować stratę finansową,
+wykonać nieautoryzowaną operację,
+zaszkodzić reputacji organizacji.
+Analizę należy więc prowadzić co najmniej w czterech perspektywach:
+Regulacja
+– rola organizacji, klasyfikacja zastosowania, obowiązki oraz terminy.
+Prawa i prywatność
+– osoby dotknięte wynikiem, dane osobowe, dyskryminacja, DPIA lub ocena wpływu na prawa podstawowe.
+Cyberbezpieczeństwo
+– granice zaufania, dostęp, podatności, nadużycia, monitoring oraz reakcja.
+Biznes
+– możliwy skutek błędu, odwracalność decyzji, właściciel ryzyka i warunki pilotażu.
+Według aktualnego harmonogramu po zmianach wprowadzonych przez AI Omnibus większość obowiązujących przepisów i mechanizmów egzekwowania zaczęła być stosowana 2 sierpnia 2026 roku. Wymagania dotyczące systemów wysokiego ryzyka z Annex III mają być stosowane od 2 grudnia 2027 roku, a systemów zintegrowanych z produktami objętymi Annex I – od 2 sierpnia 2028 roku. Aktualne daty publikuje
+AI Act Service Desk Komisji Europejskiej
+.
+Więcej o regulacjach można przeczytać we wpisach:
+Ustawa o sztucznej inteligencji – polska odpowiedź na AI Ac
+t
+,
+Polska ustawa o AI podpisana przez Prezydenta
+.
+Klasyfikację i harmonogram należy jednak okresowo weryfikować, ponieważ otoczenie prawne oraz wytyczne dotyczące stosowania przepisów nadal się rozwijają.
+Case study: analiza ryzyka agenta obsługującego klientów
+Załóżmy, że firma chce wdrożyć agenta, który:
+czyta e-maile klientów,
+identyfikuje klienta w CRM,
+pobiera cennik i warunki handlowe,
+przygotowuje ofertę,
+generuje dokument,
+przekazuje wiadomość do wysłania.
+Celem jest skrócenie czasu przygotowania odpowiedzi. Problem polega na tym, że niezaufana wiadomość z zewnątrz przechodzi przez model posiadający dostęp do zasobów wewnętrznych.
+Najważniejsze scenariusze ryzyka to:
+ID
+Scenariusz
+Prawdopodobieństwo
+Wpływ
+Wynik
+R1
+Prompt injection w e-mailu steruje agentem
+4
+5
+20
+R2
+Agent pobiera dane poza zakresem klienta
+3
+5
+15
+R3
+Błędna cena lub warunek trafia do odbiorcy
+4
+4
+16
+R4
+Dane wyciekają do modelu, logów lub integracji
+3
+5
+15
+R5
+Brakuje śladu wskazującego, kto zatwierdził odpowiedź
+4
+3
+12
+W tej konfiguracji agent nie powinien od razu otrzymać zgody na samodzielne wysyłanie wiadomości.
+Decyzja może jednak brzmieć:
+ograniczony pilotaż pod określonymi warunkami
+.
+Niezbędne zabezpieczenia obejmują:
+traktowanie e-maila i załączników wyłącznie jako danych, a nie instrukcji,
+ograniczenie CRM oraz cennika do odczytu,
+filtrowanie danych na konkretny rekord klienta,
+ustalanie cen i rabatów przez usługę biznesową, a nie model,
+zatwierdzanie odbiorcy, ceny, treści i załączników przez człowieka,
+rejestrowanie wersji modelu, źródeł, wywołań narzędzi oraz akceptacji,
+limity liczby kroków i kosztu,
+możliwość szybkiego zatrzymania agenta,
+ponowną ocenę ryzyka po zakończeniu pilotażu.
+Podobne podejście do projektowania, testowania i wdrażania rozwiązań opisujemy w ramach usług
+wdrożeń cyberbezpieczeństwa i AI
+.
+Do uporządkowania procesu analizy można również wykorzystać
+NIST AI Risk Management Framework – Generative AI Profile
+.
+AI Audit checklist
+Rekomenduję analizę ryzyka dotyczącą wdrożenia narędzi i agentów AI w firmie. Przykładowy dokument
+AI Audit CheckList
+, którym kiedyś podzielił się Kamran Iqbal, pozwala na analizę tych miejsc w systemach firmowych, na które może mieć wpływ nasze narzędzie AI lub agent.
+AI Audit checklist
+Chcesz lepiej zrozumieć Shadow AI i
+zobaczyć, jak ograniczać związane z
+nim ryzyka? Obejrzyj nasz webinar
+!
+Temat Shadow AI będzie również jednym z głównych zagadnień webinaru
+„AI w rękach (kreatywnych) użytkowników – jak ograniczyć ryzyka «nowej normalności»”
+, organizowanego w ramach
+konferencji Advanced Threat Summit 2026
+.
+Już
+10 września 2026 roku w godzinach 11:00–12:30
+wspólnie ze
+Zbigniewem Dawydzikiem, CEO i Founderem ZibiSec Consulting
+, będę rozmawiać o tym, co dzieje się w organizacjach, gdy użytkownicy zaczynają korzystać z generatywnej AI szybciej, niż powstają firmowe procedury, polityki i mechanizmy bezpieczeństwa.
+Opowiemy między innymi o
+Shadow AI w firmie
+, czyli korzystaniu z narzędzi AI poza oficjalnym nadzorem organizacji. To problem, który nie ogranicza się już tylko do wpisywania firmowych danych do ChatGPT czy innych chatbotów. Coraz częściej pracownicy korzystają z wielu zewnętrznych narzędzi AI, rozszerzeń przeglądarki, agentów, generatorów kodu czy usług SaaS, których dział IT lub zespół bezpieczeństwa nawet nie zna.
+Pojawi się również temat
+vibe codingu
+i aplikacji tworzonych przy pomocy AI poza klasycznym procesem SDLC. Jeżeli użytkownik może w kilka godzin wygenerować aplikację, podłączyć ją do firmowych danych i uruchomić poza oficjalnym środowiskiem IT, pojawia się zupełnie nowa kategoria ryzyka.
+Najważniejsze pytanie nie brzmi więc już:
+„Czy nasi pracownicy korzystają z AI?”
+.
+Brzmi raczej:
+„Czy wiemy, z jakich narzędzi korzystają, jakie dane do nich przekazują i jakie rozwiązania za ich pomocą tworzą?”
+Bo Shadow AI nie znika tylko dlatego, że organizacja wpisze do polityki: „nie wolno”.
+Potrzebne są mechanizmy wykrywania, klasyfikacji ryzyka, odpowiednie zabezpieczenia techniczne, ale również edukacja pracowników i jasne zasady korzystania z AI.
+Właśnie o tym będziemy rozmawiać podczas webinaru.
+10 września 2026, godz. 11:00–12:30, online.
+Webinar Wykryj Shadow AI w firmie
+Jeżeli interesuje Was praktyczne podejście do
+Shadow AI, bezpieczeństwa generatywnej AI i ograniczania ryzyka wynikającego z „kreatywności” użytkowników
+, zapraszam do udziału w wydarzeniu
+Advanced Threat Summit 2026
+już
+17-19 listopada 2026
+.
+Slajdy z mojej prezentacji do pobrania z
+Github repo
+.
+AI w rękach (kreatywnych) użytkowników
+Shadow AI w firmie to problem globalny
+Badanie Microsoft i LinkedIn o nazwie
+2024 Work Trend Index Annual Report: „AI at Work Is Here. Now Comes the Hard Part”
+z dnia 8 maja 2024 r., pokazało skalę mechanizmu: 75% badanych pracowników wiedzy korzystało z AI w pracy, 78% użytkowników przynosiło własne narzędzia AI, a 52% niechętnie przyznawało się do używania AI przy ważnych zadaniach. To dane historyczne, więc nie opisują dokładnie każdej firmy w 2026 roku. Pokazują jednak, że tempo adopcji wyprzedziło firmowe strategie i procesy decyzyjne.
+2024 Work Trend Index Annual Report – AI at Work Is Here. Now Comes the Hard Part
+To nie są hipotetyczne historie z raportów o przyszłości. To zdania, które coraz częściej można usłyszeć podczas szkoleń, konsultacji i rozmów z organizacjami.
+Pracownicy nie czekają, aż firma przygotuje strategię wykorzystania sztucznej inteligencji. Korzystają z ogólnodostępnych modeli, tworzą automatyzacje, podłączają firmowe dane do narzędzi AI, budują aplikacje metodą vibe codingu i uruchamiają agentów. Pracownicy korzystają z AI, ponieważ chcą szybciej wykonać swoją pracę. Budują aplikacje, automatyzują zadania i testują agentów, ponieważ widzą realną wartość biznesową.
+Podsumowanie
+AI została więc wdrożona. Tyle że nie zawsze wiedzą o tym zarząd, dział IT, dział prawny czy zespół cyberbezpieczeństwa. Zadaniem działu cyberbezpieczeństwa nie jest zatrzymanie wszystkich tych działań. Jego rolą jest stworzenie ram, które pozwolą oddzielić bezpieczne eksperymenty od zastosowań mogących narazić firmę na poważne konsekwencje.
+Najpierw trzeba zobaczyć rzeczywiste wykorzystanie AI. Następnie nazwać ryzyko. Na końcu podjąć decyzję i zachować jej ślad.
+Jeżeli organizacja nie widzi AI, nie oznacza to, że jej pracownicy z niego nie korzystają.
+Najczęściej oznacza to tylko, że nie powstał jeszcze proces, w którym mogą o tym bezpiecznie powiedzieć.
+To właśnie jest
+Shadow AI w firmie
+.
+ZALNET wspiera organizacje w analizie przypadków użycia, ocenie ryzyka, przygotowaniu polityk, testowaniu agentów i aplikacji LLM oraz prowadzeniu bezpiecznych wdrożeń. Zakres współpracy może rozpocząć się od konsultacji, audytu albo niewielkiego Proof of Concept.
+Zobacz także
+szkolenia ZALNET z AI i cyberbezpieczeństwa
+oraz ofertę
+AI dla firm
+.
+Dodatkowe źródła i materiały
+•
+NIST AI Risk Management Framework
+•
+NIST AI 600-1, Generative AI Profile
+•
+NIST SP 800-218, Secure Software Development Framework
+•
+OWASP GenAI LLM Top 10 2026
+•
+OWASP AI Agent Security Cheat Sheet
+•
+European Commission, AI Act and risk-based approach
+•
+EU AI Act Service Desk, implementation timeline
+•
+EU AI Act Service Desk, Article 4 – AI literacy
+•
+EU AI Act Service Desk, Article 26 – obligations of deployers
+•
+EU AI Act Service Desk, Article 27 – fundamental rights impact assessment
+Share this post:

@@ -1,0 +1,155 @@
+Tajemnica ukrytych pikseli. Czym są ataki adwersarialne i jak zagrażają sztucznej inteligencji?
+Ataki adwersarialne
+(
+Adversarial Attacks
+) stają się jednym z najbardziej wyrafinowanych i niebezpiecznych wyzwań współczesnego cyberbezpieczeństwa. W dobie powszechnej implementacji algorytmów uczenia maszynowego (ML –
+Machine Learning
+) w kluczowych sektorach gospodarki – od autonomicznych pojazdów po zaawansowane systemy diagnostyki medycznej – bezpieczeństwo modeli AI staje się absolutnym priorytetem.
+Dokument
+Typy ataków na Sztuczną Inteligencję
+rzuca światło na jedno z najbardziej wyrafinowanych zagrożeń:
+ataki adwersarialne (Adversarial Attacks)
+. Czym są, jak działają i dlaczego mogą doprowadzić do destabilizacji systemów o wysokim znaczeniu?
+Tradycyjne systemy ochrony sieciowej często zawodzą w starciu z manipulacjami wymierzonymi bezpośrednio w logikę matematyczną sieci neuronowych. Czym dokładnie są te zagrożenia, jak działają w praktyce i dlaczego mogą doprowadzić do destabilizacji systemów o krytycznym znaczeniu?
+Co znajdziesz w tym artykule?
+Tajemnica ukrytych pikseli. Czym są ataki adwersarialne i jak zagrażają sztucznej inteligencji?
+Czym są ataki adwersarialne i jak oszukują sieci neuronowe?
+Słynny eksperyment z pandą: Gdy sztuczna inteligencja widzi małpę
+Główne mechanizmy manipulacji, czyli jak działają ataki adwersarialne
+1. Ataki omijające (Evasion Attacks)
+2. Zatrucie modelu (Model Poisoning)
+3. Zatrucie danych (Data Poisoning)
+4. Ataki typu Prompt Injection i Jailbreaking
+Dlaczego podatności typu Adversarial AI są groźne dla systemów krytycznych?
+Hardening systemów: Jak skutecznie odpierać ataki adwersarialne?
+Bezpieczeństwo AI i ataki adwersarialne to częsty temat moich wystąpień publicznych
+Podsumowanie
+Dowiedz się więcej – przydatne źródła i literatura
+A Ty? Czy już testowałeś podatność Twoich modeli LLM na ataki adwersarialne?
+Czym są ataki adwersarialne i jak oszukują sieci neuronowe?
+Ataki adwersarialne to technika polegająca na wprowadzaniu
+subtelnych, niemal niezauważalnych dla człowieka zmian w danych wejściowych
+, które mają na celu oszukanie modelu AI. Choć dla ludzkiego oka obraz czy dźwięk wydają się niezmienione, dla algorytmu stają się nośnikiem błędnych informacji. Jest to bezpośredni atak na
+integralność
+systemu, wymuszający na modelu podjęcie błędnej decyzji lub dokonanie niewłaściwej klasyfikacji.
+Jest to bezpośrednie uderzenie w integralność systemu decyzyjnego. Zamiast łamać hasła czy bazy danych, napastnik zmusza model sztucznej inteligencji do podjęcia błędnej decyzji lub dokonania niewłaściwej klasyfikacji, wykorzystując wewnętrzną strukturę matematyczną sieci.
+Warto wiedzieć:
+Zjawisko to przypomina specyficzną „iluzję optyczną” wygenerowaną specjalnie dla komputera. Model nie potrafi zinterpretować kontekstu tak jak człowiek – operuje na wektorach i gradientach, które relatywnie łatwo zmanipulować.
+Słynny eksperyment z pandą: Gdy sztuczna inteligencja widzi małpę
+Klasycznym już przykładem, który wstrząsnął światem badaczy AI, jest manipulacja obrazem pandy, który został przedstawiony w artykule
+Explaining and harnessing adversarial examples
+, który opublikowali w 2015 roku badacze Google’a: Ian J. Goodfellow, Jonathon Shlens and Christian Szegedy.
+Badacze wzięli cyfrowe zdjęcie pandy, które system wizji komputerowej (
+Computer Vision
+) rozpoznawał poprawnie ze średnią pewnością (na poziomie 57,7%). Następnie nałożyli na nie minimalny szum matematyczny – warstwę zakłóceń obliczoną na podstawie wektora zmian. Dla ludzkiego oka zdjęcie nadal przedstawiało tę samą pandę.
+Ataki adwersarialne – Jak z pandy zrobić małpę, dostęp 06.02.2026, źródło obrazka: https://www.mi-research.net/supplement/6d1b5240-b523-4ad0-bf51-ec9186bb6c2b
+Efekt? System AI z niezachwianą, wynoszącą
+99,3% pewnością
+stwierdził, że na zmodyfikowanej fotografii znajduje się…
+gibon
+.
+Ten przypadek udowodnił fundamentalną prawdę: algorytmy opierają się na matematycznych gradientach, a precyzyjnie wymierzony „szum” potrafi wypchnąć dane poza granice poprawnej klasyfikacji, nie zmieniając przy tym wizualnego odbioru u człowieka.
+Główne mechanizmy manipulacji, czyli jak działają ataki adwersarialne
+Współczesna taksonomia zagrożeń systemów uczących się, ustrukturyzowana m.in. w globalnych ramach
+MITRE ATLAS (Adversarial ML Threat Matrix)
+, wyróżnia kilka kluczowych rodzajów ataków. Uderzają one w zupełnie inne etapy cyklu życia modeli.
+1. Ataki omijające (Evasion Attacks)
+To najczęstszy typ incydentu, przeprowadzany już na wdrożonym, działającym produkcyjnie systemie. Atakujący nie modyfikuje samego modelu, a jedynie preparuje dane wejściowe w locie.
+Przykład z życia:
+Umieszczenie specjalnego, zmanipulowanego wydruku na znaku drogowym lub znaku STOP na koszulce. System autonomicznego samochodu odczytuje znak „STOP” jako ograniczenie prędkości do 80 km/h lub nakaz zatrzymania się w niedozowlonym miejscu. Zjawisko to szeroko opisują badania nad
+Adversarial Patches in the Wild
+.
+Skutek:
+Natychmiastowa destabilizacja operacji fizycznych, zagrożenie zdrowia, życia lub mienia.
+Ataki adversarialne – przykład ataku Adversarial Patch, dostęp 06.02.2026, źródło: https://www.skyld.io/adversarial-patches-in-the-wild
+2. Zatrucie modelu (Model Poisoning)
+Ten atak następuje na etapie uczenia lub aktualizacji parametrów. Polega na manipulowaniu wagami i strukturą modelu w taki sposób, aby w określonych warunkach zwracał on błędne wyniki.
+Cel:
+Wprowadzenie niewidocznych dla standardowych testów podatności (tzw.
+backdoors
+). Model działa poprawnie w 99% przypadków, dopóki nie otrzyma od przestępcy konkretnego, unikalnego wyzwalacza (
+triggera
+), który aktywuje złośliwe zachowanie.
+Skutek:
+Utrata poufnych danych i całkowita manipulacja procesem decyzyjnym.
+3. Zatrucie danych (Data Poisoning)
+Uderza bezpośrednio w zbiór treningowy, zanim model w ogóle powstanie. Atakujący wstrzykuje złośliwe, subtelnie zniekształcone próbki do bazy wiedzy, na której uczy się sztuczna inteligencja.
+Skala zagrożenia:
+Najnowsze analizy dowodzą, że w przypadku systemów generatywnych i LLM,
+wystarczy zaledwie 250 zmanipulowanych dokumentów
+, aby skutecznie zainfekować proces uczenia i trwale zmienić zachowanie całego modelu językowego.
+4. Ataki typu Prompt Injection i Jailbreaking
+W świecie Dużych Modeli Językowych (LLM) odpowiednikiem manipulacji pikselami stała się manipulacja kontekstem tekstowym. Poprzez odpowiednio skonstruowane zapytania (prompty), napastnicy potrafią przełamać wewnętrzne filtry bezpieczeństwa modelu, zmuszając go do generowania złośliwego kodu lub ujawnienia danych poufnych.
+O atakach adwersarialnych opowiadałam 31 maja 2026 r. w Krakowie na 1 meetupie NTHW (Not The Hidden Wiki). Na moim Githubie można znaleźć prezentację na temat
+Jailbreaking i Prompt Injection – Hakowanie Sztucznej Inteligencji od kuchni
+i
+przykładowe prompty
+.
+Jailbreaking i Prompt Injection – Hakowanie Sztucznej Inteligencji od kuchni
+Dlaczego podatności typu Adversarial AI są groźne dla systemów krytycznych?
+Systemy o wysokim znaczeniu (tzw.
+high-stakes systems
+) to obszary infrastruktury państwowej i biznesowej, w których jakikolwiek błąd decyzyjny maszyn niesie za sobą katastrofalne skutki. Wykorzystanie
+ataków adwersarialnych
+w takich sektorach może wywołać lawinę krytycznych awarii:
+Sektor finansowy i bankowość:
+Omijanie algorytmów antyfraudowych (Anti-Money Laundering) poprzez generowanie zmanipulowanych, fałszywych wniosków kredytowych, które systemy scoringowe uznają za idealne.
+Krytyczna infrastruktura i energetyka:
+Oszukiwanie systemów anomalii SCADA. Przestępcy mogą wywołać fizyczną awarię turbin czy transformatorów, podczas gdy system AI nadzorujący proces będzie raportował stan doskonałej równowagi.
+Systemy obronne i bezpieczeństwo publiczne:
+Masowe oszukiwanie systemów biometrycznych oraz algorytmów automatycznego rozpoznawania twarzy w przestrzeni miejskiej.
+Hardening systemów: Jak skutecznie odpierać ataki adwersarialne?
+Wypuszczenie modelu sztucznej inteligencji na produkcję bez odpowiednich zabezpieczeń to we współczesnym świecie IT ogromne ryzyko.
+Naszym absolutnym obowiązkiem jako deweloperów, architektów i menedżerów bezpieczeństwa jest nauczyć modele, jak skutecznie bronić się przed takimi atakami oraz jak przeprowadzać ich systematyczny hardening (utwardzanie).
+Nie możemy traktować sieci neuronowych jako pasywnych czarnych skrzynek – musimy aktywnie budować ich odporność.
+Dokument
+Typy ataków na Sztuczną Inteligencję
+, wspomniany na początku tego wpisu,  oraz współczesne praktyki inżynieryjne wskazują na kilka kluczowych metod defensywnych i hardeningu:
+Trening adwersarialny (Adversarial Training):
+To podstawowy element hardeningu. Polega na proaktywnym generowaniu zmanipulowanych przykładów (np. za pomocą algorytmów takich jak
+Fast Gradient Sign Method
+) i włączaniu ich do zbioru treningowego. Uczymy model rozpoznawać próby oszustwa w kontrolowanych warunkach, dzięki czemu staje się on odporny na zniekształcone dane wejściowe.
+Systemy detekcji szumu i anomalii:
+Wdrażanie niezależnych warstw filtrujących dane wejściowe. Narzędzia takie jak
+Evidently AI
+potrafią wykryć mikroskopijne, nienaturalne odchylenia statystyczne i dryf modeli, zanim zmanipulowany plik w ogóle trafi do głównej sieci neuronowej.
+Wyjaśnialna Sztuczna Inteligencja (XAI):
+Wykorzystanie metod interpretowalności modeli, takich jak SHAP czy LIME. Przekształcenie struktury „black box” w przejrzysty proces decyzyjny pozwala audytorom zrozumieć, dlaczego model nagle zmienił klasyfikację i czy dana decyzja nie była wynikiem manipulacji gradientem.
+Autonomiczna samonaprawa (Self-Healing AI):
+Projektowanie architektur potrafiących w czasie rzeczywistym identyfikować i korygować własne błędy operacyjne (tzw.
+self-healing tests
+), co drastycznie skraca czas reakcji systemu na incydent.
+Restrykcyjne ograniczanie dostępu (API Hardening):
+Ścisła kontrola nad tym, kto i z jaką częstotliwościem może odpytywać model. Utrudnia to napastnikom przeprowadzenie inżynierii wstecznej (kradzieży parametrów sieci), która jest kluczowa do przygotowania precyzyjnego ataku.
+Bezpieczeństwo AI i ataki adwersarialne to częsty temat moich wystąpień publicznych
+Temat ten poruszam w przestrzeni publicznej nie od dziś. Od dłuższego czasu aktywnie edukuję branżę i prowadzę liczne prelekcje oraz prezentacje poświęcone bezpieczeństwu systemów uczenia maszynowego, analizując rzeczywiste scenariusze zagrożeń adwersarialnych na największych scenach konferencyjnych.
+Jeśli chcesz głębiej wejść w tę tematykę, zobaczyć kompletne slajdy z moich minionych wystąpień i dowiedzieć się, jak krok po kroku budować odporność algorytmów, wszystkie materiały znajdziesz w moim publicznym archiwum pod tym adresem:
+Repozytorium z prezentacjami konferencyjnymi na GitHubie
+. To skondensowana porcja wiedzy, która pomoże Ci lepiej przygotować infrastrukturę Twojej firmy na wyzwania nowej ery.
+Podsumowanie
+Ataki adwersarialne
+przestają być wyłącznie fascynującym zagadnieniem akademickim – stają się realną bronią w rękach cyberprzestępców. Kluczem do zabezpieczenia organizacji w erze powszechnego Machine Learningu jest odejście od ślepej wiary w nieomylność algorytmów. Skoro wdrażamy sztuczną inteligencję do krytycznych obszarów naszego życia, naszym obowiązkiem jest zapewnienie jej mechanizmów autoprotekcji. Bezpieczeństwo systemów AI musi być stale testowane za pomocą kontrolowanych testów penetracyjnych, audytowane oraz monitorowane na każdym etapie przetwarzania danych.
+Dowiedz się więcej – przydatne źródła i literatura
+Standardy i taksonomia zagrożeń:
+Ogólnoświatowa baza wiedzy o incydentach ML –
+MITRE ATLAS Threat Matrix
+Przełomowe badanie nad szumem (Panda/Gibon):
+Publikacja I. Goodfellowa i zespołu na platformie
+arXiv: Explaining and harnessing adversarial examples
+Analiza manipulacji fizycznych:
+Praktyczne omówienie podatności wizyjnych w badaniu
+Adversarial Patches in the Wild
+Ramy prawne i audyt systemów:
+Dowiedz się, jak nowe przepisy wpłyną na obowiązek testowania algorytmów i sprawdź,
+co wnosi unijna ustawa o sztucznej inteligencji w Senacie
+Zrozumieć decyzje maszyn:
+Praktyczny przewodnik po transparentności algorytmicznej –
+Wyjaśnialna sztuczna inteligencja (XAI)
+A Ty? Czy już testowałeś podatność Twoich modeli LLM na ataki adwersarialne?
+Jeśli chcesz budować odporność organizacji i nie dopuścić do tego, aby Twoje modele przetestował ktoś niepożadany i sprawdził ich podatność na ataki, to zapraszamy na
+bezpłatne, 15-minutowe spotkanie przy wirtualnej kawie
+. To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+UMÓW SPOTKANIE
+WYŚLIJ WIADOMOŚĆ
+Share this post:

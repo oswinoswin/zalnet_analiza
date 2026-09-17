@@ -1,0 +1,12 @@
+[av_textblock size=” av-medium-font-size=” av-small-font-size=” av-mini-font-size=” font_color=” color=” id=” custom_class=” template_class=” av_uid=’av-kqzs38yu’ sc_version=’1.0′ admin_preview_bg=”]
+14 maja 2020 roku miałam przyjemność wystąpić z sesją „Wyciśnij DAX jak cytrynę” na spotkaniu Data Community Poland Online. Podczas tej sesji pokazałam 5 różnych zastosować zapytań napisanych za pomocą zapytań DAX:
+Formatowanie warunkowe kolumn z użyciem funkcji RANK i MOD
+Funkcja KEEPFILTERS w DAX
+Wartości MIN i MAX w raporcie
+Formatowanie miesięcy
+Porównywanie lat
+Pliki .pbix z raportami, które pokazywałam podczas sesji, a także prezentację i przykładowy kod można pobrać z
+tego
+repozytorium na moim Githubie.
+[/av_textblock]
+Share this post:

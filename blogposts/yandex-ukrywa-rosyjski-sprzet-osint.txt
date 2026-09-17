@@ -1,0 +1,56 @@
+Jak Yandex ukrywa rosyjski sprzęt na mapach? Kosmetyka w dobie satelitów i OSINT-u
+Informacja o tym, jak Yandex ukrywa rosyjski sprzęt wojskowy, wywołała niedawno spore poruszenie w sieci. Jeśli myślisz, że w Twojej firmie uprawia się „kreatywną księgowość” czy pudrowanie rzeczywistości w raportach, to z pewnością nie widziałeś jeszcze najnowszej metody kamuflażu strategicznych obiektów w Rosji. Sprawa jest absurdalna, a dla analityków OSINT (Biały Wywiad) to doskonały przykład na to, jak nie należy chronić danych.
+Co znajdziesz w tym artykule?
+Jak Yandex ukrywa rosyjski sprzęt na mapach? Kosmetyka w dobie satelitów i OSINT-u
+Rosyjska maskirowka, czyli operacja Yandex ukrywa rosyjski sprzęt zaawansowaną techniką "kopiuj-wklej las"
+Dlaczego cenzura na mapach Yandex nie ma najmniejszego sensu?
+Jak Yandex ukrywa rosyjski sprzęt i czego uczy nas to w kontekście OSINT?
+Biały wywiad (OSINT) w praktyce
+Podsumowanie
+Profesjonalne szkolenia to inwestycja w bezpieczeństwo
+Rosyjska maskirowka, czyli operacja Yandex ukrywa rosyjski sprzęt zaawansowaną techniką „kopiuj-wklej las”
+Zadanie na dziś: ukryć baterię rakietową w pobliżu granicy z Finlandią, tak aby uchronić ją przed ewentualnymi atakami z powietrza (np. z użyciem dronów). Jak poradził sobie z tym wyzwaniem Yandex, czyli rosyjski odpowiednik Google? Zamiast zastosować tradycyjne rozmycie obrazu, postanowił wykorzystać wysoce zaawansowaną technologię… „kopiuj-wklej las”.
+Tak, to nie żart. W okolicach miasta Kronsztad na zdjęcie satelitarne po prostu nałożono w programie graficznym kępkę drzew. Problem z głowy – rakiet nie ma, rosną za to piękne wirtualne sosny i brzozy. Całą sprawę po raz pierwszy nagłośnił fiński nadawca publiczny (więcej o tym kuriozum znajdziesz w doniesieniach prasowych –
+zobacz przykładowy artykuł na temat śledztwa Yle i Yandex
+).
+Rosyjska baza wojskowa, źródło: https://news.liga.net/en/war/news/russias-yandex-edited-maps-to-hide-a-missile-battery-near-finland-yle
+Dlaczego cenzura na mapach Yandex nie ma najmniejszego sensu?
+Zarząd zadowolony, projekt dowieziony. Jest jednak jeden malutki szkopuł, który sprawia, że ta metoda wojskowego kamuflażu jest całkowicie bezużyteczna.
+Wywiad ukraiński i służby państw NATO raczej nie planują swoich tajnych operacji, scrollując mapy w rosyjskim Yandexie. Cała ta misterna „maskirowka” przypomina chowanie się małego dziecka za własnymi dłońmi. Na mapach od zachodnich dostawców, takich jak Google Maps, Apple czy Bing (Microsoft), rosyjski sprzęt wojskowy stoi w pełnej krasie i szeroko uśmiecha się do zachodnich satelitów. Ekspert fińskiego wywiadu wojskowego, Marko Eklund, skomentował to krótko i trafnie: „Dość absurdalne”.
+Działania te przypominają raczej próbę uspokojenia wewnętrznej władzy na Kremlu niż realne budowanie bezpieczeństwa operacyjnego.
+Jak Yandex ukrywa rosyjski sprzęt i czego uczy nas to w kontekście OSINT?
+Choć sytuacja brzmi jak dowcip, niesie ze sobą bardzo ważne lekcje – nie tylko dla wojskowych, ale przede wszystkim dla świata technologii, cyberbezpieczeństwa i nowoczesnego biznesu.
+Oto 3 najważniejsze wnioski:
+Błąd w wewnętrznym systemie to wciąż błąd:
+Ukrycie błędu lub podatności wyłącznie we własnym, zamkniętym środowisku nie sprawia, że znika on dla reszty świata i sprytnych hakerów.
+Efekt iluzji:
+Robienie „kosmetyki” tylko po to, żeby uspokoić górę (zarząd/władzę), nie rozwiązuje absolutnie żadnego problemu operacyjnego. To klasyczne zamiatanie pod dywan.
+Znajdź narzędzia przeciwnika:
+Zanim wdrożysz rozwiązanie zabezpieczające, upewnij się, z jakich narzędzi faktycznie korzysta konkurencja lub podmiot atakujący.
+Biały wywiad (OSINT) w praktyce
+Z perspektywy analizy OSINT (Open-Source Intelligence), takie wpadki to prawdziwa kopalnia wiedzy. Nakładanie lasu z pomocą prymitywnego oprogramowania rzuca się w oczy każdemu, kto wie, na co patrzeć. Analiza obrazu satelitarnego wymaga precyzji, a amatorskie przeróbki demaskują cel o wiele szybciej, niż gdyby w ogóle go nie ruszano.
+Jeśli chcesz nauczyć się, jak w profesjonalny sposób weryfikować takie informacje, odnajdywać ukryte powiązania w sieci i korzystać z ogólnodostępnych źródeł, sprawdź profesjonalne
+szkolenia z OSINTu oferowane przez firmę ZALNET
+. Dzięki nim poznasz techniki analityczne wykorzystywane przez najlepszych ekspertów z branży security.
+Podsumowanie
+Przypadek „zalesiania” bazy rakietowej na mapach Yandex to doskonała przypowieść o tym, jak nie dbać o bezpieczeństwo informacji. Jeśli Twoja strategia ochrony przypomina naklejanie plastra na dziurę w rurze, prędzej czy później prawda wypłynie na powierzchnię – a w tym przypadku wypłynie w wysokiej rozdzielczości na Google Maps.
+Kilkanaście kilometrów od mnie stoi maszt BTS udający sosnę, ale tylko dlatego, aby nie psuć krajobrazu Roztoczańskiego Parku Narodowego. I jest prawdziwy, bo sprawdzałam.
+Wieża BTS w kształcie sosny w Roztoczańskim Parku Narodowym
+A Wy?
+Zdarzyło Wam się w karierze zawodowej obserwować takie korporacyjne „wklejanie lasu”, byle tylko tabelka w Excelu zaświeciła się na zielono? Podzielcie się swoimi historiami w komentarzach!
+Na co dzień edukuję o cyberbezpieczeństwie, cyfrowych zagrożeniach i technologicznych kulisach współczesnego świata. Jeśli ten artykuł Ci się spodobał, udostępnij go dalej i śledź mojego bloga!
+Profesjonalne szkolenia to inwestycja w bezpieczeństwo
+Przeczytaj też inne nasze wpisy na blogu o białym wywiadzie, które edukują o tym, jak sobie radzić w przypadku oszustwa. Sprawdź
+darmowe narzędzia OSINT
+i
+jak nie dać się oszukać w sieci
+.
+Jeśli chcesz przeszkolić swój zespole lub osoby z Twojej organizacji, chcesz ich nauczyć, jak w dobie AI zadbać o bezpieczeństwo, zapraszamy na
+bezpłatne, 20-minutowe spotkanie przy wirtualnej kawie
+. To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe i sprawdzić, jak możemy pomóc. Sprawdź także naszą
+ofertę szkoleniową
+.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać e-maila – możesz przesłać wiadomość przez formularz kontaktowy.
+UMÓW SIĘ NA DARMOWE SPOTKANIE
+Wyślij wiadomość
+Share this post:

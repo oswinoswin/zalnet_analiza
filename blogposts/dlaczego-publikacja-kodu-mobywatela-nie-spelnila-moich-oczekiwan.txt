@@ -1,0 +1,36 @@
+Dlaczego publikacja kodu mObywatela nie spełniła moich oczekiwań
+Pierwszy kurz po „publikacji kodu źródłowego mObywatela opadł”, a ja miałam okazję wypowiedzieć się dla PAP i podzielić się swoją opinią. Wspólnie ze mną temat podsumowali Adam Haertle, Tomasz Zielińskie i Łukasz Olejnik.
+Całość zebrała i zredagowała Monika Blandyna Lewkowicz, a tekst można przyczytać na stronach
+wnp.pl
+lub
+horecatrends.pl
+.
+Co znajdziesz w tym artykule?
+Dlaczego publikacja kodu mObywatela nie spełniła moich oczekiwań
+Kod mObywatela, czyli wiele hałasu o prawie nic
+Publikacja kodu mObywatela a kwestia bezpieczeństwa
+Wisienka zamiast tortu, czyli czy tak powinna wyglądać transparentność?
+Kod mObywatela, czyli wiele hałasu o prawie nic
+Publikacja tylko kilku fragmentów kodu mObywatela to nie jest to, czego oczekiwałam
+.
+Opublikowanie całości kodu mObywatela byłoby pokazaniem, że istnieje zaufanie między obywatelem a państwem. Jako programistka z kilkunastoletnim doświadczeniem chciałabym móc samodzielnie zweryfikować użyte w niej metody, by mieć pewność, że moje dane są bezpieczne i system nie zawiera np. ukrytych funkcji śledzących. Prawdziwa transparentność to dla mnie możliwość audytu realnej logiki działania, a nie tylko oglądanie efektu wizualnego. Bez całości kodu nie da się tego w 100% stwierdzić, czy aplikacja jest napisana z zachowaniem najwyższych standardów.
+Publikacja kodu mObywatela a kwestia bezpieczeństwa
+W kontekście publikacji kodu warto sobie zadać pytanie:
+czy takie częściowe opublikowanie kodu mObywatela ma jakąś wartość z punktu widzenia bezpieczeństwa?
+To, co faktycznie udostępniono, mocno mnie rozczarowało. Po szumnych zapowiedziach rządu oczekiwałam dużo więcej. To, co faktycznie udostępniono, oceniam jako „wielkie nic”. Przeglądając te zasoby, widzę jedynie komponenty interfejsu takie jak przyciski, pola tekstowe itd. To ułamek całości, może kilka procent wszystkich plików składających się na aplikację.
+Z punktu widzenia bezpieczeństwa taka publikacja jest delikatnie mówiąc bezużyteczna. Wynika to z faktu, że nie daje ona żadnego wglądu w to, jak dane są faktycznie przetwarzane i przesyłane. Jako osobę zajmującą się na co dzień bezpieczeństwem aplikacji, najbardziej interesuje mnie backend, to co się dzieje “pod spodem”. Zależy mi na informacji, gdzie trafiają moje dane i jakie protokoły są używane itd.
+Liczyłam na super tajny przepis na tort, o którym jest głośno w mediach od miesięcy, obiecywane są niebiańskie doznania smakowe, przepis miał być dostępny dla wszystkich, a ostatecznie dostałam kilka informacji, jak zrobić dekoracje, które mają de facto najmniejsze znaczenie, bo liczy się smak i fakt, czy ten tort mi nie zaszkodzi po zjedzeniu.
+Wisienka zamiast tortu, czyli c
+zy tak powinna wyglądać transparentność?
+Publikacja kodu w takim formacie to dla mnie działanie fasadowe, mające jedynie udawać otwartość (tzw. open-washing). Ministerstwo Cyfryzacji ogłasza sukces, deklarując na platformie X “Publikujemy kod źródłowy mObywatela”, a kilka linijek dalej w tym samym wpisie informuje, że “opublikowana została część kodu źródłowego aplikacji mObywatel w zakresie wynikającym z rekomendacji CSIRTów”. Pokazują nieistotne elementy, które można było już wcześniej bez trudu znaleźć przy użyciu darmowych narzędzi. Tak jakby ktoś zakładał, że wśród obywateli nie ma osób, które pamiętają o tym, co było obiecane, ocenią to, co zostało dostarczone i połączą kropki ze sobą. I którzy będą głośno mówić o tym, że nie taka była umowa. Uważam, że lepiej byłoby uczciwie przyznać, że pełna publikacja kodu jest niemożliwa, niż serwować kod w takim formacie.
+Moim zdaniem nie tak powinna wyglądać obiecana transparentność.
+A tak się dobrze zapowiadało:
+Screen informujący o publikacji kodu mObywatela. Źródło:
+https://www.gov.pl/web/cyfryzacja/ministerstwo-cyfryzacji-opublikowalo-kod-zrodlowy-mobywatela
+Jeśli chcesz zadbać o bezpieczeństwo swoich aplikacji, a nie wiesz, od czego zacząć, zapraszamy na
+bezpłatne, 15-minutowe spotkanie przy wirtualnej kawie
+. To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+Umów się na spotkanie
+wyślij wiadomość
+Share this post:

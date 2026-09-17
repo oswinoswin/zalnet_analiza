@@ -1,0 +1,116 @@
+Dzisiaj obchodzimy
+Dzień Ojca
+! Z tej okazji przygotowaliśmy dla Was coś absolutnie wyjątkowego. Bezpieczeństwo IT to praca zespołowa, a najlepsze pułapki projektuje się wspólnie. Dlatego od dzisiaj uruchamiamy
+specjalną promocję „1+1”
+na szkolenie z Honeypotów i OSINTu!
+Zasada jest prosta:
+Kupując jeden bilet na szkolenie
+HoneyINT:
+OSINT
++
+Honeypoty
+w praktyce obronnej
+, drugie miejsce dla bliskiej Ci osoby otrzymujesz całkowicie
+GRATIS
+.
+Kogo możesz ze sobą zabrać? Oczywiście
+Tatę
+(w końcu to jego święto!), ale promocja obejmuje również
+Mamę, kolegę lub koleżankę z pracy
+, z którymi na co dzień dzielisz biurko i walczysz z incydentami i każdą inną osobę, którą zechcesz.
+Szkolenie startuje w środę,
+1 lipca 2026 r.
+, więc to idealny moment, aby zarezerwować miejsce i na spokojnie przygotować środowisko przed pierwszym spotkaniem!
+🍯 Czym jest HoneyINT i dlaczego warto?
+Większość firm dostrzega atak dopiero wtedy, gdy intruz jest już wewnątrz sieci, a na ekranach pojawia się żądanie okupu.
+HoneyINT odwraca tę dynamikę.
+Uczymy, jak połączyć biały wywiad (OSINT) z kontrolowanymi wabikami (Honeypotami), aby wykryć i zablokować hakera, zanim ten w ogóle dotknie właściwych zasobów firmy
+. Zamiast reagować na incydenty, nauczysz się przewidywać ataki, zanim te się zaczną
+.
+Szkolenie prowadzi
+Beata Zalewa
+– właścicielka ZALNET, wykładowca akademicki i współwłaścicielka Pasieki na Roztoczu
+. Płynnie łączy ona dwa światy: od 9 lat zwalcza szkodniki w ulach, a od ponad 18 lat dba o bezpieczeństwo aplikacji i projektuje zaawansowane pułapki na cyberprzestępców w IT
+.
+Co wyróżnia to szkolenie?
+80% Praktyki, 20% Teorii
+. Skupiamy się na interpretacji danych, korelacji sygnałów i podejmowaniu decyzji operacyjnych. Konfigurujemy narzędzia open-source (m.in. Cowrie, Dionaea, OpenCanary, Elastic Stack, Wazuh).
+Komfortowe godziny:
+Spotykamy się co środę online w godzinach popołudniowych (18:00 – 21:00). Całość to 15 godzin, czyli 5 spotkań po 3 godziny.
+Konsultacje Twojej sieci:
+Spotkanie 5. to warsztaty z analizą case studies uczestników, sesja Q&A oraz threat modeling. Zweryfikujesz i zwalidujesz bezpieczeństwo swojego rzeczywistego środowiska firmowego na bazie podejścia case-by-case.
+📅 Co czeka Was na szkoleniu? (Harmonogram spotkań)
+Spotkanie 1 (1 lipca 2026):
+OSINT (recon & attack surface mapping) – identyfikacja powierzchni ataku organizacji na podstawie danych publicznych oraz wykrywanie śladów automatycznego skanowania.
+Spotkanie 2 (8 lipca 2026):
+Honeypoty jako kontrolowany wabik – projektowanie OSINT-driven deception layer, dobór typów honeypotów i maskowanie przed wykryciem.
+Spotkanie 3 (15 lipca 2026):
+WordPress i aplikacje internetowe – wykrywanie botów, fingerprinting narzędzi oraz analiza prób eksploatacji najpopularniejszego CMS świata (RCE, LFI, Upload).
+Spotkanie 4 (22 lipca 2026):
+Korelacja danych (OSINT + Honeypoty) – najważniejszy moduł operacyjny: łączenie sygnałów z wielu źródeł, analiza sekwencji czasowych oraz budowa reguł detekcji.
+Spotkanie 5 (29 lipca 2026):
+Q&A (Architektura i scenariusze) – threat modeling i konsultacje projektów infrastruktury uczestników.
+Zobacz pełny program szkolenia (PDF)
+👥 Dla kogo jest to szkolenie?
+To idealny wybór dla zespołów technicznych oraz osób, które chcą przejść z podejścia reaktywnego na wyprzedzające (proaktywne)
+. Zapraszamy w szczególności:
+Administratorów zarządzających serwerami i infrastrukturą (Linux/Windows/Cloud/WordPress).
+Pracujących jako DevSecOps, SysAdmin lub specjalista Security.
+Osoby analizujące logi i odpowiadające za bezpieczeństwo sieci/aplikacji.
+Menedżerów (CISO, CTO, Security Managerów), którzy chcą uczestniczyć wyłącznie jako słuchacze, by głęboko zrozumieć procesy analityczne, korelacje danych oraz koszty związane z nowoczesnym podejściem do bezpieczeństwa.
+Wymagamy znajomości podstaw IT (sieci, HTTP i systemów), a także dostępu do własnego komputera (VM/VPS) oraz testowej instancji systemu WordPress
+.
+💳 Szczegóły promocji i kwestie formalne
+Cena do rozpoczęcia szkolenia za dostęp
+Full Pass
+wynosi
+1 792 PLN
+(zawiera 23% VAT). (Po tym czasie cena wzrasta do 2 048 PLN). W ramach tej kwoty i naszej promocji otrzymujecie:
+2 pełne pakiety uczestnictwa
+(dla Ciebie oraz zaproszonej osoby),
+Kompletne 15 godzin warsztatów, scenariusze incydentów, materiały i instrukcje.
+Dostęp do nagrań wideo, dostęp do zamkniętej grupy na Discordzie oraz certyfikat ukończenia.
+GWARANTOWANY PREZENT:
+Każdy, kto zakupi dostęp do szkolenia, dostaje od nas słoik prawdziwego, świeżego miodu (z 2026 roku) z
+Pasieki na Roztoczu
+całkowicie gratis!
+🧾 Potrzebujecie dwóch osobnych faktur?
+Jeżeli chcecie skorzystać z promocji wspólnie z kolegą/koleżanką z pracy i Wasza księgowość wymaga rozbicia kwoty na dwa osobne dokumenty sprzedażowe (np. po połowie na każdy podmiot):
+⚠️
+Nie korzystajcie wtedy z automatycznej bramki płatności.
+Zamiast tego skorzystajcie z
+formularza kontaktowego
+na stronie – nasz dział administracji ręcznie przygotuje odpowiednie dokumenty.
+Jeżeli wystarczy jedna faktura (kupujecie prywatnie lub na jedną firmę), zapraszamy prosto do bezpiecznej płatności online:
+ZAMAWIAM DOSTĘP (Link do płatności otworzy się w nowej karcie)
+ZAMAWIAM DOSTĘP (Link do płatności otworzy się w nowej karcie)
+Faktura VAT zostanie wysłana na adres e-mail w ciągu 24 godzin od zakupu
+. W przypadku zakupu na firmę dokument będzie widoczny również w systemie KSeF
+.
+Masz pytania? (FAQ)
+Sprawdź odpowiedzi na najczęściej zadawane pytania dotyczące warsztatów.
+🍯Kto będzie prowadził szkolenie?
+Beata Zalewa.
+Właścicielka ZALNET i współwłaścicielka Pasieki na Roztoczu. Płynnie łączy dwa na pozór odległe światy: od 9 lat zwalcza szkodniki w ulach, a w IT od ponad 18 lat dba o bezpieczeństwo aplikacji i projektuje pułapki na cyberprzestępców. Uważa, że reagowanie, jak incydent już wystąpił, to spóźniona impreza. Zamiast zanudzać suchą teorią i bezmyślnym „klikaniem narzędzi”, jako wykładowca akademicki i trenerka z ponad 16 latami doświadczenia (tytuł MCT posiada nieprzerwanie od 2010 roku), podczas szkoleń uczy, jak wyprzedzać ruchy atakujących. Krótko mówiąc: ma doświadczenie w zwalczaniu intruzów.
+🍯Czy podczas szkolenia będą konkursy, w których można wygrać słoik miodu z Pasieki na Roztoczu?
+Tak! Ale poszliśmy o krok dalej – nie musisz liczyć na szczęście w konkursie.
+Każdy, kto zakupi dostęp do szkolenia, dostaje od nas słoik miodu całkowicie gratis.
+W końcu, czym byłoby szkolenie o honeypotach bez prawdziwego, słodkiego miodu – i to totalnej świeżynki z 2026 roku?
+🍯Jaka jest rynkowa wartość tego szkolenia?
+Tutaj wszystko zależy od Ciebie – ile czasu poświęcisz, ile pytań zadasz, ile zadań wykonasz i ile narzędzi przetestujesz. Rynkowa wartość szkolenia to wypadowa naszej wiedzy i Twojego zaangażowanie. My dostarczamy Ci sprawdzony proces i wiedzę, ale to od Twojej pracy zależy efekt końcowy.
+🍯Dlaczego to szkolenie nie jest tańsze (np. nie kosztuje 100 zł)?
+Szkolenia za 100 zł to najczęściej masowe, nagrane wcześniej kursy wideo, które jedynie delikatnie wykraczają poza oficjalną dokumentację i skupiają się na samym klikaniu narzędzi („tool-driven learning”). HoneyINT to zupełnie inna koncepcja – płacisz za 15 godzin intensywnych warsztatów technicznych na żywo (live online) z praktykiem, analizę rzeczywistych logów oraz unikalne, autorskie know-how łączące biały wywiad z systemami pułapek. Co więcej, 5. dzień to, jeśli wyrazisz takie życzenie, konsultacje architektury Twojego własnego środowiska. Koszt tego szkolenia to ułamek strat, jakie organizacja ponosi przy choćby jednym udanym incydencie bezpieczeństwa. Inżynierska prawda jest prosta: wiedza o tym, jak wykryć i zatrzymać hakerów zanim dotkną właściwych zasobów, po prostu nie występuje w większości masowych kursów (są oczywiście wyjątki).
+🍯Dlaczego ceny nie kończą się na magiczne „9” (np. 1799 PLN)?
+Zrezygnowaliśmy z typowych chwytów marketingowych. Nasze ceny (1792 PLN czy 2048 PLN) to liczby podzielne przez 2, żeby był równy rachunek. Jesteśmy inżynierami i ludźmi technicznymi, dlatego w ZALNET podchodzimy do wszystkiego – wliczając w to politykę cenową – logicznie i matematycznie.
+🍯Czy otrzymam fakturę VAT?
+Zakup na firmę
+: Faktura zostanie wysłana na Twój adres e-mail w ciągu 24 godzin od zakupu. Dodatkowo, jeśli korzystasz z systemu KSeF, dokument będzie widoczny również na Twoim koncie platformy.
+Zakup jako osoba prywatna
+: Faktura zostanie wysłana na adres e-mail podany w formularzu zakupu w ciągu 24 godzin.
+🍯Czy po zakończeniu zajęć otrzymam dostęp do materiałów wideo?
+Tak, już w trakcie szkolenia otrzymasz pełny dostęp do nagrań. Będziesz miał do nich dostęp także po szkoleniu. Zrozumienie korelacji logów czy analiza konkretnych wektorów ataków może wymagać ponownego obejrzenia materiału, dlatego dostęp ten gwarantujemy w standardzie.
+🍯Czy mogę uczestniczyć w szkoleniu wyłącznie jako słuchacz, bez wykonywania wszystkich zadań technicznych?
+Tak, jak najbardziej. Choć szkolenie jest silnie warsztatowe (80% praktyki), udział w nim tylko w formie słuchacza to doskonała opcja dla menedżerów (CISO, CTO, Security Managerów). Jako słuchacz zyskasz przede wszystkim głębokie zrozumienie procesów, możliwości analitycznych, sposobów korelacji danych i kosztów związanych z nowoczesnym podejściem do bezpieczeństwa. Przejście z roli „reagującego” na „wyprzedzającego” wymaga w pierwszej kolejności zrozumienia koncepcji biznesowej i operacyjnej, a dopiero w drugiej – wdrożenia narzędziowego przez Twoje zespoły inżynierskie.
+🍯Kiedy odbędzie się kolejna edycja szkolenia?
+Październik 2026.
+Share this post:

@@ -1,0 +1,517 @@
+W ostatnim
+wpisie
+mogliśmy zobaczyć, jak dodać uwierzytelnianie do aplikacji ASP.NET Core MVC 2.2.
+Dzisiaj dokonamy kolejnych modyfikacji. Stworzymy użytkowników i przypiszemy ich do odpowiednich ról, a następnie ograniczymy dostęp do określonych widoków. Projekt z kodem można pobrać z
+Githuba
+.
+W przestrzeni
+Microsoft.AspNetCore.Identity
+znajduje się klasa
+IdentityUser
+,  która zawiera właściwości wykorzystywane w tabeli
+dbo.AspNetUsers.
+Teraz do folderu
+Data
+dodajemy kolejną klasę o nazwie
+ApplicationUser
+, która dziedziczy z klasy
+IdentityUser.
+Klasa ta pozwoli rozszerzyć klasę
+IdentityUser
+o właściwości, których nie ma w klasie
+IdentityUser
+.
+Teraz możemy przejść do klasy
+Startup.cs
+i zamienić klasę
+IdentityUser
+na
+ApplicationUser
+(linia 46).
+Przechodzimy do klasy
+ApplicationUser
+i dodajemy nową właściwość
+FirstName
+(będzie mi potrzebna jako kolumna w tabeli
+dbo.AspNetUsers
+).
+Teraz to, co musimy zrobić, to zmienić klasę
+IdentityUser
+na
+ApplicationUser
+w całym solution (rozwiązaniu).
+Po tej zmianie należy dodać wszędzie tam, gdzie trzeba, przestrzeń
+Frontend.Data
+.
+Trzeba pamiętać, żeby w plikach
+_LoginPartial.cshtml
+i
+_ManageNav.cshtml
+także zmienić klasę
+IdentityUser
+na
+ApplicationUser
+. Aby usunąć błędy należy dodać na początku tych plików następujący kod. Jest to odwołanie do projektu i folderu, w którym znajduje się klasa
+ApplicationUser
+:
+@using Frontend.Data
+Musimy pamiętać, że sama klasa
+ApplicationUser
+powinna dziedziczyć z klasy
+IdentityUser
+, a nie z klasy
+ApplicationUser:
+public class ApplicationUser : IdentityUser
+Przebudowujemy rozwiązanie
+(Rebuild Solution)
+. Potem przechodzimy do SQL Server Management Studio i usuwamy bazę danych
+aspnet_Frontend
+.
+Teraz z folderu
+Data
+usuwamy cały folder
+Migrations
+wraz z zawartością, gdyż za chwilę będziemy tworzyli nowe migracje. Z menu
+Tools
+wybieramy
+NuGet Package Manager
+, a nstępnie
+Package Manager Console
+i wywołujemy po kolei dwie komendy:
+Add-Migration init
+Update-Database
+Ponieważ w naszej aplikacji są dwie klasy
+DbContext
+to musimy zmodyfikować te komendy i oprócz nazwy (ang.
+Name
+)
+init
+dodać jeszcze informację o klasie kontekstu. W przypadku tej aplikacji należy dodać:
+-Context ApplicationDbContext
+. Pierwsza komenda powinna wyglądać następująco:
+Add-Migration init -Context ApplicationDbContext
+Teraz wywołujemy komendę, która ponownie utworzy bazę danych
+aspnet_Frontend
+i wszystkie potrzebne tabele. Tutaj w komendzie ponownie dodajemy info o kontekście.
+Update-Database -Context ApplicationDbContext
+Kiedy przejdziemy do SSMS i do bazy danych, to możemy zobaczyć, że w tabeli
+dbo.AspNetUsers
+nie ma kolumny
+FirstName
+, którą dodaliśmy do klasy
+ApplicationUser
+.
+Dzieje się tak, ponieważ w klasie
+ApplicationDbContext
+nie ma połączenia z klasą
+ApplicationUser
+. Musimy tą zależność wstrzyknąć (linia 9).
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+Ponownie usuwamy bazę danych z poziomu SSMS, usuwamy folder
+Migrations
+z naszego projektu i ponownie dodajemy migrację i aktualizujemy bazę danych:
+Add-Migration init -Context ApplicationDbContext
+Update-Database -Context ApplicationDbContext
+W ten sposób możemy dodawać potrzebne nam kolumny, których potem będziemy mogli użyć w naszej aplikacji.
+Tworzenie ról niestandardowych
+Aby utworzyć niestandardowe role w aplikacji, możemy utworzyć tablicę ciągów, zawierającą każdą z ról, którą zamierzamy potem wykorzystywać w naszej aplikacji, a następnie tworzymy role poprzez iterowanie elementów w naszej tablicy ciągów, przekazując każdy element do metody w klasie
+RoleManager
+. Powoduje to automatyczne utworzenie ról i ich dodanie do bazy danych.
+Do klasy
+Startup.cs
+dodajemy następujący kod:
+services.AddDefaultIdentity<ApplicationUser>()
+               .AddDefaultUI(UIFramework.Bootstrap4)
+               .AddEntityFrameworkStores<ApplicationDbContext>();
+            //Info about Passwords Strength
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Password settings
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 8;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireLowercase = false;
+                options.Password.RequiredUniqueChars = 6;
+                // Lockout settings
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+                options.Lockout.MaxFailedAccessAttempts = 10;
+                options.Lockout.AllowedForNewUsers = true;
+                // User settings
+                options.User.RequireUniqueEmail = true;
+            });
+            //The Account Login page's settings
+            services.ConfigureApplicationCookie(options =>
+            {
+                // Cookies settings
+                options.Cookie.HttpOnly = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+                options.LoginPath = "/Account/Login"; // You can type here you own LoginPath, if you don't set custom path, ASP.NET Core will default to /Account/Login
+                options.LogoutPath = "/Account/Logout"; // You can type here you own LogoutPath, if you don't set custom path, ASP.NET Core will default to /Account/Logout
+                options.AccessDeniedPath = "/Account/AccessDenied"; // You can type you own AccesDeniedPath, if you don't set custom path, ASP.NET Core will default to /Account/AccessDenied;
+                options.SlidingExpiration = true;
+            });
+Modyfikujemy ustawienia
+AddIdentity
+(zawartość linii 43-45 zastępujemy poniższym kodem).
+services.AddIdentity<ApplicationUser, IdentityRole>()
+               .AddDefaultUI(UIFramework.Bootstrap4)
+               .AddEntityFrameworkStores<ApplicationDbContext>()
+               .AddDefaultTokenProviders();
+Rejestracja i utworzenie pierwszego użytkownika
+Po wykonaniu wcześniejszych kroków nasza aplikacja umożliwia rejestrowanie się użytkowników, a także logowanie do naszego systemu po rejestracji. W kolejnych krokach dodamy autoryzację, poprzez stworzenie użytkowników i przypisanie ich do odpowiednich ról. Zanim dodamy pierwszego użytkownika, najpierw musimy przebudować i uruchomić aplikację, aby potem zarejestrować pierwszego domyślnego użytkownika, którego potem dodamy do roli
+Admin
+.
+Po odświeżeniu strony możemy zobaczyć, że nowo zarejestrowany użytkownik został zalogowany na naszej stronie internetowej.
+W bazie danych, w tabeli
+dbo.AspNetUsers
+, mamy teraz stworzonego nowego użytkownika.
+Utworzenie roli i przypisanie użytkownika do roli
+Otwieramy plik
+Startup.cs
+i dodajemy do niego metodę
+CreateUserRoles
+w celu utworzenia nowej roli
+Admin
+, a potem przypisujemy niedawno zarejestrowanego użytkownika do roli
+Admin
+.
+private async Task CreateUserRoles(IServiceProvider serviceProvider)
+        {
+            // Initializing custom roles
+            var RoleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var UserManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            IdentityResult roleResult;
+            // Adding Admin Role
+            var roleCheck = await RoleManager.RoleExistsAsync("Admin");
+            if (!roleCheck)
+            {
+                //Create the roles and seed them to the database
+                roleResult = await RoleManager.CreateAsync(new IdentityRole("Admin"));
+            }
+            // Assign Admin role to newly registered user
+            ApplicationUser user = await UserManager.FindByEmailAsync("testemail@gmail.com");
+            var User = new ApplicationUser();
+            await UserManager.AddToRoleAsync(user, "Admin");
+        }
+W pliku
+Startup.cs
+szukamy metody
+Configure
+. Dodajemy do tej metody na samym końcu wywołanie metody
+CreateUserRoles
+(linia 119).
+CreateUserRoles(services).Wait();
+Po ponownym uruchamieniu naszej aplikacji, możemy zobaczyć nową rolę
+Admin
+w tabeli
+dbo.AspNetRoles
+, a także widzimy, że nasz domyślny użytkownik został przypisany do roli
+Admin
+.
+SELECT *
+FROM aspnet_Frontend.dbo.AspNetUsers;
+GO
+SELECT *
+FROM aspnet_Frontend.dbo.AspNetRoles;
+GO
+SELECT *
+FROM aspnet_Frontend.dbo.AspNetUserRoles;
+GO
+Stworzenie strony tylko dla Admina i ustawienie autoryzacji
+Mamy już w aplikacji użytkownika z przypisaną rolą
+Admin
+. Teraz stworzymy dla niego stronę administracyjną, do której tylko użytkownicy z rolą
+Admin
+będą mieli dostęp.
+W tym celu stworzymy nowy kontroler o nazwie
+Admin
+. Klikamy prawym przyciskiem myszy folder
+Controllers
+->
+Add
+->
+Controller
+, wybieramy
+MVC Controller – Empty
+i klikamy
+Add
+.
+Wprowadzamy nazwę kontrolera:
+AdminController
+i klikamy
+Add
+.
+W nowo stworzonym kontrolerze klikamy prawym przyciskiem myszy na metodę
+Index
+i klikamy
+Add View
+.
+Klikamy przycisk
+Add
+, aby utworzyć widok.
+Teraz możemy zobaczyć stworzony kontroler i widok dla użytkowników w roli
+Admin
+.
+Otwieramy stronę
+Admin / Index.cshtml
+, aby zmienić jej zawartość. Dodajemy do niej prosty tekst, tak jak poniżej.
+@{
+    ViewData["Title"] = "Strona administratora";
+}
+<h2>Strona administratora</h2>
+<h4>Tylko administratorzy mogą przeglądać tą stronę !!!</h4>
+Następnie do menu dodajemy nowy element, aby wyświetlić stronę administratora. Aby utworzyć nowy element w menu, otwieramy plik
+_Layout.cshtml
+z folderu
+Views / Shared
+. Dodajemy kod jak poniżej. Przy okazji ja zmieniłam nazwy angielskie na polskie.
+<li class="nav-item">
+    <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Strona Admina</a>
+</li>
+Uruchamiamy aplikację. Możemy zobaczyć nowe menu.
+Strona Admina
+została utworzona i każdy użytkownik może mieć do niej dostęp. Oznacza to, że każdy może kliknąć łącze i wyświetlić zawartość tej strony.
+Tutaj widzimy, że możemy wyświetlić
+Stronę Admina
+bez konieczności logowania, co oznacza, że każdy może mieć do niej dostęp.
+Dodanie autoryzacji
+Stworzyliśmy
+Stronę Admina
+tylko dla użytkownika w roli
+Admin
+, a użytkownicy z innymi rolami lub niezalogowani użytkownicy nie powinni widzieć tej strony. Aby taką funkcjonalność zaimplementować, dodamy autoryzację do kontrolera
+Admin
+. Otwieramy kontroler
+Admin
+i dodajemy poniższy wiersz kodu (linia 1 i linia 8).
+using Microsoft.AspNetCore.Authorizaton;
+. . .
+[Authorize(Roles = "Admin")]
+Jeśli uruchomimy naszą aplikację i klikniemy na
+Stronę Admina
+, automatycznie zostaniemy przekierowani na stronę z logowaniem.
+Tylko członkowie roli
+Admin
+mogą wyświetlać
+Stronę Admina
+, ponieważ ustawiliśmy autoryzację tylko dla roli
+Admin
+. Jeśli chcemy dodać więcej ról, możemy dodawać kolejne role po przecinku, tak jak w poniższym kodzie.
+[Authorize(Role = „Admin, SuperAdmin, Menager”)]
+Teraz zmodyfikujemy metodę
+CreateUserRoles
+i dodamy dwie dodatkowe role:
+Manager
+i
+User
+. Potem utworzymy trzech nowych użytkowników i dodamy ich do odpowiednich ról: użytkownika
+beata@gmail.com
+do roli
+Admin
+, użytkownika
+romek@gmail.com
+do roli
+Manager
+i użytkownika
+daria@gmail.com
+do roli
+User
+.
+private async Task CreateUserRoles(IServiceProvider serviceProvider)
+        {
+            //initializing custom roles
+            var RoleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            var UserManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            string[] roleNames = { "Admin", "User", "Manager" };
+            IdentityResult roleResult;
+            foreach (var roleName in roleNames)
+            {
+                var roleExist = await RoleManager.RoleExistsAsync(roleName);
+                if (!roleExist)
+                {
+                    //create the roles and seed them to the database
+                    roleResult = await RoleManager.CreateAsync(new IdentityRole(roleName));
+                }
+            }
+            ApplicationUser user = await UserManager.FindByEmailAsync("beata@gmail.com");
+            if (user == null)
+            {
+                user = new ApplicationUser()
+                {
+                    UserName = "beata@gmail.com",
+                    Email = "beata@gmail.com",
+                };
+                await UserManager.CreateAsync(user, "Pa55w.rd");
+            }
+            await UserManager.AddToRoleAsync(user, "Admin");
+            ApplicationUser user1 = await UserManager.FindByEmailAsync("daria@gmail.com");
+            if (user1 == null)
+            {
+                user1 = new ApplicationUser()
+                {
+                    UserName = "daria@gmail.com",
+                    Email = "daria@gmail.com",
+                };
+                await UserManager.CreateAsync(user1, "Pa55w.rd");
+            }
+            await UserManager.AddToRoleAsync(user1, "User");
+            ApplicationUser user2 = await UserManager.FindByEmailAsync("romek@gmail.com");
+            if (user2 == null)
+            {
+                user2 = new ApplicationUser()
+                {
+                    UserName = "romek@gmail.com",
+                    Email = "romek@gmail.com",
+                };
+                await UserManager.CreateAsync(user2, "Pa55w.rd");
+            }
+            await UserManager.AddToRoleAsync(user2, "Manager");
+        }
+Odpytując bazę danych
+aspnet_Frontend
+możemy zobaczyć, że zostali dodani nowi użytkownicy i przypisani do odpowiednich ról.
+SELECT *
+FROM aspnet_Frontend.dbo.AspNetUsers;
+GO
+SELECT *
+FROM aspnet_Frontend.dbo.AspNetRoles;
+GO
+SELECT *
+FROM aspnet_Frontend.dbo.AspNetUserRoles;
+GO
+Możemy teraz określić, które role będą miały dostęp do określonych zasobów, używając ponownie atrybutu
+Authorize
+.
+W naszej aplikacji założyłyśmy, że dostęp do zarządzania kategoriami będą mieli tylko użytkownicy należący albo do roli
+Admin
+albo do roli
+Manager
+. Aby dodać autoryzację do wszystkich metod w klasie, atrybut
+Authorize
+umieszczamy nad nazwą klasy
+CategoryController
+.
+[Authorize(Roles = "Admin, Manager")]
+Najpierw logujemy się na stronę
+https://localhost:44346/Category/Index
+jako użytkownik
+daria@gmail.com
+, który przynależy do roli
+User
+i zgodnie z naszym założeniem nie powinien mieć dostępu do klasy
+CategoryController
+. Po wpisaniu adresu zostajemy przekierowani do strony z logowaniem:
+Po zalogowaniu możemy zobaczyć informację, że użytkownik
+daria@gmail.com
+nie ma dostępu do wybranej strony.
+Teraz logujemy się na stronę jako użytkownik
+romek@gmail.com
+, który jest członkiem roli
+Manager
+.
+Po zalogowaniu widzimy , że ten użytkownik widzi zawartość strony i że nasza autoryzacja działa.
+Gdybyśmy jednak chcieli, aby dostęp do widoku
+Category / Index
+mieli wszyscy użytkownicy, bez konieczności logowania, musimy nad tą metodą dodać atrybut
+[AllowAnonymous]
+(linia 20).
+[AllowAnonymous]
+Teraz, po uruchomieniu aplikacji, możemy zobaczyć zawartość strony ze wszystkimi kategoriami, bez konieczności uwierzytelniania.
+Kiedy jednak jako niezalogowany użytkownik klikniemy na link
+Edit
+, pojawia się strona z logowaniem, ponieważ pozostałe metody wymagają autoryzacji.
+Kontrola ról oparta na politykach
+Zamiast używania atrybutów
+Authorize
+, możemy utworzyć odpowiednią politykę, która będzie zawierała wymagania dotyczące roli. Możemy dodawać i rejestrować polityki dodając je do metody
+ConfigureServices
+w pliku
+Startup.cs
+.
+Do metody
+ConfigureServices
+dodajemy następujący fragment kodu, który utworzy politykę, która umożliwi dostęp do wybranych zasobów tylko użytkownikom, którzy są członkami roli
+Admin
+.
+services.AddAuthorization(options =>
+            {
+                options.AddPolicy("OnlyForAdminAccess", policy => policy.RequireRole("Admin"));
+            });
+Tak jak wcześciej, chcemy, aby dostęp do kontrolera
+Location
+mieli tylko użytkownicy, którzy mają uprawnienia
+Admina
+. Tylko widok
+Index
+będzie dostępny dla każdego. Dodajemy nad klasą
+LocationController
+atrybut
+Authorize
+wraz z odpowiednią nazwą polityki jak poniżej:
+using Microsoft.AspNetCore.Authorization;
+...
+[Authorize(Policy = "OnlyForAdminAccess")]
+Kiedy uruchomimy aplikację i przejdziemy pod adres URL:
+https://localhost:44346/Location/Index
+to mamy dostęp do strony bez konieczności logowania się, ponieważ nad metodą
+Index
+umieściliśmy atrybut
+AllowAnonymous
+.
+Klikamy link
+Edit
+i logujemy się jako użytkownik
+romek@gmail.com
+, który należy do roli
+Manager
+.
+Użytkownik
+romek@gmail.com
+nie jest członkiem roli
+Admin
+, dlatego nie ma dostępu do tej strony.
+Kiedy jednak taką próbę podejmie użytkownik
+beata.zalewa@gmail.com
+, członek roli
+Admin
+, dostaje on dostęp do strony i może zmodyfikować dane.
+To co zostało na sam koniec, to wyświetlanie
+Strony Admina
+tylko dla zalogowanych członków roli
+Admin
+. W tym celu otwieramy plik
+_Layout.cshtml
+z folderu
+Views / Shared
+i edytujemy menu, tak jak poniżej. W tym kodzie najpierw sprawdzamy, czy użytkownik jest uwierzytelniony, czyli inaczej mówiąc zalogowany, a następnie sprawdzamy, czy użytkownik ma uprawnienia do przeglądania
+Strony Admina
+.
+<li class="nav-item">
+      @if (User.Identity.IsAuthenticated)
+      {
+          @if (User.IsInRole("Admin"))
+          {
+              <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Index">Strona Admina</a>
+          }
+      }
+   </li>
+Uruchamiamy aplikację i widzimy, że bez zalogowanego do strony użytkownika,
+Strona Admina
+nie jest wyświetlana w naszym górnym menu.
+Tylko zalogowany użytkownik, który jest przypisany do rol
+Admin
+widzi w menu link do
+Strony Admina
+. Możemy to zobaczyć, kiedy zalogujemy się na stronę za pomocą użytkownika w roli
+Admin
+.
+Potem logujemy się jako użytkownik w roli
+Manager
+i widzimy, że taki użytkownik nie widzi w menu
+Strony Admina
+i jak wcześniej sprawdzaliśmy, nie ma także dostępu do
+Strony Admina
+.
+Teraz możemy dodawać nowych użytkowników i nowe role oraz zarządzać dostępem do określonych widoków. Kolejnym krokiem w tworzeniu aplikacji będzie modyfikacja widoków i poprawa ich działania.
+Share this post:

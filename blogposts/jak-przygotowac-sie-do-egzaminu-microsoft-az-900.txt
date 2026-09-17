@@ -1,0 +1,147 @@
+Jak przygotować się do egzaminu Microsoft AZ-900?
+[
+English version
+of this post – click
+here
+]
+Azure to platforma chmurowa firmy Microsoft, która zapewnia użytkownikowi swobodę tworzenia, zarządzania i wdrażania aplikacji w ogromnej globalnej sieci, przy użyciu ulubionych narzędzi i frameworków.
+Egzamin AZ-900 to idealny sposób dla osób rozpoczynających swoją przygodę z chmurą Azure, aby potwierdzić swoją wiedzę i doświadczenie.
+Możliwości Azure można podzielić na
+8 głównych
+kategorii:
+Bezpieczeństwo (Security)
+Usługi obliczeniowe (Compute Services)
+Przechowywanie danych w chmurze (Cloud Storage)
+Sieci (Networking)
+Hosting aplikacji (App Hosting)
+Sztuczna inteligencja (Artificial Intelligence)
+Internet Rzeczy (Internet of Things)
+Integracja (Integration)
+Co znajdziesz w tym artykule?
+Jak przygotować się do egzaminu Microsoft AZ-900?
+Egzamin AZ-900: Microsoft Azure Fundamentals
+Podsumowanie egzaminu Microsoft Azure Fundamentals
+Jak przygotować się do egzaminu?
+I. Szkolenie prowadzone przez instruktora:
+II. Ścieżka samodzielnej nauki:
+1. Microsoft Learn:
+2. Adam Marczak – Azure for Everyone
+3. Kurs Scotta Duffy'ego AZ-900 na Udemy
+4. Testy praktyczne do egzaminu AZ-900 od Scotta Duffy'ego na Udemy
+5. Grupa Microsoft Azure Scotta Duffy'ego (nieoficjalna) na Facebooku
+6. Praktyczne testy przygotowujące do egzaminu AZ-900: Microsoft Azure Fundamentals
+7. Zadania praktyczne
+Egzamin AZ-900: Microsoft Azure Fundamentals
+Microsoft twierdzi, że celem tego egzaminu jest wykazanie
+podstawowej wiedzy na temat usług chmurowych i sposobu ich świadczenia w Azure
+.
+Kandydaci do tego egzaminu powinni posiadać podstawową wiedzę na temat usług chmurowych i sposobu ich świadczenia w Microsoft Azure. Egzamin jest przeznaczony dla kandydatów, którzy dopiero zaczynają pracować z rozwiązaniami i usługami chmurowymi Azure.
+Egzamin Azure Fundamentals to okazja do potwierdzenia wiedzy z zakresu
+koncepcji chmury, usług Azure, bezpieczeństwa i prywatności w Azure, a także informacji o cenniku i wsparciu Azure
+. Kandydaci powinni być zaznajomieni z ogólnymi koncepcjami technologicznymi, w tym koncepcjami sieci, przechowywania danych, obliczeń, obsługi i tworzenia aplikacji.
+Wiedza z zakresu egzaminu Azure Fundamentals może być wykorzystywany do przygotowania do innych certyfikacji Azure opartych na specjalistycznych rolach, ale
+nie jest warunkiem wstępnym dla żadnej z nich
+.
+Umiejętności weryfikowane podczas egzaminu:
+Opis koncepcji chmury (25–30%)
+Opis architektury i usług Azure (35–40%)
+Opis zarządzania i nadzoru Azure (30–35%)
+Egzamin ten jest dostępny w następujących językach:
+Angielski
+Arabski
+Chiński (uproszczony)
+Chiński (tradycyjny)
+Francuski
+Niemiecki
+Indonezyjski
+Włoski
+Japoński
+Koreański
+Portugalski (Brazylia)
+Rosyjski
+Hiszpański
+Uwaga:
+Angielska wersja tego egzaminu została zaktualizowana 23 stycznia 2024 roku.
+Podsumowanie egzaminu Microsoft Azure Fundamentals
+Nazwa egzaminu
+Microsoft Certified – Azure Fundamentals
+Kod egzaminu
+AZ-900
+Cena egzaminu
+$59 (Polska), $99 (USA)
+Czas trwania
+60 minut
+Liczba pytań
+40-60
+Minimalna liczba punktów do zdania egzaminu
+700 punktów/Maksymalna liczba punktów: 1000
+Książki / Szkolenia
+AZ-900T00-A: Introduction to Microsoft Azure
+Rezerwacja terminu na egzamin
+Pearson VUE
+Przykładowe pytania
+Practice Assessment for Exam AZ-900: Microsoft Azure Fundamentals
+Jak przygotować się do egzaminu?
+Istnieje wiele zasobów, które pomogą w przygotowaniu do egzaminu. Microsoft zaleca korzystanie z platformy online – Microsoft Learn, która zapewnia bezpłatne ścieżki edukacyjne i moduły, które można czytać i przerabiać we własnym tempie.
+I. Szkolenie prowadzone przez instruktora:
+Szkolenie AZ-900T00: Introduction to Microsoft Azure
+Kurs ten zapewni podstawową wiedzę na temat koncepcji chmury, podstawowych usług Azure oraz funkcji i narzędzi niezbędnych zarządzania i monitorowania chmury Azure.
+Kurs ten jest odpowiedni dla osób z IT, które dopiero zaczynają pracować z chmurą Azure. Dla grupy odbiorców, która chce poznać usługi Azure i zdobyć praktyczne doświadczenie. Kurs ten wykorzystuje głównie portal Azure i interfejs wiersza poleceń do tworzenia zasobów i nie wymaga umiejętności skryptowych. Studenci tego kursu zyskają pewność siebie, aby podjąć inne kursy i certyfikaty oparte na rolach, takich jak Azure Administrator. Kurs ten łączy wykłady, demonstracje i laboratoria praktyczne. Ten kurs pomoże również przygotować się do egzaminu AZ-900.
+II. Ścieżka samodzielnej nauki:
+1. Microsoft Learn:
+a.
+Microsoft Azure Fundamentals: Describe cloud concepts
+b.
+Azure Fundamentals: Describe Azure architecture and services
+c.
+Azure Fundamentals: Describe Azure management and governance
+Ta ścieżka edukacyjna
+Azure Fundamentals jest zalecanym kursem do przygotowania do egzaminu AZ-900
+. Jest to około 10-godzinny kurs zawierający 11 modułów:
+Opis koncepcji chmury – Opis przetwarzania w chmurze
+Opis koncepcji chmury – Opis korzyści z używania usług chmurowych
+Opis koncepcji chmury – Opis typów usług chmurowych
+Opis architektury i usług Azure – Opis podstawowych komponentów architektonicznych Azure
+Opis architektury i usług Azure – Opis usług obliczeniowych i sieciowych Azure
+Opis architektury i usług Azure – Opis usług przechowywania danych Azure
+Opis architektury i usług Azure – Opis tożsamości, dostępu i bezpieczeństwa Azure
+Opis zarządzania i nadzoru Azure – Opis zarządzania kosztami w Azure
+Opis zarządzania i nadzoru Azure – Opis funkcji i narzędzi w Azure do zarządzania i zgodności
+Opis zarządzania i nadzoru Azure – Opis funkcji i narzędzi do zarządzania i wdrażania zasobów Azure
+Opis zarządzania i nadzoru Azure – Opis narzędzi monitorowania w Azure
+Te moduły to prawie zawsze zwykły tekst bez żadnych filmów.
+Bądź gotowy do czytania i robienia notatek!
+2. Adam Marczak – Azure for Everyone
+Kanał po angielsku na
+Youtube.
+Przygotowanie do egzaminu AZ-900 – Microsoft Azure Fundamentals. Pełny kurs, bezpłatne testy praktyczne, strona internetowa i przewodniki do nauki.
+3. Kurs Scotta Duffy’ego AZ-900 na Udemy
+AZ-900: Microsoft Azure Fundamentals Exam Prep – MAY 2025
+Naucz się podstaw Azure i zdobądź certyfikat dzięki temu kompletnemu kursowi AZ-900 dla początkujących, zawiera test praktyczny!
+4. Testy praktyczne do egzaminu AZ-900 od Scotta Duffy’ego na Udemy
+AZ-900: Microsoft Azure Fundamentals Original Practice Tests
+Sześć kompletnych testów praktycznych przygotowujących do egzaminu AZ-900 Azure Fundamentals, 300 pytań, w 100% oryginalny materiał.
+5. Grupa Microsoft Azure Scotta Duffy’ego (nieoficjalna) na Facebooku
+Dołącz do tej fantastycznej
+grupy
+na Facebooku, jeśli masz pytania, wątpliwości, problemy dotyczące egzaminów i nie tylko. Ta grupa pomaga, wspiera i doradza.
+6. Praktyczne testy przygotowujące do egzaminu AZ-900: Microsoft Azure Fundamentals
+Practice Assessments
+na platformie Microsoft Learn to najnowsze bezpłatne zasoby Microsoftu pomagające w przygotowaniu się do egzaminu, które pozwalają ocenić swoją wiedzę i uzupełnić luki w niej, dzięki czemu jesteś lepiej przygotowany do egzaminu certyfikacyjnego.
+7. Zadania praktyczne
+Gorąco polecam:
+Utworzenie
+darmowego konta
+na Azurze.
+Przeczytanie artykułów z opisem usług Azure.
+Samodzielne ćwiczenia z
+szablonami
+Azure.
+Monitorowanie postępów przy pomocy
+tych wytycznych
+.
+Rozwiązywanie
+egzaminów próbnych
+Postępuj zgodnie z powyższymi wskazówkami, aby zdać egzamin bez żadnych trudności. Jeśli chcesz dodać swoją wskazówkę, zostaw komentarz.
+Dziękuję za poświęcenie czasu na przeczytanie mojego bloga. Uprzejmie podziel się nim z innymi, jeśli uznasz go za pomocny!
+Share this post:

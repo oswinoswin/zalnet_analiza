@@ -1,0 +1,308 @@
+W tym poście zobaczymy jak stworzyć projekt bazy danych przy użyciu Visual Studio 2019 Community Edition (opis jak zainstalować Visual Studio znajdziecie
+tutaj
+) i SQL Server 2017 Developer Edition (opis instalacji znajdziecie
+tutaj
+).
+Na początek otwieramy SSMS 2017 (czyli SQL Server Management Studio 2017), logujemy się do naszej instancji
+SQLCOURSE2017
+i tworzymy nową bazę danych o nazwie
+ETDatabase.
+Aby to zrobić klikamy ikonę
+New Query
+i w oknie dialogowym wpisujemy następujące polecenia. Po wpisaniu polecenia klikamy przycisk
+Execute
+.
+Use master;
+GO
+CREATE DATABASE ETDatabase;
+GO
+Diagram tworzonej bazy danych jest prosty i wygląda tak:
+W Visual Studio wybieramy
+Create a new project
+.
+W oknie wyszukiwania wpisujemy
+Sql
+, a następnie z podpowiedzi wybieramy
+SQL Server Database Project
+. P
+rojektów baz danych używa się do tworzenia nowych baz danych, nowych aplikacji bazodanowych (
+data-tier application
+) oraz do aktualizacji istniejących baz danych i aplikacji bazodanowych
+.
+Klikamy przycisk
+Next
+.
+Na dysku tworzymy najpierw folder o nazwie
+ET
+, a w nim folder
+RDBMS.
+W tej lokalizacji tworzymy nasz projekt bazodanowy o nazwie
+ET
+. Klikamy przycisk
+Create
+.
+Teraz importujemy naszą bazę danych
+ETDatabase
+do projektu bazy danych. W tym celu prawym przyciskiem myszy klikamy na projekcie
+ET
+w
+Solution Explorer
+i wybieramy najpierw
+Import
+, a potem
+Database
+.
+W oknie dialogowym
+Import Database
+klikamy przycisk
+Select Connection
+.
+W oknie dialogowym
+Connect
+podajemy nazwę serwera i nazwę bazy danych i klikamy przycisk
+Connect
+.
+Teraz w oknie dialogowym
+Import Database
+pod
+Source database connection
+powinniśmy zobaczyć połączenie do naszej bazy danych. Klikamy przycisk
+Start
+.
+Przeglądamy podsumowanie i klikamy przycisk
+Finish
+.
+Kiedy nasza baza danych jest już połączona z projektem, możemy rozpocząć tworzenie pierwszej tabeli.
+Dodanie tabel do projektu SQL
+Prawym przyciskiem myszy klikamy na projekcie
+ET
+(ten pogrubiony napis), wybieramy
+Add
+,  a potem
+New Folder
+. Zmieniamy nazwę folderu na
+dbo
+(folder ten będzie przechowywał wszystkie obiekty należące do schematu
+dbo
+). Następnie klikamy prawym przyciskiem myszy na folderze
+dbo
+, wybieramy
+Add
+,  a potem
+New Folder
+. Zmieniamy nazwę folderu na
+Tables
+(folder ten będzie przechowywał wszystkie tabele należące do schematu
+dbo
+).
+Klikamy prawym przyciskiem myszy na folderze
+Tables
+. Z opcji wybieramy
+Add
+, a potem
+Table
+. Zmieniamy nazwę tabeli na
+tUsers
+i klikamy przycisk
+Add
+.
+Zostanie utworzony plik
+tUsers.sql
+. Dodajemy do tego pliku następujący kod:
+CREATE TABLE dbo.tUsers
+(
+	UserID INT IDENTITY (1,1) NOT NULL,
+	Nickname NVARCHAR(8) NOT NULL,
+	Pass NVARCHAR(12) NOT NULL,
+	FirstName NVARCHAR(25) NOT NULL,
+	LastName NVARCHAR(25) NOT NULL,
+	Age INT NOT NULL,
+	Email NVARCHAR(100) NOT NULL,
+	PhoneNumber NVARCHAR(11),
+	ImageColumn VARBINARY (MAX),
+	CONSTRAINT PK_tUsers_UserID PRIMARY KEY CLUSTERED (UserID ASC),
+	CONSTRAINT AK_tUsers_Nickname UNIQUE (Nickname ASC)
+);
+GO
+EXECUTE sp_addextendedproperty
+	@name = N'MS_Description',
+	@value = N'Contains info about user.',
+	@level0type = N'SCHEMA',
+	@level0name = N'dbo',
+	@level1type = N'TABLE',
+	@level1name = N'tUsers';
+GO
+Ograniczenia na tabeli typu
+klucz obcy
+czy
+klucz główny
+możemy dodać też w inny sposób:
+CREATE TABLE dbo.tUsers
+(
+UserID INT IDENTITY (1,1) NOT NULL,
+Nickname NVARCHAR(8) NOT NULL,
+Pass NVARCHAR(12) NOT NULL,
+FirstName NVARCHAR(25) NOT NULL,
+LastName NVARCHAR(25) NOT NULL,
+Age INT NOT NULL,
+Email NVARCHAR(100) NOT NULL,
+PhoneNumber NVARCHAR(11),
+ImageColumn VARBINARY (MAX)
+);
+GO
+ALTER TABLE dbo.tUsers
+ADD CONSTRAINT PK_tUsers_UserID PRIMARY KEY CLUSTERED (UserID);
+GO
+ALTER TABLE dbo.tUsers
+ADD CONSTRAINT AK_tUsers_Nickname UNIQUE (Nickname);
+GO
+Teraz możemy dodać do naszego projektu kolejne tabele.
+Jako drugą dodajemy tabelę
+dbo.tLocations
+. Wykonujemy te same czynności jak w przypadku tabeli
+dbo.tUsers
+, tzn. w folderze
+Tables
+tworzymy nową tabelę, zmieniamy odpowiednio jej nazwę i dodajemy kod.
+CREATE TABLE dbo.tLocations
+(
+LocationID INT IDENTITY (1,1) NOT NULL,
+Country NVARCHAR(50) NOT NULL,
+Region NVARCHAR(50) NOT NULL,
+County NVARCHAR(50) NULL,
+City NVARCHAR(50) NOT NULL,
+CONSTRAINT PK_tLocations_LocationID PRIMARY KEY CLUSTERED (LocationID ASC)
+);
+GO
+EXECUTE sp_addextendedproperty
+	@name = N'MS_Description',
+	@value = N'Contains possible locations.',
+	@level0type = N'SCHEMA',
+	@level0name = N'dbo',
+	@level1type = N'TABLE',
+	@level1name = N'tLocations';
+GO
+Trzecia tabela to
+dbo.tAdverts
+. Kod tej tabeli wygląda następująco:
+CREATE TABLE dbo.tAdverts
+(
+AdvertID INT IDENTITY (1,1) NOT NULL,
+Title NVARCHAR(50) NOT NULL,
+Content NVARCHAR(250) NOT NULL,
+StartDate DateTime2(0) NOT NULL,
+DueDate DateTime2(0) NOT NULL,
+UserID INT NOT NULL,
+LocationID int NOT NULL,
+CONSTRAINT PK_tAdverts_AdvertID PRIMARY KEY CLUSTERED (AdvertID ASC),
+CONSTRAINT FK_tAdverts_Users FOREIGN KEY (UserID) REFERENCES dbo.tUsers (UserID),
+CONSTRAINT FK_tAdverts_Locations FOREIGN KEY (LocationID) REFERENCES dbo.tLocations (LocationID)
+);
+GO
+EXECUTE sp_addextendedproperty
+	@name = N'MS_Description',
+	@value = N'Contains all adverts.',
+	@level0type = N'SCHEMA',
+	@level0name = N'dbo',
+	@level1type = N'TABLE',
+	@level1name = N'tAdverts';
+GO
+Czwarta tabela to
+dbo.tCategories
+. Jej kod znajduje się poniżej:
+CREATE TABLE dbo.tCategories
+(
+CategoryID INT IDENTITY(1,1) NOT NULL,
+CategoryName NVARCHAR(50) NOT NULL,
+ParentID INT NULL,
+CONSTRAINT PK_tCategories_CategoryID PRIMARY KEY CLUSTERED (CategoryID ASC)
+);
+GO
+EXECUTE sp_addextendedproperty
+	@name = N'MS_Description',
+	@value = N'Contains all categories and subcategories.',
+	@level0type = N'SCHEMA',
+	@level0name = N'dbo',
+	@level1type = N'TABLE',
+	@level1name = N'tCategories';
+GO
+Ostatnia tabela, którą dodamy do naszej bazy danych to tabela
+dbo.tAdvertsCategories
+z następującym kodem:
+CREATE TABLE dbo.tAdvertsCategories
+(
+	AdvertID INT NOT NULL,
+	CategoryID INT NOT NULL,
+	CONSTRAINT PK_tAdvertsCategories_tAdverts_tCategories PRIMARY KEY CLUSTERED (AdvertID ASC, CategoryID ASC),
+	CONSTRAINT FK_tAtdvertsCategories_tAdverts FOREIGN KEY (AdvertID) REFERENCES dbo.tAdverts (AdvertID),
+	CONSTRAINT FK_tAdvertsCategories_tCategories FOREIGN KEY (CategoryID) REFERENCES dbo.tCategories (CategoryID)
+);
+GO
+EXECUTE sp_addextendedproperty
+	@name = N'MS_Description',
+	@value = N'Contains info about adverts and categories.',
+	@level0type = N'SCHEMA',
+	@level0name = N'dbo',
+	@level1type = N'TABLE',
+	@level1name = N'tAdvertsCategories';
+GO
+Z menu
+Build
+wybieramy opcję
+Build Solution
+lub klikamy przycisk
+F6
+. Powinniśmy na samym dole zobaczyć informację
+Build succeeded
+.
+Publikowanie (
+publish
+) projektu bazy danych pozwala na umieszczenie wszystkich skryptów SQL na serwerze bazy danych i utworzenie obiektów w bazie danych.
+Aby opublikować naszą bazę danych, klikamy prawym przyciskiem myszy na projekcie
+ET
+, a potem wybieramy opcję
+Publish
+.
+W oknie dialogowym
+Publish Database
+klikamy przycisk
+Advanced
+.
+W nowym oknie dialogowym zaznaczamy checkbox obok opcji
+Always re-create database
+. Spowoduje to usuwanie starej i tworzenie nowej bazy danych po każdym uruchomieniu skryptu.
+Klikamy przycisk
+OK
+.
+W oknie dialogowy
+Publish Database
+klikamy przycisk
+Edit
+. Wybieramy nasze połączenie z
+Recent Connections
+i klikamy przycisk
+OK
+.
+Klikamy przycisk
+Publish
+.
+Po kliknięciu przycisku
+Publish
+rozpoczyna się publikacja. W Visual Studio pojawia się nowa zakładka
+Data Tools Operations
+. Na zakończenie publikowania powinniśmy zobaczyć informację:
+Publish completed successfully
+. Klikając na link
+View Script
+możemy podejrzeć, jaki skrypt został uruchomiony na bazie danych.
+Po opublikowaniu tego skryptu w
+SSMS 2017
+możemy zobaczyć, że w bazie
+ETDatabase
+pojawiło się 5 nowych tabel (utworzonych zgodnie z definicjami podanymi w projekcie bazy danych
+ET
+).
+Po wykonaniu tych wszystkich kroków mamy stworzony projekt baz danych i opublikowaną bazę danych na server MS SQL. Projekt pokazywany tutaj znajdziesz pod tym
+linkiem
+na Githubie.
+Share this post:

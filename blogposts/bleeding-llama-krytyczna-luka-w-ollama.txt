@@ -1,0 +1,82 @@
+Bleeding Llama: Krytyczna luka RCE w Ollama (CVE-2026-7482)
+Dlaczego lokalne AI przestało być bezpiecznym azylem? Przede wszystkim, każdego dnia światło dzienne ujrzą nowe fakty dotyczące bezpieczeństwa – a raczej jego rażącego braku. Jesteśmy świadkami fascynującego, choć przerażającego procesu. Mianowicie, przy pomocy nowoczesnych narzędzi z szaf wyciągane są trupy exploitów sprzed kilkunastu lat, a badacze wykopują szkielety podatności tkwiących tuż pod naszymi nosami. Na tych kruchych fundamentach budowaliśmy nasze „bezpieczne” rozwiązania. Co gorsza, obok starych błędów pojawiają się zupełnie nowe zagrożenia, takie jak
+krytyczna luka w Ollama
+, o której dziś głośno w świecie CyberSec.
+„
+Ja tam mam Ollamę uruchomioną lokalnie, mnie te wycieki z chmury nie dotyczą
+” – to zdanie, powtarzane jak mantra przez tysiące użytkowników, właśnie straciło na aktualności.
+Kiedy Llama zaczyna krwawić: krytyczna luka w Ollama (CVE-2026-7482)
+Użytkownicy Ollamy, jednego z najpopularniejszych narzędzi do lokalnego uruchamiania modeli językowych (LLM), mają powody do ogromnego niepokoju. Niewątpliwie, w systemie pojawiła się
+krytyczna luka w Ollama
+, ochrzczona przez badaczy mianem „
+Bleeding Llama
+”. W konsekwencji, to bolesne przypomnienie, że samo odcięcie się od gigantów technologicznych takich jak OpenAI czy Google nie czyni naszej infrastruktury niezdobytą twierdzą. Infrastruktura AI stała się nowym, głównym frontem w globalnej walce o dane.
+Techniczna anatomia zagrożenia
+Podatność
+CVE-2026-7482
+otrzymała w skali
+CVSS
+bardzo wysoki wynik
+9.1
+. Jest to luka typu
+Remote Code Execution (RCE), która pozwala napastnikowi na przejęcie kontroli nad systemem bez jakiejkolwiek konieczności uwierzytelnienia. W świecie, gdzie automatyzacja i agenci AI coraz częściej mają dostęp do naszych prywatnych plików, taki „wytrych” w rękach hakerów to scenariusz katastrofalny.
+Identyfikator:  CVE-2026-7482
+Wynik:  CVSS 9.1 (Krytyczny)
+Wektor ataku:  Złośliwe pliki modeli GGUF
+Podatne wersje:  Ollama < 0.17.1
+Mechanizm ataku: GGUF jako koń trojański
+W szczególności, wektor ataku opiera się na formacie plików GGUF, który jest standardem dla kwantyzowanych modeli uruchamianych na procesorach graficznych i konsumenckim sprzęcie. Jak wiadomo,
+GGUF (GPT-Generated Unified Format)
+to popularny format plików stworzony do wydajnego uruchamiania modeli sztucznej inteligencji (LLM oraz modeli generujących obrazy, takich jak FLUX) lokalnie na komputerze. Pozwala on na ogromną kompresję przy minimalnej utracie dokładności.
+Niestety, nowo odkryta
+krytyczna luka w Ollama
+sprawia, że napastnik może przygotować spreparowany plik modelu GGUF. W efekcie, po załadowaniu go przez podatną wersję programu, wykorzystane zostają błędy w zarządzaniu pamięcią (
+heap out-of-bounds read
+). Wynikiem jest możliwość zdalnego wycieku zawartości pamięci serwera lub wykonania dowolnych komend.
+Co dokładnie może zostać skradzione?
+Wiele osób zakłada, że jedynym ryzykiem jest utrata „rozmowy z chatbotem”. Prawda jest znacznie bardziej brutalna. Atakujący mogą uzyskać dostęp do:
+Kluczy API i zmiennych środowiskowych
+– często przechowywanych w pamięci procesu do celów integracji z zewnętrznymi bazami danych czy firmowymi narzędziami.
+Promptów systemowych
+– czyli ukrytych „instrukcji bazowych”, które stanowią własność intelektualną wielu firm budujących rozwiązania oparte na AI.
+Historii konwersacji
+– zawierających często dane wrażliwe, poufne dane finansowe lub tajemnice przedsiębiorstwa wpisywane przez nieświadomych pracowników.
+Wewnętrznych danych
+– przetwarzanych przez model w ramach innowacyjnych procesów RAG (Retrieval-Augmented Generation).
+Skala problemu: 300 000 otwartych furtek a krytyczna luka w Ollama
+Mimo że Ollama jest z założenia projektowana jako narzędzie w 100% lokalne, wygoda użytkowników zazwyczaj bierze górę nad procedurami bezpieczeństwa. Obecnie szacuje się, że na całym świecie nawet 300 tysięcy serwerów Ollama jest wystawionych bezpośrednio na publiczny internet bez absolutnie żadnych zabezpieczeń. Dlatego też,
+każda z tych instalacji, jeśli nie została zaktualizowana, jest obecnie otwarta na atak „Bleeding Llama”.
+Krytyczna luka w Ollama – jak nie stać się ofiarą ataku
+Jeśli korzystasz z Ollamy w swojej firmie lub prywatnie, wykonaj natychmiast następujące kroki:
+Podnieś wersję Ollama do v0.17.1 lub nowszej
+. To jedyny skuteczny sposób na załatanie samej luki.
+Zgodnie z zasadą Zero Trust nigdy nie wystawiaj portu API Ollamy bezpośrednio na świat.
+Używaj tuneli VPN lub bezpiecznych połączeń lokalnych.
+Stosuj firewalle i reverse proxies (np. Nginx, Caddy) z wymuszonym uwierzytelnieniem (np. OAuth).
+Monitoruj ruch i obserwuj nietypowe transfery wychodzące. Wyciek pamięciczęsto generuje charakterystyczne wzorce ruchu sieciowego.
+Weryfikuj źródła i pobieraj modele GGUF wyłącznie z zaufanych repozytoriów i od sprawdzonych twórców, np. na Hugging Face.
+Bezpieczeństwo infrastruktury AI jest dziś tak samo krytyczne, jak tradycyjne CyberSec. Nie
+możemy pozwalać sobie na ignorancję, tłumacząc ją „lokalnym charakterem” narzędzi. Jeśli
+budujesz rozwiązania oparte na LLM, o bezpieczeństwie musisz myśleć od pierwszego wiersza kodu i pierwszej konfiguracji serwera. „Bleeding Llama” to tylko wierzchołek góry lodowej – w miarę jak AI będzie coraz głębiej wnikać w nasze systemy, liczba i skomplikowanie ataków będą tylko rosnąć.
+Stay safe and secure!
+Niniejszy wpis ma charakter wyłącznie edukacyjny i służy budowaniu świadomości w zakresie cyberbezpieczeństwa. Wszystkie informacje pochodzą z publicznie dostępnych raportów bezpieczeństwa.
+Źródła:
+Opis
+GGUF
+na Hugging Face.
+Użycie GGUF z
+llama.cpp
+.
+NIST CVE-2026-7482
+Detail
+.
+Informacje z Github Advisory database: Ollama contains a heap out-of-bounds read
+vulnerability in the GGUF
+model loader.
+Jeśli chcesz przeszkolić swój zespół z szeroko pojętych tematów związanych z bezpieczeństwem i ze sztuczną inteligencją, to zapraszamy na
+bezpłatne, 15-minutowe spotkanie przy wirtualnej kawie
+. To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+umów spotkanie
+Wyślij wiadomość
+Share this post:

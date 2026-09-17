@@ -1,0 +1,118 @@
+Rejestracja konta na chmurze Azure
+Już za kilkanaście godzin pierwsze spotkanie w ramach
+Sierpniowych kolonii na chmurze Azure
+, opisanych w
+tym wpisie
+.
+Ten 31 dniowy maraton wiedzy ma kilka celów:
+zapoznanie z usługami chmury Azure
+podejście i zdanie egzaminu AZ-900 i opcjonalnie SC-900
+zdobycie nowych umiejętności niezbędnych w pracy
+pewnie jeszcze inne, tutaj nie wymienione
+Wpis o egzaminie AZ-900, wymaganiach i przydatnych materiałąch, można znaleźć
+tutaj
+. Powstał także wpis o egzaminie
+SC-900
+.
+Przygotowanie do egzaminu to nie tylko opanowanie teorii, ale i mnóstwo ćwiczeń praktycznych. A do tego potrzebujemy odpowiedniej platformy – chmury Azure.
+Co znajdziesz w tym artykule?
+Rejestracja konta na chmurze Azure
+Jak otrzymać taki dostęp?
+Co oznacza za darmo i czy jest faktycznie za darmo?
+Rejestracja konta na chmurze Azure krok po kroku
+1. Rozpoczęcie procesu i wybór darmowej subskrypcji
+2. Weryfikacja tożsamości i podanie danych
+3. Ochrona konta (MFA) i aktywacja subskrypcji
+Do zobaczenia online już 1 sierpnia 2025 roku.
+Jak otrzymać taki dostęp?
+Można użyć konta firmowego, o ile firma wyrazi na to zgodę.
+Może to być subskrypcja studencka, o ile macie e-mail uczelniany.
+Można utworzyć płatną subskrypcję (Pay as you go) .
+Może to też być
+„darmowe”
+konto dla każdego chętnego, niezależnie od wieku czy posiadania statusu studenta.
+Co oznacza za darmo i czy jest faktycznie za darmo?
+Zapłatą za tego typu konto są Wasze dane użyte podczas rejestracji. W zamian za te dane otrzymacie 200$ do wykorzystania przez pierwsze 30 dni na wszystkie usługi, a potem ponad 65 usług za darmo przez kolejnych 12 miesięcy. Tak więc w ten sposób można nauczyć się Azure’a bez kosztownych inwestycji.
+Ponieważ wiem, że nie każdy ma dostęp do konta firmowego i nie każdy ma status studenta, to ja przez najbliższe 30 dni będę bazowała na koncie utworzonym wg tej ostatniej opcji.
+Rejestracja konta na chmurze Azure krok po kroku
+1. Rozpoczęcie procesu i wybór darmowej subskrypcji
+Po pierwsze, potrzebujemy e-maila. Ja na potrzeby tych spotkań będę używała e-maila w domenie
+Hotmail.
+Może być także Outlook, Gmail itd.
+W przeglądarce wpisujemy adres:
+https://azure.microsoft.com/en-us/
+. Ponieważ w IT język angielski to obecnie
+Must have
+, a ja nie lubię niektórych tłumaczeń z angielskiego na polski, dlatego ja będę korzystała z angielskiej wersji strony, ale można też z polskiej dostępnej pod tym
+linkiem
+.
+Klikamy przycisk
+Get started with Azure
+.
+Na stronie
+https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/
+wybieramy
+Try Azure for free
+. Wersja
+Pay as you go
+zawiera ten sam katalog usług, co wersja darmowa, ale bez ograniczeń np. co do wielkości maszyn. Płacimy w tej opcji za to, co zużyliśmy.
+2. Weryfikacja tożsamości i podanie danych
+Po kliknięciu przycisku
+Try Azure for free
+otworzy się okno dialogowe, w którym należy podać swój adres e-mail. Ten krok to weryfikacja, czy dany e-mail będzie odpowiedni do założenia konta Azure. Istnieje także możliwość zalogowania się za pomocą konta Github.
+Jeśli pojawi się okienko z prośbą o hasło, to w kolejnym kroku podajemy hasło do poczty, w celu weryfikacji e-maila.
+Na stronie
+Create your Azure free account, Step 1 of 3,
+sprawdzamy w prawym górnym rogu, czy jesteśmy zalogowani za pomocą poprawnego adresu e-mailowego.
+Podajemy wymagane dane, w tym numer telefonu, rozwiązujemy puzzle i klikamy przycisk
+Next
+.
+Na kolejnej stronie
+Step 2 of 3
+podajemy dane adresowe i zaznaczamy wybrane zgody i ponownie klikamy przycisk
+Next
+.
+Na stronie
+Step 3 of 3
+niestety, ale musimy podać dane karty kredytowej, a na koniec kliknąć przycisk
+Sign up
+.
+3. Ochrona konta (MFA) i aktywacja subskrypcji
+Na następnej stronie
+Protect your account
+widzimy informację o włączeniu
+MFA
+, czyli uwierzytelniania wieloskładnikowego. Klikamy przycisk
+Next
+.
+Jeśli zajdzie taka potrzeba, podajemy hasło do poczty e-mail. Klikamy przycisk
+Next
+.
+Wybieramy sposób ochrony naszego konta:
+alternatywny adres e-mail
+lub
+numer telefonu
+.
+Podajemy kod wysłany np. na alternatywny adres e-mail. Klikamy przycisk
+Next
+.
+Jeśli wykonaliśmy wszystko poprawnie, to naszym oczom powinien ukazać się widok taki jak poniżej.
+Jak jesteśmy początkujący to możemy kliknąć przycisk
+Get started
+, aby uzyskać więcej informacji o chmurze Azure. Jak już wiemy co i jak, klikamy przycisk
+Cancel
+.
+W portalu Azure szukamy opcji
+Subscriptions
+.
+Upewniamy się, że nasza subskrypcja jest aktywna.
+I teraz jesteśmy już gotowi do rozpoczęcia przegody z chmurą Azure 🙂
+Jeśli macie jakieś
+pytania
+lub coś Wam nie działa, jest kilka opcji uzyskania pomocy. Można napisać komentarz pod którymś z wpisów lub można zadać pytanie na dedykowanym kanale na
+Discordzie Not The Hidden Wiki
+pod tym
+linkiem
+.
+Do zobaczenia online już 1 sierpnia 2025 roku.
+Share this post:

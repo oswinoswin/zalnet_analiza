@@ -1,0 +1,318 @@
+Jupyter Notebook w VS Code – poradnik
+Jupyter Notebook w VS Code pozwala pisać kod, dodawać opisy i oglądać wyniki bez przełączania się między edytorem a przeglądarką. W jednym pliku można połączyć kod Pythona, wykresy, tabele, równania oraz notatki. Dlatego notebooki dobrze sprawdzają się podczas nauki programowania, analizy danych, testowania modeli uczenia maszynowego i przygotowywania instrukcji technicznych.
+W tym poradniku pokażę krok po kroku, jak przygotować środowisko, utworzyć lub otworzyć plik
+.ipynb
+, wybrać właściwy kernel i uruchomić pierwsze komórki. Wyjaśnię również, co zrobić, gdy Visual Studio Code nie widzi Pythona albo zainstalowanych bibliotek.
+ENGLISH version of this article – click
+here
+.
+Co znajdziesz w tym artykule?
+Jupyter Notebook w VS Code – poradnik
+Co to jest plik Jupyter Notebook?
+Dlaczego warto używać Jupyter Notebook w VS Code?
+Czego potrzebujesz przed rozpoczęciem pracy z Jupyter Notebook w VS Code?
+Jak zainstalować obsługę Jupyter Notebook w VS Code?
+Krok 1. Zainstaluj Visual Studio Code i Python
+Krok 2. Zainstaluj rozszerzenia Python i Jupyter
+Krok 3. Utwórz środowisko wirtualne
+Krok 4. Zainstaluj pakiety Jupyter
+Jak utworzyć nowy Jupyter Notebook w VS Code?
+Jak otworzyć istniejący plik IPYNB?
+Jak wybrać kernel w Jupyter Notebook?
+Pierwszy kod w Jupyter Notebook w VS Code
+Jak dodać opis w komórce Markdown?
+Przykład analizy danych w notebooku
+Kolejność uruchamiania komórek ma znaczenie
+Jak instalować brakujące biblioteki?
+Najczęstsze problemy z Jupyter Notebook w VS Code
+Visual Studio Code nie pokazuje kernela
+Pojawia się błąd ModuleNotFoundError
+Komórka wykonuje się bez końca
+Nie można uruchomić kodu w pobranym projekcie
+Jak zapisać i wyeksportować notebook?
+Dobre praktyki pracy z plikami .ipynb
+Jupyter Notebook w VS Code – podsumowanie
+Co to jest plik Jupyter Notebook?
+Jupyter Notebook to dokument, w którym treść dzieli się na komórki. Jedne zawierają wykonywalny kod, a inne tekst zapisany w składni Markdown. Wynik działania kodu pojawia się bezpośrednio pod daną komórką. Może to być liczba, tabela, komunikat, wykres albo błąd wymagający poprawienia.
+Pliki notebooków mają rozszerzenie
+.ipynb
+. Technicznie są zapisane w formacie JSON, jednak na co dzień nie trzeba edytować ich surowej zawartości. Visual Studio Code wyświetla je w czytelnym edytorze przypominającym cyfrowy zeszyt laboratoryjny.
+Najprościej mówiąc, zwykły plik
+.py
+przypomina kartkę z kodem. Notebook bardziej przypomina zeszyt, w którym obok kodu znajdują się obliczenia, wyniki, wykresy i komentarze wyjaśniające kolejne kroki.
+Więcej informacji o samym formacie notebooków można znaleźć w
+oficjalnej dokumentacji projektu Jupyter
+.
+Dlaczego warto używać Jupyter Notebook w VS Code?
+Klasyczny Jupyter Notebook działa w przeglądarce. Z kolei Visual Studio Code pozwala pracować z plikami .ipynb w tym samym miejscu, w którym edytujemy skrypty, zarządzamy projektem i korzystamy z systemu Git.
+Do najważniejszych zalet należą:
+wykonywanie kodu komórka po komórce,
+podgląd wyników bezpośrednio pod kodem,
+obsługa podpowiedzi IntelliSense,
+łatwe tworzenie opisów w Markdown,
+podgląd zmiennych oraz danych tabelarycznych,
+możliwość debugowania kodu,
+eksport notebooka między innymi do pliku HTML, PDF lub skryptu Python,
+wygodne porównywanie zmian w notebookach za pomocą narzędzi Git.
+Dzięki temu można zacząć od krótkiego eksperymentu, a następnie przenieść sprawdzony kod do większej aplikacji. Takie podejście jest szczególnie wygodne podczas nauki Pythona, analizy danych i pracy z uczeniem maszynowym. Te obszary pojawiają się również w
+szkoleniach ze sztucznej inteligencji i Machine Lerning od ZALNET
+.
+Czego potrzebujesz przed rozpoczęciem pracy z Jupyter Notebook w VS Code?
+Do obsługi notebooków z kodem Pythona potrzebujesz kilku elementów:
+programu
+Visual Studio Code
+,
+zainstalowanego oprogramowania
+Python
+,
+rozszerzenia Python firmy Microsoft
+,
+rozszerzenia Jupyter firmy Microsoft
+,
+środowiska Pythona zawierającego pakiet
+jupyter
+lub
+ipykernel
+.
+Rozszerzenie Jupyter dodaje obsługę interfejsu notebooków, ale samo nie jest kernelem. Kod nadal musi zostać wykonany przez odpowiednie środowisko, na przykład środowisko Pythona z zainstalowanym pakietem ipykernel.
+Jak zainstalować obsługę Jupyter Notebook w VS Code?
+Krok 1. Zainstaluj Visual Studio Code i Python
+Najpierw pobierz i zainstaluj Visual Studio Code. Następnie zainstaluj aktualną wersję Pythona ze strony python.org lub użyj dystrybucji takiej jak Anaconda czy Miniconda.
+Po instalacji otwórz terminal w Visual Studio Code. Możesz to zrobić z menu
+Terminal → New Terminal
+. Następnie sprawdź, czy Python jest dostępny:
+python --version
+(PL) Sprawdzenie wersji Pythona/(EN) Checking Python version
+Na niektórych komputerach z systemem Windows lub macOS właściwe polecenie może wyglądać tak:
+python3 --version
+Jeżeli terminal wyświetli numer wersji, Python został rozpoznany prawidłowo.
+Krok 2. Zainstaluj rozszerzenia Python i Jupyter
+Otwórz widok rozszerzeń za pomocą ikony Extensions na lewym pasku albo skrótu
+Ctrl+Shift+X.
+Wyszukaj i zainstaluj dwa rozszerzenia opublikowane przez Microsoft:
+Python,
+Jupyter.
+Nie wybieraj przypadkowych rozszerzeń o podobnej nazwie. Informacja o wydawcy znajduje się bezpośrednio na stronie dodatku.
+Rozszerzenie można znaleźć bezpośrednio w
+Visual Studio Marketplace
+. Natomiast opis jego najważniejszych funkcji znajduje się w
+oficjalnej dokumentacji Jupyter Notebooks w Visual Studio Code
+.
+Krok 3. Utwórz środowisko wirtualne
+Środowisko wirtualne oddziela biblioteki jednego projektu od pozostałych projektów. Dzięki temu różne aplikacje mogą korzystać z innych wersji tych samych pakietów bez wzajemnych konfliktów.
+Kompletny poradnik o tworzeniu środowiska wirtualnego Python znajduje się w innym naszym wpisie:
+Środowisko wirtualne Python w Windows – kompletny poradnik
+Utwórz folder projektu, otwórz go w Visual Studio Code, a następnie wpisz w terminalu:
+python -m venv .venv
+W systemie Windows aktywuj środowisko poleceniem:
+.venv\Scripts\Activate.ps1
+W systemie Linux lub macOS użyj:
+source .venv/bin/activate
+Po aktywacji nazwa
+(.venv)
+powinna pojawić się na początku wiersza terminala.
+(PL) Środowisko wirtualne Python/(EN) Python Virtual Environment
+Krok 4. Zainstaluj pakiety Jupyter
+W aktywnym środowisku wykonaj polecenie:
+python -m pip install jupyter ipykernel
+(PL) Instalacja pakietów Jupyter/(EN) Jupyter package installation
+Jeżeli zamierzasz analizować dane, możesz od razu dodać popularne biblioteki:
+python -m pip install pandas matplotlib
+Użycie polecenia
+python -m pip
+zmniejsza ryzyko, że pakiet trafi do innej instalacji Pythona niż ta aktualnie używana przez projekt.
+(PL) Instalacja popularnych bibliotek/(EN) Popular libraries installation
+Jak utworzyć nowy Jupyter Notebook w VS Code?
+Nowy notebook można utworzyć na dwa proste sposoby.
+Pierwsza metoda
+:
+1. Otwórz paletę poleceń skrótem
+Ctrl+Shift+P
+.
+2. Wpisz
+Create: New Jupyter Notebook
+.
+(PL) Tworzenie nowego Jupyter Notebook/(EN) Creating New Jupyter Notebook
+3. Wybierz polecenie z listy.
+4. Zapisz plik z rozszerzeniem
+.ipynb
+, na przykład
+test_notebook.ipynb
+.
+(PL) Jupyter Notebook utworzony/(EN) Jupyter Notebook created
+Druga metoda
+polega na utworzeniu nowego pliku bezpośrednio w panelu Explorer. Wystarczy nadać mu nazwę kończącą się rozszerzeniem .ipynb. Visual Studio Code automatycznie otworzy edytor notebooka.
+Jak otworzyć istniejący plik IPYNB?
+Jeżeli masz już plik notebooka, wybierz
+File → Open File
+i wskaż plik .ipynb. Możesz również otworzyć cały folder projektu, a później kliknąć nazwę notebooka w panelu Explorer.
+Plik powinien pojawić się jako zestaw komórek. Gdy zamiast nich widzisz surowy kod JSON, kliknij kartę pliku prawym przyciskiem myszy, wybierz
+Reopen Editor With
+, a następnie wskaż edytor Jupyter Notebook.
+Jak wybrać kernel w Jupyter Notebook?
+Kernel jest procesem, który wykonuje kod zapisany w komórkach. Można porównać go do silnika: notebook przechowuje instrukcje i wyniki, natomiast kernel naprawdę uruchamia program.
+Po otwarciu notebooka kliknij przycisk
+Select Kernel
+w prawym górnym rogu.
+(PL) Select Kernel w VS Code/(EN) Select Kernel in VS Code
+Następnie wybierz
+Python Virtual Environments…
+.
+(PL) Python Environments w VS Code/(EN) Python Environments in VS Code
+Potem wskaż środowisko utworzone w folderze .venv.
+(PL) Środowisko wirtualne Python/(EN) Python Virtual Environment
+Zaczekaj, aż nazwa kernela pojawi się w prawym górnym rogu.
+(PL) .venv jako kernel/(EN) .venv as a kernel
+Ten krok ma duże znaczenie. Jeśli biblioteka pandas została zainstalowana w .venv, ale notebook korzysta z globalnego Pythona, import może zakończyć się błędem
+ModuleNotFoundError
+.
+Pierwszy kod w Jupyter Notebook w VS Code
+Kliknij przycisk
++ Code
+, a następnie wpisz kod poniżej i zapisz zmiany:
+message = "Witaj w Jupyter Notebook!"
+print(message)
+(PL) Pierwszy Jupyter Notebook w VS Code/(EN) First Jupyter Notebook in VS Code
+Uruchom komórkę przyciskiem z symbolem trójkąta po jej lewej stronie. Możesz też użyć skrótu:
+Ctrl+Enter
+– uruchamia bieżącą komórkę,
+Shift+Enter
+– uruchamia komórkę i przechodzi do następnej,
+Alt+Enter
+– uruchamia komórkę i dodaje nową poniżej.
+Wynik pojawi się bezpośrednio pod kodem.
+(PL) Uruchomienie Jupyter Notebook w VS Code/(EN) Run Jupyter Notebook in VS Code
+Następnie dodaj drugą komórkę:
+numbers = [10, 20, 30, 40]
+average = sum(numbers) / len(numbers)
+average
+W notebooku nie zawsze trzeba używać funkcji
+print()
+. Wartość ostatniego wyrażenia w komórce zostanie wyświetlona jako wynik.
+(PL) Zwracanie wyniku z Jupyter Notebook w VS Code/(EN) Output from Jupyter Notebook in VS Code
+Jak dodać opis w komórce Markdown?
+Dobry notebook nie powinien zawierać wyłącznie kodu. Opisy pomagają zrozumieć cel analizy, przyjęte założenia oraz otrzymane wyniki.
+Dodaj nową komórkę między dwiema wcześniejszymi komórkami, a później zmień jej typ z Code na Markdown. Kliknij
++ Markdown
+i wpisz na przykład:
+## Obliczanie średniej
+
+W tej części obliczamy średnią wartość dla czterech liczb.
+Po uruchomieniu komórki tekst zostanie sformatowany.
+Wskazówka
+: Kliknięcie ikony ✓ (tick) w Markdown zatrzymuje edycję, natomiast ikona ołówka pozwala wejść w tryb edycji tekstu.
+(PL) Dodawanie komentarzy w Jupyter Notebook/(EN) Adding comments in Jupyter Notebook
+Nagłówki zapisane w Markdown tworzą również strukturę dokumentu, którą można przeglądać w panelu Outline.
+(PL) Nagłówki w Jupyter Notebook/(EN) Headers in Jupyter Notebook
+Przykład analizy danych w notebooku
+Jupyter Notebook jest szczególnie przydatny podczas pracy z bibliotekami Pandas i Matplotlib.
+Dodaj najpierw opis za pomocą + Markdown:
+## Utworzenie prostej tabeli
+Najpierw należy zaimportować bibliotekę pandas, a jeśli nie jest zainstalowana, to należy uruchić ten kod: pip install pandas
+Poniższy kod importuje do naszego wirtualnego środowiska bibliotekę pandas:
+import pandas as pd
+(PL) Import biblioteki pandas/(EN) Import pandas library
+Teraz należy dodać kod tworzący prostą tabelę:
+data = {
+    "Produkt": ["A", "B", "C"],
+    "Sprzedaż": [120, 180, 150]
+}
+
+sales = pd.DataFrame(data)
+sales
+(PL) Tworzenie prostej tabeli/(EN) Creating simple table
+W kolejnej komórce można przygotować wykres:
+import matplotlib.pyplot as plt
+
+sales.plot(
+    x="Produkt",
+    y="Sprzedaż",
+    kind="bar",
+    legend=False,
+    color="#146393"
+)
+
+plt.title("Sprzedaż produktów")
+plt.ylabel("Liczba sprzedanych sztuk")
+plt.show()
+Tabela i wykres pojawią się pod odpowiednimi komórkami. Kod można później zmieniać i uruchamiać ponownie bez wykonywania całego notebooka od początku.
+(PL) Tworzenie wykresów w Jupyter Notebook/(EN) Creating charts in Jupyter Notebook
+Kolejność uruchamiania komórek ma znaczenie
+Notebook przechowuje stan bieżącej sesji. Jeśli w pierwszej komórce utworzysz zmienną, kolejna komórka może z niej skorzystać. Jednak po zamknięciu lub ponownym uruchomieniu kernela ten stan znika.
+Początkujących często zaskakuje sytuacja, w której komórka działała chwilę wcześniej, ale po ponownym otwarciu pliku zgłasza błąd. Przyczyną bywa uruchamianie komórek w innej kolejności niż ta widoczna w dokumencie.
+Dlatego przed zakończeniem pracy warto:
+zrestartować kernel,
+wybrać polecenie
+Run All
+,
+sprawdzić, czy wszystkie komórki wykonują się od początku do końca bez błędów.
+Taki test pozwala upewnić się, że notebook nie zależy od zmiennych pozostałych po wcześniejszych eksperymentach.
+Jak instalować brakujące biblioteki?
+Jeżeli pojawi się komunikat
+ModuleNotFoundError
+, sprawdź nazwę aktywnego kernela. Następnie zainstaluj brakującą bibliotekę w tym samym środowisku.
+Pakiet można zainstalować bezpośrednio z komórki:
+%pip install openpyxl
+Polecenie
+%pip
+jest wygodne w notebookach, ponieważ instaluje pakiet w środowisku powiązanym z bieżącym kernelem. Po instalacji może być potrzebny restart kernela.
+(PL) Przykład użycia %pip w Jupyter Notebook/(EN) Usage of %pip in Jupyter Notebook
+Najczęstsze problemy z Jupyter Notebook w VS Code
+Visual Studio Code nie pokazuje kernela
+Najpierw sprawdź, czy rozszerzenia Python i Jupyter są włączone. Potem otwórz paletę poleceń i uruchom
+Python: Select Interpreter
+. Wybierz właściwe środowisko, a następnie ponownie użyj przycisku
+Select Kernel
+w notebooku.
+Jeśli środowisko nadal nie pojawia się na liście, aktywuj je w terminalu i wykonaj:
+python -m pip install --upgrade ipykernel
+Pojawia się błąd ModuleNotFoundError
+Taki komunikat zwykle oznacza, że biblioteka nie została zainstalowana albo trafiła do innego środowiska. Sprawdź ścieżkę interpretera w notebooku, a potem uruchom:
+import sys
+print(sys.executable)
+Wyświetlona ścieżka pokaże, z której instalacji Pythona korzysta kernel.
+Komórka wykonuje się bez końca
+Kliknij
+Interrupt
+na pasku notebooka. Jeśli proces nadal nie odpowiada, wybierz
+Restart Kernel
+. Trzeba pamiętać, że restart usuwa wszystkie zmienne zapisane w pamięci, dlatego później należy ponownie uruchomić potrzebne komórki.
+Nie można uruchomić kodu w pobranym projekcie
+Visual Studio Code może otworzyć nieznany folder w trybie ograniczonym. Funkcja Workspace Trust chroni przed automatycznym wykonaniem potencjalnie szkodliwego kodu. Ufaj wyłącznie notebookom i projektom, których źródło znasz oraz rozumiesz.
+Plik .ipynb może zawierać kod usuwający dane, pobierający pliki lub przesyłający informacje do zewnętrznych usług. Dlatego przed użyciem polecenia
+Run All
+przejrzyj wszystkie komórki.
+Jak zapisać i wyeksportować notebook?
+Notebook zapiszesz standardowym skrótem
+Ctrl+S
+. Wyniki wykonania komórek mogą zostać zachowane razem z kodem, o ile nie zostaną wcześniej wyczyszczone.
+Aby wyeksportować dokument, otwórz menu z trzema kropkami na pasku notebooka i wybierz
+Export
+.
+Visual Studio Code obsługuje eksport między innymi do:
+pliku Python .py,
+dokumentu HTML,
+dokumentu PDF.
+Eksport do PDF może wymagać dodatkowej instalacji TeX. W prostych przypadkach łatwiej najpierw utworzyć HTML, a następnie zapisać stronę jako PDF z poziomu przeglądarki.
+Dobre praktyki pracy z plikami .ipynb
+Aby notebook był czytelny i możliwy do odtworzenia na innym komputerze:
+opisuj cel każdej części za pomocą komórek Markdown,
+umieszczaj importy bibliotek na początku dokumentu,
+nie zapisuj haseł, tokenów ani kluczy API bezpośrednio w komórkach,
+stosuj środowiska wirtualne osobno dla każdego projektu,
+zapisuj zależności w pliku requirements.txt,
+uruchamiaj cały notebook od początku przed jego udostępnieniem,
+usuwaj poufne dane oraz niepotrzebne wyniki,
+nadawaj zmiennym nazwy wyjaśniające ich przeznaczenie.
+Listę używanych bibliotek można zapisać poleceniem:
+python -m pip freeze > requirements.txt
+(PL) Tworzenie pliku requirements.txt/(EN) Creating requirements.txt file
+Na innym komputerze te same pakiety zainstalujesz za pomocą:
+python -m pip install -r requirements.txt
+Jupyter Notebook w VS Code – podsumowanie
+Praca z Jupyter Notebook w VS Code nie wymaga skomplikowanej konfiguracji. Wystarczy zainstalować Pythona, rozszerzenia Python i Jupyter, przygotować środowisko oraz wybrać odpowiedni kernel. Potem można uruchamiać kod fragmentami, dodawać wyjaśnienia w Markdown i oglądać tabele lub wykresy bezpośrednio w dokumencie.
+Najważniejsza zasada dotyczy zgodności środowisk. Notebook powinien korzystać z tego samego interpretera Pythona, w którym znajdują się wymagane biblioteki. Gdy o tym pamiętasz, większość typowych problemów znika.
+Jeśli chcesz nauczyć się Pythona, analizy danych albo wykorzystywania narzędzi AI w praktyce, potrzebujesz wsparcia –
+sprawdź ofertę ZALNET
+. Więcej informacji o projekcie Jupyter znajdziesz również w oficjalnej dokumentacji.
+Share this post:

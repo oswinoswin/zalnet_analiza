@@ -1,0 +1,183 @@
+Regulamin Security Bez Tabu, czyli jak dostałam bana z przyszłości
+Regulamin sklepu/ów Security Bez Tabu to dla mnie wciąż czarna magia. Wyobraź sobie sytuację: bierzesz udział w technologicznym projekcie edukacyjnym, nagle zostajesz z niego wyrzucony, a organizator powołuje się na złamanie regulaminu. Chcesz sprawdzić, o co chodzi, ale … nie ma takiego zapisu. Magia? Nie, to po prostu specyficzne podejście do prawa w wykonaniu Wojciecha Ciemskiego.
+Moja historia z
+Wyzwaniem Security
+z początku 2025 roku pokazuje, że w świecie IT zasada
+lex retro non agit
+(prawo nie działa wstecz) bywa traktowana bardzo opcjonalnie. Jak się okazuje, nie jestem jedyna – z podobnym „podróżowaniem w czasie” spotkał się ostatnio nawet
+influencer Książulo
+.
+Co znajdziesz w tym artykule?
+Regulamin Security Bez Tabu, czyli jak dostałam bana z przyszłości
+Styczeń 2025: Wyrzucenie w 30-dniowego wyzwania security na podstawie… no właśnie czego?
+Nowy regulamin na securitybeztabu.pl, czyli podróże w czasie i chaos prawny
+Analiza nowego regulaminu Security Bez Tabu – kilka obszarów ryzyka
+1. Przepadek środków i odcięcie od opłaconego kursu za „złe zachowanie" (§ 13)
+2. Blokowanie konta na podstawie samego „podejrzenia" (§ 3 i § 7)
+3. Całkowity zakaz nagrywania ekranu a prawo autorskie wg regulamin Security Bez Tabu (§ 11)
+4. Iluzoryczna wolność słowa i bat na krytykę w komentarzach wg regulamin Security Bez Tabu (§ 12)
+Bałaganu ciąg dalszy: Regulamin Akademia Security Bez Tabu vs Regulamin Security Bez Tabu
+1. Paradoks podatkowy: VAT-owiec vs Nie-VAT-owiec (Najcięższy kaliber)
+2. Konstrukcja ceny: Cena Brutto vs Cena bez VAT
+3. Sposób płatności: Jawny numer konta vs Ukryta automatyzacja w regulamin Security Bez Tabu
+4. Co na to prawo konsumenckie i UOKiK?
+Czy regulaminy mogą wszystko?
+Styczeń 2025: Wyrzucenie w 30-dniowego wyzwania security na podstawie… no właśnie czego?
+W styczniu 2025 roku brałam udział w projekcie „30-dniowe Wyzwanie Security 2025”, organizowanym przez Akademię Security Bez Tabu. Moje podsumowania i raporty z nauki (które możecie prześledzić w moim
+raporcie na blogu Zalnet
+) nagle dobiegły końca. Dlaczego? Bo zostałam z wyzwania po kilku dniach usunięta.
+Organizator, czyli
+Wojciech Ciemski
+z
+Akademia Security Bez Tabu
+podjął tę decyzję arbitralnie, powołując się na rzekome naruszenie zasad. Problem w tym, że w tamtym momencie żaden oficjalny regulamin nie zabraniał moich działań ani nie dawał podstaw do tak radykalnego kroku.
+Gdzie tkwi haczyk? Odpowiedź przyniosły wydarzenia z ostatnich dni.
+Nowy regulamin na securitybeztabu.pl, czyli podróże w czasie i chaos prawny
+Potrzeba było blisko półtora roku, aby administrator serwisu Akademia Security Bez Tabu postanowił zatańczyć z paragrafami.
+Dopiero 30 czerwca 2026 roku
+na stronie pojawił się całkowicie nowy regulamin Akademii. Znajdziemy tam zapisy, które miały prawdopodobnie
+legitymizować moje wyrzucenie… w styczniu 2025 roku
+.
+Co ciekawe, na portalu panuje obecnie kompletny chaos. Nowe zasady wprowadzono tylko dla Akademii, podczas gdy główny
+regulamin Security Bez Tabu
+dla całego sklepu wciąż pozostaje niezmieniony. Tak, tak, są 2 regulaminy, dla
+Security Bez Tabu
+i
+Akademia Security Bez Tabu
+.
+Abyście mogli sami ocenić tę sytuację i porównać dokumenty, przygotowałam dla Was archiwalne i aktualne pliki do pobrania:
+📥
+Regulamin Akademia Security Bez Tabu
+– wersja archiwalna z 05.01.2025 r., obowiązująca do 29.06.2026 r.
+📥
+Nowy regulamin Akademia Security Bez Tabu
+, obowiązujący od 30.06.2026r.
+📥
+Główny regulamin Security Bez Tabu
+– wciąż niezmieniona wersja dla całego sklepu od 01.01.2022 r.
+Mamy więc do czynienia z sytuacją, w której klientów ocenia się na podstawie przepisów, które w momencie rzekomego „naruszenia” po prostu nie istniały. Co więcej, sam nowy dokument budzi ogromne wątpliwości prawne.
+Nowy regulamin Akademia Security Bez Tabu, dostęp 05.07.2026
+Analiza nowego regulaminu Security Bez Tabu – kilka obszarów ryzyka
+Nowy dokument z czerwca 2026 roku to IMHO próba stworzenia twardego „bata” na niewygodnych użytkowników, takich jak ja. Choć twórca dodał w nim klauzule rzekomo chroniące konsumentów, szczegółowa analiza wykazuje
+co najmniej kilka kluczowych punktów
+, które balansują na granicy prawa i mogą zostać uznane przez UOKiK za klauzule abuzywne.
+1. Przepadek środków i odcięcie od opłaconego kursu za „złe zachowanie” (§ 13)
+Zgodnie z nowymi zapisami, jeśli sprzedawca uzna, że doszło do „Rażącego Naruszenia Regulaminu”, może bez ostrzeżenia zablokować konto użytkownika, a
+„opłaty uiszczone przez Użytkownika nie podlegają zwrotowi”
+.
+Problem polega na tym, że w definicji naruszeń umieszczono skrajnie subiektywne kryteria, takie jak „działania godzące w dobre imię marki” czy „rozpowszechnianie nieprawdziwych informacji”. Jeśli klient, który kupił kurs z „dostępem bezterminowym”, skrytykuje publicznie jakość materiałów, sprzedawca może uznać to za hejt, zbanować go i zatrzymać jego pieniądze. Zgodnie z
+art. 385³.- [Katalog klauzul niedozwolonych] Kodeksu cywilnego
+, pozbawianie konsumenta dostępu do opłaconego świadczenia bez zwrotu środków jest rażąco sprzeczne z prawem.
+Art. 385. – [Katalog klauzul niedozwolonych] – Kodeks cywilny
+2. Blokowanie konta na podstawie samego „podejrzenia” (§ 3 i § 7)
+Regulamin daje sprzedawcy prawo do natychmiastowej blokady lub odmowy realizacji zamówienia, jeżeli zachodzi
+„uzasadnione podejrzenie”
+działań bezprawnych lub fraudowych.
+Słowo klucz to
+„podejrzenie”
+. W relacjach z konsumentem sankcje muszą opierać się na obiektywnych i dających się zweryfikować dowodach. Pozostawienie sprzedawcy furtki do odcinania klientów na podstawie jego własnego widzimisię narusza równowagę stron i łamie
+art. 385³ pkt 9 k.c.
+(przedsiębiorca nie może sam dokonywać wiążącej interpretacji umowy).
+Regulamin Akademia Security Bez Tabu, dostęp 05.07.2026
+3. Całkowity zakaz nagrywania ekranu a prawo autorskie wg regulamin Security Bez Tabu (§ 11)
+Nowy regulamin wprowadza bezwzględny zakaz nagrywania ekranu podczas oglądania kursów pod groźbą bana i przepadku środków. Choć intencja ochrony przed piractwem jest zrozumiała, zapis ten może uderzać w
+prawo do dozwolonego użytku osobistego
+(art. 23 Ustawy o prawie autorskim). W końcu konsument ma prawo utrwalić zakupiony materiał wyłącznie na własne, wewnętrzne potrzeby edukacyjne (np. by uczyć się offline). Całkowity, umowny zakaz tej praktyki eliminuje ustawowe prawa konsumenta.
+Zabronione nagrywanie przez regulamin Akademia Security Bez Tabu, dostęp 05.07.2026
+4. Iluzoryczna wolność słowa i bat na krytykę w komentarzach wg regulamin Security Bez Tabu (§ 12)
+Paragraf 12, dotyczący treści użytkowników i opinii, to majstersztyk z zakresu tzw.
+chilling effect
+(efektu mrożącego). Sprzedawca wprowadza tam bezwzględny zakaz publikowania treści, które
+„służą oczernianiu marki Security Bez Tabu”
+. Co prawda w ustępie 4 dodano „wentyl bezpieczeństwa” mówiący, że zakaz nie obejmuje rzetelnej i opartej na faktach krytyki, ale
+to sam sprzedawca rezerwuje sobie prawo do moderacji i oceny, co jest rzetelne, a co nie (§ 12 ust. 6)
+.
+Regulamin Akademia Security Bez Tabu – paragraf 12, dostęp 05.07.2026
+Co więcej, w ustępie 7 sprzedawca zobowiązuje się do uzasadnienia blokady konta lub usunięcia komentarza, ale dodaje sprytne zastrzeżenie:
+„o ile jest to wymagane przez prawo i technicznie możliwe”
+. Z punktu widzenia unijnego prawa, a w szczególności
+Aktu o usługach cyfrowych (DSA)
+, platformy dające możliwość komentowania mają bezwzględny obowiązek jasnego i przejrzystego uzasadniania moderacji. Zasłanianie się „brakiem możliwości technicznych” w regulaminie to prosta droga do wpisania tego zapisu do rejestru klauzul niedozwolonych.
+Bałaganu ciąg dalszy: Regulamin Akademia Security Bez Tabu vs Regulamin Security Bez Tabu
+Porównując
+§ 8 nowego regulaminu Akademii
+z
+punktami 2 i 3 ogólnego regulaminu Security Bez Tabu
+, dochodzimy do wniosku, że
+oba te dokumenty wzajemnie się wykluczają w sposób absolutny
+.
+Mamy tu do czynienia z sytuacją, w której ten sam przedsiębiorca (Wojciech Ciemski), działający pod tym samym NIP-em, w ramach tej samej domeny internetowej, składa klientom
+dwa sprzeczne oświadczenia w kluczowych kwestiach finansowych
+.
+Oto szczegółowa analiza i zestawienie tych rażących sprzeczności:
+1. Paradoks podatkowy: VAT-owiec vs Nie-VAT-owiec (Najcięższy kaliber)
+Regulamin Ogólny (pkt 2):
+„Sprzedawca
+jest płatnikiem VAT
+. Sprzedawca wystawia faktury VAT.”
+Nowy Regulamin Akademii (§ 8):
+„Sprzedawca
+nie jest czynnym podatnikiem VAT
+i korzysta ze zwolnienia z podatku VAT (…) Do Cen nie jest doliczany podatek VAT. Ceny nie zawierają kwoty podatku VAT.
+„
+Porównanie zapisów w regulaminach firmy Security Bez Tabu Wijciech Ciemski, dostęp 05.07.2026
+To jest całkowity absurd prawno-podatkowy. Jednoosobowa działalność gospodarcza (podająca jedną nazwę i jeden numer NIP)
+nie może być jednocześnie czynnym podatnikiem VAT i podatnikiem zwolnionym z VAT
+. Mamy 2 regulaminy na stronie firmy, która chce szkolić innych z cyberbezpieczeństwa.
+Regulamin na stronie głównej obiecuje, że jeśli klient kupi kurs na stronie głównej, powinien dostać fakturę z 23% VAT. Jeśli kupi w zakładce
+/akademia/
+, dostanie fakturę „bez VAT”. Dla Urzędu Skarbowego taka sytuacja to natychmiastowa czerwona flaga. Ponadto, jeśli przedsiębiorca jest zwolniony z VAT, a wystawi fakturę z wykazaną stawką podatku (jak sugeruje regulamin ogólny), to zgodnie z art. 108 ustawy o VAT
+musi ten podatek i tak odprowadzić do urzędu
+.
+2. Konstrukcja ceny: Cena Brutto vs Cena bez VAT
+Regulamin Ogólny (pkt 2):
+„Ceny (…) są cenami brutto.”
+Nowy Regulamin Akademii (§ 8):
+„Do Cen nie jest doliczany podatek VAT. Ceny nie zawierają kwoty podatku VAT.”
+Pojęcie „cena brutto” w polskim prawie konsumenckim i podatkowym wprost oznacza cenę zawierającą już w sobie podatek (w tym wypadku VAT). Nowy regulamin Akademii twierdzi natomiast, że cena nie zawiera VAT-u, bo podmiotu ten podatek nie dotyczy. Dla klienta biznesowego (B2B) to kluczowa różnica – kupując od VAT-owca, przedsiębiorca może odliczyć podatek naliczony. Kupując na podstawie regulaminu Akademii, wrzuca w koszty całą kwotę, ale nic nie odlicza. Chaos informacyjny uniemożliwia klientowi prawidłową ocenę kosztów zakupu.
+3. Sposób płatności: Jawny numer konta vs Ukryta automatyzacja w regulamin Security Bez Tabu
+Regulamin Ogólny (pkt 3):
+Podaje bezpośredni, publiczny numer konta bankowego:
+„59 1050 1025 1000 0097 3892 531 ING Bank Śląski”
+z terminem 7 dni na wpłatę.
+Nowy Regulamin Akademii (§ 8):
+Usuwa jakikolwiek numer konta. Wskazuje jedynie ogólne metody (BLIK, karty, Apple Pay) realizowane przez Tpay.
+O ile zmiana technologiczna (przejście w pełni na bramkę płatniczą w Akademii) jest zrozumiała, o tyle pozostawienie w sieci starego regulaminu z otwartym numerem konta bankowego pozwala klientowi na wykonanie tradycyjnego przelewu poza systemem automatycznym Akademii. Jeśli klient wpłaci pieniądze na konto w ING, powołując się na regulamin ogólny, sprzedawca ma prawny obowiązek zrealizować zamówienie, mimo że system Akademii prawdopodobnie w ogóle nie odnotuje tej płatności automatycznie.
+Ostatnio zakupiłam w
+sklepie Akademia Security Bez Tabu książkę Honeypoty w praktyce, której recenzję umieściłam na blogu
+. I na fakturze, wystawionej w maju, jest podane konto AION Bank, a na dodatek zgodnie z regulaminem powinna być wystawiona faktura VAT, a została wystawiona bez VAT. To jawne mydlenie klientowi oczu.
+4. Co na to prawo konsumenckie i UOKiK?
+W przypadku takiego konfliktu dokumentów na jednej stronie internetowej, zastosowanie mają twarde przepisy Kodeksu cywilnego oraz Ustawy o prawach konsumenta:
+Art. 385 § 2 Kodeksu cywilnego
+:
+„Wzorzec umowy powinien być sformułowany jednoznacznie i w sposób zrozumiały. Postanowienia niejednoznaczne tłumaczy się na korzyść konsumenta.”
+-> Jeśli klient uzna, że kupił jako od VAT-owca i zażąda faktury VAT, bo tak było w jednym z regulaminów na stronie, ma prawo tego dochodzić.
+Transparentność wzorca umowy, dostęp 05.07.2026
+Wprowadzanie w błąd (
+art. 12 ustawy o prawach konsumenta
+):
+Przedsiębiorca ma obowiązek podać łączną cenę wraz z podatkami. Podawanie dwóch sprzecznych informacji o statusie podatkowym sprzedawcy to książkowe wprowadzanie konsumenta w błąd co do podatkowych obowiązków i struktury ceny.
+Obowiązki informacyjne przedsiębiorcy, dostęp 05.07.2026
+Porównanie to udowadnia, że podczas wdrażania nowego regulaminu dla Akademii (czerwiec 2026)
+całkowicie zapomniano o audycie i ujednoliceniu reszty dokumentów na stronie
+. Security Bez Tabu występuje w sieci w dwóch alternatywnych rzeczywistościach podatkowych: jako pełnoprawny płatnik podatku VAT z kontem w ING oraz jako podmiot zwolniony z VAT opierający się wyłącznie na Tpay. Taki stan prawny to bomba zegarowa zarówno wizerunkowa, jak i skarbowa.
+Czy regulaminy mogą wszystko?
+W obrocie prawnym z konsumentem przedsiębiorca nie może być sędzią we własnej sprawie, a już na pewno nie może tworzyć zasad retroaktywnie.
+Zarówno nowo opublikowany dokument dla Akademii, jak i ogólny
+regulamin Security Bez Tabu
+powinny służyć ochronie obu stron, a nie być narzędziem do łatania wizerunkowych dziur po fakcie. Dopóki twórcy internetowi i klienci będą zgadzać się na „bany z przyszłości” i rygorystyczne, niezgodne z prawem przepisy, dopóki standardy polskiego e-commerce będą przypominać radosną twórczość, a nie stabilny biznes oparty na prawie.
+Szkoda, że w świecie polskiego cyberbezpieczeństwa standardy obsługi i komunikacji wyglądają zupełnie inaczej.
+Mamy lipiec 2026 roku. Od mojego nagłego usunięcia z Wyzwania Security minęło już półtora roku, a ja
+wciąż nie wiem, na podstawie jakiego punktu regulaminu zostałam wyrzucona w styczniu 2025 roku
+. Do dzisiaj nikt nie wskazał mi przepisu z tamtego okresu, który dawałby chociażby cień podstawy prawnej do nałożenia bana.
+Rzeczywistość po kilkunastu miesiącach wygląda następująco:
+Wojciech Ciemski do tej pory nie zwrócił mi pieniędzy
+za opłacone usługi, z których mnie bezprawnie wykluczono.
+Mój dostęp do platformy edukacyjnej wciąż nie został przywrócony
+, mimo braku złamania jakichkolwiek ówczesnych zasad.
+Organizator zamiast refleksji i próby naprawienia błędu
+dalej brnie w te same schematy
+, blokując moje merytoryczne opinie i komentarze w swoich kanałach społecznościowych.
+Usunięcie klienta bez jasnej podstawy to błąd. Zatrzymanie jego pieniędzy to rażące naruszenie prawa. Ale uciszanie krytyki i mechaniczne blokowanie opinii poszkodowanej osoby to po prostu wizerunkowy strzał w stopę.
+Cała ta historia dobitnie udowadnia, że nowy, naszpikowany restrykcjami regulamin Akademii z czerwca 2026 roku nie powstał po to, by edukować w duchu transparentności i prawa. Powstał jako spóźnione, pisane na kolanie alibi dla działań, których w żaden legalny sposób obronić się nie da. Przykład Security Bez Tabu pokazuje, jak poprzez ignorowanie prawa, cenzurę i brak zwrotu środków zrobić permanentną plamę na renomie własnej marki.
+Share this post:

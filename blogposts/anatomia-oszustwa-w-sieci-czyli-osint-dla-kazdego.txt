@@ -1,0 +1,345 @@
+Przewodnik po weryfikacji e-sklepów (analiza istniejących stron)
+Anatomia oszustwa w sieci
+nabiera nowego wymiaru w świecie, w którym założenie sklepu internetowego zajmuje mniej czasu niż zaparzenie dobrej kawy. Obecnie dzięki AI taki sklep może stworzyć każdy: programista, właściciel biznesu, który nie napisał nawet linijki kodu, a także hakerzy czy naciągacze. Wystarczy narzędzie AI, kilkadziesiąt dolarów, trochę czasu i można zaczynać. Ten wpis to analiza kilku sklepów internetowych, w których nie wszystko działa tak, jak powinno, oraz wskazanie, na co należy zwracać uwagę. To także pokazanie, że narzędzia OSINT są dla każdego i pomagają nam skutecznie chronić się przed oszustami.
+Co znajdziesz w tym artykule?
+Przewodnik po weryfikacji e-sklepów (analiza istniejących stron)
+Dlaczego warto przeczytać ten atykuł do końca?
+Anatomia oszustwa w sieci – charakterystyka konsumentów
+1. Szybko jak Neo w Matrixie
+2. Bystry jak Hercules Poirot
+3. Przebiegły jak Danny Ocean
+4. Ostrożny jak Indiana Jones
+5. Nieufny jak szalonooki Moody z Harry'ego Pottera
+6. Czujny jak Terminator
+7. Nieugięty jak John Wick
+8. Sceptyczny jak kot u weterynarza
+9. Przezorny jak Strażnik Teksasu
+10. Zdecydowany jak James Bond
+Anatomia oszustwa w sieci – skąd pomysł na taki wpis?
+Anatomia oszustwa w sieci nr 1 – Dysk 128 TB za 160 zł – kiedy oferta łamie prawa ekonomii i logiki
+Przenośny cud techniki znikąd (Analiza przypadku: strona dekorzaly.com)
+Jak działa oszustwo 'fake' SD Flash cards/drives?
+Zabawmy się w detektywa, czyli szukamy nieprawidłowości na stronie sklepu
+Inne nieprawidłowości na stronie sklepu
+Anatomia oszustwa w sieci nr 2 – włoska moda, francuski numer, chiński magazyn
+"Ostatnia szansa" i nierealne rabaty
+Brak przejrzystych danych firmy
+Opinie w sieci nie kłamią
+Jak sprawdzić sklep przed zakupem?
+Anatomia oszustwa w sieci – jak działa taki SCAM
+Inne dziwne usługi i brakujące polityki prywatności
+Anatomia oszustwa w sieci nr 3 – Trenlix.com pod lupą – dlaczego ten sklep wygląda jak książkowy "scam"?
+Trenlix to sklep-widmo: "Tysiące klientów", a w Google pusto
+Sztuczne marki i "™" przy każdym produkcie
+Podejrzana struktura cenowa (magia 89,90 zł)
+Brak transparentności i danych firmy
+Bądź zdroworozsądkowym pesymistą w sieci
+Podsumowanie: nie dajcie się cyberzbójom!
+Dlaczego warto przeczytać ten atykuł do końca?
+Pandemiczna
+„
+złota era e-commerce
+„
+przyniosła nam niesamowitą wygodę – zakupy dostarczane pod drzwi lub do paczkomatu, czasami w niecałe 24 godziny, nieograniczony wybór towarów i płatności jednym kliknięciem. Brzmi idealnie? Czasami, aż za bardzo.
+Niestety, ten sam cyfrowy postęp otworzył drzwi na oścież dla oszustów, naciągaczy i handlarzy iluzją. E-commerce to dzisiaj często Dziki Zachód, gdzie bracia Dalton generują setki fałszywych stron dziennie, Mamuśka liczy kasę, a biedny Lucky Luke nie nadąża z ich usuwaniem.
+Anatomia oszustwa w sieci – charakterystyka konsumentów
+Konsumenci muszą się nauczyć być jednocześnie kupującymi i szeryfami, którzy bronią własnych pieniędzy przed oszustami. Poniżej cechy charakteryzującego idealnego konsumenta w czasach masowych oszustw w sieci.
+1.
+Szybko jak Neo w Matrixie
+Idealny kupujący robi widowiskowe uniki przed wyskakującymi okienkami z „wyprzedażą stulecia -95%” i zamyka okienka szybciej, niż złośliwy skrypt zdąży pomyśleć o załadowaniu się.
+2.
+Bystry jak Hercules Poirot
+Świadomemu klientowi wystarczy mu jedno spojrzenie na pasek adresu, by zauważyć, że zamiast domeny
+blik.pl
+jest
+blik-platnosc.pl
+lub, że w adresie
+bIik.pl
+ukryła się wielka litera „I”, demaskując cały misterny plan oszustów.
+3. Przebiegły jak Danny Ocean
+Taki konsument zna na wylot psychologiczne sztuczki i presję czasu („Tylko 3 sztuki w tej cenie! Ogląda to 140 osób!”). Zamiast ulec emocjom, z uśmiechem sprawdza datę rejestracji domeny w rejestrze WHOIS.
+4.
+Ostrożny jak Indiana Jones
+To klient zamieniający złoty posążek na worek z piaskiem lub saper na polu minowym – zanim wpisze gdziekolwiek numer swojej karty, trzy razy upewni się, czy bramka płatnicza jest prawdziwa, a dla bezpieczeństwa i tak generuje jednorazową kartę wirtualną w aplikacji bankowej, żeby zapłacić za kabel USB na mało znanej stronie.
+5.
+Nieufny jak szalonooki Moody z Harry’ego Pottera
+Taki człowiek na każdy SMS o treści „Twoja paczka wymaga dopłaty 1,50 zł” reaguje swoim kultowym okrzykiem:
+„Stała czujność!” (w oryginale
+Constant vigilance!
+)
+i zamiast klikać w link, zgłasza numer do zablokowania.
+6.
+Czujny jak Terminator
+U takiego klienta jego wewnętrzny HUD natychmiast skanuje stronę sklepu w poszukiwaniu braku regulaminu, brakujących danych NIP/REGON oraz podejrzanych błędów językowych, oznaczając witrynę czerwonym komunikatem:
+ZAGROŻENIE
+.
+7.
+Nieugięty jak John Wick
+Kiedy „konsultant z banku” dzwoni i prosi go o zainstalowanie aplikacji do zdalnego pulpitu (jak AnyDesk) albo podanie kodu Blik, odpowiada lodowatym spojrzeniem w ekran i bezsłownym rozłączeniem się.
+8.
+Sceptyczny jak kot u weterynarza
+Taki kupujący traktuje każdy błąd na stronie jako osobistą zniewagę i próbę ataku.
+9.
+Przezorny jak
+Strażnik Teksasu
+Gdy widzi na stronie ikonki certyfikatów bezpieczeństwa, które okazują się być zwykłymi, nieklikalnymi obrazkami wklejonymi w stopkę i traktuje je z półobrotu.
+10.
+Zdecydowany jak
+James Bond
+To klient, który bez wahania opuszcza sklep, gdy jedyną dostępną metodą płatności okazuje się „zwykły przelew na prywatne konto” lub podejrzany link do Blika.
+Anatomia oszustwa w sieci – skąd pomysł na taki wpis?
+Jako trenerka regularnie prowadząca szkolenia z cyberbezpieczeństwa, także dla osób mniej biegłych w świecie komputerów, stron i hakerów, na co dzień spotykam się z historiami ludzi, którzy stracili oszczędności życia, udostępnili swoje dane przestępcom lub po prostu zapłacili za produkt, który nigdy do nich nie dotarł.
+Często słyszę zdanie: „Ale ta strona wyglądała tak profesjonalnie!”. I tu leży pies pogrzebany – oszuści już coraz rzadziej używają koślawego języka z translatora z błędami ortograficznymi, jak w starych e-mailach od
+„Nigeryjskiego Księcia”
+czy
+Brada Pitta
+. Dzisiejsze fałszywe sklepy często mają piękne zdjęcia, animacje, wyskakujące powiadomienia o tym, że „
+Ktoś z Warszawy właśnie kupił ten produkt
+„, oraz rzekomo bezpieczne płatności.
+W tym wpisie
+weźmiemy pod lupę przykłady stron i sklepów internetowych, znalezione w sieci, które budzą ogromne wątpliwości z perspektywy bezpieczeństwa naszych danych i pieniędzy
+. Na podstawie kilku stron zobaczycie, jak działa anatomia takiego oszustwa. Językiem w pełni zrozumiałym dla osoby spoza branży cybersecurity wyjaśnię, jak w kilka minut zrobić darmowe sprawdzenie sklepu za pomocą darmowych źródeł, by sprawdzić, kto stoi po drugiej stronie ekranu. A jeśli jest już za późno – podpowiem, gdzie szukać ratunku.
+Anatomia oszustwa w sieci nr 1 – Dysk 128 TB za 160 zł – kiedy oferta łamie prawa ekonomii i logiki
+Oszuści najczęściej grają na naszych emocjach: pośpiechu, chęci oszczędności, a czasem – na braku specjalistycznej wiedzy technicznej. Zobaczmy to na konkretnych przykładach.
+Przenośny cud techniki znikąd (Analiza przypadku: strona dekorzaly.com)
+Jednym z takich niegrzecznych sklepów, znalezionych przeze mnie w sieci, jest sklep
+DEKORZALY
+, oferujący m.in. „
+Dysk SSD 128TB Wysoka Prędkość Kompaktowa Wytrzymała
+” za ułamek ceny, w wielkiej promocji. Podobną ofertę mają zresztą sklepy TATA Fashion czy Bursztynhome.
+Baner informuje nas, że „
+NASZA WYPRZEDAŻ MAGAZYNOWA KOŃCZY SIĘ DZIŚ!
+„, do tego jest informacja poprzedzona czerwoną, migającą kropką: „
+TYLKO 7 SZTUK NA STANIE — DUŻE ZAINTERESOWANIE!
+”. I ta ilość nie zmienia się od kilku dni, ale ma przekazać naszemu móżgowi jedną ważną wiadomość: Kup, zanim inni to wykupią.
+Uwaga: Jeżeli chcecie zobaczyć, jak wygląda ten sklep, to otwórzcie go w przeglądarce w trybie incognito, inaczej reklamy jego produktów będziecie potem widzieć na każdej stronie.
+Anatomia oszustwa w sieci – Oferta sprzedaży dysku 128 TB, dostęp: 10.06.2026
+Z punktu widzenia osoby, która w swoim życiu kupiła już wiele drogich dysków, ta oferta jest po prostu
+ekonomicznie niemożliwa
+. Dlaczego? Dysk SSD o pojemności 128 Terabajtów (TB) to obecnie technologia klasy enterprise, która kosztuje krocie. Tymczasem w chińskich
+sklepach dropshippingowych
+takie „zabawki” są sprzedawane za mniej niż 300 złotych.
+Jak działa oszustwo 'fake’ SD Flash cards/drives?
+Nie kupiłam tego dysku osobiście, ale zakładam, że gdybym kupiła taki dysk, to mogłabym go nigdy nie dostać. Ale jest jeszcze inna opcja, że jest to klasyczne oszustwo znane jako
+’fake’ SD Flash cards/drives
+. Oszuści biorą najtańszy i najwolniejszy pendrive o pojemności np. 64 Gigabajtów (GB) – czyli tysiące razy mniejszej – i za pomocą specjalnego oprogramowania hakują jego kontroler.
+Kiedy podłączasz taki sprzęt do komputera, zmanipulowany kontroler okłamuje system operacyjny Windows czy Mac, zgłaszając: „
+Mam 128 Terabajtów miejsca!
+”. Użytkownik zaczyna kopiować na niego swoje cenne zdjęcia, dokumenty z pracy, filmy. Pasek postępu leci do przodu, wszystko wydaje się działać. Jednak fizycznie miejsce kończy się po wgraniu 64 GB danych.
+Co robi sprzęt dalej? Zaczyna nadpisywać nowe pliki na te stare, kasując bezpowrotnie Twoje dane
+. Dowiadujesz się o tym dopiero wtedy, gdy po kilku miesiącach chcesz otworzyć zdjęcia z wakacji, a komputer wyświetla błąd o „
+uszkodzonym pliku
+„. Tracisz nie tylko pieniądze, ale i cenne wspomnienia.
+Dlatego zanim zaczniesz na taki okazyjnie kupiony dysk lub pendrive wgrywać dane, najpierw sformatuj dysk. Albo użyj narzędzia typu
+FakeFlashTest
+.
+Zabawmy się w detektywa, czyli szukamy nieprawidłowości na stronie sklepu
+Analizując kod źródłowy sklepu
+dekorzaly.com
+, przyglądając się zdjęciom i ich opisom, za pomocą opcji z menu podręcznego (prawy klik myszą na zdjęciu) można zauważyć, że plik ze zdjęciem paczki na linii produkcyjnej ma w nazwie:
+Gemini_Generated_Image
+. Co to oznacza? Że nawet zdjęcia na stronie nie są prawdzwe i są wygenerowane przez AI! Oszuści wygenerowali wizualizację nieistniejącej linii produkcyjnej za pomocą sztucznej inteligencji (AI od Google) i zapomnieli zmienić nazwę. Nawet logo Gemini nie usunęli.
+Oczywiście, samo zdjęcie wygenerowane przez AI nie oznacza, że coś jest fałszywe, ale w połączeniu z ceną już powinno dać powody do większej uwagi i zastanowienia
+.
+Zdjęcie paczki wygenrowane przez Google Gemini, dostęp: 10.06.2026
+Zwróćcie też uwagę na element płatności: sklep mocno reklamuje „Bezpieczną płatność BLIK”. BLIK sam w sobie jest systemem bezpiecznym dla banku, ale w e-commerce to pułapka na konsumenta. Transakcja BLIK to odpowiednik wręczenia komuś gotówki do ręki – jeśli towar nie przyjdzie, odzyskanie tych pieniędzy z banku jest niezwykle trudne. Dlatego cyberprzestępcy tak bardzo go kochają. Za zakupy online lepiej płacić kartą płatniczą – dlaczego? O tym w dalszej części wpisu.
+Inne nieprawidłowości na stronie sklepu
+Na głównej stronie sklepu propozycja
+Odbierz 5% zniżki
+jest zapisana bez błędu ortograficznego. Wyskakujące okienko już ma przycisk z błędem w nazwie:
+ODBIEŻ
+MÓJ KOD. Czy profesjonalny sprzedawca robi takie błędy?
+Poprawna pisownia słowa ODBIERZ, dostęp 10.06.2026
+Na pierwszym zdjęciu dysku napis brzmi:
+Portable SSD MOBILE STORAGE 128TB
+, na innym już inny:
+Portable SSD MOBILE STORAGE
+, bez pojemności. Na dodatek dyski niebieski i czarny mają dziwne wycięcia na górze.
+Błędy w zdjęciach dysków, dostęp 10.06.2026
+To kolejny dowód na to, że przedmiot, który chcesz kupić, z dużym prawdopodobieństwem nie istnieje w rzeczywistości.
+Anatomia oszustwa w sieci nr 2 – włoska moda, francuski numer, chiński magazyn
+Sklepy te często znikają, a na ich miejsce, jak grzyby po deszczu pojawiają się nowe. Więc jeśli w chwili, gdy czytasz ten wpis, danego sklepu nie ma już w sieci, to znaczy, że został prawdopodobnie zgłoszony i usunięty. Na jego miejscu, niestety pojawią się nowe, ale
+rekomendacje z tego wpisu wciąż pozostaną aktualne
+.
+Pokazane poniżej przykłady sklepów to zjawisko, które zalało polski internet: masowe sklepy „odzieżowe”, które udają lokalne butiki lub luksusowe europejskie marki. Mamy tu adresy takie jak
+elvena.pl
+,
+weronika-moda.com
+,
+lonalux.pl
+, a do tego szereg podobnych tworów jak
+konkyli.com
+czy
+stellara.pl
+.
+Anatomia oszustwa w sieci – Sklep konkyli.com i mieszanina języków, dostęp: 19.06.2026
+Wybierając sklep internetowy, często kierujemy się atrakcyjnymi zdjęciami i niskimi cenami. Jednak nie wszystko, co znajdziecie w sieci, jest okazją. Dziś pod lupę biorę stronę
+elvena.pl.
+Pokażę, jakie sygnały powinny wzbudzić Waszą czujność i dlaczego warto zachować ostrożność.
+„Ostatnia szansa” i nierealne rabaty
+Pierwszą rzeczą, która rzuca się w oczy po wejściu na stronę, jest sposób prezentacji produktów. Ogromne przekreślone ceny (np. z 700 zł na 180 zł) to klasyczna technika marketingowa mająca na celu wywołanie presji czasu. W świecie e-commerce takie „promocje” zazwyczaj oznaczają, że mamy do czynienia z produktami niskiej jakości (dropshipping), które kupisz znacznie taniej na popularnych platformach typu AliExpress.
+Okazyjne ceny w sklepie elvena.pl, dostęp: 17.06.2026
+Brak przejrzystych danych firmy
+Prawdziwy sklep internetowy w Polsce udostępnia na swojej stronie dane sprzedawcy, takie jak:
+pełna nazwa firmy, adres siedziby, NIP
+oraz
+REGON
+. Na
+elvena.pl
+– podobnie jak w wielu tego typu sklepach – w sekcji „Kontakt” czy „Regulamin” często znajdziesz jedynie adres e-mail (najczęściej generyczny, np. info@…). Brak konkretnych danych to ogromny sygnał ostrzegawczy – w razie problemów z reklamacją lub zwrotem towaru, nie będziesz wiedzieć, do kogo wysłać pismo lub z kim walczyć o swoje prawa konsumenckie.
+Polityka prywatności sklepu elvena.pl, dostęp: 17.06.2026
+Opinie w sieci nie kłamią
+Warto zajrzeć na serwisy takie jak
+Ceneo
+czy
+Trustpilot
+. W przypadku domeny
+elvena.pl
+znajdziesz wiele negatywnych opinii. Klienci najczęściej skarżą się na:
+Problemy z reklamacją:
+Sprzedawca często próbuje zrzucić odpowiedzialność na kupującego lub producenta, w momencie chęci odstąpienia od umowy (zwrotu towaru), klient informowany jest o konieczności odesłania przesyłki do Azji na własny koszt, co często przewyższa wartość zamówienia.
+Towar niezgodny z opisem lub uszkodzony:
+Częsty scenariusz przy tanim imporcie.
+Fatalną obsługę klienta:
+„Odbijanie piłeczki” między różnymi adresami e-mail to standardowa procedura mająca zniechęcić klienta do dalszego dochodzenia swoich praw.
+Opinie o  sklepie elvena.pl na Trustpilot, dostęp: 17.06.2026
+Jak sprawdzić sklep przed zakupem?
+Jeśli zastanawiasz się nad zakupem na
+elvena.pl
+–
+zdecydowanie odradzam
+. Ryzyko utraty pieniędzy lub otrzymania produktu marnej jakości jest zbyt duże w porównaniu do potencjalnych oszczędności.
+Szukaj NIP-u i adresu:
+Jeśli ich nie ma – nie kupuj.
+Sprawdź opinie:
+Wpisz w Google „[nazwa sklepu] opinie” – jeśli pierwsze wyniki to skargi na oszustwa, uciekaj.
+Sprawdź zdjęcia:
+Jeśli zdjęcia produktów wyglądają jak z katalogu modowego, a sklep wydaje się „dziwny”, użyj opcji wyszukiwania obrazem w Google (Google Lens). Często okaże się, że ten sam produkt znajdziesz na chińskich portalach za 1/10 ceny.
+Pamiętaj: Zakupy w sieci powinny być przyjemnością, a nie walką o zwrot swoich pieniędzy!
+Wskazówka dla Ciebie:
+Jeśli już dokonał_ś zakupu i masz problem, zachowaj całą korespondencję mailową, zrób zrzuty ekranu oferty i w razie problemów z płatnością, skorzystaj z procedury
+chargeback
+w swoim banku (jeśli płacił_ś kartą) lub otwórz spór przez operatora płatności.
+Anatomia oszustwa w sieci – jak działa taki SCAM
+Taki model sprzedaży to w większości klasyczny model bezwartościowego dropshippingu lub po prostu
+scam (oszustwo)
+. Otwarcie sklepu na platformie takiej jak Shopify zajmuje 20 minut. Przestępcy kupują np. polską domenę (z końcówką
+.pl
+), „pożyczają” zdjęcia ubrań z platform typu AliExpress (lub używają modelek wygenerowanych przez AI), ustawiają fałszywe liczniki czasu („Promocja kończy się za 19:59!”) i pompują ogromne pieniądze w reklamy na Facebooku i Instagramie.
+Ubranie, które tam „kupisz” (jeśli w ogóle cokolwiek do Ciebie przyjdzie, co nie jest pewne), to najczęściej poliestrowa szmatka z Chin warta 2 dolary, a zapłacisz za nią 140 złotych. Zwrot? Powodzenia z odesłaniem paczki na własny koszt do Hong Kongu. Koszt wysłania paczki z Polski do Hongkongu zaczyna się od około 65 zł za przesyłkę pocztową, a ceny usług kurierskich (np. FedEx, UPS) zaczynają się od około 190–250 zł dla paczki o wadze do 1 kg. Dokładna kwota zależy od wybranego przewoźnika, wagi oraz gabarytów. I na tym właśnie często polega ten biznes. Oszust wie, że nikt przy zdrowych zmysłach nie odeśle wadliwej sukienki za cenę wyższą niż jej wartość. Taka sama sytuacja dotyczy sklepów
+weronika-moda
+.
+pl
+. Piękne, „polskie” imię, a w środku te same mechanizmy – agresywne wyprzedaże, kalki z innych języków i brak transparentnego, polskiego adresu oraz NIP-u w regulaminie.
+Czasami język polski sprawia przestępcom problem i tak np. w sklepie weronika-moda zamiast kategorii
+Sukienki
+mamy kategorię
+Sukienek
+, kategorię
+Marynarek
+zamiast
+Marynarki
+.
+Anatomia oszustwa w sieci – Błędy na stronie weronika-moda.com, dostęp: 17.06.2026
+Inny sklep,
+stellara.pl
+, oprócz kategorii Bluzki, Kurtki czy Marynarki ma też ciekawą kategorię
+Kobiety
+.
+Anatomia oszustwa w sieci – Błędy na stronie stellara.pl, dostęp: 17.06.2026
+A nawet kolekcję męską z eleganckimi bluzkami dla kobiet 😉
+Błędy na stronie stellara.pl, dostęp: 17.06.2026
+Inne dziwne usługi i brakujące polityki prywatności
+Kupujesz usługę – Audyt bezpieczeństwa, zestaw dokumentów czy książkę. Wygląda super. Wchodzisz w regulamin lub politykę prywatności, a tam… pustka. Albo, co gorsza, skopiowany z internetu szablon z adresami „ul. Przykładowa 1, 00-000 Warszawa”.
+Z punktu widzenia cyberbezpieczeństwa (oraz prawa, zwłaszcza RODO), jeśli usługodawca cyfrowy przetwarza Twoje dane, prosi o Twój adres, czy chce podpiąć narzędzie do Twoich kont w social mediach, musi wylegitymować się pełnymi danymi firmowymi. Musisz wiedzieć, z kim zawierasz umowę! Jeżeli strona sprzedająca audyty lub inne usługi nie ma w stopce numeru NIP, KRS lub chociażby nazwy działalności gospodarczej (
+CEIDG
+) powiązanej z konkretnym człowiekiem, to zapala się czerwona flaga z syreną alarmową.
+Dlaczego to jest tak niebezpieczne?
+Brak odpowiedzialności:
+Jeśli zapłacisz np. za bota ułatwiającego pracę, a on zacznie wysyłać spam do Twoich kontaktów biznesowych lub zablokuje Ci konto, kogo pozwiesz? Firmę, której nazwy nie znasz, która nie istnieje?
+Kradzież dostępu (
+Account Takeover
+):
+Wiele usług typu „automatyzacja” prosi o Twoje hasła lub tzw. tokeny sesyjne. Jeśli nie ma za tym legalnej, zarejestrowanej w Polsce czy w Unii Europejskiej firmy, dosłownie dajesz klucze do swojego cyfrowego domu anonimowym osobom z internetu.
+Bezwartościowe certyfikaty:
+Jeśli strona uwiarygadnia się certyfikatami, a nie precyzuje, przez kogo zostały wydane, na jaki czas i jaki mają numer rejestrowy – potraktuj je jak dyplomy wydrukowane na domowej drukarce z darmowego programu graficznego.
+Anatomia oszustwa w sieci nr 3 – Trenlix.com pod lupą – dlaczego ten sklep wygląda jak książkowy „scam”?
+W sieci znalazłam sklep
+Trenlix.com
+. Strona wita nas obietnicami szybkiej wysyłki w Polsce (24–72 godziny), całodobową obsługą klienta oraz hasłem o „
+tysiącach zadowolonych klientów
+„. Brzmi świetnie, prawda? Niestety, po dokładnej analizie okazuje się, że to najprawdopodobniej klasyczna pułapka na nieświadomych konsumentów.
+Oto największe „
+czerwone flagi
+”, które można znaleźć na
+trenlix.com
+:
+Trenlix to sklep-widmo: „Tysiące klientów”, a w Google pusto
+Na stronie głównej dumnie widnieje informacja:
+„
+Tysiące zadowolonych klientów”
+. Tymczasem szybkie sprawdzenie w wyszukiwarkach internetowych (w tym zapytań o opinie, dane WHOIS czy nawet samą nazwę „Trenlix”) zwraca.informacje o nieprawidłowościach w jego działaniu, a nie o zadowolonych klientach. To ogromny sygnał ostrzegawczy. Gdyby sklep rzeczywiście obsłużył tysiące osób, w sieci roiłoby się od opinii na forach.
+Anatomia oszustwa w sieci – Strona główna trenlix.com, dostęp: 17.06.2026
+Brak indeksacji w Google sugeruje, że może to być
+bardzo świeża domena
+, stworzona najpewniej na potrzeby krótkiej i agresywnej kampanii reklamowej (często na Facebooku, Instagramie lub TikToku), która po zebraniu pieniędzy od ofiar po prostu zniknie.
+I faktycznie, sprawdzenie domeny na stronie
+WHOIS
+potwierdza te przypuszczenia. Domena została zarejestrowana 1 marca 2026 roku, czyli 3 miesiące temu.
+Anatomia oszustwa w sieci – Sprawdzenie domeny trenlix.com przy użyciu Whois, dostęp: 19.06.2026
+Sztuczne marki i „
+™
+” przy każdym produkcie
+Asortyment sklepu to zbiór losowych gadżetów:
+BoxEdge™
+,
+VapoMaster™
+,
+SpinGrill™
+czy
+Floatly™
+. Sprzedawca dodaje znak towarowy „™” do każdej nazwy, aby wywołać wrażenie, że mamy do czynienia z produktami premium, ekskluzywnymi dla tego sklepu. W rzeczywistości to najpowszechniejsza taktyka agresywnego dropshippingu. Sprzedawcy wymyślają własne nazwy, by ukryć prawdziwe pochodzenie towaru i utrudnić Ci wyszukiwanie obrazem. W ten sposób tani produkt z chińskich portali zakupowych (warty często kilkanaście złotych) jest sprzedawany jako „markowy sprzęt”.
+Podejrzana struktura cenowa (magia 89,90 zł)
+Prawie każdy produkt na stronie głównej posiada identyczny schemat cenowy – rzekoma
+obniżka z 189,90 zł na 89,90 zł
+. Taka homogeniczność cen to ewidentny dowód na to, że nie mamy tu do czynienia z realną polityką marżową i prawdziwym magazynem, lecz z gotowym szablonem nakierowanym na wywołanie u klienta poczucia, że „trafił na super okazję”.
+Anatomia oszustwa w sieci – Oferty za 89,90 zł na trenlix.com, dostęp: 17.06.2026
+Brak transparentności i danych firmy
+Mimo dedykowanych sekcji na dole strony (np. „Informacje prawne”, „Dane kontaktowe”), sklep jest skonstruowany tak, by maksymalnie utrudnić dotarcie do realnych danych właściciela. Legalnie działająca w Polsce firma ma obowiązek podać na stronie swój adres rejestracyjny, NIP lub KRS. Jeśli nie jesteś w stanie znaleźć tych informacji w mniej niż 30 sekund –
+natychmiast zrezygnuj z zakupów
+.
+Jeśli zerkniemy na stronę
+Informacje kontaktowe
+robi się jeszcze ciekawiej: czy zauważyliście, gdzie mieści się siedziba firmy Trenlix?
+Informacje kontaktowe – trenlix.com, dostęp: 18.06.2026
+Na stronie
+Informacje prawne
+mamy jeszcze NIP i REGON z samymi zerami.
+Nota prawna – trenlix.com, dostęp: 18.06.2026
+Jak wczytamy się dobrze w Politykę prywatności to możemy zauważyć, że dane kontaktowe to adres we Włoszech.
+Włoski adres na stronie trenlix.com, dostęp: 19.06.2026
+Ale i tak najciekawsze są dowody współpracy na linii narzędzie AI – człowiek na stronie Polityki zwrotów. Jak się okazuje, nie tak łatwo stworzyć stronę w języku, którego się nie zna.
+Polityka zwrotów – trenlix.com, dostęp: 19.06.2026
+Adres do zwrotów – trenlix.com, dostęp: 18.06.2026
+Kontakt – trenlix.com, dostęp: 18.06.2026
+Trenlix wykazuje wszystkie cechy typowego „sklepu-pułapki”, który żeruje na impulsywnych zakupach napędzanych przez media społecznościowe. Obietnica wysyłki w 24 godziny to najpewniej fikcja, a po opłaceniu zamówienia możesz otrzymać towar marnej jakości wysłany bezpośrednio z Azji (po kilku tygodniach oczekiwania) lub… nie otrzymać go wcale.
+Złota zasada: Zanim klikniesz „Kupuję i płacę” w nowym, nieznanym sklepie, upewnij się, że marka faktycznie istnieje w sieci poza własną stroną i reklamami na Facebooku!
+Bądź zdroworozsądkowym pesymistą w sieci
+Zakupy i załatwianie spraw w internecie są i nadal będą naszym oknem na świat. Żaden ekspert od cyberbezpieczeństwa nie będzie Wam odradzał kupowania online. Ja też tego nie robię. Ja oczekuję od Was jednak tylko jednego – uruchomienia zdroworozsądkowego filtra, zasady
+„Zero Trust”
+(Ograniczonego Zaufania), która sprawdza się nie tylko u specjalistów IT, ale także w naszych własnych domach, podczas niedzielnego przeglądania wyprzedaży na telefonie.
+Widzisz dysk 128TB za 200 złotych? Sprawdź podobne dyski w wyszukiwarce. Widzisz przepiękną sukienkę za bezcen w likwidującym się polskim sklepie z francuskim kontaktem i chińskim adresem na fałszywym zegarze promocji? Użyj lupy Google Maps i sprawdź ich metrykę w bazie WHOIS. Zamawiasz usługę informatyczną lub dajesz narzędziu dostęp do swoich kont? Szukaj na stronie twardych danych identyfikacyjnych – KRS, NIP, polityki prywatności informującej o tym, w jaki sposób Twoje dane są przetwarzane i zabezpieczane.
+Internet to genialne miejsce, o ile potrafisz odróżnić prawdziwe miasto od wymarłego, gdzie w teorii działa naciągacz. Mam nadzieję, że dzięki powyższym, podstawowym technikom  dołączycie od dziś do grona uświadomionych i bezpiecznych użytkowników sieci.
+Chcesz od razu przejść do czynów i samodzielnie prześwietlić podejrzany e-sklep przed zakupami? Przygotowałem dla Ciebie praktyczny poradnik z listą bezpłatnych rozwiązań, które możesz przetestować od ręki. Przeczytaj mój kolejny wpis:
+Darmowe narzędzia OSINT – dane na wyciągnięcie ręki
+!
+Podsumowanie: nie dajcie się cyberzbójom!
+Zapiszcie link do tego tekstu, prześlijcie go swoim rodzicom, dziadkom i znajomym. Edukacja to najlepszy i całkowicie darmowy system antywirusowy, jakiego w życiu doświadczycie.
+Pamiętajcie, że
+oszustwa w sieci
+stale ewoluują, ale podstawowe zasady weryfikacji miejsc, w których zostawiasz swoje ciężko zarobione pieniądze, pozostają niezmienne. Najlepszą bronią w walce z naciągaczami jest czujność i odpowiednia wiedza.
+Oszustwa w sieci
+nie ogranicza się wyłącznie do fałszywych sklepów internetowych. Cyberprzestępcy równie chętnie żerują na osobach, które szukają nowego źródła dochodu, podszywając się pod rekruterów i oferując fikcyjne etaty.
+Jeśli chcesz dowiedzieć się, jak wyglądają współczesne wyłudzenia na rynku zatrudnienia i gdzie szukać ratunku, gdy dasz się złapać na haczyk, sprawdź nasz artykuł:
+Oszustwa przy poszukiwaniu pracy i fałszywe oferty – jak się bronić?
+Share this post:

@@ -1,0 +1,52 @@
+Obiecanki – cacanki, czyli Niespodzianki bez tabu …
+Są takie maile, których się nie spodziewasz. Które zaskakują. Powodują, że serce zaczyna dudnić w piersi, a ręce pocą się z wrażenia. Przedwczoraj dostałam właśnie takiego maila, który zaserwował mi iście absurdalne
+niespodzianki bez tabu
+.
+Co znajdziesz w tym artykule?
+Obiecanki – cacanki, czyli Niespodzianki bez tabu …
+Zaskakujący mail, czyli niespodzianki bez tabu w skrzynce
+Problemy z logowaniem i dziwny regulamin
+Kolejne niespodzianki bez tabu i trwała blokada
+Zaskakujący mail, czyli niespodzianki bez tabu w skrzynce
+Z wiadomości dowiedziałam się, że został mi przypisany nowy kurs w Akademia Security Bez Tabu. Ale że co? Jak? Gdzie? Jaki kurs? Dlaczego?? Tyle pytań, a zero odpowiedzi. Po relegowaniu z listy kursantów taki mail to naprawdę niespodzianka dla mnie. Bo nie dostaję ani newslettera, ani innych informacji na tego maila.
+Zaproszenie po angielsku, angielski na szczęście znam 🙂 Nigdzie nie ma informacji o nazwie kursu, czy płatny, czy nie, na pierwszy rzut oka wygląda to na jakiś scam albo phishing. Odpalam więc linka w izolowanym środowisku.
+Rozemocjonowana klikam niebieski przycisk
+Start Course
+. Wszak niebieski to kolor nadziei, dobrze się kojarzy.
+Problemy z logowaniem i dziwny regulamin
+Pojawia się strona logowania po polsku. A nie …
+Forgot Password?
+to raczej po angielsku jest.
+O tym, jaki to kurs można dowiedzieć się z URLa –
+Podstawy CTI
+. Hmmm, zaczyna być ciekawie.
+Ale na początek sprawdzam
+Regulamin Sklepu
+(link do niego widnieje na dole strony). I już wiem, że to ten sam regulamin co wcześniej, w którym brakuje m.in. §7 i §8, który wciąż ma wpis o tym, że  opłaty za szkolenie uwzględniają podatek VAT w wysokości 23%, chociaż podmiot nie figuruje w rejestrze VAT. Czyli nic nowego, nic się nie zmieniło.
+Ok, to próba logowania. Podaję hasło, którego kiedyś używałam, ale zostało zmienione przez Wojciecha Ciemskiego, jak mnie z kursu wyrzucił.
+Hasło nie działa. Klikam link
+Nie pamiętasz hasła?
+Nie pamiętam, a raczej ktoś mi je zmienił.
+Przekierowuje mnie na stronę z URLem:
+lost password
+.
+I na tym mój dostęp na razie się kończy, bo link
+Rejestracja
+to link do strony
+https://securitybeztabu.pl/akademia/moje-konto/lost-password/#
+. Czyli mamy klasyczną pętlę.
+Kolejne niespodzianki bez tabu i trwała blokada
+Po jednym dniu mogłam już zresetować hasło, dostałam też maila o przypisaniu do kolejnego kursu, tego o OWASP, ale przy próbie zalogowania okazało się, że jestem „
+permanently blocked
+„. Nice, nice, aswesome. Cokolwiek ten błąd oznacza dla właściela Akademii, dla mnie oznacza jedno: nie mogę się zalogować.
+Jak to przypomina te wszystkie migracje w firmach. Niby mamy nowe, świetne środowisko. ale stare problemy zostały.
+I tych wszystkich
+„twórców”
+, którzy uważają, że nie istnieje coś takiego jak konstruktywna i prawdziwa krytyka, jest tylko hejt. Szkolenie jest
+dla WSZYSTKICH,
+ale …
+Podsumowując, dostaję maile z informacją, że mam dostęp do kursów, i to dwóch !! Ale nie mogę się zalogować, bo jestem zablokowana. Dodając do tego fakt, że kilka dni temu właściciel Security Bez Tabu pisał, że stracił dostęp do listy mailingowej, to tak się zastanawiam, jak w Security Bez Tabu działa zarządzanie tymi listami, zarządzanie danymi osobowymi. Skoro jestem zablokowana, to dlaczego dostaję takie maile. Kto teraz zarządza moimi danymi? Po co wysyłać komuś maila, kto jest na
+liście niegrzeczych ludków
+??
+Ktoś z Was też jest na takiej liście?
+Share this post:

@@ -1,0 +1,27 @@
+Poniedziałek, śnieg i książka o ransomware – czyli jak dedykacja pokonała metrykę
+„Ransomware w akcji”
+to książka, dla której warto wyjść z domu, nawet gdy cały świat mówi „zostań pod kocem”. Mówi się, że poniedziałek to stan umysłu. Ten dzisiejszy był jednak stanem wyjątkowym. Kilkanaście dodatkowych centymetrów śniegu napadało w nocy, mróz poniżej -10 stopni Celsjusza i ta specyficzna cisza (którą od czasu do czasu psuły pługi i piaskarki). Nawet bażanty w ogrodzie wydawały się zdenerwowane – w moim „ptasim SOCu” od rana sypały się alerty o braku dostępu do bazy (czyt. ziarna).
+Co znajdziesz w tym artykule?
+Poniedziałek, śnieg i książka o ransomware – czyli jak dedykacja pokonała metrykę
+Kiedy odbiór paczki to istny "incident response"
+"Ransomware w akcji" zdobyte – recenzja wkrótce
+W taki dzień jedyne, o czym marzysz, to kubek kawy zbożowej z miodem lub
+herbaty z miodem wg przepisu z naszej pasieki
+i absolutny brak kontaktu ze światem zewnętrznym. I właśnie wtedy, gdy już nastroiłam się na ten domowy azyl, telefon zawibrował. SMS: „Paczka od Artura Markiewicza jest w drodze”.
+Chodzi oczywiście o nowość wydawnictwa Helion, czyli książkę
+Ransomware w akcji
+, autorstwa
+Artura Markiewicza
+, którą wydało wydawnictwo
+Helion
+. Wygrałam ją w niedawnym wyzwaniu, w którym na hasło Artura po prostu nie mogłam odpowiedzieć inaczej niż: „I’m in”.
+Okładka książki Ransomware w akcji, Artur Markiewicz, wyd. Helion
+Kiedy odbiór paczki to istny „incident response”
+Entuzjazm spotkał się jednak z brutalną rzeczywistością. Paczkomat: 5 kilometrów stąd. Samochód: pod grubą warstwą białego puchu. Wyjścia nie było – trzeba było odkopać drogę do wiedzy.
+Początkowo była to czysta radość – powrót do czasów młodości i równego rytmu odrzucania śniegu. Chwyciłam łopatę (pokoleniu Z tłumaczę: to taki analogowy sprzęt do ręcznego usuwania przeszkód terenowych) i szło mi świetnie. Do czasu.
+W pewnym momencie moja metryka postanowiła szeptem (choć dość wyraźnym) przypomnieć mi, że entuzjazm osiemnastolatki nie idzie już w parze z obecną wydolnością kręgosłupa. „Jeszcze chwila, a jutro nie wstaniesz” – pomyślałam.
+„Ransomware w akcji” zdobyte – recenzja wkrótce
+Mimo widma jutrzejszych zakwasów – nie żałuję ani jednego machnięcia łopatą. Książka jest już u mnie, a osobista dedykacja od Artura sprawia, że nawet mróz wydaje się mniejszy.
+Wkrótce podzielę się z Wami konkretną recenzją, ale już teraz czuję, że to nie będzie pozycja, która kurzy się na półce. To będzie książka „w akcji” – dokładnie tak, jak mówi tytuł.
+A jak u Was? Wasz „SOC” dzisiaj stabilny, czy też walczycie z zimowymi alertami?
+Share this post:

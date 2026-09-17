@@ -1,0 +1,87 @@
+Tworzenie kontenerów
+Kontenery służą do uruchamiania aplikacji w kontenerze. Aplikacje instalujemy na naszym komputerze, ale w izolowanym, dedykowanym środowisku dostarczonym przez Dockera.
+Obraz to paczka zawierająca biblioteki systemu bazowego. Np. może to być system CentOS, Ubuntu czy inny Debian, z zainstalowanym serwerem WWW. Dla projektu Docker powstało bogate
+repozytorium
+z obrazami, w którym użytkownicy mogą znaleźć coś dla siebie. Można tam także publikować swoje obrazy.
+Interesujących Nas obrazów możemy szukać na dwa sposoby: przez interfejs WWW lub korzystając z interfejsu CLI.
+Interfejs WWW:
+Drugi sposób zawiera polecenie
+docker search
+, które pozwala w szybki sposób znaleźć coś dla siebie.
+$ sudo docker search mysql
+Warto zwrócić uwagę na kolumnę
+Official
+. Wartość [OK] oznacza, że obraz jest utrzymywany przez sprawdzony zespół i że jest to oficjalna dystrybucja tej aplikacji. Można użyć innych obrazów, ale nie będziemy mieli pewności, że wszystko będzie działało poprawnie.
+Jeśli wejdziemy na stronę projektu
+mysql
+to możemy zobaczyć przez kogo projekt jest utrzymywany, jakie są wspierane wersje Dockera dla tego projektu, możemy znaleźć komendę do instalacji obrazu oraz zobaczyć, że obraz występuje w kilku wariantach (tagach). Mechanizm tagów używany jest przez twórców obrazów, aby można było pobierać obrazy w różnych wersjach (z różnymi funkcjonalnościami).
+Po wykonaniu poniższego polecenia, narzędzie pobierze obraz kontenera. Jeżeli nie dokleimy nazwy taga do nazwy obrazu to docker użyje domyślnej nazwy tagu (
+latest
+).
+$ sudo docker pull mysql
+Sprawdzamy listę naszych obrazów:
+$ sudo docker images
+W Dockerze używany jest system plików AUFS, dlatego obrazy składają się z warstw, które często są współdzielone między różnymi obrazami. Np. jeżeli kiedyś będziemy chcieli ściągnąć najnowszą wersję obrazu mysql, ściągnięte zostaną tylko te warstwy, których nie mamy lokalnie.
+Uruchamianie obrazu
+Do uruchamiania obrazów służy polecenie
+docker run
+. Polecenie te wykorzystuje wybrany obraz, dokłada do systemu plików dodatkową warstwę, która może być modyfikowana (warstwy wchodzące w skład obrazu nigdy nie są modyfikowane!) i nakazuje w ramach tak utworzonego nowego kontenera, wykonanie wybranego polecenia. By było łatwiej, twórcy obrazów często w konfiguracji ustalają domyślne polecenie (np. start serwera WWW), więc nie trzeba się o nie martwić.  Możemy teraz postawić pierwszy kontener z MySQL.
+Możemy użyć następującej komendy:
+$ sudo docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=H@sl0MySQL -d mysql
+Sprawdzamy, czy nasz kontener jest widoczny:
+$ sudo docker ps
+Ponieważ nie zrobiliśmy mapowania portów, nasz serwer mysql nie będzie widoczny ani w naszym komputerze hoście (jest to komputer, na którym uruchamiamy kontenery) ani w innych kontenerach. Zawsze możemy uruchomić basha na kontenerze oraz podpiąć jego konsolę, aby sprawdzić, czy kontener odpowiada. Jeśli jako rezultat zobaczymy wpis rozpoczynający się od
+root@id_kontenera
+, to znaczy, że kontener odpowiada na nasze pytania. Wpisujemy
+exit
+, aby zamknąć basha.
+$ sudo docker exec -it 5aa3a769250d /bin/bash
+Chcąc stworzyć trochę bardziej użyteczny kontener, przekierujemy porty z kontenera na hosta. Aby to zrobić musimy stworzyć kontener na nowo.
+$ sudo docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=H@sl0MySQL -d -p 9001:3306 mysql
+Poniższy błąd oznacza, że mamy już kontener o nazwie mysql1. Możemy stworzyć nowy (dodatkowy) kontener lub usunąć stary i stworzyć nowy.
+Aby usunąć stary kontener i stworzyć nowy kontener, najpierw uruchamiamy polecenie wyświetlające nasze kontenery, aby znaleźć id naszego kontenera.
+$ sudo docker ps
+Jeśli kontener jest uruchomiony (a nasz jest), to musimy go zatrzymać za pomocą polecenia poniżej. Po słowie
+stop
+podajemy albo id_kontenera albo jego nazwę.
+$ sudo docker stop mysql1
+Następnie uruchamiamy polecenie, które usunie nasz kontener.
+$ sudo docker rm 5aa3a769250d
+Na koniec sprawdzamy, czy nasz kontener został faktycznie usunięty.
+Teraz możemy jeszcze raz wykonać wcześniejsze polecenie:
+$ sudo docker run --name mysql1 -e MYSQL_ROOT_PASSWORD=H@sl0MySQL -d -p 9001:3306 mysql
+Dodatkowy parametr -p 9001:3306 otwiera port 9001 na hoście i przekierowuje na porty 3306 w kontenerze (3306 to domyślny port mysql). Możemy teraz zauważyć, że wpis w kolumnie porty wygląda inaczej niż wcześniej.
+Mamy teraz kontener i przekierowane porty. Aby jednak móc podłączyć się do mysql z zewnątrz musimy skonfigurować jeszcze sam serwer bazodanowy.
+Przechodzimy do konsoli Dockera za pomocą poniższego polecenia (musimy pamiętać, że nowy kontener ma nowe id):
+$ sudo docker exec -it e0f6e793d78f /bin/bash
+Instalujemy w kontenerze VIM’a, który przydaje się przy edycji plików.
+$ sudo apt-get update
+$ sudo apt-get install vim
+(W rzeczywistości kodu jest dużo więcej niż na zdjęciu!).
+Czasami, aby móc łączyć się zdalnie z serwerem musimy wyedytować plik konfiguracyjny
+/etc/mysql/mysql.conf.d/mysqld.cnf
+lub
+/etc/mysql/my.cnf
+(zależy od wersji Ubuntu):
+vim /etc/mysql/mysql.conf.d/mysqld.cnf
+Odkomentowujemy bind-address i zmień domyślny adres 127.0.0.1 na 0.0.0.0. Jeśli takiego wpisu nie ma to dodajemy taki wpis do pliku:
+bind-address = 0.0.0.0
+Logujemy się do mysql:
+mysql -u root -p
+Podczas logowania zostajemy poproszeni o hasło. Po wpisaniu hasła logujemy się do MySQLa.
+Musimy jeszcze nadać uprawnienia dla użytkownika
+root
+, aby mógł logować się z dowolnego hosta. Wykonujemy następujące polecenia:
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+Aby zapisać zmiany, musimy zresetować kontener.
+Klikamy
+2x CRTL + D,
+aby wyjść z MySQL i konsoli kontenera.
+Potem wpisujemy komendę.
+$ sudo docker restart
+e0f6e793d78f
+Po tych wszystkich operacjach mamy już wstępnie skonfigurowany mysql.
+Źródła
+Repozytorium obrazów Dockera: https://registry.hub.docker.com/
+Dokumentacja referencyjna CLI Dockera: http://docs.docker.com/reference/commandline/cli/
+Share this post:

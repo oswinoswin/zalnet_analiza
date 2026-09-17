@@ -1,0 +1,229 @@
+Wyzwanie security 2025
+W 2024 roku, po pandemii i innych perturbacjach życiowych, zaczęłam znowu coraz częściej występować na meetupach i konferencjach. Wróciłam także do prowadzenia szkoleń. Wymagało to ode mnie – i dalej wymaga – „bycia na czasie”. Zaczęłam więc robić research w poszukiwaniu aktualnych trendów. I tak na LinkedInie trafiłam na wpis Arkadiusza Siczka o tym, że „
+jesteśmy teraz świadkami czegoś, co można nazwać pierwszą aferą polskiej branży cyberbezpieczeństwa
+”. Poszukałam, popytałam i okazało się, że chodzi o Wojtka Ciemskiego i głośne
+wyzwanie security
+organizowane pod jego szyldem.
+Co znajdziesz w tym artykule?
+Wyzwanie security 2025
+Dzień 1: Jak zaczęło się moje wyzwanie security?
+Dzień 2: Moje wnioski a wyzwanie security
+Dzień 3: Czy to 30-dniowe wyzwanie security 2025 właśnie legło w gruzach?
+Dzień 4: Ban, paragrafy i koniec udziału w 30-dniowym Wyzwaniu Security 2025
+Złamanie rzekomego regulaminu
+Trochę OSINTu zawsze się przyda
+Dzień 5: Regulaminowy absurd, czyli wyzwanie security od kuchni
+Analiza regulaminów
+A czemu by nie?
+Czy Wojciech Ciemski ma prawo wystawiać faktury z VAT 23%?
+Sprawdzanie innych danych
+Jedna firma czy dwie?
+Kto jest administratorem moich danych?
+Dzień 6: Dwa regulaminy na jedno wyzwanie security
+Dzień 7: Podsumowanie i wartościowa alternatywa
+Wstęp: Jak trafiłam na Akademię Security Bez Tabu
+Wojtka poznałam osobiście podczas konferencji BSides Warsaw 2024. Nie wiedziałam wcześniej, kim jest, ale zaczęliśmy rozmawiać, nawet o potencjalnej współpracy. Jako że nie urodziłam się wczoraj i prowadzę własną firmę od 15 lat, przed wejściem w nowy projekt zawsze robię „wywiad środowiskowy”. Początkowo nie skojarzyłam Wojtka z książką
+Cybersecurity w pytaniach i odpowiedziach
+, ale po pewnym czasie połączyłam kropki. Książka, która w opisach autora jest „super bestsellerem”, dla mnie okazała się porażką.
+Zaczęłam odczuwać wyraźny dysonans: z jednej strony świetne opinie, jakie sam o sobie pisze (autor bestsellerów, superbohater cyberbezpieczeństwa, człowiek rewolucjonizujący branżę), a z drugiej strony zakulisowe informacje o niedowiezionych kursach, opóźnionych książkach, problemach ze zwrotami pieniędzy i masowym banowaniu ludzi w mediach społecznościowych.
+W sieci można znaleźć m.in. artykuł Jakuba Staśkiewicza, człowieka z branży pod tytułem:
+Security bez Tabu: skandal, dramat czy pasmo niepowodzeń
+. To kawał rzetelnej, dziennikarskiej roboty – bez emocji, bez ozdobników, same fakty. Postanowiłam sprawdzić sama, jak to faktycznie wygląda i na własnej skórze przekonać się, ile w tym prawdy. W końcu jestem trenerką od 15 lat i niejednego szkoleniowca widziałam w akcji. Za 89 zł zakupiłam 30-dniowe Wyzwanie Security 2025. Obietnice marketingowe autora nie ustępowały tym z kampanii wyborczych.
+Oferta wyglądała bardzo obiecująco. W 30 dni zaplanowano 30 modułów, ponad 250 wideo i masę wiedzy – zamiast pół roku nauki, zaledwie miesiąc. Za niecałą stówę brzmiało to jak deal życia. Ponieważ Wojtek zachęcał do robienia notatek, poniżej przedstawiam mój szczegółowy raport z nauki.
+Oferta wyglądała bardzo obiecująco. W 30 dni zaplanowano 30 modułów, ponad 250 wideo i masę wiedzy – zamiast pół roku nauki, zaledwie miesiąc. Za niecałą stówę brzmiało to jak deal życia. Ponieważ Wojtek zachęcał do robienia notatek, więc ja się trenera słucham i notatki robię 🙂
+Dzień 1: Jak zaczęło się moje wyzwanie security?
+Jestem po pierwszym dniu. Szczerze? Nie wiem, jakiego słowa użyć. Zażenowanie? Klęska? Kończ Waść, wstydu oszczędź? Właściwie resztę notatki mogłabym podsumować jednym zdaniem:
+O rany, co tu się zadziało?
+Webinar zaczął się o 18:00 na kanale YouTube. Był 1 stycznia 2025 roku, kilkanaście godzin po Sylwestrze, więc spotkanie było krótsze. W szczytowym momencie wydarzenie oglądało 18 osób, pod koniec zostało już tylko 5 lub 6. Pierwsze wrażenie? Prowadzący sprawiał wrażenie albo mocno niewyspanego, albo wciąż świętującego Nowy Rok. Język plątał mu się i żył własnym życiem, przez co ciężko się tego słuchało.
+Podejście do uczestników oceniam na minus. Padały teksty typu:
+„Kolega z cyberbezpieczeństwa dał się oszwabić na duże pieniądze”
+. Osobiste standardy trenera powinny jednak obejmować pewne reguły profesjonalnego zachowania. Po pierwszym spotkaniu w ramach tego
+wyzwania security
+w panelu kursanta pojawiło się jedno wideo trwające 39 minut i 15 sekund. Wynika z tego, że w kolejne 29 dni powinno pojawić się jeszcze 249 plików. Sporo.
+Po 1 dniu mocno zastanawiam się, jaki sens ma praca domowa. Opisz 3 sytuacje, ale nie używaj AI pod groźbą usunięcia z kursu. Wracamy do czasów szkoły? Samodzielne napisanie pracy domowej ma podnieść jej wartość? Cały świat używa AI, w firmach pracownikom kupowany jest Copilot for M365, a tutaj AI jest złe. Niezrozumiałe wymaganie jak dla mnie.
+Padła też ze strony Wojtka propozycja wysłania mu zaproszenia do grona kontaktów na Linkedinie – ale jak, skoro każdy, kto odważy się cokolwiek napisać niepochlebnego dostaje od niego bana. I ja też, nie chwaląc się, takiego bana od Wojtka na Linkedinie otrzymałam 😉
+Już się nie mogę doczekać dnia 2 😉
+Dzień 2: Moje wnioski a wyzwanie security
+Drugi dzień przyniósł sporo treści, ale część tematów była tłumaczona po omacku – tak, jakby prowadzący wiedział, że gdzieś dzwonią, ale nie do końca w którym kościele.
+Wisienką na torcie był slajd z tłumaczeniami pojęć. Stawianie znaku równości między certyfikacją a metodologią (jakby to były synonimy) przypomina zasadę
+„ziemniak, kartofel – jedna bulwa”
+. Z kolei stwierdzenie, że
+„nie każda podatność podatności jest równa”
+brzmiało, jakby istniały podatności lepsze i gorsze.
+Jeśli czujecie niedosyt po tym dniu, zdecydowanie bardziej polecam pobrać darmowy poradnik
+„
+ABC cyberbezpieczeństwa
+”
+przygotowany przez NASK-PIB.
+Dzień 3: Czy to 30-dniowe wyzwanie security 2025 właśnie legło w gruzach?
+„
+Tak dobrze żarło i nagle padło
+”
+– to idealne motto trzeciego dnia. Od rana podejrzewałam, że coś jest nie tak, ponieważ w panelu kursanta wciąż brakowało nagrania z dnia poprzedniego (stan na 3 stycznia 2025 r., godzina 17:00). Obawiałam się, że potwierdzą się opinie uczestników poprzednich edycji i to
+wyzwanie security
+skończy się nagle po kilku dniach.
+O godzinie 17:12 przyszedł e-mail z linkiem do spotkania live. O 18:00 klikam w link i widzę komunikat, że spotkanie jest prywatne. Po próbie zalogowania pojawia się błąd, a następnie informacja, że wideo jest niedostępne.
+Podczas transmisji drugiego dnia było tyle obietnic i pytań od początkujących uczestników o to, czego chcą się nauczyć. Ostatecznie zostali z niczym – bez słowa wyjaśnienia czy wiadomości e-mail z przeprosinami. Cisza. Z mediów społecznościowych autora niczego się nie dowiem, bo przecież mam bana. Na szczęście zamiast tego możecie obejrzeć na YouTube całkowicie za darmo świetną prelekcję Jakuba Przepióry
+„
+Wstęp do cyberbezpieczeństwa
+”
+w ramach Cyber Adwentu 2024.
+A może Wy znacie jakieś inne ciekawe materiały do nauki?
+Dzień 4: Ban, paragrafy i koniec udziału w 30-dniowym Wyzwaniu Security 2025
+Ranek 4 stycznia 2025 r. zapowiadał piękny dzień.
+Śnieg wolno padał, cały świat dookoła biały, wolna sobota …
+I idyllę psuł tylko fakt, że w panelu kursanta nie było nagrania z dnia 2, ani wytłumaczenia, dlaczego nie odbyło się spotkanie live w dniu 3.
+Ranek zapowiadał się pięknie, dopóki o godzinie 11:36 nie otrzymałam e-maila o intrygującym tytule:
+„Wniosek o zaprzestanie i usunięcie szanując własność intelektualną”
+. Poinformowano mnie, że mój publiczny post powiela nieprawdziwe informacje, oczernia właściciela i narusza normy ustawowe. Autor napisał m.in.:
+„
+W informacji zawartej na Pani www. dokonuje Pani oceny kursu. Z analizy tekstu wynika, że jest to Pani subiektywna ocena. Oczywiście krytyka konstruktywna jest dopuszczona – o ile nie wykracza ona poza ramy norm zawartych w normach ustawowych. Pani je przekracza
+…
+Mając na uwadze porwane stosunki społeczne jak i gospodarcze, ufając, że zrobiła to Pani nieświadomie i w przypływie niekontrolowanych emocji proszę o usunięcie treści
+”.
+Złamanie rzekomego regulaminu
+Mam 48 lat, w IT pracuję od ponad 18 lat i nie działam pod wpływem emocji. Potrafię przeanalizować sytuację na chłodno.  Pracuję głównie z mężczyznami, nie mam w zwyczaju tupania nóżką, jak mi coś nie działa, ja umiem przeanalizować sytuację na chłodno i napisałam w tym poście po prostu to, co myślę. I z chęcią dowiem się, co oznaczają porwane stosunki, i który adwokat to wymyślił.Nie należę też do osób, które na widok pisma od adwokata natychmiast usuwają posty. Niedługo później dowiedziałam się, że wklejając zrzuty ekranu, które obrazowały to
+wyzwanie security
+, rzekomo złamałam regulamin:
+„
+Niestety w takim przypadku jestem zmuszony zablokować Twoje konto z uwagi na punkt 9 regulaminu szkolenia z powodu naruszenia praw autorskich. W przypadku, kiedy szkolenie nie odpowiada jest możliwość jego zwrotu. Nie dotyczy to natomiast tego przypadku
+”.
+O godzinie 12:09 zmieniono moje hasło i straciłam dostęp do panelu kursanta. Kilka minut wcześniej pojawiło się kuriozalne usprawiedliwienie wczorajszego braku transmisji live (prowadzący twierdził, że nadawał przez godzinę do pustego pokoju, bo „nie kliknął transmisji na żywo”). Czy szkoleniowiec prowadzący live naprawdę ani razu nie zerknął na czat, żeby sprawdzić, czy go słychać i ile osób dołączyło?
+Aż mi się przypomniały kursy, które robiłam, bodajże od Maćka Aniserowicza, gdzie była informacja, że każdy ma prawo do otrzymania zwrotu, nawet bez wyjaśniania, co mu się nie podoba. A tutaj okazuje się, że jest magiczny punkt 9, gdzie pod pozorem naruszenia praw autorskich nie można dostać zwrotu.
+O 12:05 pojawiła się usprawiedliwienie braku wczorajszego live’a. Tak absurdalnego tłumaczenia braku wczorajszego webinaru to ja jeszcze nie słyszałam jeszcze. Screen znaleziony na Linkedinie, publicznie dostępny.
+I tak się zastanawiam, czy ten prowadzący nigdy nie sprawdza, ile osób dołączyło do spotkania? Nie przywita się, nie sprawdza czatu, czy uczestnicy nie piszą, że coś nie tak z internetem, albo z głosem? Nie sprawdza, czy go słychać? Przez godzinę nawet razu nie zerknął na czat?
+Trochę OSINTu zawsze się przyda
+A na koniec napiszę Wam, że cieszę się, że usługi publiczne są dostępne online i dla każdego.
+Aktualizacja
+: Przy okazji dyskusji na LinkedInie wyszła kolejna kwestia. Sprawdziłam firmę w
+Wykazie podatników VAT (Biała lista)
+na stronie podatki.gov.pl. Okazało się, że w chwili wystawienia dla mnie faktury z 23% VAT, firma
+Security Bez Tabu Wojciech Ciemski
+nie była i nadal nie jest aktywnym płatnikiem VAT. Odliczenie podatku z takiego dokumentu grozi problemami z Urzędem Skarbowym, więc sprawą musi zająć się mój księgowy.
+A ja dostałam fakturę z 23% VATem.
+Muszę wystąpić oficjalnie do Security Bez Tabu o korektę. Pytanie, czy ją dostanę? Z jednej strony, dlaczego miałabym chcieć wnioskować o korektę, skoro nigdzie nie było wspomniane, że nie dostanę faktury VAT, i takową jakby nie było dostałam. Z drugiej strony, jak odliczę VAT, a wystawiąjący nie jest VATowcem, to mogę mieć problemy z US. Wydałam pieniądze, nie mam dostarczonej usługi, nie mam nic. A to podobno ja szarpię stosunki społeczne i gospodarcze. I teraz okazuje się , że to może być faktycznie wyzwanie, niekoniecznie tylko 30-dniowe.
+Aktualizacja: na dzień 02.07.2026 roku nadal nie otrzymałam takiej korekty. Ani zwrotu środków za wyzwanie security.
+Dzień 5: Regulaminowy absurd, czyli wyzwanie security od kuchni
+AKTUALIZACJA
+: 30 czerwca 2026 r. Wojciech Ciemski zmienił Regulamin Sklepu Online, ale czy na lepsze? Przeczytajcie wpis
+Regulamin Security Bez Tabu, czyli jak dostałam bana z przyszłości
+Motto dnia 5:
+a czemu by nie
+.
+Jestem dumną współwłaścicielką pasieki. I przez 99,9% czasu lubię pszczoły. Nie lubię ich tylko wtedy, gdy dostaję żądło bez powodu, w myśl zasady:
+a czemy by nie
+. Pewnie w ich mniemaniu coś tam zawiniłam, ale ja nie wiem, co zrobiłam nie tak.
+Tak samo zostałam potraktowana wczoraj. Postraszona adwokatem, organami ścigania. A potem za złamanie magicznego punktu 9 w regulaminie zabrano mi dostęp do kursu.
+„Niestety w takim przypadku jestem zmuszony zablokować Twoje konto z uwagi na punkt 9 regulaminu szkolenia z powodu naruszenia praw autorskich. W przypadku, kiedy szkolenie nie odpowiada jest możliwość jego zwrotu. Nie dotyczy to natomiast tego przypadku.”
+Analiza regulaminów
+Ok, to skoro mam czas to przeglądam ów regulamin, który można przejrzeć
+tutaj
+. Ja mam oczywiście na wszelki wypadek zarchiwizowaną wersję, obowiązującą w chwili pisania tego postu. Od czasu zakupu kursu nie dostałam e-maila o jakichkolwiek zmianach w regulaminie, więc zakładam, że to ten sam regulamin, który obowiązywał 05.12.2024 r., w dniu zakupu kursu. Jak można zauważyć, twórca regulaminu tutaj o takich portalach jak: securitybeztabu.pl, sec
+i
+uritybeztabu.pl czy tez sec
+i
+uritybeztab
+y
+.pl. Regulamin i takie kwiatki. Serio?
+„§ 3. Użytkownicy mogą korzystać z Portalu oraz z utworów i baz danych wyłącznie w ramach dozwolonego użytku, wyznaczonego przez przepisy ustawy o prawie autorskim i prawach pokrewnych oraz ustawy o ochronie baz danych, przy czym takie korzystanie nie może naruszać normalnego korzystania z utworu lub bazy danych lub
+godzić w słuszne interesy seciuritybeztabu.pl
+oraz podmiotów, których utwory lub bazy danych – na podstawie współpracy z seciuritybeztabu.pl – są udostępniane na stronach Portalu. Użytkownik oświadcza, że jest osobą pełnoletnią lub że posiada zgodę rodziców lub innych prawnych opiekunów na korzystanie z Serwisu i wynikające z tego faktu prawa i konsekwencje.”
+Czyli interpretując §3, jakbym zrobiła screena, umieściła go na blogu i nie ugodziła w słuszne interesy firmy securitybeztabu.pl, to bym żadnego pewnie żadnego zakazu nie złamała. Ale jak pokazałam slajd, którego prowadzący nie wstydził się pokazać kursantom podczas live’a, ale przeszkadza mu on na moim blogu i napisałam wg niego „subiektywną opinię”, to można mnie z kursu wyrzucić i pieniędzy nie oddać? Ciekawa interpretacja, która wg  mnie pozwala na wyrzucenie z kursu każdego pod byle pretekstem, bo co oznacza sformułowanie „godzenie w słuszne interesy”?
+A czemu by nie?
+§ 5 nie chce być gorszy od kolegów. W skrócie:
+a czemu by nie
+. A więcej: Ty Użytkowniku nie możesz Security Bez Tabu nic zarzucić, a my Tobie już tak.
+„§ 5. Dane i informacje udostępniane na stronach Portalu
+służą wyłącznie celom informacyjnym i zostały oparte na źródłach, które seciuritybeztabu.pl uznaje za rzetelne i sprawdzone
+.
+Z uwagi na możliwość występowania błędów czy pominięć spowodowanych okolicznościami leżącymi poza kontrolą seciuritybeztabu.pl, seciuritybeztabu.pl nie ponosi odpowiedzialności za aktualność, dokładność, kompletność udostępnianych w Portalu informacji, jak również za ich przydatność dla określonych działań użytkowników Portalu.
+Ryzyko związane z użytkowaniem i wykorzystaniem informacji udostępnianych na stronach Portalu ponosi użytkownik. Seciuritybeztabu.pl nie ponosi żadnej odpowiedzialności wobec użytkowników Portalu lub osób trzecich z tytułu szkód, zarówno bezpośrednich, jak i pośrednich, związanych z wykorzystaniem informacji udostępnianych na stronach Portalu.”
+W §6 punkt 2, podpunkty c i d to majstersztyk niedomówień – nie wiadomo, o co chodzi.
+W regulaminie w §6 brakuje punktów 7 i 8, nie wiadomo, czy usunięte, czy nigdy ich nie było, ale takie coś nie powinno mieć miejsca w firmie, która paragrafami rzuca na prawo i lewo.
+Czy Wojciech Ciemski ma prawo wystawiać faktury z VAT 23%?
+I teraz przechodzimy do naszego bohatera –
+§ 9
+. Gdzie w punkcie 5 jest wyraźny zapis, że zapłata za szkolenie uwzględnia podatek VAT w wysokości 23%. Tylko jak, skoro firmy nie ma na liście podatników VAT (opisywałam to 4 dnia).
+A wisienką wieńczącą ten tort jest informacja w punkcie 8 o wystawianiu faktur VAT.
+„Punkt 7:  … Użytkownikowi nie wolno reprodukować, rozpowszechniać, modyfikować, edytować, przekazywać, pożyczać, sprzedawać, nadawać, udostępniać,
+tworzyć dzieł pochodnych
+, licencjonować materiału szkoleniowego.” Skoro jestem trenerką od 15 lat i byłam na webinarze o terminologiach z cyberbezpieczeństwie, czy to oznacza, że już do końca życia nie mogę stworzyć dzieła o podobnej tematyce?
+I teraz punkt 10 – co ja mogę jako użytkownik robić, a czego nie?? Bo tutaj moja znajomość polskiego jest zdecydowanie za słaba. Nawet AI nie wie, o co chodzi.
+I paragraf 10 – zero informacji o tym, jak Użytkownik będzie o zmianach w regulaminie powiadamiany.
+Chętnie poznam nazwisko specjalisty, który ten regulamin stworzył. I który to paragraf gwarantuje, że za naruszenie regulaminu nie ma prawa do zwrotu. Znając życie, adwokat znajdzie dużo więcej „niespodzianek”.
+Sprawdzanie innych danych
+Ale teraz punkt 2 śledztwa. Lubię Herculesa Poirota i  czuję się teraz jak bohaterka Agathy Christie. Poirot grajacy w grę z elementami OSINTu i CTFów 😉
+Już po zakupie kursu otrzymałam kilka e-maili od Akademii Security Bez Tabu, gdzie nadawcą był
+Moje Blog <wojciech.ciemski@cwits.pl> via securitybeztabu.pl
+. Skąd taka domena cwits.pl?
+No dobrze, znowu chwila grzebania w sieci i okazało się, mamy niespodziankę. Jest jedna firma, ale z dwiema różnymi nazwami, z różnymi kodami PKD, ale z tym samym adresem, NIPem i REGONem.
+Fakturę wystawiła część firmy o nazwie Security Bez Tabu Wojciech Ciemski, a e-maila wysłała druga część o nazwie Ciemski Wojciech IT Solutions
+.
+Jedna firma czy dwie?
+Tylko, że poszukując danych o firmie Wojciecha Ciemskiego i zerkając w darmową bazę przedsiębiorców CEIDG możemy zauważyć, że
+wpis dotyczący firmy SSecurity Bez Tabu Wojciech Ciemski
+zawiera m.in. kod PKD
+85.59.B Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane
+, używany m.in. w działalności szkoleniowej.
+Ale
+wpis dotyczący drugiej części firmy o nazwie Ciemski Wojciech IT Solutions
+nie ma żadnego PKD dotyczącego szkoleń. Więc jaki doszło do tego, że ten „podmiot” przetwarza moje dane. Ja nie chcę przecież hurtowo kupować komputerów.
+Zaczynam szukać polityki prywatności Ciemski Wojciech IT Solutions. Znajduję e-mail i tu się zaczyna prawdziwa Moda na sukces i próba ustalenia kto, z kim, komu i dlaczego.
+Newsletter jest od Security Bez Tabu, kurs kupiłam od Akademii Security Bez Tabu – na razie jest OK.
+Nadawca
+Wojciech Ciemski <wojtek+securitybeztabu.pl.8@1862520.emcampaign.com
+– OK, dalej jest securitybeztabu.pl.
+Security Bez Tabu jako firma – dalej jest OK.
+Kto jest administratorem moich danych?
+I tutaj pojawia się stryjeczny wuj szwagra drugiego męża Stephanie Forrester. Czyli tajemniczy podmiot Ciemski Wojciech IT Solutions. Jest link do
+Polityki Prywatności
+. Polityka jest powiązana z portalem securitybeztabu.pl.
+„Administratorem danych osobowych podawanych w trakcie korzystania ze Serwisu prowadzonego pod nazwą „Security Bez Tabu, securitybeztabu.pl” jest:
+Ciemski Wojciech IT Solutions, zarejestrowana pod adresem Gorzelnicza 8, 04-212 Warszawa, NIP: 9522112211, REGON: 368630032.
+§3 Cele przetwarzania danych
+Administrator danych osobowych przetwarza dane osobowe w następujących celach:
+a) udzielenia odpowiedzi na zadane pytanie poprzez formularz kontaktowy lub za pośrednictwem danych teleadresowych dostępnych na stronie Serwisu,
+b) marketingu własnych produktów i usług administratora danych drogą tradycyjną,
+c) wysłania informacji handlowych i marketingowych administratora danych na adres e-mail podany przez Użytkownika w trakcie zapisu na newsletter, za zgodą osoby, której dane dotyczą,
+d) dochodzenia praw i roszczeń przez administratora danych lub osobę, której dane dotyczą.
+Podanie danych jest niezbędne dla realizacji zamówienia, wystawienia dokumentu sprzedaży, dochodzenia roszczeń, a także udzielenia odpowiedzi na pytania.
+Podanie pozostałych danych jest dobrowolne.
+Brak podania wymaganych danych uniemożliwia realizację usług, w tym zamówienia i kontaktu.”
+I żeby za łatwo nie było: Administratorem moich danych jest gałąź Ciemski Wojciech IT Solutions, która nie ma PKD powiązanego ze szkoleniami, ale fakturę wystawił mi Wojciech Ciemski Security Bez Tabu. Jaki jest cel takiego działania? Kto i jakimi moimi danymi zarządza? Na dodatek, na samym dole jest punkt 5, czyli Ciemski Wojciech IT Solutions, z zupełnie innym adresem niż w Polityce Prywatności.
+Podsumowując, zakupy szkoleń w Sekurak Academy czy też Zaufanej Trzeciej Strony trochę mnie rozleniwiły. Zapłacone, dowiezione, bez dziwnych regulaminów, bez wyrzucania z kursów, bez straszenia organami ścigania, bez dziwnych zależności. Tak jakoś miło, sympatycznie, normalnie.
+A 30-dniowe Wyzwanie Security 2025:
+a czemu by nie
+. To nie tylko wyzwanie security, to wyzwanie mentalne.
+Dzień 6: Dwa regulaminy na jedno wyzwanie security
+Wojciech Ciemski obiecywał, że podczas 30-dniowego Wyzwania Security 2025 nie bedzie nudno. Tutaj dotrzymał słowa. Właśnie odkryłam, że istnieje drugi regulamin Security Bez Tabu. Tak, tak, Jest i
+Regulamin Security Bez Tabu
+i
+Regulamin Akademia Security Bez Tabu
+.
+Mamy więc REGULAMIN SKLEPU ONLINE www.securitybeztabu.pl/akademia/sklep i REGULAMIN SKLEPU ONLINE i REGULAMIN SKLEPU ONLINE www.securitybeztabu.pl/sklep.
+W pierwszym nie ma daty, od kiedy regulamin obowiązuje, w tym drugim przypadku regulamin obowiązuje od 1.01.2022 r.
+Mnie zastanawia teraz, który regulamin dotyczy mojego zakupu. Bo ja w przeglądarce wpiszemy
+www.securitybeztabu.pl/sklep
+to nas przekierowuje do
+www.securitybeztabu.pl/akademia/sklep
+, czyli do Akademii. Czy sam Sprzedający to wie? Wątpię.
+Dzień 7: Podsumowanie i wartościowa alternatywa
+Jeszcze jakiś czas zastanawiałam się, jak tu się rozdwoić. Bo 7 stycznia 2025 r. o godzinie 18:00 zobowiązałam się poprowadzić sesję online w ramach inicjatywy Not The Hidden Knowledge, a jednocześnie o tej samej godzinie miał być 7 dzień wyzwania live. Nawet się przez chwilę zastanawiałam, czy terminu sesji NTHK nie przełożyć. Na szczęście tego nie zrobiłam i dobrze, bo byłoby tylko niepotrzebne zamieszanie.
+I jak obiecałam, tak dowiozłam sesję na temat:
+Blue Team dla zielonych: od czego zacząć i jak zaplanować naukę?
+Sesję początkowo zaplanowałam na godzinę, wyszło prawie 2 godziny. Było trochę teorii, pokazałam też produkty z rodziny Microsoft Defender, Microsoft Sentinel, Microsoft Entra ID, Graph Explorer, powiedziałam, czym są zapytania KQL. A na koniec pokazałam możliwości Microsoft Copilot Security.
+Prezentację można pobrać z mojego
+Githuba
+.
+Nagranie dostępne jest już na
+Youtubie
+.
+Jeśli interesują Was kolejne sesje, to zachęcam do obserwowania
+mojego profilu
+na Linkedinie, tam na bieżąco pojawiają się informacje o kolejnych sesjach i wydarzeniach.
+I na koniec, udało mi się dorzucić swoją cegiełkę do repozytorium
+Not The Hidden Wiki
+na Githubie. Dodałam tam pierwsze linki właśnie o
+KQL
+. I to się nazywa dobrze spożytkowany czas 🙂
+Share this post:

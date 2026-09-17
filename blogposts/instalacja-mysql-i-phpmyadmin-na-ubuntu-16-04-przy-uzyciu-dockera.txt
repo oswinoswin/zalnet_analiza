@@ -1,0 +1,63 @@
+Poniżej krótki tutorial pokazujący, jak zainstalować MySQL w kontenerze Dockera i połączyć z phpMyAdmin.
+Instrukcja została stworzona na systemie Ubuntu 16.04.
+Sprawdzamy, jakie aktualnie obrazy mamy lokalnie.
+$ sudo docker images
+Teraz pobieramy obraz
+mysql
+. Ja pobieram ostatnią wersję:
+$ sudo docker pull mysql
+Następnie pobieramy obraz
+phpmyadmin
+:
+$ sudo docker pull phpmyadmin/phpmyadmin
+Tworzymy nowy kontener z obrazem
+mysql
+. Jako hasło ja podaję: 1q2w3e4r:
+$ sudo docker run --name demomysql -e MYSQL_ROOT_PASSWORD=1q2w3e4r -d mysql
+Sprawdzamy, czy kontener z obrazem
+mysql
+został utworzony i czy jest aktywny:
+$ sudo docker ps
+Teraz dodajemy kontener z obrazem
+phpmyadmin
+i łączymy go z naszym kontenerem z
+mysql’em
+:
+$ sudo docker run --name demophpmyadmin -d --link demomysql:db -p 8080:80 phpmyadmin/phpmyadmin
+Sprawdzamy, czy nasz kontener z phpmyadmin jest aktywny i jaki ma przypisany port:
+$ sudo docker ps
+Uruchamiamy basha na kontenerze z obrazem
+mysql
+:
+$ sudo docker exec -it demomysql bash
+Następnie logujemy się do mysql’a jako użytkownik
+root:
+mysql -u root -p
+Po tym poleceniu bash poprosi Nas o podanie hasła.
+Hasło możemy podać od razu w poleceniu:
+mysql -u root -p 1q2w3e4r
+Aktualizujemy użytkownika
+root
+i ustawiamy mu hasło:
+ALTER USER root IDENTIFIED WITH mysql_native_password BY '1q2w3e4r';
+Wylogowujemy się z basha i z kontenera
+demomysql
+wpisując podwójnie polecenie
+exit
+lub 2 razy używając skrótu klawiszowego
+ctrl + d
+:
+exit
+Uruchamiamy wybraną przez Nas przeglądarkę i wpisujemy w pasek URL następujące dane:
+0.0.0.0:8080
+W sekcji
+Log in
+podajemy poniższe dane i klikamy przycisk
+Go
+:
+Username: root
+Password: 1q2w3e4r
+Po podaniu prawidłowej nazwy użytkownika i hasła mamy dostęp do naszego serwera:
+Teraz możemy wykonywać już dowolne operacje, np. stworzyć nową bazę danych:
+Po wykonaniu wszystkich kroków mamy połączony serwer MySQL z phpMyAdmin, a to wszystko zrobione na kontenerach Dockera.
+Share this post:

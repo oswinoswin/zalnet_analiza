@@ -1,0 +1,47 @@
+Czy dajemy się uwieść dezinformacji?
+Przeglądam sobie X (dawniej Twitter), a tam post z chwytliwym tekstem:
+„POV: You are a Greenlander and you see European soldiers arriving to your island to protect you.”
+(POV, czyli Point of View – punkt widzenia). Wynik działania wpisu? No cóż, liczby robią wrażenie: 600 komentarzy, 1,3 tys. repostów, 21 tys. polubień i aż 370 tys. zasięgu. Wow! Ten prosty przykład doskonale obrazuje, jak łatwo, jako społeczeństwo, możemy ulec
+dezinformacji
+.
+Źródło zdjęcia:
+https://x.com/daily_romania/status/2010775142390247609/photo/1
+Co znajdziesz w tym artykule?
+Czy dajemy się uwieść dezinformacji?
+Ochrona prawdy w sieci, czyli jak nie ulec dezinformacji
+Skuteczna obrona przed manipulacją – lekcja z OSINTu
+Dlaczego to ważne dla Twojej firmy?
+Ochrona prawdy w sieci, czyli jak nie ulec dezinformacji
+Na pierwszy rzut oka wszystko wygląda wiarygodnie, ale diabeł tkwi w szczegółach. Dlaczego w tle maszeruje ktoś, kto do złudzenia przypomina brytyjskiego policjanta lub strażnika? Szybki
+OSINT
+(biały wywiad) i wszystko staje się jasne. To zdjęcie nie pochodzi z Grenlandii, lecz z Londynu z 2025 roku. Przedstawia ono kadetów biorących udział w paradzie równości (Pride Parade).
+Ten przykład pokazuje, jak łatwo sfabrykowany kontekst potrafi zainfekować debatę publiczną. Narracja ta trafiła nawet na nasz rodzimy Wykop, a konto „Daily Romania”, które ją promowało, otwarcie posługuje się hasłem:
+Nationalism | Romania & Europe
+.
+Skuteczna obrona przed manipulacją – lekcja z OSINTu
+Czy naprawdę dezinformacja przejęła nad nami kontrolę do tego stopnia, że utraciliśmy zdolność weryfikowania treści? W świecie, gdzie każdy obraz może zostać błyskawicznie wyrwany z kontekstu i podany dalej tysiącom odbiorców, naszą jedyną linią oporu jest
+krytyczne myślenie
+wspierane przez konkretne rzemiosło, jakim jest
+OSINT
+(Open Source Intelligence).
+Analiza przypadku rzekomego „desantu na Grenlandię” uczy nas trzech kluczowych zasad współczesnej ochrony informacji:
+Zasada „Chłodnego oka”:
+Twórcy
+dezinformacji
+bazuje na emocjach – strachu, dumie narodowej czy poczuciu zagrożenia. Ta sytuacja uczy nas, by w momencie silnego poruszenia treścią, zrobić krok w tył. Pierwszym odruchem nie powinno być „Udostępnij”, lecz „Sprawdź”.
+Weryfikacja kontekstowa (Visual investigation):
+Na wspomnianym zdjęciu wystarczył jeden szczegół – kolorowe flagi – by podważyć całą narrację. Nauka rozpoznawania detali (tablice rejestracyjne, architektura, naszywki) to podstawa obrony przed manipulacją wizualną.
+Śledzenie pochodzenia (Provenance):
+Narzędzia takie jak wsteczne wyszukiwanie obrazem (Reverse Image Search) pozwalają w kilka sekund odkryć, że „news” z dzisiaj jest w rzeczywistości zdjęciem sprzed roku z zupełnie innej części świata. To najprostszy, a zarazem najskuteczniejszy filtr prawdy.
+Dlaczego to ważne dla Twojej firmy?
+W środowisku biznesowym dezinformacja nie dotyczy tylko polityki. To także
+fake newsy uderzające w reputację marki
+, zmanipulowane dane rynkowe czy próby wyłudzeń oparte na sfabrykowanych tożsamościach. Znajomość technik OSINT pozwala pracownikom stać się „ludzkim firewallem” organizacji.
+Zamiast być biernymi odbiorcami szumu informacyjnego, możemy stać się aktywnymi analitykami, którzy potrafią oddzielić starannie zaplanowaną manipulację od faktów. Obrona przed dezinformacją to dziś nie luksus, a elementarna higiena pracy w sieci.
+Jeśli chcesz budować odporność organizacji na manipulację albo zastanawiasz się, jak techniki OSINT lub rozpoznawanie dezinformacji mogą pomóc Twojemu zespołowi, to zapraszamy na
+bezpłatne, 15-minutowe spotkanie przy wirtualnej kawie
+. To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+Umów się na spotkanie
+wyślij wiadomość
+Share this post:

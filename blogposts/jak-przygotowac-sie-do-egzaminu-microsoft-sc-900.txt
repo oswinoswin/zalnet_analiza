@@ -1,0 +1,168 @@
+Jak przygotować się do egzaminu Microsoft SC-900?
+[
+English version
+of this post – click
+here
+]
+Co znajdziesz w tym artykule?
+Jak przygotować się do egzaminu Microsoft SC-900?
+Egzamin SC-900: Microsoft Certified: Security, Compliance, and Identity Fundamentals
+Umiejętności weryfikowane podczas egzaminu:
+Egzamin Microsoft Security, Compliance, and Identity Fundamentals: Podsumowanie
+Jak przygotować się do egzaminu SC-900? Polecane zasoby
+I. Szkolenie prowadzone przez instruktora:
+II. Ścieżka samodzielnej nauki:
+1. Microsoft Learn:
+2. Techniczny trening od Johna Savilla – SC-900 Microsoft Security, Compliance, and Identity Fundamentals Study Cram V2
+3. Inside Cloud and Security – SC-900 Exam Cram – 2024 Edition (Full Course)
+4. Kurs Scotta Duffy'ego SC-900 na Udemy
+5. Testy praktyczne do egzaminu SC-900 od Scotta Duffy'ego na Udemy
+6. Grupa Microsoft Azure Scotta Duffy'ego (nieoficjalna) na Facebooku
+7. Blog Roberta Przybylskiego o tożsamości i chmurze Azure
+8. Praktyczne testy przygotowujące do egzaminu SC-900: Microsoft Security, Compliance, and Identity Fundamentals
+9. Zadania praktyczne
+Egzamin SC-900: Microsoft Certified: Security, Compliance, and Identity Fundamentals
+Aby zdać egzamin
+SC-900: Microsoft Certified: Security, Compliance, and Identity Fundamentals
+, musisz wykazać się podstawową wiedzą na temat koncepcji bezpieczeństwa, zgodności i tożsamości oraz powiązanych rozwiązań chmurowych Microsoftu.
+Egzamin ten jest skierowany do osób, jktórą chcą zapoznać się z podstawami bezpieczeństwa, zgodności i tożsamości (SCI) w usługach chmurowych i powiązanych usługach Microsoftu.
+Jeśli interesują Cię rozwiązania Microsoft SCI, ten egzamin jest dla Ciebie, niezależnie od tego, czy jesteś:
+Przedstawicielem biznesu
+Nowym lub doświadczonym specjalistą IT
+Studentem
+Powinieneś znać
+Microsoft Azure
+i
+Microsoft 365
+i chcieć zrozumieć, w jaki sposób rozwiązania Microsoft SCI mogą obejmować te obszary, aby zapewnić holistyczne i kompleksowe rozwiązanie.
+Umiejętności weryfikowane podczas egzaminu:
+Opis koncepcji bezpieczeństwa, zgodności i tożsamości (10–15%)
+Opis możliwości Microsoft Entra (25–30%)
+Opis możliwości rozwiązań bezpieczeństwa Microsoftu (35–40%)
+Opis możliwości rozwiązań zgodności Microsoftu (20–25%)
+Ten egzamin jest dostępny w następujących językach:
+Angielski
+Arabski
+Chiński (uproszczony)
+Chiński (tradycyjny)
+Francuski
+Niemiecki
+Indonezyjski
+Włoski
+Japoński
+Koreański
+Portugalski (Brazylia)
+Rosyjski
+Hiszpański
+Uwaga:
+Angielska wersja tego egzaminu została zaktualizowana 18 lipca 2025 roku.
+Egzamin Microsoft Security, Compliance, and Identity Fundamentals: Podsumowanie
+Nazwa egzaminu
+Microsoft Security, Compliance, and Identity Fundamentals
+Kod egzaminu
+SC-900
+Cena egzaminu
+$59 (Polska), $99 (USA)
+Czas trwania
+60 minut
+Liczba pytań
+40-60
+Minimalna liczba punktów do zdania egzaminu
+700 punktów/Maksymalna liczba punktów: 1000
+Książki / Szkolenia
+SC-900T00-A: Introduction to Microsoft Security, Compliance, and Identity
+Rezerwacja terminu na egzamin
+Pearson VUE
+Przykładowe pytania
+Practice Assessment for Exam SC-900: Microsoft Security, Compliance, and Identity Fundamentals
+Jak przygotować się do egzaminu SC-900? Polecane zasoby
+Istnieje wiele zasobów, które pomogą w przygotowaniu do egzaminu. Microsoft zaleca korzystanie z platformy online – Microsoft Learn, która zapewnia bezpłatne ścieżki edukacyjne i moduły, które można czytać i przerabiać we własnym tempie.
+I. Szkolenie prowadzone przez instruktora:
+Szkolenie SC-900T00-A: Introduction to Microsoft Security, Compliance, and Identity
+Ten kurs zapewnia wiedzę na poziomie wprowadzającym na temat koncepcji bezpieczeństwa, zgodności i tożsamości oraz powiązanych rozwiązań chmurowych Microsoftu.
+Profil odbiorców
+Ten jednodniowy kurs jest dostępny w następujących językach:
+Angielski
+Arabski
+Chiński (uproszczony)
+Chiński (tradycyjny)
+Francuski
+Niemiecki
+Indonezyjski
+Włoski
+Japoński
+Koreański
+Portugalski (Brazylia)
+Rosyjski
+Hiszpański
+Kurs ten jest odpowiedni dla osób z IT, które dopiero zaczynają pracować z chmurą Azure. Dla grupy odbiorców, która chce poznać usługi Azure i zdobyć praktyczne doświadczenie. Kurs ten wykorzystuje głównie portal Azure i interfejs wiersza poleceń do tworzenia zasobów i nie wymaga umiejętności skryptowych. Studenci tego kursu zyskają pewność siebie, aby podjąć inne kursy i certyfikaty oparte na rolach, takich jak Azure Administrator. Kurs ten łączy wykłady, demonstracje i laboratoria praktyczne. Ten kurs pomoże również przygotować się do egzaminu AZ-900.
+II.
+Ścieżka samodzielnej nauki:
+1. Microsoft Learn:
+a.
+Introduction to security, compliance, and identity concepts
+b.
+Introduction to Microsoft Entra
+c.
+Introduction to Microsoft security solutions
+d.
+Introduction to Microsoft Priva and Microsoft Purview
+Ta podstawowa ścieżka edukacyjna Azure jest zalecanym kursem do przygotowania do egzaminu SC-900. Jest to około 7-godzinny kurs zawierający
+15 modułów
+:
+Introduction to security, compliance, and identity concepts – Describe security and compliance concepts
+Introduction to security, compliance, and identity concepts – Define identity concepts
+Introduction to Microsoft Entra – Describe function and identity types of Microsoft Entra ID
+Introduction to Microsoft Entra – Describe authentication capabilities of Microsoft Entra ID
+Introduction to Microsoft Entra – Describe access management capabilities of Microsoft Entra ID
+Introduction to Microsoft Entra – Describe identity protection and governance capabilities of Microsoft Entra
+Introduction to Microsoft security solutions – Describe Microsoft Security Copilot
+Introduction to Microsoft security solutions – Describe core infrastructure security services in Azure
+Introduction to Microsoft security solutions – Describe the security management capabilities in Azure
+Introduction to Microsoft security solutions – Describe capabilities of Microsoft Sentinel
+Introduction to Microsoft security solutions – Describe threat protection with Microsoft Defender XDR
+Introduction to Microsoft Priva and Microsoft Purview – Describe Microsoft’s Service Trust portal and privacy capabilities
+Introduction to Microsoft Priva and Microsoft Purview – Describe the data security solutions of Microsoft Purview
+Introduction to Microsoft Priva and Microsoft Purview – Describe the data compliance solutions of Microsoft Purview
+Introduction to Microsoft Priva and Microsoft Purview – Describe the data governance solutions of Microsoft Purview
+Te moduły to prawie zawsze czysty tekst bez żadnych filmów. Bądź gotowy do czytania i robienia notatek!
+Te moduły to prawie zawsze zwykły tekst bez żadnych filmów.
+Bądź gotowy do czytania i robienia notatek!
+2. Techniczny trening od Johna Savilla – SC-900 Microsoft Security, Compliance, and Identity Fundamentals Study Cram V2
+Kanał na
+Youtube
+.
+Przygotowanie do egzaminu SC-900 – Microsoft Security, Compliance, and Identity Fundamentals. 2-godzinny film z wieloma przydatnymi linkami.
+3. Inside Cloud and Security – SC-900 Exam Cram – 2024 Edition (Full Course)
+Kanał na
+Youtube
+Naucz się podstaw cyberbezpieczeństwa Microsoftu i zdaj egzamin SC-900 dzięki temu rozszerzonemu kursowi przygotowującemu do egzaminu, zawierającemu wszystkie aktualizacje z 25 kwietnia 2024 roku! Egzamin SC-900 to okazja do udowodnienia swojej wiedzy na temat koncepcji cyberbezpieczeństwa Microsoftu, usług bezpieczeństwa oraz podstaw bezpieczeństwa w chmurze, prywatności, zgodności i zaufania. Ten kurs obejmuje wszystkie elementy wymienione w dokumencie „SC-900 skills measured” na stronie głównej egzaminu SC-900.
+4. Kurs Scotta Duffy’ego SC-900 na Udemy
+SC-900 Microsoft Security Fundamentals Exam Prep
+Opanuj podstawy bezpieczeństwa Azure/Microsoft 365 i zdobądź certyfikat dzięki temu kompletnemu kursowi SC-900 dla początkujących!
+5. Testy praktyczne do egzaminu SC-900 od Scotta Duffy’ego na Udemy
+SC-900 Microsoft Security Exam Practice Test
+Opanuj egzamin SC-900! 2 testy praktyczne po 50 pytań z limitami czasowymi dla realistycznego doświadczenia i większego sukcesu. Zainwestuj w swoją przyszłość!
+6. Grupa Microsoft Azure Scotta Duffy’ego (nieoficjalna) na Facebooku
+Dołącz do tej fantastycznej
+grupy
+na Facebooku, jeśli masz pytania, wątpliwości, problemy dotyczące egzaminów i nie tylko. Ta grupa pomaga, wspiera i doradza.
+7. Blog Roberta Przybylskiego o tożsamości i chmurze Azure
+Odwiedź tego
+bloga
+, gdzie znajdziesz ciekawe rzeczy o tożsamości, rozwiązaniach On-Premises, Azure i bezpieczeństwie.
+8. Praktyczne testy przygotowujące do egzaminu SC-900: Microsoft Security, Compliance, and Identity Fundamentals
+Practice Assessments
+na platformie Microsoft Learn to najnowsze bezpłatne zasoby Microsoftu pomagające w przygotowaniu się do egzaminu, które pozwalają ocenić swoją wiedzę i uzupełnić luki w niej, dzięki czemu jesteś lepiej przygotowany do egzaminu certyfikacyjnego.
+9. Zadania praktyczne
+Gorąco polecam:
+Sprawdź i przerób
+laboratoria SC-900
+.
+Monitoruj swoje postępy w zakresie
+umiejętności
+.
+Rozwiązuj egzaminy praktyczne.
+Postępuj zgodnie z powyższymi wskazówkami, aby zdać egzamin bez żadnych trudności. Jeśli chcesz dodać swoją wskazówkę, zostaw komentarz.
+Dziękuję za poświęcenie czasu na przeczytanie mojego bloga. Uprzejmie podziel się nim z innymi, jeśli uznasz go za pomocny!
+Share this post:

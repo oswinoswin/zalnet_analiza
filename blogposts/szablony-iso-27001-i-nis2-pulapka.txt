@@ -1,0 +1,132 @@
+Pułapka poznawcza, czyli dlaczego szablony ISO 27001 i NIS2 mogą pogłębiać papierową biurokrację [Polemika]
+Szablony ISO 27001 i NIS2 to ostatnio temat na czasie, a wpis Wojciecha Ciemskiego na blogu
+Security bez Tabu
+pt.
+„
+Nie Sprzedaję Zgodności W Paczce. Po Co Są Szablony Dokumentacji NIS2 I ISO 27001?
+”
+porusza temat, który od miesięcy elektryzuje całą branżę IT, cybersecurity i compliance w Polsce. Wojtek niezwykle celnie diagnozuje największą patologię procesów wdrożeniowych – tzw. „papierową zgodność” (
+paper compliance
+). Sytuacje, w których grube segregatory (lub foldery na SharePoincie) pełne polityk kurzą się nieużywane, a na proste pytania o testy backupów czy rejestry dostępów w firmie zapada głucha cisza, to niestety rynkowa codzienność.
+Z wieloma tezami autora trudno się nie zgodzić: dokumenty nie zastąpią procesów, a realnego bezpieczeństwa nie da się kupić w jednym pliku .zip. Jednak analizując głębiej argumentację Wojtka, można dostrzec kilka kluczowych nieścisłości oraz paradoksów logicznych. Proponowane przez niego rozwiązanie – czyli sprzedaż pakietów szablonów dokumentacji – w rzeczywistości może przynieść skutek odwrotny do zamierzonego. Może stać się katalizatorem dokładnie tej papierowej fikcji, z którą autor deklaruje walkę.
+Oto szczegółowa analiza najważniejszych punktów spornych i nieścisłości w tym podejściu:
+Co znajdziesz w tym artykule?
+Pułapka poznawcza, czyli dlaczego szablony ISO 27001 i NIS2 mogą pogłębiać papierową biurokrację [Polemika]
+1. Paradoks „pustej kartki" i poznawcza pułapka szablonu
+Szablony ISO 27001 i NIS2  a błąd zakotwiczenia
+Czy ekspertowi nie wystarczy norma?
+2. Drastyczne zachwianie równowagi w triadzie PPT (Ludzie, Procesy, Technologie)
+Co powinno być pierwsze: analiza procesów czy zakup dokumentacji?
+Zaburzanie triady PPT
+Kolejne niedomówienia i obietnice
+3. Sztuczny podział na dwa szablony ISO 27001 i NIS2 jako generator biurokracji
+Szablony ISO 27001 i NIS2 – czy faktycznie aż tak różne?
+4. Sprzeczność w grupie docelowej – paradoks małego zespołu
+Szablony ISO 27001 i NIS2 to nie jest cudowne remedium na brak czasu
+5. Sprowadzanie wdrożenia do „opisywania procesów" zamiast ich fizycznego budowania
+Najpierw projektowanie procesów, potem opisywanie i szablony ISO 27001 i NIS2
+6. Klasyczny paradoks „szewca bez butów", czyli kwestia wiarygodności eksperta
+Czy Security Bez Tabu ma porządek w dokumentacji?
+Security bez porządku w papierach?
+Podsumowanie: Czy szablony szablony ISO 27001 i NIS2 to ślepy zaułek?
+1. Paradoks „pustej kartki” i poznawcza pułapka szablonu
+Wojtek argumentuje, że wartością szablonów jest to, że „nie zaczynasz od zera”, a pusta kartka bywa dla małych zespołów paraliżująca.
+Szablony ISO 27001 i NIS2  a błąd zakotwiczenia
+W psychologii zarządzania procesami pusta kartka bywa zbawienna, a gotowy, profesjonalnie brzmiący szablon – skrajnie zwodniczy. Kiedy zespół dostaje do ręki dokument naszpikowany ekspercką terminologią, uruchamia się tzw.
+błąd zakotwiczenia
+(
+anchoring bias
+). Polega na nieświadomym przyjmowaniu pierwszej napotkanej informacji lub liczby (tzw. „kotwicy”) za punkt odniesienia, przez co wpływa ona na nasze późniejsze oceny, decyzje i szacunki.
+Czy ekspertowi nie wystarczy norma?
+Zamiast usiąść i pomyśleć:
+„
+Jak realnie wygląda nasza ścieżka eskalacji incydentu, gdy o 2:00 w nocy padną serwery?”
+, zespół zaczyna
+redagować
+cudzy tekst. Autor szablonu pisze np. w kroku drugim swojej instrukcji: „usuń zapisy, które nie pasują”. Aby jednak wiedzieć, co usunąć, trzeba posiadać ogromną dojrzałość technologiczną i procesową. Jak taką wiedzę posiadamy, to dokumenty też będziemy umieli napisać. Mało doświadczone zespoły, zamiast usuwać nadmiarowe zapisy, zostawiają je „na wszelki wypadek”, bo „brzmią mądrze”. W ten sposób szablon, zamiast chronić przed papierową zgodnością, staje się jej fundamentem. Usypia czujność kierownictwa, dając fałszywe poczucie, że skoro „mamy na to procedurę w Wordzie”, to temat jest zabezpieczony.
+Skoro problemem jest dokumentacja, która nie opisuje rzeczywistości, to po co kupować szablony, zamiast samodzielnie pisać dokumentację na podstawie rzeczywistości?
+Tekst o pustej kartce, securitybeztabu.pl. dostęp: 20.06.2026
+2. Drastyczne zachwianie równowagi w triadzie PPT (Ludzie, Procesy, Technologie)
+Każdy, kto choć trochę przetarł się w świecie cybersecurity, zna klasyczny model
+PPT
+(People, Process, Technology)
+. To jest skupienie uwagi na szefach, liderach, którzy wiedzą, że samą technologią problemów nie da się rozwiązać. To ludzie i procesy są kluczem do sukcesu. PPR wskazuje, że skuteczne bezpieczeństwo stoi na trzech równorzędnych filarach: kompetentnych ludziach, dobrze zaprojektowanych procesach i odpowiednio skonfigurowanej technologii. Dokumentacja wynika z procesów, decyzji, konfiguracji, a nie odwrotnie.
+Co powinno być pierwsze: analiza procesów czy zakup dokumentacji?
+Promowanie szablonów dokumentacji na
+stronie sprzedażowej szablonów ISO
+od firmy Security Bez Tabu tekstami w stylu: „Wszystkie wzory dokumentów zostały zaktualizowane i są zgodne z najnowszą wersją standardu ISO/IEC 27001:2022. Dzięki temu masz pewność, że
+dokumentacja Twojej organizacji spełni wszystkie aktualne wymagania, co jest kluczowe dla uzyskania i utrzymania certyfikacji
+” to wprowadzanie w błąd ludzi, który nie mają odpowiedniej wiedzy. Mnie zawsze uczyli, że to wdrożone procesy są kluczowe dla uzyskania i utrzymania certyfikacji, a nie dokumenty.
+Zaburzanie triady PPT
+Takie podejście, drastycznie zaburza tę triadę. Szablon nie przeszkoli
+Ludzi
+(People) i nie zmieni ich nawyków. Szablon nie wdroży i nie sfinansuje
+Technologii
+(Technology). Co więcej, wpychanie organizacji w gotowe ramy procesowe bez wcześniejszego audytu technologicznego to stawianie wozu przed koniem. Prawdziwe bezpieczeństwo rodzi się na styku technologii i ludzi – dokument jest tylko końcowym zapisem tego stanu rzeczy, a nie jego zarzewiem.
+Strona sprzedażowa dokumentacji ISO 27001, dostęp: 20.06.2026
+Kolejne niedomówienia i obietnice
+Na
+stronie sprzedażowej dokumentacji do NIS2
+, firmowane nazwiskiem Wojciecha Ciemskiego, można znaleźć poniższy tekst: „Gotowe szablony pozwalają znacząco przyspieszyć cały proces i
+wdrożyć wymagane dokumenty
+znacznie szybciej oraz niższym kosztem.” A mnie zawsze uczyli, że wdraża się procesy wspierane przez technologię, a dokumety są opisem działania tych procesów.
+Wdrażanie dokumentacji NIS2, dostęp: 20.06.2026
+3. Sztuczny podział na dwa szablony ISO 27001 i NIS2 jako generator biurokracji
+Autor kładzie nacisk na to, że ISO 27001 (system zarządzania) i NIS2 (wymagania regulacyjne) to „różne porządki” i na tej podstawie oferuje dwa osobne, płatne pakiety szablonów.
+Szablony ISO 27001 i NIS2 – czy faktycznie aż tak różne?
+ISO 2701 to międzynarodowa norma, a NIS2 to unijna dyrektywa implementowana do krajowego prawa. Z punktu widzenia operacyjnego i inżynieryjnego rozdzielanie ich na dwa światy dokumentacyjne jest IMO błędem. Wytyczne ENISA oraz praktyka rynkowa jasno wskazują, że ISO 27001 jest najlepszym, gotowym szkieletem do zmapowania wymagań art. 21 dyrektywy NIS2.
+Rozbijanie tego na dwa osobne pakiety szablonów zachęca firmy do tworzenia silosów dokumentacyjnych. Organizacja nie powinna mieć „procedury obsługi incydentów pod NIS2” i „procedury pod ISO”. Powinna mieć
+jeden
+, zintegrowany proces. Oferowanie dwóch produktów sugeruje mniej doświadczonym zespołom, że muszą budować dwa równoległe uniwersa. Takie podejście w prostej linii prowadzi do biurokratycznego chaosu i dublowania pracy – czyli dokładnie tego, przed czym Wojtek sam ostrzega.
+4. Sprzeczność w grupie docelowej – paradoks małego zespołu
+Wpis wskazuje, że pakiety szablonów mają największy sens m.in. dla „małych zespołów z dużym natłokiem obowiązków” oraz firm, które „nie wiedzą, od czego zacząć”.
+Szablony ISO 27001 i NIS2 to nie jest cudowne remedium na brak czasu
+To poważny zgrzyt logiczny. Jeśli mały zespół cierpi na chroniczny brak czasu, to nie będzie miał wolnych zasobów, aby rzetelnie przejść przez proponowane przez autora kroki. Kroków głębokiej adaptacji szablonu (analiza, wycinanie, mapowanie, przypisywanie właścicieli, generowanie dowodów operacyjnych). Praca z rozbudowanym szablonem wymaga paradoksalnie
+więcej
+refleksji i specjalistycznej wiedzy IT/Security. Dużo łatwiej stworzyć fikcję przy dużych dokumentach. A czasami wystarczy spisanie prostego, 3-punktowego procesu własnymi słowami.
+Zespoły, które nie wiedzą, od czego zacząć, po zakupie paczki plików najczęściej robią dokładnie to, czego autor chciał uniknąć. Podmieniają logo na stronie tytułowej, wpisują losowe nazwiska w tabeli odpowiedzialności i chowają dokument do szuflady. Szablony ułatwiają życie doświadczonym konsultantom, którzy potrafią nimi żonglować, ale dla przeciążonego wewnętrznego działu IT bywają niedźwiedzią przysługą. Ale doświadczeni konsultanci przez lata wypracowali już swoje własne szablony i nie muszą ich kupować.
+Szablony ISO 27001 i NIS2 – Mały zespół i brak czasu, securitybeztabu.pl, dostęp: 20.06.2026
+5. Sprowadzanie wdrożenia do „opisywania procesów” zamiast ich fizycznego budowania
+We wpisie pojawia się teza, że niezależnie od przepisów (KSC, NIS2, ISO), problem operacyjny zawsze sprowadza się do tego, że „ktoś musi opisać te procesy”.
+Najpierw projektowanie procesów, potem opisywanie i szablony ISO 27001 i NIS2
+Największym wyzwaniem w cyberbezpieczeństwie nie jest
+opisanie
+procesów, ale ich zaprojektowanie, sfinansowanie i techniczne egzekwowanie. Szablon procedury reagowania na incydenty powie Ci, że potrzebujesz osi czasu (timeline) i analizy logów (co autor ładnie ilustruje przykładami komend dla Windows/Linux). Szablon nie wygeneruje jednak budżetu na systemy klasy SIEM/EDR, nie wdroży centralnego logowania i nie zatrudni ludzi do monitoringu 24/7. Pisanie polityk na bazie szablonów często odwraca prawidłowy wektor działań: najpierw powstaje życzeniowy „standard” w Wordzie, a potem firma latami próbuje dosięgnąć go technologicznie i kadrowo.
+Prawidłowe wdrożenie w duchu triad PPT powinno iść od dołu: najpierw oceniamy zasoby ludzkie, analizujemy i definiujemy procesy, konfigurujemy technologię i ustalamy realne, mierzalne ścieżki działań, a na samym końcu tworzymy z tego dokumentację. A w niej opisujemy triadę PPT, a nie tylko procesy.
+Szablony ISO 27001 i NIS2 – Opisywannie proceesów, securitybeztabu.pl, dostęp: 20.06.2026
+6. Klasyczny paradoks „szewca bez butów”, czyli kwestia wiarygodności eksperta
+Na koniec warto poruszyć kwestię, która uderza w samą esencję wiarygodności promowania gotowych rozwiązań dokumentacyjnych przez Wojciecha Ciemskiego. Skoro szablony są tak genialnym i prostym lekiem na paraliż decyzyjny, brak czasu oraz unikanie „pustej kartki”, pojawia się fundamentalne pytanie:
+dlaczego sam Autor nie skorzystał z własnej rady przy porządkowaniu własnego podwórka?
+Czy Security Bez Tabu ma porządek w dokumentacji?
+Analizując platformy, na których sprzedawane są wspomniane pakiety ISO 27001 i NIS2, trudno nie zauważyć uderzającej ironii. Regulamin sklepu oraz polityka prywatności – czyli dokumenty podlegające pod fundamentalne,
+powszechne reguły compliance
+(takie jak RODO czy prawa konsumenta) – od dłuższego czasu pozostawiają na tych stronach sporo do życzenia pod kątem formalno-prawnym. Pisalam o tym
+miesiąc temu
+, pisałam w styczniu 2025 roku.
+Regulamin securitybeztabu.pl, dostęp: 20.06.2026
+Security bez porządku w papierach?
+Skoro stworzenie i wdrożenie dobrego szablonu to – według zapewnień Wojtka – proces tak bardzo ułatwiający życie, to
+dlaczego jego własny regulamin nie został w ten sposób naprawiony?
+Czy godzi się
+, aby osoba, która uczy rynek zgodności i audytuje innych, sama nie stosowała się do podstawowych standardów compliance we własnym biznesie?
+Czy godzi się
+, aby osoba, która uczy o zgodności i audytuje innych,miałą zapis w
+regulaminie
+, że „Opłaty za Szkolenie uwzględniają podatek VAT w wysokości 23%” i „Użytkownikowi po zakupie materiału edukacyjnego wystawiana jest faktura vat”
+wystawiała fakturę bez VAT
+, bo firma została wykreślona z rejestru płatników VAT wiele miesięcy temu, na dodatek płatność idzie na rachunek, którego nie ma na Białej Liście?
+Faktura za ebooka od Security Bez Tabu, dostęp: 20.06.2026
+To potężny zgrzyt logiczny i wizerunkowy. Jeśli (podobno) ceniony ekspert od cyberbezpieczeństwa i norm ISO, posiadający ogromną wiedzę i rzekomo świetne narzędzia (szablony), nie potrafi lub nie ma czasu zapewnić pełnej, bezbłędnej zgodności prawnej własnego sklepu internetowego, to wysyła w świat bardzo niepokojący komunikat.
+Jest to zarazem
+najlepszy, żywy dowód na prawdziwość tezy, że szablony nie działają
+. Pokazuje to, że nawet mając dostęp do gotowych wzorów i ekspercką wiedzę w głowie, realne wdrożenie, utrzymanie i bieżąca aktualizacja dokumentów w zderzeniu z brakiem czasu (operacyjną codziennością) po prostu przegrywa.
+Skoro dla samego twórcy szablonów własne compliance okazało się zbyt angażujące, to jak możemy oczekiwać, że przeciążony, mały zespół IT w firmie produkcyjnej czy szpitalu nagle z sukcesem wdroży setki stron procedur NIS2 z paczki .zip?
+Teoria po raz kolejny brutalnie rozjechała się tu z praktyką.
+Podsumowanie: Czy szablony szablony ISO 27001 i NIS2 to ślepy zaułek?
+Wojciech Ciemski deklaruje, że „nie sprzedaje zgodności w paczce”. Problem polega na tym, że sama formuła produktu, jakim są pakiety szablonów dokumentacji, strukturalnie sprzyja zachowaniom generującym papierowy compliance, zwłaszcza u mniej dojrzałych odbiorców.
+Szablon traktowany jako luźna checklista może pomóc zewnętrznemu ekspertowi. Takiemu, który doskonale wie, co robi, i potrzebuje jedynie przyspieszyć mechaniczną pracę formatowania dokumentów. Taki ekspert ma już swój wypracowany i przetestowany zestaw dokumentów. Jednak dla organizacji, które dopiero zaczynają swoją przygodę z NIS2 czy ISO 27001, a do takich głównie adresowana jest ta oferta, zakup gotowych wzorów to
+rzucenie się na głęboką wodę w nieszczelnej łodzi
+.
+Bezpieczeństwa nie buduje się od wypełniania luk w cudzych tekstach. Buduje się ją od edukacji ludzi, inwentaryzacji technologii i procedur pisanych prosto, szczerze i od zera. Właśnie na tej tak bardzo nielubianej, czystej kartce papieru. Bo w razie prawdziwego incidentu, haker nie będzie czytał naszego profesjonalnie sformatowanego PDF-a.
+A jakie jest Wasze doświadczenie? Czy szablony dokumentacji pomogły Wam realnie poukładać procesy, czy skończyły jako cyfrowa makulatura, o której wszyscy starają się zapomnieć? Zapraszam do dyskusji w komentarzach!
+Share this post:

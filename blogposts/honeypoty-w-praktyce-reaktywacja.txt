@@ -1,0 +1,54 @@
+Autor przyznaje mi rację, ale mojej recenzji dalej nie publikuje!
+Honeypoty w praktyce reaktywacja nadchodzi. Kiedy kilka miesięcy temu opublikowałam
+moją miażdżącą recenzję książki z Security Bez Tabu
+, niektórzy pukali się w głowę. „Jak możesz tak ostro krytykować branżowego eksperta?” – pytali. Ja jednak wolałam opierać się na faktach, wytykając lanie wody, brak screenów, błędy w kodzie i kopiuj-wklej z dokumentacji. I wiecie co? Okazało się, że miałam rację. Co więcej – sam Wojciech Ciemski właśnie to przyznał.
+Zanim jednak otworzymy szampana na cześć rzetelnej krytyki w polskim IT, przyjrzyjmy się pewnemu niezwykle zabawnemu zjawisku. Zjawisku, w którym autor korzysta z twojej darmowej pracy QA (Quality Assurance), naprawia na jej podstawie swój produkt, zapowiada, że nadciąga Honeypoty w praktyce reaktywacja, ale… twojej opinii o książce oficjalnie nigdzie nie publikuje.
+Opinia o Honeypoty w praktyce, data wystawienia 12.05.2026
+Co znajdziesz w tym artykule?
+Autor przyznaje mi rację, ale mojej recenzji dalej nie publikuje!
+Pierwsze wydanie "Honeypotów w praktyce" vs. reaktywacja na profilu Security Bez Tabu
+Gdzie jest moja opinia na słynnym "Wall of Fame"?
+Marketingowy fikołek i płatne testy na produkcji
+Podsumowanie: Nowe "Honeypoty w praktyce" – czy warto czekać?
+Pierwsze wydanie „Honeypotów w praktyce” vs. reaktywacja na profilu Security Bez Tabu
+Zróbmy małe porównanie. W moim tekście wypunktowałam publikację bez znieczulenia. Zwróciłam uwagę na brak schematów, niedziałające komendy (klonowanie repozytorium po
+http
+zamiast
+https
+), niebezpieczne instrukcje jak instalowanie wszystkiego jak leci z flagą
+-y
+, ogólny chaos oraz bezpośrednie wklejki z dokumentacji i AI.
+A teraz spójrzmy na najnowszy wpis Wojciecha Ciemskiego, w którym zapowiada „Wydanie II” ksiązki. Wojtek pisze:
+„Honeypoty w praktyce ukazały się zaledwie kilka miesięcy temu.
+I praktycznie od momentu premiery zacząłem je poprawiać
+.
+Część zmian wynikała z pierwszego feedbacku Czytelników. Część z tego, że kiedy wreszcie dostałem gotową książkę do ręki, sam zacząłem patrzeć na nią inaczej (…) Laboratoria, które należało przebudować. Instrukcje, które trzeba było doprecyzować (…). Miejsca, w których książka mogła być bardziej praktyczna, bezpieczniejsza i po prostu lepsza. Było też sporo sugestii od Pszczółki Beeatki.”
+Tłumacząc z języka marketingowego na polski:
+wypuściłem niedopracowany produkt, czytelnicy zrobili mi darmowe code-review i audyt bezpieczeństwa, więc musiałem przepisać książkę
+.
+Z jednej strony – szacunek za uderzenie się w pierś. Zrozumienie, że książka musi być „bezpieczniejsza” i że laboratoria trzeba „przebudować”, to krok w dobrą stronę. Ale z drugiej strony…
+Security Bez Tabu, post sprzedażowy na Linkedinie, dostęp 15.08.2026
+Gdzie jest moja opinia na słynnym „Wall of Fame”?
+Skoro Wojciech Ciemski publicznie przyznaje, że moje sugestie miały realny wpływ na to, że e-book musiał doczekać się gruntownego remontu, to rodzi się jedno, bardzo ważne pytanie:
+dlaczego wciąż nie publikuje wszystkich ocen?
+Jeśli sprawdzimy, jak wyglądają oceny publikacji na oficjalnej stronie sprzedażowej
+app.easy.tools/walls/honeypoty-w-praktyce
+, zobaczymy niemal wyłącznie starannie wyselekcjonowane laurki z 5 gwiazdkami. Skoro sam Wojciech Ciemski pisze, że „Część zmian wynikała z pierwszego feedbacku Czytelników”, to jaki był ten feedback, skoro na Wallu same achy i ochy? Gdzie są te recenzje, które wpłynęły na przebudowę laboratoriów i poprawę bezpieczeństwa?
+Czyżby transparentność w branży
+cybersec
+kończyła się tam, gdzie zaczyna się lejek sprzedażowy? Łatwo jest rzucić w poście uśmiechnięte „dzięki za sugestie Pszczółko Beeatko”, gdzie większość moich znajomych już wie, że jestem współwłaścicielką
+Pasieki na Roztoczu
+, ale zamieszczenie linku do recenzji, która punktuje luki w wiedzy za 57 PLN, to już widocznie zbyt duże ryzyko wizerunkowe.
+Marketingowy fikołek i płatne testy na produkcji
+Najciekawszy w tym wszystkim jest jednak sam post sprzedażowy SBT (Security Bez Tabu). Zamiast komunikatu:
+„Słuchajcie, przepraszam, pierwsze wydanie to była w zasadzie płatna beta, muszę to naprawić”
+, dostajemy narrację o niesamowitej okazji. Szykuje się swoista Honeypoty w praktyce reaktywacja, a my dostajemy ofertę specjalną!
+Kup teraz pierwsze wydanie, a zaktualizowany ebook dostaniesz „bezpłatnie”! Co więcej, autor zapowiada, że nowa wersja będzie droższa, bo starą „wycenił za tanio”.
+Zapłacenie 57 zł za PDF-a, w którym uczy się instalowania zależności poleceniem
+apt-get install -y
+i wkleja niedziałające linki do GitHuba, to faktycznie była cena „za tania”… ale chyba dla autora. Ja, jako czytelnik, przepłaciłam jak za mokre zboże i po prostu sfinansowałam mu testy na produkcji.
+Podsumowanie: Nowe „Honeypoty w praktyce” – czy warto czekać?
+Cieszę się, że moja recenzja zmusiła autora do refleksji i solidnej pracy nad błędami. To dowód na to, że warto pisać prawdę, nawet jeśli jest ona niewygodna dla głośnych nazwisk w branży.
+Jeśli jednak autor korzysta z uwag czytelników, przebudowuje według nich swój płatny produkt, a potem sprzedaje go drożej – to powinien mieć na tyle cywilnej odwagi, by podlinkować pełną krytykę na swoim wallu sprzedażowym. W końcu, jak to w cyberbezpieczeństwie – logi nie kłamią, a transparentność to podstawa.
+Zobaczymy, czym uraczy nas zapowiadana nowa wersja książki Honeypoty w praktyce wydanie II. Oby tym razem było w nim więcej praktyki, a mniej lania wody. Na pewno to sprawdzę. O ile dostanę e-booka zamiast bana 😉
+Share this post:

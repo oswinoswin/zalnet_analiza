@@ -1,0 +1,79 @@
+Ustawa o sztucznej inteligencji: Rola KRiBSI
+Czy Twój biznes jest gotowy na nowe regulacje prawne? Krajowa
+ustawa o sztucznej inteligencji
+została właśnie oficjalnie przyjęta przez Senat. To historyczny moment dla polskiego rynku technologicznego, który przenosi unijny AI Act bezpośrednio do naszej rzeczywistości gospodarczej. Jakiś czas temu na blogu analizowałam pierwsze założenia tych przepisów – jeśli chcesz przypomnieć sobie tamten kontekst, przeczytaj mój poprzedni artykuł:
+EU AI Act i polski projekt ustawy o sztucznej inteligencji
+. Dziś czas na konkretną aktualizację.
+Co znajdziesz w tym artykule?
+Ustawa o sztucznej inteligencji: Rola KRiBSI
+Polska ustawa o systemach sztucznej inteligencji przeszła przez głosowania w Sejmie i Senacie
+Kiedy ustawa o sztucznej inteligencji zacznie w pełni obowiązywać?
+Kiedy ustawa o sztucznej inteligencji zacznie w pełni obowiązywać?
+Opinie indywidualne – Koło ratunkowe dla biznesu
+Certyfikacja i kary, jakie wprowadza ustawa o sztucznej inteligencji
+Głos społeczny: Społeczna Rada ds. Sztucznej Inteligencji
+Podsumowanie: Co musisz zrobić przed 2 sierpnia 2026 roku?
+Polska ustawa o systemach sztucznej inteligencji przeszła przez głosowania w Sejmie i Senacie
+Obecnie robimy ogromny krok naprzód. Czas teorii oficjalnie się skończył. 11 czerwca 2026 r. w
+Sejmie odbyło się III czytanie
+rządowego
+projektu ustawy o systemach sztucznej inteligencji
+(projektu mającyego na celu wykonanie prawa Unii Europejskiej). Wynik: 421 posłów było za, 3 przeciw, 18 wstrzymało się. Tego samego dnia ustawę przekazano Prezydentowi i Marszałkowi Senatu.
+Rządowy projekt ustawy o systemach sztucznej inteligencji, dostęp 08.07.2026
+25 czerwca 2026 roku Senat jednogłośnie przyjął dokument, jakim jest
+krajowa ustawa o systemach sztucznej inteligencji
+. Jak potwierdzają
+doniesienia serwisu CyberDefence24 na temat głosowania w Senacie
+, projekt trafił właśnie na biurko Prezydenta. Niniejszy artykuł to praktyczne poszerzenie tamtego tematu. Sprawdzamy, jaki ostateczny kształt przybrały polskie przepisy i co to oznacza dla Twojego biznesu.
+Kiedy ustawa o sztucznej inteligencji zacznie w pełni obowiązywać?
+Ekspresowe tempo prac nad ustawą w 2026 roku wynika z nieubłaganie nadchodzących terminów unijnych. Przypomnijmy kluczowe daty, o których wspominałam poprzednio, uzupełniając je o obecny kontekst:
+Luty 2025 r.:
+Wszedł w życie zakaz systemów o niedopuszczalnym ryzyku (np. biometria behawioralna w pracy).
+Sierpień 2025 r.:
+Zaczęły obowiązywać wytyczne dla modeli ogólnego przeznaczenia (GPAI).
+2 sierpnia 2026 r.:
+To najważniejsza data na Twoim radarze. Wtedy w pełni wchodzą w życie ogólne przepisy Aktu o AI. Dzięki nowo uchwalonej ustawie, polskie organy dostają do rąk gotowy bicz legislacyjny dokładnie w tym terminie.
+Kiedy ustawa o sztucznej inteligencji zacznie w pełni obowiązywać?
+W moim poprzednim artykule wspominałam o konieczności powołania krajowego organu nadzoru. Dziś znamy już jego pełną strukturę. Będzie to
+Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji (KRiBSI)
+.
+Choć zaplecze logistyczno-techniczne zapewnią
+oficjalne struktury Ministerstwa Cyfryzacji
+, Komisja będzie w pełni autonomicznym organem. Na jej czele stanie Przewodniczący powoływany przez Sejm za zgodą Senatu na 5-letnią kadencję, chociaż pierwotna wersja projektu przewidywała, że organów i instytucji wskazujących przedstawicieli do KRIBSI będzie aż dziewięć.
+W skład KRiBSI wejdą delegaci najważniejszych regulatorów rynkowych w Polsce:
+UOKiK
+– Urzędu Ochrony Konkurencji i Konsumentów – ochrona konsumentów przed nieuczciwymi algorytmami.
+KNF
+– Komisji Nadzoru Finansowego – nadzór nad wykorzystaniem AI w sektorze bankowym i ubezpieczeniowym.
+UKE
+– Urzędu Komunikacji Elektronicznej – kontrola infrastruktury telekomunikacyjnej i cyfrowej.
+KRRiT
+– Krajowej Rady Radiofonii i Telewizji – przeciwdziałanie dezinformacji i deepfake’om w mediach.
+Opinie indywidualne – Koło ratunkowe dla biznesu
+To absolutny przełom w porównaniu do pierwotnych założeń projektu. Jeśli Twoja firma tworzy zaawansowane oprogramowanie i nie masz pewności, jak
+ustawa o systemach sztucznej inteligencji
+traktuje Twój produkt, możesz odetchnąć z ulgą.
+Przedsiębiorcy zyskają prawo do wystąpienia do KRiBSI o wydanie indywidualnej opinii interpretacyjnej. To potężne narzędzie zapewnia bezpieczeństwo prawne jeszcze przed komercyjnym wdrożeniem produktu na rynek.
+Certyfikacja i kary, jakie wprowadza ustawa o sztucznej inteligencji
+Systemy wysokiego ryzyka (stosowane m.in. w rekrutacji, ocenie kredytowej czy zarządzaniu infrastrukturą) będą wymagały rygorystycznej oceny zgodności. Nowa ustawa precyzuje ten proces.
+Za techniczną weryfikację podmiotów certyfikujących będzie odpowiadać
+Polskie Centrum Akredytacji (PCA)
+. To ono sprawdzi, czy dane laboratorium lub instytucja ma kompetencje do badania algorytmów. Dopiero na tej podstawie KRiBSI udzieli danej jednostce oficjalnej notyfikacji.
+Pamiętaj, że błędna klasyfikacja systemu lub brak odpowiednich audytów będzie skutkować drastycznymi sankcjami. Kary finansowe za nieprzestrzeganie przepisów zasilą bezpośrednio budżet państwa. Dodatkowo, w sektorze publicznym i organach ścigania, bezpośredni nadzór nad systemami wysokiego ryzyka sprawować będzie prezes
+UODO
+.
+Głos społeczny: Społeczna Rada ds. Sztucznej Inteligencji
+Ustawa wprowadza jeszcze jeden niezwykle istotny element, którego brakowało w pierwszych szkicach regulacji. Przy Komisji powstanie
+Społeczna Rada ds. Sztucznej Inteligencji
+.
+Będzie to organ opiniodawczo-doradczy, składający się z przedstawicieli nauki, organizacji pozarządowych, związków zawodowych oraz izb gospodarczych. Ma to być bezpiecznik gwarantujący, że dynamiczny rozwój AI w polskim biznesie nie odbędzie się kosztem praw podstawowych i prywatności obywateli.
+Podsumowanie: Co musisz zrobić przed 2 sierpnia 2026 roku?
+Skoro ustawa przeszła już przez Senat, czas na realne działania w Twojej firmie. Rekomenduję wdrożenie 3-etapowej strategii dostosowawczej:
+Zawnioskuj o piaskownicę regulacyjną:
+Pierwsze bezpieczne środowiska testowe pod okiem KRiBSI mają ruszyć w okolicach sierpnia 2026 roku. To idealna szansa dla startupów na darmowy audyt.
+Przygotuj dokumentację techniczną:
+Modele AI ogólnego przeznaczenia (GPAI) oraz systemy wysokiego ryzyka muszą posiadać pełną transparentność procesów uczenia maszynowego.
+Zbuduj mapę ryzyka algorytmicznego:
+Sprawdź, czy narzędzia, których używasz wewnątrz firmy (np. do automatycznej selekcji CV), nie podlegają pod surowe restrykcje nowej ustawy.
+Masz pytania dotyczące wdrożenia przepisów w Twojej firmie? Śledź mojego bloga na bieżąco. W kolejnych wpisach weźmiemy pod lupę pierwsze wytyczne techniczne!
+Share this post:

@@ -1,0 +1,158 @@
+Ustawa o sztucznej inteligencji – polska odpowiedź na AI Act
+Rok 2026 ma szansę zapisać się w historii polskiego prawa jako moment uporządkowania zasad wykorzystywania AI, a kluczową rolę odegra w tym
+ustawa o sztucznej inteligencji
+. Przyjęcie przez Radę Ministrów 31 marca 2026 r. projektu regulującego systemy oparte na tych algorytmach to finalizowanie procesu, który na szczeblu unijnym rozpoczął się kilka lat wcześniej. Dla przedsiębiorców, prawników i programistów oznacza to przejście z fazy dobrowolnych kodeksów etycznych do etapu twardych rygorów prawnych i wysokich sankcji.
+Ostatnie lata to niezwykle szybki rozwój algorytmów uczenia maszynowego i generatywnej sztucznej inteligencji. I ten rozwój przestał być domeną wyłącznie inżynierów, stając się sporym wyzwaniem dla legislatorów. Unia Europejska, jako pierwszy globalny gracz, wytyczyła szlak poprzez
+AI Act (Akt o AI)
+. Dopełnieniem tych europejskich regulacji na gruncie krajowym będzie polska ustawa o systemach sztucznej inteligencji, której projekt przyjęto 31 marca 2026 r. Ten duet legislacyjny będzie tworzył kompleksowe ramy prawne, które mają za zadanie pogodzić innowacyjność z bezpieczeństwem i prawami obywateli.
+(Źródło informacji o decyzjach rządu znajdziesz na
+oficjalnej stronie gov.pl
+)
+Źródło screena: https://www.gov.pl/web/premier/pierwsza-kompleksowa-regulacja-rynku-ai-w-polsce—nowe-decyzje-rzadu2
+Co znajdziesz w tym artykule?
+Ustawa o sztucznej inteligencji – polska odpowiedź na AI Act
+Akt o AI a ustawa o sztucznej inteligencji – podstawa europejskiego ładu cyfrowego
+1 poziom: Niedopuszczalne ryzyko (Unacceptable Risk)
+2 poziom: Wysokie ryzyko (High Risk)
+3 poziom: Ograniczone ryzyko (Limited Risk)
+4 poziom: Minimalne ryzyko (Minimal/No Risk)
+Dlaczego klasyfikacja, na której opiera się ustawa o sztucznej inteligencji, jest tak ważna?
+Harmonogram wdrażania Aktu o AI oraz polskiej ustawy o sztucznej inteligencji
+Polska odpowiedź na AI Act: Projekt ustawy o sztucznej inteligencji z 31 marca 2026 r.
+Główne założenia polskiej ustawy o sztucznej inteligencji:
+Kary w AI ACT
+Zasady AI Act dla MŚP i start-upów
+Co nowa ustawa o sztucznej inteligencji oznacza dla biznesu?
+Podsumowanie i perspektywy dla ustawy o sztucznej inteligencji
+Ustawa o sztucznej inteligencji – źródła i dokumenty do pobrania
+Akt o AI a ustawa o sztucznej inteligencji – podstawa europejskiego ładu cyfrowego
+Rozporządzenie Parlamentu Europejskiego i Rady
+(UE) 2024/1689 z dnia 13 czerwca 2024 r
+., znane powszechnie jako Akt o AI (AI Act), to kamień milowy w regulacji innowacyjnych technologii. Jego konstrukcja opiera się na tzw. podejściu opartym na ryzyku (
+risk-based approach
+). Podstawą Aktu o AI jest założenie, że regulacje powinny być proporcjonalne do zagrożenia. Ustawodawca unijny, a za nim polska ustawa o sztucznej inteligencji, wprowadził czystą hierarchię, która determinuje zakres obowiązków nakładanych na twórców i użytkowników. Zamiast regulować samą technologię, Unia Europejska zdecydowała się uregulować konkretne jej zastosowania, dzieląc je na cztery kategorie:
+1 poziom: Niedopuszczalne ryzyko (Unacceptable Risk)
+Systemy stanowiące wyraźne zagrożenie dla bezpieczeństwa i praw ludzi, które uznano za sprzeczne z wartościami Unii Europejskiej i zagrażające godności ludzkiej. Ich stosowanie na terenie RP i całej UE jest całkowicie zakazane od początku 2025 roku.
+Przykłady:
+Scoring społeczny (Social Scoring):
+Klasyfikacja osób fizycznych na podstawie ich zachowań społecznych lub cech osobowości przez rządy (podobnie jak w azjatyckich systemach zaufania społecznego).
+Manipulacja behawioralna:
+Systemy wykorzystujące techniki podprogowe, aby wpłynąć na decyzje człowieka w sposób dla niego szkodliwy.
+Zdalna identyfikacja biometryczna „na żywo”:
+Wykorzystywanie kamer do rozpoznawania twarzy w czasie rzeczywistym w przestrzeni publicznej przez organy ścigania (z bardzo wąskimi wyjątkami dotyczącymi bezpieczeństwa narodowego).
+2 poziom: Wysokie ryzyko (High Risk)
+Są to systemy wykorzystywane w infrastrukturze krytycznej, edukacji, biznesie, rekrutacji czy sądownictwie. To najważniejsza kategoria dla sektora biznesowego i publicznego. Systemy te są dozwolone, ale przed wprowadzeniem na rynek muszą spełniać rygorystyczne wymogi w zakresie jakości danych, przejrzystości, dokumentacji technicznej i stałego monitorowania oraz nadzoru ludzkiego.
+Przykłady:
+Rekrutacja i kadry:
+Algorytmy oceniające CV, przeprowadzające analizę emocji kandydata podczas rozmowy kwalifikacyjnej lub decydujące o awansach.
+Infrastruktura krytyczna:
+AI zarządzające ruchem drogowym, dostawami energii lub wody.
+Edukacja i szkolenia:
+Systemy oceniające wyniki egzaminów lub decydujące o przyjęciu na studia.
+Medycyna:
+Robotyczne systemy chirurgiczne oraz oprogramowanie AI wspomagające diagnostykę nowotworową.
+3 poziom: Ograniczone ryzyko (Limited Risk)
+Kategoria ta dotyczy systemów takich jak chatboty. Głównym wymogiem jest tu obowiązek przejrzystości (
+transparency
+). Użytkownik końcowy musi mieć świadomość, że wchodzi w interakcję z maszyną i nie może zostać wprowadzony w błąd.
+Przykłady:
+Chatboty i asystenci wirtualni:
+Klient musi otrzymać jasną informację, że rozmawia z algorytmem.
+Deepfakes:
+Obrazy, nagrania audio i wideo wygenerowane przez AI, które przypominają istniejące osoby lub zdarzenia, muszą być wyraźnie oznaczone jako „wygenerowane przy pomocy sztucznej inteligencji”.
+Generatory treści:
+Systemy tworzące teksty o charakterze informacyjnym muszą ujawniać swoje maszynowe pochodzenie.
+4 poziom: Minimalne ryzyko (Minimal/No Risk)
+Większość stosowanych w codziennym życiu systemów AI (filtry spamu, gry wideo) mieści się właśnie w tej kategorii. Nie podlegają one dodatkowym restrykcjom prawnym wynikającym z Aktu o AI, choć zachęca się ich twórców do stosowania dobrowolnych kodeksów postępowania.
+Przykłady:
+Filtry antyspamowe:
+Algorytmy chroniące skrzynki pocztowe.
+Systemy rekomendacji:
+Algorytmy podpowiadające filmy na platformach streamingowych.
+Gry komputerowe:
+Mechanizmy sterujące zachowaniem postaci niezależnych (NPC).
+Warto wiedzieć:
+Akt o AI wprowadza również rygorystyczne zasady dla modeli ogólnego przeznaczenia (GPAI), nakładając na ich twórców obowiązek ujawniania szczegółowych podsumowań treści wykorzystanych do trenowania algorytmów.
+Dlaczego klasyfikacja, na której opiera się ustawa o sztucznej inteligencji, jest tak ważna?
+Projekt z 31 marca 2026 r. precyzuje, że błędna klasyfikacja systemu przez przedsiębiorcę może zostać uznana za próbę obejścia prawa. Jeśli firma wdroży system „wysokiego ryzyka”, traktując go jako „minimalny”, naraża się na kontrolę ze strony państwa i surowe kary. Zrozumienie tych poziomów jest zatem absolutną podstawą w procesie
+AI Compliance
+.
+Harmonogram wdrażania Aktu o AI oraz polskiej ustawy o sztucznej inteligencji
+Unijne rozporządzenie weszło w życie 1 sierpnia 2024 r., jednak jego stosowanie zostało celowo rozłożone w czasie. Poniżej przedstawiamy daty, które determinują dzisiejszy i przyszły kształt rynku:
+2 lutego 2025 r.:
+Wszedł w życie całkowity zakaz stosowania systemów AI o niedopuszczalnym ryzyku.
+2 sierpnia 2025 r.:
+Zaczęły obowiązywać rygorystyczne zasady dotyczące modeli GPAI.
+31 marca 2026 r.:
+Polska przyjmuje krajową ustawę implementującą przepisy UE.
+2 sierpnia 2026 r.:
+Data graniczna – większość przepisów staje się w pełni egzekwowalna.
+2 sierpnia 2027 r.:
+Termin objęcia regulacjami systemów AI wysokiego ryzyka zintegrowanych z produktami (np. wyroby medyczne, lotnictwo).
+Timeline ustawa o sztucznej inteligencji
+Polska odpowiedź na AI Act: Projekt ustawy o sztucznej inteligencji z 31 marca 2026 r.
+Podczas gdy Akt o AI określa ogólne zasady unijne, polska
+ustawa o sztucznej inteligencji
+stanowi niezbędne narzędzie implementacyjne dla naszego kraju. Jej przyjęcie powołuje do życia organy nadzorcze oraz określa ścieżki proceduralne dla instytucji i przedsiębiorców.
+Warto zwrócić szczególną uwagę na Art. 14, który nakłada na instytucje publiczne obowiązek prowadzenia rejestru systemów AI wykorzystywanych przy podejmowaniu decyzji administracyjnych. To istotny krok w stronę maksymalizacji transparentności państwa.
+Główne założenia polskiej ustawy o sztucznej inteligencji:
+Powołanie Komisji Rozwoju i Bezpieczeństwa Sztucznej Inteligencji (KRiBSI):
+Centralny organ administracji monitorujący rynek, odbierający skargi i certyfikujący systemy wysokiego ryzyka.
+Piaskownice regulacyjne (Regulatory Sandboxes):
+Mechanizm pozwalający polskim startupom na testowanie innowacji AI w kontrolowanym środowisku prawnym.
+System kar i sankcji:
+Krajowa
+ustawa o sztucznej inteligencji
+wdraża unijne widełki finansowe, które za naruszenia mogą sięgać do 35 milionów euro lub 7% rocznego obrotu przedsiębiorstwa za ubiegły rok rozliczeniowy. Szczegółowe informacje o karach zawiera poniższa
+wyszukiwarka AI Act
+.
+Ochrona pracownika:
+Przepisy kładą nacisk na przejrzystość w procesach HR, dając pracownikom prawo do weryfikacji i wyjaśnienia decyzji podjętych przez maszyny.
+Kary w AI ACT
+Akt o AI (AI Act) wprowadza jeden z najbardziej rygorystycznych reżimów sankcyjnych
+w całym europejskim prawie cyfrowym, przewyższając nawet kary znane z RODO (GDPR). Ustawodawca wysyła jasny sygnał: brak zgodności z regulacjami dotyczącymi sztucznej inteligencji to potężne ryzyko finansowe. Zgodnie z Artykułem 99. rozporządzenia, system ten opiera się na trzech progach, uzależnionych od wagi naruszenia:
+Poziom 1 – Zakazane praktyki (do 35 mln euro lub 7% globalnego obrotu):
+Najsurowsze kary dotyczą naruszania Artykułu 5, a więc stosowania systemów o niedopuszczalnym ryzyku (np. scoring społeczny, rozpoznawanie emocji w miejscu pracy czy tworzenie baz twarzy poprzez tzw. web scraping). Kara wyniesie
+maksymalnie 35 mln euro lub 7% rocznego światowego obrotu
+firmy – w zależności od tego, która z tych kwot jest wyższa.
+Poziom 2 – Naruszenia w systemach wysokiego ryzyka i modelach GPAI (do 15 mln euro lub 3% globalnego obrotu):
+Kary te grożą za łamanie licznych obowiązków z zakresu zarządzania ryzykiem, jakości danych, braku nadzoru ze strony człowieka, czy niewystarczającej przejrzystości wobec użytkowników. Co szalenie istotne dla firm – sankcje z tego poziomu grożą również za brak wypełnienia obowiązku (określonego w Art. 4)
+przeszkolenia personelu z zakresu korzystania z narzędzi sztucznej inteligencji
+(tzw. AI literacy).
+Poziom 3 – Nieprawidłowe informacje (do 7,5 mln euro lub 1,5% globalnego obrotu):
+Te sankcje dotyczą wprowadzania organów nadzorczych lub jednostek notyfikowanych w błąd, np. poprzez sfałszowane deklaracje zgodności, braki w dokumentacji technicznej czy zatajanie incydentów.
+Zasady AI Act dla MŚP i start-upów
+AI Act uwzględnia lżejsze podejście dla małych firm. Podczas gdy uderzają w nie te same progi procentowe, ustalone kwoty ryczałtowe (odpowiednio 35 mln, 15 mln i 7,5 mln euro) pełnią wobec nich jedynie rolę absolutnego maksimum (sufitu). Organ nadzorczy nakładając karę, musi dodatkowo wziąć pod uwagę wielkość firmy, intencjonalność naruszenia oraz rentowność przedsiębiorstwa.
+WAŻNE! To firma musi dowieść swojej zgodności z prawem
+Cały mechanizm regulacyjny AI Act opiera się na przesunięciu ciężaru dowodu. Organ nie musi udowadniać, że firma łamie przepisy – to firma musi wykazać, że działa z nimi w zgodzie. Wymaga to tworzenia kompletnej dokumentacji technicznej, przetrzymywania tzw. logów użytkowych (minimum 6 miesięcy) oraz certyfikatów potwierdzających szkolenia zespołu. Brak podjęcia jakichkolwiek działań wdrażających AI compliance w organizacji będzie przezŻorgany traktowany jako rażący czynnik obciążający.
+Co nowa ustawa o sztucznej inteligencji oznacza dla biznesu?
+Dla sektora enterprise oraz MŚP wejście w życie nowych przepisów wiąże się z koniecznością natychmiastowego przeprowadzenia audytu technologicznego. Firmy muszą zweryfikować, czy wykorzystywane przez nie
+narzędzia AI
+kwalifikują się jako systemy wysokiego ryzyka.
+Wymagane będzie wdrożenie rygorystycznych systemów zarządzania ryzykiem oraz zapewnienie nieskazitelnej jakości zbiorów danych, aby wykluczyć stronniczość (tzw.
+bias
+) algorytmów. Mimo wyższych kosztów obsługi prawnej eksperci podkreślają, że przejrzyste zasady budują zaufanie konsumentów.
+Podsumowanie i perspektywy dla ustawy o sztucznej inteligencji
+Przyjęcie polskiego projektu 31 marca 2026 r. to szansa na uporządkowanie rynku algorytmów. Łącząc standardy europejskie z krajową specyfiką, Polska ma szansę stać się dojrzałym środowiskiem cyfrowym. Największym wyzwaniem pozostanie teraz operacyjna sprawność nowego organu (KRiBSI) oraz elastyczność firm wdrażających nowe technologie.
+💡
+Rozwinięcie tematu:
+Prace legislacyjne nad nowym prawem trwają i przechodzą przez kolejne szczeble władzy. Jeśli chcesz poznać dalsze kroki i aktualizacje w tym procesie, koniecznie sprawdź nasz powiązany wpis:
+Ustawa o sztucznej inteligencji w Senacie
+.
+Ustawa o sztucznej inteligencji – źródła i dokumenty do pobrania
+Poniżej znajdziesz oficjalne linki referencyjne, z którymi warto się zapoznać, planując strategię
+AI Compliance
+w swojej organizacji:
+Akt o AI:
+Pełny tekst rozporządzenia w języku polskim w
+bazie EUR-Lex
+.
+Wytyczne Komisji Europejskiej:
+Zasady dotyczące godnej zaufania sztucznej inteligencji na
+oficjalnej stronie UE
+.
+Polska ustawa:
+Informacje o projekcie ustawy o systemach sztucznej inteligencji na
+rządowych stronach legislacyjnych
+.
+Share this post:

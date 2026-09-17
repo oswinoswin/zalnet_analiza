@@ -1,0 +1,177 @@
+Czerwone flagi wyzwania IT
+Contritionem praecedit superbia, et ante ruinam exaltatur spiritus
+– co oznacza: Pycha poprzedza zagładę, a wyniosłość ducha – upadek
+.
+Stara łacińska maksyma idealnie nam przypomina, że
+pycha kroczy przed upadkiem
+. Ta oferta
+30-dniowego wyzwania security
+od firmy
+Security Bez Tabu Wojciech Ciemski
+ma tyle czerwonych flag, że spokojnie może posłużyć do dogłębnej analizy na szkoleniach o socjotechnice i phishingu.
+Co prawda, w styczniu 2025 roku wyleciałam z kolejnej edycji tego wyzwania po zaledwie 5 dniach (za rzekome złamanie tajemniczego punktu 9 regulaminu – szerszy opis znajdziecie na
+moim blogu
+), to jednak zdążyłam się sporo nauczyć. 😉
+Co znajdziesz w tym artykule?
+Czerwone flagi wyzwania IT
+Pycha kroczy przed upadkiem: czerwone flagi w ofercie
+1. Pycha kroczy przed upadkiem a polityka cenowa
+2. Fact checking i poszukiwania zaginionej społeczności
+3. Tajemniczy brak regulaminu dostawcy
+OSINT w praktyce, czyli rekonesans dla opornych
+4. Pycha kroczy przed upadkiem – szukamy zaginionego regulaminu
+5. Różnice w cenach pokazują, że pycha kroczy przed upadkiem
+Magia regulaminów i niebezpieczne literówki
+6. Sekrety ukryte w stopce strony
+7. Czytanie słowo po słowie i audyt domen
+Formalności, które nie spinają się w całość
+8. Elastyczne statystyki
+9. Brakujące paragrafy i fikcyjny VAT
+Pycha kroczy przed upadkiem: czerwone flagi w ofercie
+Każda podejrzana oferta w internecie ma swoje słabe punkty. Zatem, oto co powinno natychmiast zwrócić Waszą uwagę:
+1. Pycha kroczy przed upadkiem a polityka cenowa
+Z reguły pierwszym krokiem powinno być sprawdzanie cen. Gdy przejdziecie na
+stronę wyzwania
+, zobaczycie, że możecie dołączyć do szkolenia za „jedyne”
+89 PLN
+, zamiast przekreślonych 497 PLN. Jednakże, informacja obok głosi:
+Najniższa cena z 30 dni:
+89 zł
+. Pojawia się zatem pytanie: czy ktokolwiek kiedykolwiek zapłacił te prawie 500 zł za to wyzwanie, czy to tylko zwykła, nieczysta zagrywka marketingowa, a kurs zawsze kosztował poniżej 100 zł?
+Źródło screena: https://lp.securitybeztabu.pl/wyzwanie-security-szkolenie-online
+2. Fact checking i poszukiwania zaginionej społeczności
+Na stronie widzimy dumny napis:
+„
+Dołącz do grona ponad 2689 kursantów!”
+. W związku z tym warto zadać kilka pytań:
+Czy do tego grona wliczają się także ci, którzy wylecieli z kursu?
+Czy obejmuje to osoby, dla których wyzwanie skończyło się po 6 dniach z przyczyn leżących wyłącznie po stronie prowadzącego?
+Gdzie w ogóle można znaleźć tę ogromną społeczność?
+Co więcej, przy
+prawie 2700 kursantach
+widnieje
+zaledwie 19 komentarzy
+. Dlaczego tak mało? Być może dlatego, że to autor sam arbitralnie decyduje, który komentarz opublikuje, a który usunie – dokładnie tak, jak to miało miejsce w przypadku mojej opinii. To wręcz podręcznikowy przykład na to, jak
+pycha kroczy przed upadkiem
+autentyczności w marketingu. Jak to mówią:
+prove or it didn’t happen
+.
+3. Tajemniczy brak regulaminu dostawcy
+Zanim zaakceptujecie z automatu regulaminy i przekażecie firmie swoje dane osobowe, najpierw kliknijcie przycisk
+Rozwiń
+.
+Źródło screena: https://cart.easy.tools/checkout/zsb/30dniowewzywaniesecurity
+Następnie kliknijcie w link
+regulamin dostawcy
+.
+Źródło screena: https://cart.easy.tools/checkout/zsb/30dniowewzywaniesecurity
+I pojawia się czerwona flaga:
+koniec internetu
+,
+nie ma
+regulaminu dostawcy
+.
+Źródło screena: https://cart.easy.tools/checkout/zsb/null
+OSINT w praktyce, czyli rekonesans dla opornych
+4. Pycha kroczy przed upadkiem – szukamy zaginionego regulaminu
+Skoro nie ma regulaminu dostawcy, nie szkodzi. Podśpiewując sobie pod nosem piosenkę
+Ricka Astleya
+:
+Never gonna give you up
+Never gonna let you down
+Never gonna run around and desert you
+Never gonna make you cry
+Never gonna say goodbye
+Never gonna tell a lie and hurt you
+należy zrobić
+przeszukanie czeluście internetu w poszukiwaniu regulaminu.
+5. Różnice w cenach pokazują, że pycha kroczy przed upadkiem
+W wyniku krótkiego rekonesansu okazuje się, że na stronie
+sklepu Akademia Security Bez Tabu
+widnieje to samo wyzwanie, ale za
+87 zł
+(czyli o
+2 zł taniej
+niż na stronie promocyjnej!). Niewątpliwie te 2 złote mają swoją moc. Gdybyście te 2 złocisze dali szemranemu towarzystwi spod monopolowego, od razu zostalibyście kierownikiem. Te 2 złote ma prawdziwą moc.
+Źródło screena: https://securitybeztabu.pl/akademia/sklep/
+Co ciekawe, na podstronie sklepu dowiadujemy się również, że prawdziwa „wartość rynkowa” tego wyzwania to rzekomo
+20–25 tys. zł
+.
+Źródło screena: https://securitybeztabu.pl/akademia/produkt/30-dniowe-wyzwanie-security-2026/
+Skąd taka cena? Wszystko zostało wyjaśnione w opisie:
+Źródło screena: https://securitybeztabu.pl/akademia/produkt/30-dniowe-wyzwanie-security-2026/
+Magia regulaminów i niebezpieczne literówki
+6. Sekrety ukryte w stopce strony
+Zawsze warto sprawdzać stopki na stronach internetowych, ponieważ można tam znaleźć ciekawe linki. To właśnie tam znajduje się odnośnik do
+regulaminu sklepu
+.
+Źródło screena: https://securitybeztabu.pl/akademia/produkt/30-dniowe-wyzwanie-security-2026/
+7. Czytanie słowo po słowie i audyt domen
+Regulamin w tym wydaniu to wielka czerwona flaga. Dlaczego? W
+regulaminie sklepu online
+Akademii Security Bez Tabu na dzień 27.05.2026 roku, godzina 20:25 wciąż tylko
+3 razy
+pojawia się domena
+securitybeztabu.pl
+, czyli należąca do Wojciecha Ciemskiego, i aż
+18 razy
+domena
+seciuritybeztabu.pl
+(z dodatkową literką
+i
+) i
+1 raz
+domena
+seciuritybeztaby.pl
+(z dodatkową literką
+i
+i literką
+y
+zamiast
+u
+).
+Należące do mnie
+. Od 10 miesięcy w internecie wiszą 2 strony, stworzone w 15 minut, nawet bez użycia AI, które jawnie mówią, że mnie się nie da wywalić z żadnego wyzwania. Pisałam o tym szerzej w tym wpisie o
+Security bez kontroli
+.
+Gdybym była złośliwa, mogłabym podpiąć pod te adresy najgorsze treści w sieci. Pytanie brzmi: jak długo audytor wiodący i człowiek z prestiżowej listy
+40 under 40
+może mieć taki bajzel „w papierach”? Na razie strony wiszą w sieci już 10 miesięcy. Poczekam do pełnego roku, i jak się nic nie zmieni w regulaminie, to wymyślę coś extra.
+Seciurity Bez Tabu
+Formalności, które nie spinają się w całość
+8. Elastyczne statystyki
+Ostatecznie, jeśli na stronie wyzwania, przy opisie twórcy, widzisz, że w ciągu
+3 lat przeszkolił 20 000 osób
+, a na stronie sprzedającej dokumentację do ISO 27001, że te
+20 000 osób przeszkolił jednak w ciągu 5 lat
+, to w Twojej głowie natychmiast zapala się
+czerwona lampka
+i uciekasz z takiej strony z okrzykiem:
+Run Forrest, run
+.
+20 000 osób w 3 lata to oznacza średnio jakieś 130 osób na tydzień
+. To nawet ja, „zawodowa trenerka”, wykładowczyni akademicka, nie przeszkoliłam tylu osób w takim czasie. A szkolę całkiem sporo. Chciałabym zobaczyć rozpiskę tych szkoleń.
+Źródło screena: https://lp.securitybeztabu.pl/wyzwanie-security-szkolenie-online
+Źródło screena: https://lp.securitybeztabu.pl/dokumentacja-iso-27001
+9. Brakujące paragrafy i fikcyjny VAT
+Analizując formalności głębiej, natrafiamy na kolejne „kwiatki”:
+Brak paragrafów 7 i 8 w regulaminie.
+Niezgodna ze stanem faktycznym informacja o VAT: w § 9 punkt 5 informuje, że
+„
+Opłaty za Szkolenie uwzględniają podatek VAT w wysokości 23%
+”
+. Z kolei w punkcie 8 czytamy o wystawianiu
+faktury VAT
+.
+Źródło screena: https://securitybeztabu.pl/akademia/regulamin-sklepu-online/
+Tymczasem, szybkie sprawdzenie w wykazie podatników VAT udowadnia, że firma Security Bez Tabu Wojciech Ciemski została wykreślona z rejestru
+12.12.2024 r.
+– czyli ponad
+półtora roku temu
+!
+Źródło screena: https://podatki-arch.mf.gov.pl/wykaz-podatnikow-vat-wyszukiwarka/
+Te proste przykłady dobitnie pokazują, że stare przysłowie mówiące, iż
+pycha kroczy przed upadkiem
+, sprawdza się tu w 100 procentach. Obecnie trzeba weryfikować absolutnie każdego i podchodzić z gigantycznym dystansem do opinii w sieci. Podstawowy OSINT i odrobina wnikliwego wyszukiwania pozwalają zaoszczędzić mnóstwo nerwów i pieniędzy.
+P.S. Screenshoty stanowią „dowody”, bo niektóre treści lubią znikać szybko z internetu.
+Share this post:

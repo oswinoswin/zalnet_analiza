@@ -1,0 +1,96 @@
+Poniżej znajduje się zestaw popularnych komend Dockera, przydatnych w codziennej pracy z kontenerami.
+Sprawdzenie, czy mamy Dockera na komputerze:
+$ sudo docker -v
+Wyświetlenie szczegółowych informacji o Dockerze:
+$ sudo docker -info
+Wyświetlenie listy komend:
+$ sudo docker -h
+Wyświetlenie listy komend powiązanych z obrazami. Bez słowa
+sudo
+polecenie zamiast zwrócić informację o dostępnych obrazach, może zwrócić informację o braku dostępu (
+ang. access denied
+)):
+$ sudo docker image
+Praca z obrazami
+Wyświetlenie listy obrazów w lokalnym repozytorium (nie w rejestrach):
+$ sudo docker image ls
+Pobranie obrazu (komenda ogólna):
+$ sudo docker pull <nazwa_repo>:[tag]
+Pobranie najnowszego obraz
+debian
+z publicznego repozytorium:
+$ sudo docker pull debian
+Wyświetlenie pobranego obrazu w konsoli:
+$ sudo docker image ls
+Pobranie obrazu debiana w wersji 8:
+$ sudo docker pull debian:8
+Ponowne wyświetlenie pobranego obrazu w konsoli:
+$ sudo docker image ls
+Praca z kontenerami
+Wyświetlenie listy kontenerów (aktywnych) w konsoli:
+$ sudo docker container ls
+Aliasem do tego polecenia jest:
+$ sudo docker ps
+Kolejne kolumny oznaczają odpowiedni identyfikator kontenera, nazwę obrazu z którego został on utworzony, wykonywaną komendę, czas utworzenia, status, udostępnione porty i nazwę pod jaką można się do niego odwoływać.
+Zatrzymanie kontenera – komenda ogólna :
+$ sudo docker stop <nazwa_kontenera\id_kontenera>
+Zatrzymanie kontenera przy użyciu nazwy kontenera przy pomocy polecenia:
+$ sudo docker stop amazing_grothendieck
+Po wykonaniu tej komendy, kontener jest zatrzymany. Teraz możemy porównać 2 polecenia:
+$ sudo docker ps
+i
+$ sudo docker ps -a
+Pierwsze wyświetla tylko uruchomione kontenery, drugie także te zatrzymane.
+Ponowne włączenie kontenera:
+$ sudo docker start amazing_grothendieck
+Wyświetlanie statusu kontenerów
+Sprawdzenie, jakie procesy działają w kontenerze:
+$ sudo docker top hakase
+Tutaj widać zalety wykorzystania Dockera – narzut uruchomienia kolejnych kontenerów to tylko kwestia uruchomienia kilku dodatkowych serwerów. W pełnej wirtualizacji mamy dodatkowo kilkadziesiąt dodatkowych programów.
+Jeśli chcemy sprawdzić, jakie porty udostępnia Docker, sprawdzimy to za pomocą polecenia:
+$ sudo docker port hakase
+Jeżeli chcemy zobaczyć logi kontenerów, sprawdzamy to za pomocą polecenia:
+$ sudo docker logs hakase
+Zapisywanie zmian w kontenerze
+Obrazy nie są modyfikowane. Modyfikowane są tylko kontenery, które tworzymy za pomocą komendy:
+$ sudo docker run
+Oznacza to, że kiedy będziemy tworzyć kolejny kontener, nie będzie on zawierał zmian, które zostały wykonane przez inne kontenery korzystające z tego samego obrazu.
+Jeśli chcemy zapisać zmiany w konterze i np. utworzyć nowy obraz bazujący na tych zmianach, najpierw sprawdzamy, jakie zmiany przechowuje nasz kontener. Robimy to za pomocą polecenia:
+$ sudo docker diff hakase
+Jeżeli nasze zmiany są poprawne, możemy zatwierdzić te zmiany i wykorzystać w przyszłości.
+Usuwanie kontenerów
+Kiedy kontenery nie są nam już potrzebne, można je usunąć. Najpierw sprawdzamy dostępne obrazy:
+$ sudo docker images
+Najpierw próbujemy usunąć obraz
+nginx_image,
+używany przez kontener
+hakase:
+$ sudo docker rmi nginx_image
+System nie pozwolił nam na usunięcie obrazu, ponieważ uruchomiony jest konter, który bazuje na tym obrazie.
+Najpierw sprawdzamy, czy kontener jest aktywny:
+$ sudo docker ps
+Jak widać, kontener
+hakase
+jest aktywny, więc przed jego usunięciem musimy go najpierw zatrzymać:
+$ sudo docker stop hakase
+Po tych operacjach możemy usunąć kontener:
+$ sudo docker rm hakase
+Sprawdzamy, czy nasz kontener został usunięty:
+$ sudo docker ps
+Po tym kroku, możemy usunąć bazowy obraz:
+$ sudo docker rmi nginx_image
+Współdzielenie katalogów między serwerem a kontenerami
+Czasami istnieje potrzeba współdzielenia katalogu pomiędzy kontenerem a komputerem. Jeżeli rozwijamy własny projekt, można współdzielić kod projektu. W przypadku tradycyjnych rozwiązań wirtualizacyjnych, np. Virtualbox, pojawia się duży narzut wydajności na operacje IO, w przypadku Dockera takiego dużego narzutu już nie ma.
+Przykładowy kod współdzielenia katalogów z logami aplikacji:
+$ docker -d run --name drupal_server -v /sciezka/na/serwerze:/sciezka/w/kontenerze
+Polecenie
+-v
+wskazuje, iż: /sciezka/na/serwerze ma być dostępna jako katalog „/sciezka/w/kontenerze” w kontenerze.
+Operacje globalne
+Zatrzymanie wszystkich aktywnych kontenerów:
+$ docker stop $(docker ps -q)
+Usunięcie wszystkich kontenerów:
+$ docker rm $(docker ps -a -q)
+Usunięcie wszystkich obrazów:
+$ docker rmi $(docker images -q)
+Share this post:

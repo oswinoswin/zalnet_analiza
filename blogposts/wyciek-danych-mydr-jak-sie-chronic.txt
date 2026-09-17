@@ -1,0 +1,126 @@
+Wyciek danych MyDr: Największy incydent w historii Polski
+W ostatnich dniach polski internet obiegła niepokojąca wiadomość, którą jako pierwszy ujawnił
+serwis Zaufana Trzecia Strona
+.
+Wyciek danych MyDr
+to prawdopodobnie największy incydent naruszenia prywatności w historii naszego kraju. W ręce cyberprzestępców mogły trafić wrażliwe informacje dotyczące niemal 19 milionów Polaków. Co dokładnie się wydarzyło, jakie informacje zostały skradzione i przede wszystkim – jak możesz chronić siebie i swoich bliskich przed kradzieżą tożsamości? Przeczytaj nasz poradnik.
+Co znajdziesz w tym artykule?
+Wyciek danych MyDr: Największy incydent w historii Polski
+Na czym polega wyciek danych z MyDr?
+Jakie informacje mogły trafić w ręce hakerów?
+Czy wyciek danych MyDr dotyczy również Ciebie?
+Jak sprawdzić, czy padłeś ofiarą wycieku?
+Wyciek danych MyDr – możliwe konsekwencje
+Natychmiast zastrzeż swój PESEL
+Co jeszcze możesz zrobić?
+Wyciek danych MyDr – aktualizacja 15.08.2026
+Profesjonalne szkolenia to inwestycja w bezpieczeństwo
+Na czym polega wyciek danych z MyDr?
+Firma MyDr to popularny dostawca oprogramowania do obsługi Elektronicznej Dokumentacji Medycznej (EDM). Obecnie z jej systemów korzysta ponad 12 tysięcy placówek ochrony zdrowia w całej Polsce. Wśród nich są zarówno małe gabinety lekarskie, jak i duże przychodnie i centra medyczne.
+Według informacji przekazanych przez Ministerstwo Cyfryzacji, hakerzy sforsowali zabezpieczenia i pobrali bazę ważącą aż 2,5 terabajta. Ten gigantyczny wyciek danych MyDr oznacza, że w rękach osób nieuprawnionych znalazły się informacje o pacjentach zbierane przez wiele lat. Skala zjawiska sprawiła, że w sprawę zaangażowano m.in. CERT Polska, Urząd Ochrony Danych Osobowych (UODO) i Centralne Biuro Zwalczania Cyberprzestępczości.
+Strona MyDr, dostęp13.08.2026
+Jakie informacje mogły trafić w ręce hakerów?
+Cyberprzestępcy udostępnili w sieci pierwsze próbki danych, co szybko pozwoliło potwierdzić autentyczność ataku. Z udostępnionych dotychczas informacji wynika, że skradziona baza zawiera:
+Numery PESEL
+(sprawcy deklarują niemal 18,8 miliona unikalnych rekordów),
+Imiona i nazwiska pacjentów,
+Daty urodzenia,
+Numery telefonów kontaktowych,
+Wrażliwe informacje medyczne: szczegóły o wystawionych e-receptach, e-skierowaniach i e-zwolnieniach
+Przykładowe dane jednej z ofiar wycieku, źródło: Zaufana Trzecia Strona
+Czy wyciek danych MyDr dotyczy również Ciebie?
+Co ciekawe, wiele osób w ogóle nie kojarzy nazwy tego systemu. Z tego powodu pacjenci często nie zdają sobie sprawy, że ich dane się tam znajdowały. Niemniej jednak, może Twoja przychodnia używa na co dzień oprogramowania MyDr? Oczywiście, jeśli tak, istnieje ogromne ryzyko wycieku Twoich danych. Przecież system ten obsługuje miesięcznie około 3 milionów wizyt i 2,7 miliona recept. Zatem prawdopodobieństwo wycieku Twoich informacji jest niestety bardzo wysokie.
+Jak sprawdzić, czy padłeś ofiarą wycieku?
+Rządowy Portal Bezpieczne Dane
+. Ministerstwo Cyfryzacji zaleca weryfikację za pomocą portalu Bezpieczne Dane (logowanie m.in. przez mObywatel, Profil Zaufany). Żadna placówka medyczna nie prosi o numer karty płatniczej, kod BLIK ani hasło do bankowości. Na dzień 13.08.2026 r. wchodząc na stronę widzimy tylko informację, że dane z wycieku MyDr nie trafiły jeszcze od serwisu. Mają być widoczne w ciągu kilku dni. Ale warto sprawdzić, czy nasze dane nie wyciekły w innym incydencie. Należy pamiętać, że ze względu na obciążenie serwerów strona może działać z przerwami, a baza poszkodowanych jest stale aktualizowana.
+Aktualizacja
+28.08.2026
+: Nieoczekiwanie pojawiła się możliwość sprawdzenia, czy nasz PESEL mógł znaleźć się w wycieku.
+Wyciek danych MyDr, możliwość sprawdzenia, czy PESEL wyciekł, dostęp 28.08.2026
+Aktualizacja
+25.08.2026
+. Numery PESEL z wycieku w systemie MyDr nie zostaną opublikowane w rządowym serwisie bezpiecznedane.gov.pl, ponieważ
+według Centralnego Biura Zwalczania Cyberprzestępczości (CBZC) mogłoby to utrudnić prowadzone działania śledcze
+.
+Wyciek danych MyDr, strona bezpiecznedane.gov.pl, dostęp 13.08.2026
+Kontakt ze swoją przychodnią
+. To Twoja placówka medyczna jest prawnym administratorem Twoich danych, a firma stojąca za MyDr to jedynie dostawca narzędzi IT. Masz pełne prawo zapytać w swojej przychodni, czy używają tego oprogramowania i czy planują oficjalnie powiadomić pacjentów o naruszeniu.
+Wyciek danych MyDr – możliwe konsekwencje
+Wielu osobom wyciek danych kojarzy się wyłącznie z chwilowym zamieszaniem. Konsekwencje mogą być jednak znacznie groźniejsze:
+💳
+Wyłudzenia i wzięcie kredytu:
+Próby zaciągnięcia pożyczek, zakupów na raty czy podpisania umów na Twoje dane.
+👤
+Kradzież tożsamości:
+Wykorzystanie Twojego imienia, nazwiska i PESEL-u do podszywania się pod Ciebie w urzędach, firmach czy serwisach internetowych.
+⚠️
+Zastraszanie i szantaż ujawnieniem chorób:
+Przestępcy mogą grozić ujawnieniem Twojej historii leczenia, diagnoz czy przyjmowanych leków bliskim lub pracodawcy, żądając okupu za dyskrecję.
+📉
+Malinformacja:
+Wykorzystanie w pełni
+prawdziwych
+, wyciągniętych z kontekstu informacji medycznych do celowego skompromitowania Cię, zniszczenia reputacji lub manipulacji w Twoim środowisku prywatnym bądź zawodowym.
+Natychmiast zastrzeż swój PESEL
+Wyciek danych MyDr
+może negatywnie wpłynąć na Twoje bezpieczeństwo nie tylko finansowe, ale i wizerunkowe. Najważniejsze to nie panikować, ale szybko podjąć odpowiednie kroki zaradcze:
+Zastrzeż swój numer PESEL (Priorytet!)
+: To najważniejsza i najskuteczniejsza metoda obrony. Możesz to zrobić w kilkanaście sekund, logując się do aplikacji mObywatel na telefonie lub przez stronę
+mObywatel
+. Możesz też zastrzec osobiście w Urzędzie Gminy lub Miasta. Zastrzeżenie blokuje możliwość wzięcia na Twoje nazwisko kredytu czy podpisania umowy u notariusza.
+Omijaj fałszywe wyszukiwarki wycieków
+: W sieci jak grzyby po deszczu zaczynają pojawiać się nieoficjalne strony rzekomo służące do sprawdzania, czy Twój PESEL wyciekł. Służą one wyłącznie wyłudzaniu kolejnych danych! Wpisuj swoje dane tylko na zweryfikowanych stronach rządowych (
+.gov.pl
+).
+W 5 prostych krokach możesz zabezpieczyć się przed wzięciem pożyczki na Twoją osobę lub podszyciem się pod Ciebie:
+1. Otwierasz aplikację  lub stronę mObywatela.
+2. Logujesz się przy pomocy hasła, a jeszcze lepiej za pomocą biometrii.
+3. Na ekranie startowym klikasz na mDowód
+4. Pod danymi z dowodu klikasz ikonę Zastrzeż PESEL.
+5. Zastrzegasz PESEL i gotowe.
+Dla tych co się tego boją – odstrzec PESEL możecie w każdym momencie, nawet siedząc przed pracownikiem banku. System bardzo szybko się zaktualizuje i będziecie mogli kontynuować czynności.
+Pamiętajcie, zastrzec PESEL możecie zazwyczaj 24/7, a w urzędzie w godzinach pracy urzędu. Jeśli dowiesz się o wycieku o 18:00, to musisz czekać do następnego dnia roboczego, aby zastrzec PESEL.
+Zastrzeź PESEL w mObywatelu
+Co jeszcze możesz zrobić?
+Bądź czujny na ataki socjotechniczne (Phishing)
+. Przestępcy mogą dysponować teraz Twoim numerem telefonu, PESEL-em, a nawet historią leczenia czy też przyjmowanych leków. Mogą dzwonić i wiarygodnie podszywać się pod NFZ, Ministerstwo Zdrowia, przychodnię czy pracowników banku.
+Zachowaj skrajną podejrzliwość
+– nigdy nie podawaj przychodni swoich haseł logowania, kodów BLIK ani kodów z SMS-ów. Dane z wycieku o historii leczenia mogą posłużyć do szantażu i próby wyłudzenia pieniędzy. Nie klikaj linków z SMSów o „weryfikacji recepty” czy „zapłacie za wizytę” – przekaż je na numer
+8080 (CERT Polska)
+.
+Uruchom uwierzytelnianie dwuskładnikowe (
+2FA
+)
+. Upewnij się, że Twoja prywatna skrzynka e-mail, konta społecznościowe oraz systemy bankowe są solidnie zabezpieczone.
+Czytaj oficjalne komunikaty, np. te na
+portalu MyDr
+.
+Włącz monitoring kredytowy
+. Alerty BIK powiadomią Cię SMS-em o każdej próbie wzięcia zobowiązania na Twoje dane. Warto też pobrać Raport BIK i sprawdzić, czy nikt nie zaciągnął już zobowiązania w Twoim imieniu, jeśli wcześniej nie sprawdzał_ś, czy Twój PESEL nie wyciekł. Obecnie możesz
+aktywować alerty BIK na 90 dni za 0 zł
+.
+Gdy zauważysz, że doszło do wyłudzenia
+– działaj od razu. Złóż zawiadomienie o podejrzeniu popełnienia przestępstwa na Policji lub w Prokuraturze, zawiadom swój bank i BIK, a wobec instytucji, która udzieliła zobowiązania, złóż pisemną reklamację z powołaniem na kradzież tożsamości. Jeśli trzeba, zasięgnij porady prawnika.
+Podsumowując, sytuacja wokół wycieku danych z MyDr wciąż rozwija się bardzo dynamicznie. Jako pacjenci musimy ze zdwojoną ostrożnością podchodzić do naszego cyberbezpieczeństwa. Kradzież tożsamości po tak potężnym incydencie to realne i poważne zagrożenie. Szybkie i zdecydowane działanie – na czele z zastrzeżeniem PESEL-u – to obecnie najlepsza tarcza ochronna.
+Nie czekaj, aż będzie za późno. Zastrzeż swój numer PESEL już teraz i poinformuj o tym zagrożeniu swoich bliskich, zwłaszcza osoby starsze, które są najbardziej podatne na ataki oszustów!
+Wyciek danych MyDr – aktualizacja 15.08.2026
+Niestety, jak się okazuje, ten incydent wycieku danych niesie ze sobą mnóstwo nadużyć. Nie ufajcie pseudo specjalistom od RODO oferującym swoje usługi np. seniorom, strasząc, że jeśli Ci nie skorzystają z usług to będą konsekwencje. Podczas powodzi słyszeliśmy informacje o pojawiających się szabrownikach. Dziś przestępczość okazjonalna przenosi się do internetu.
+W mediach społecznościowych krążą wnioski o zmianę nr PESEL. Są nieprawdziwe i służą wyłudzaniu danych. Warto przeczytać artykuł money.pl o tym, jak
+oszuści chcą zarobić na wycieku. Nie wypełniaj takich formularzy
+.
+Zrzut ekranu z money.pl, dostęp 15.08.2026
+Profesjonalne szkolenia to inwestycja w bezpieczeństwo
+Przeczytaj też inne nasze wpisy na blogu, które edukują o tym, jak sobie radzić w przypadku oszustwa. Sprawdź
+darmowe narzędzia OSINT
+i
+jak nie dać się oszukać w sieci
+.
+Jeśli chcesz przeszkolić swój zespole lub osoby z Twojej organizacji, chcesz ich nauczyć, jak w dobie AI zadbać o bezpieczeństwo, zapraszamy na
+bezpłatne, 20-minutowe spotkanie przy wirtualnej kawie
+. To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe i sprawdzić, jak możemy pomóc. Sprawdź także naszą
+ofertę szkoleniową
+.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+umów się na spotkanie
+Wyślij Wiadomość
+Share this post:

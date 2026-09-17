@@ -1,0 +1,307 @@
+Dezinformacja jako usługa, czyli żarty się skończyły
+To tytuł mojej prezentacji, z którą wystąpiłam dnia 11 września 2025 roku w Warszawie na 15-tej, jubileuszowej konferencji
+Security Case Study
+. W 2025 roku, katalog zagrożeń dla przedsiębiorstw uległ sporej transformacji. Tradycyjne cyberataki, skupione na eksploatacji luk technicznych, zbiegły się z zorganizowanymi kampaniami dezinformacyjnymi. Granice między tymi dwoma typami operacji zatarły się, tworząc nowe, hybrydowe zagrożenie, w którym dezinformacja pełni rolę
+miękkiego wektora ataku
+. Zamiast bezpośredniego naruszenia systemów, atakujący manipulują percepcją, podważają zaufanie i wywołują panikę, co prowadzi do mierzalnych, dotkliwych konsekwencji finansowych, operacyjnych i reputacyjnych.
+Niniejszy wpis analizuje anatomię tych ewoluujących zagrożeń. Obejmuje omówienie głównych
+wektorów ataku
+, takich jak deepfake’i zarządów, fałszywe komunikaty o incydentach bezpieczeństwa, spreparowane raporty finansowe oraz wirusowe memy. Przedstawione studia przypadków z lat 2024-2025, w tym ataki w sektorach finansowym, energetycznym i healthtech, ilustrują, że dezinformacja nie jest już domeną rywalizacji politycznej, lecz stała się integralną częścią zorganizowanych operacji APT (Advanced Persistent Threat). W 2025 roku, skuteczna ochrona firmy nie sprowadza się już wyłącznie do cyberbezpieczeństwa, lecz wymaga holistycznej odporności informacyjnej.
+Co znajdziesz w tym artykule?
+Dezinformacja jako usługa, czyli żarty się skończyły
+1. Dezinformacja jako wektor miękkiego ataku w 2025 roku
+1.1. Definicja i ewolucja miękkiego wektora ataku
+Dezinformacja w praktyce: Oszustwo na sklonowanego dyrektora
+1.2. Mierzalne konsekwencje: od spadku wartości do paniki
+Wpływ dezinformacji na finanse i operacje
+Reputacyjne i wewnętrzne skutki manipulacji
+2. Anatomia ataków dezinformacyjnych
+2.1. Deepfake'i zarządów i fałszywe tożsamości
+2.2. Fałszywe komunikaty o incydentach bezpieczeństwa
+2.3. Spreparowane raporty i wpływ na rynki
+2.4. Wirusowe memy i ataki na reputację marki
+3. Architektura obronnea: AI i NLP w wykrywaniu dezinformacji
+3.1. Podstawy AI i NLP w ochronie informacji
+3.2. Komponenty systemu wczesnego ostrzegania
+3.3. Wyzwania w implementacji
+Tabela 1: Komponenty zintegrowanego systemu wczesnego ostrzegania o dezinformacji
+4. Integracja operacyjna i zespołowa współpraca
+4.1. Cyber Threat Intelligence (CTI) a monitoring reputacji
+4.2. Rola i współpraca między SOC, PR i zespołem zarządzania ryzykiem
+4.3. Automatyzacja reagowania: SIEM i SOAR
+5. Studia przypadków incydentów APT z elementami dezinformacji 2024-2025
+5.1. Sektor finansowy
+5.2. Sektor energetyczny
+5.3. Sektor healthtech
+6. Rekomendacje i strategie na przyszłość
+6.1. Zalecenia techniczne
+6.2. Zalecenia organizacyjne
+6.3. Wnioski
+Chcesz przygotować swój zespół na przeciwdziałanie dezinformacji? Zapraszam na moje szkolenia!
+1. Dezinformacja jako wektor miękkiego ataku w 2025 roku
+1.1. Definicja i ewolucja miękkiego wektora ataku
+Tradycyjne cyberbezpieczeństwo koncentrowało się na obronie przed atakami, które wykorzystywały luki techniczne w systemach, oprogramowaniu i sprzęcie. Atakujący stosowali takie wektory jak
+malware, phishing
+, czy ataki typu
+denial-of-service (DoS/DDoS
+), aby uzyskać nieautoryzowany dostęp, ukraść dane, lub zakłócić działanie infrastruktury. W tym modelu, obrona polegała głównie na uszczelnianiu systemów, instalowaniu łat i stosowaniu technicznych zabezpieczeń.
+W miarę jak systemy stawały się bardziej odporne, atakujący zaczęli kierować swoje wysiłki w stronę najsłabszego ogniwa: czynnika ludzkiego.
+Dezinformacja
+, definiowana jako
+świadome tworzenie i rozprzestrzenianie fałszywych oraz zmanipulowanych informacji z zamiarem oszustwa lub wprowadzania w błąd
+, wyłoniła się jako zaawansowana forma inżynierii społecznej. Ten nowy paradygmat ataku jest określany mianem
+miękkiego wektora
+. Zamiast wdzierać się do sieci, atakujący używają dezinformacji do wywołania pożądanych reakcji u ofiar, takich jak panika wewnętrzna, spadek zaufania czy podjęcie błędnych decyzji finansowych.
+Dezinformacja w praktyce: Oszustwo na sklonowanego dyrektora
+Incydent z początku 2024 roku
+, w którym oszuści ukradli $25 mln firmie Arup, doskonale ilustruje tę fundamentalną zmianę. Jak stwierdził dyrektor ds. informatyki Arup, Rob Greig,
+„to nie był cyberatak w tradycyjnym sensie, ponieważ żaden z naszych systemów nie został naruszony”
+. Zamiast tego, atakujący wykorzystali technologię deepfake do podszywania się pod dyrektora finansowego podczas spotkania online, zmuszając pracownika do wykonania przelewu. To zjawisko demonstruje, że dzisiaj kradzież pieniędzy na ogromną skalę jest możliwa bez naruszenia protokołów bezpieczeństwa technicznego, a jedynie poprzez manipulację ludźmi.
+To zacieranie się granic oznacza, że często nie da się już oddzielić incydentu technicznego od incydentu reputacyjnego czy operacyjnego.
+Nowoczesne operacje APT stają się hybrydowe.
+Atak może rozpocząć się od deepfake’a (wektor miękki), a skończyć na kradzieży danych z systemów (wektor twardy). Na przykład, spreparowany raport finansowy może wywołać spadek wartości akcji, a jednocześnie otworzyć drogę do ataku DDoS na reputację firmy. Ta wielowarstwowość wymaga od organizacji odmiennego modelu obronnego, łączącego ludzi i technologie z różnych dziedzin. Skuteczna obrona musi uwzględniać zarówno zabezpieczenia techniczne, jak i psychologię oraz komunikację, co stanowi poważne wyzwanie dla CISO i zarządów w 2025 roku.
+Źródło zdjęcia:
+https://www.tvp.info/77595321/operacja-deepfake-firma-arup-stracila-25-mln-dolarow-oszustwo-na-sklonowanego-dyrektora
+, dostęp 10.09.2025 r.
+1.2. Mierzalne konsekwencje: od spadku wartości do paniki
+Dezinformacja, choć operuje w sferze komunikacji, prowadzi do realnych, mierzalnych strat, które wykraczają daleko poza sferę reputacyjną.
+Wpływ dezinformacji na finanse i operacje
+Konsekwencje finansowe:
+Ataki dezinformacyjne mają bezpośredni wpływ na rynki finansowe. Według badań opublikowanych w grudniu 2024 roku w
+Journal of Accounting and Economics
+, fałszywe wiadomości finansowe są wykorzystywane do manipulacji cenami akcji, powodując dynamiczne spadki ich wartości. Firmy z mniej transparentną sprawozdawczością finansową są szczególnie narażone na takie ataki. Po rozpowszechnieniu fake newsów technologicznych, „spready kredytowe i premie za ryzyko rosną, co sugeruje wyższy poziom awersji inwestorów do ryzyka”. Przykładem są incydenty deepfake, w których oszuści wyłudzili od firm i banków wielomilionowe kwoty.
+Konsekwencje operacyjne:
+Dezinformacja może bezpośrednio zakłócać operacje przedsiębiorstw. Spreparowane dokumenty firmowe, sugerujące masowe zwolnienia, mogą stać się przyczyną strajków pracowniczych i bojkotów konsumenckich. W sektorze energetycznym i healthtech ataki na infrastrukturę (np. wodną) połączone z fałszywymi komunikatami mogą wywołać panikę i destabilizację usług. Traktuje o tym m.in. artykuł
+How APT Groups are Targeting Water Infrastructure in 2024/2025: Top Techniques Exploited by State-Sponsored Attackers
+.
+Reputacyjne i wewnętrzne skutki manipulacji
+Konsekwencje reputacyjne:
+Zgodnie z badaniem
+Edelman’s Trust Barometer
+, 81% konsumentów twierdzi, że zaufanie jest decydującym czynnikiem przy podejmowaniu decyzji zakupowych. Fałszywe wiadomości mogą w ciągu kilku minut zniszczyć lata budowania marki, co prowadzi do utraty klientów i partnerów. Nawet po zdemaskowaniu kłamstwa, początkowe szkody mogą być trudne do odwrócenia. Przykładem jest incydent z Anheuser-Busch InBev, którego sprzedaż spadła o jedną czwartą po konserwatywnym bojkocie sprowokowanym dezinformacją w mediach społecznościowych.
+Konsekwencje wewnętrzne:
+Dezinformacja może wywołać panikę wśród pracowników, prowadząc do obniżenia morale, chaotycznej komunikacji i obaw przed utratą pracy. Prawidłowo poinformowani pracownicy mogą być pierwszą linią obrony, dlatego organizacje muszą ich uświadamiać i uczyć, jak reagować na nieoficjalne lub fałszywe wiadomości.
+Problem dezinformacji jest często postrzegany jako „miękki”, leżący w gestii działów PR. Dane z lat 2024-2025 dowodzą jednak, że konsekwencje tych ataków są bezpośrednio mierzalne w walucie i utraconych operacjach, co czyni je priorytetowym problemem dla zarządów.
+To zmienia optykę z defensywy skoncentrowanej na IT na holistyczne podejście, w którym odpowiedzialność i środki obronne są integrowane w całej organizacji.
+2. Anatomia ataków dezinformacyjnych
+2.1. Deepfake’i zarządów i fałszywe tożsamości
+Technologia
+deepfake
+, wykorzystująca
+generatywne sieci przeciwstawne (GAN)
+oraz modele
+text-to-video
+i
+text-to-audio
+, pozwala na tworzenie przekonujących, syntetycznych materiałów audiowizualnych. Bariera wejścia w ten typ działalności jest wyjątkowo niska, co jest jednym z głównych zagrożeń. Atakujący mogą tworzyć fałszywe wizerunki i głosy z publicznie dostępnych materiałów, co czyni prezesów i członków zarządów atrakcyjnymi celami.
+Jak już bylo wspomnaiane powyżej, w 2024 roku, firma Arup padła ofiarą oszustwa, w którym deepfake’i dyrektora finansowego z wideokonferencji nakłoniły pracownika do transferu
+$25 mln
+. Inny głośny incydent, w którym menedżer banku z Hongkongu przelał
+$35 mln
+, również opierał się na
+deepfake’ach wykorzystanych do uwierzytelnienia transakcji
+. Te przypadki podkreślają, że atak deepfake nie jest jedynie problemem reputacyjnym, ale bezpośrednim wektorem oszustwa finansowego, który omija tradycyjne zabezpieczenia IT, bazując na zaufaniu do wizualnej i głosowej reprezentacji lidera. Nowa strategia obronna musi zakładać, że zaufanie do weryfikacji biometrycznej i obrazu może być złudne, co wymusza wdrażanie dwuetapowej weryfikacji w procedurach decyzyjnych, niezależnie od dowodów audiowizualnych.
+2.2. Fałszywe komunikaty o incydentach bezpieczeństwa
+Cyberprzestępcy coraz częściej wykorzystują fałszywe komunikaty o incydentach bezpieczeństwa jako element kampanii dezinformacyjnej. Klasycznym przykładem jest podszywanie się pod banki, tak jak miało to miejsce w 2024 roku w
+ataku phishingowym na klientów Banku Millennium
+. Fałszywe e-maile, stylizowane na oficjalną korespondencję, skłaniały ofiary do wypełnienia ankiety i ujawnienia danych osobowych oraz dostępowych do bankowości internetowej. Podobne metody stosowane są w
+złośliwych kampaniach SMS-owych
+, które informują o konieczności dopłaty do paczki, aby wyłudzić pieniądze.
+Bardziej zaawansowana taktyka polega na wykorzystaniu autentycznego, choć niepublicznego, incydentu bezpieczeństwa do siania chaosu i potęgowania strat. Atakujący mogą, po uzyskaniu dostępu do poufnych informacji (np. o
+wycieku danych z HHSC
+, czy dostępie do
+skrzynek mailowych w OCC
+), rozpowszechniać fałszywe komunikaty, które zniekształcają realia, potęgują panikę i dezorientują obronę. Ten mechanizm jest formą ataku DDoS na reputację i zaufanie, którego celem jest nie tylko wyłudzenie danych, ale także zniechęcenie klientów do korzystania z usług firmy, nawet jeśli jej systemy pozostają nienaruszone.
+2.3. Spreparowane raporty i wpływ na rynki
+Manipulacja rynkami finansowymi przy użyciu spreparowanych raportów jest
+coraz częściej obserwowaną taktyką w 2024 i 2025 roku
+. Celem jest wywołanie sztucznego wzrostu (
+pump and dump
+) lub spadku (
+short and distort
+) cen akcji w celu uzyskania zysku. Fałszywe doniesienia mogą dotyczyć zarzutów o oszustwa finansowe, fałszowanie zysków lub negatywnych incydentów wewnątrz firmy.
+Jednym z przykładów jest incydent, w którym spreparowane memorandum Departamentu Obrony USA, sugerujące obawy o bezpieczeństwo narodowe związane z planowaną fuzją giganta półprzewodników, spowodowało spadek cen akcji obu firm. Zjawisko to jest
+szczególnie niebezpieczne w szybko zmieniającym się świecie finansowym
+, gdzie inwestorzy, pragnąc działać szybciej niż inni, często rezygnują z weryfikacji informacji, co czyni ich podatnymi na fałszywe doniesienia.
+Skala problemu wykracza poza pojedyncze incydenty. W 2025 roku w Indonezji, kampanie dezinformacyjne oparte na teoriach spiskowych na temat
+Wielkiego Resetu
+i zbliżającego się upadku infrastruktury finansowej, wywołały masowe wycofywanie środków z banków i gorączkowe zakupy złota. To pokazuje, że dezinformacja finansowa jest zorganizowaną, globalną taktyką, która może destabilizować całe systemy gospodarcze.
+2.4. Wirusowe memy i ataki na reputację marki
+Wirusowe memy, choć z pozoru błahe i humorystyczne, stanowią potężny wektor ataku na reputację marki. Ich siła polega na zdolności do szybkiego rozprzestrzeniania się, omijania krytycznego myślenia i bazowania na silnych emocjach, takich jak strach czy złość.
+Memy mogą wyśmiewać braki w budżecie na cyberbezpieczeństwo
+lub rozpowszechniać fałszywe narracje, które podważają wiarygodność firmy.
+Przykładem jest incydent z 2018 roku z firmą Starbucks, gdzie fałszywy kupon, oferujący darmowe napoje dla Afroamerykanów, szybko rozprzestrzenił się w mediach społecznościowych.
+Akcja ta, choć na pierwszy rzut oka niewinna, miała potencjał naruszenia zaufania i wywołania chaosu operacyjnego w sklepach.
+Podobnie, w 2022 roku akcje Eli Lilly spadły o 4,37% po tym, jak fałszywe konto na Twitterze ogłosiło, że firma będzie rozdawać insulinę za darmo.
+Te incydenty pokazują, że memy i viralowe narracje stanowią pasywny wektor ataku. Mogą być rozprzestrzeniane przez autentycznych użytkowników, którzy, nieświadomi ich szkodliwego pochodzenia, stają się częścią zorganizowanej kampanii.
+Dlatego system obrony musi wykrywać nie tylko fałszywe źródła, ale także analizować sentyment i wzorce rozprzestrzeniania się treści w „prawdziwej” społeczności.
+3. Architektura obronnea: AI i NLP w wykrywaniu dezinformacji
+3.1. Podstawy AI i NLP w ochronie informacji
+W obliczu lawinowo rosnącej ilości danych i złożoności dezinformacji, sztuczna inteligencja (AI) i przetwarzanie języka naturalnego (NLP) stały się kluczowymi narzędziami obronnymi. NLP jest fundamentem, umożliwiającym analizę ogromnych zbiorów danych tekstowych i wykrywanie wzorców, które mogą wskazywać na dezinformację, takich jak
+nadmierne użycie języka emocjonalnego
+,
+brak źródeł
+czy
+sprzeczne twierdzenia
+.
+Do tworzenia modeli AI zdolnych do klasyfikowania treści jako prawdziwej lub potencjalnie dezinformacyjne
+wykorzystuje się algorytmy uczenia maszynowego
+.
+Badania wykazują
+, że nowoczesne modele NLP, takie jak
+BERT
+czy gotowe narzędzia takie jak
+Cyabra
+, są w stanie znacznie precyzyjniej rozumieć kontekst i intencje autora, co jest kluczowe w wykrywaniu subtelnych manipulacji językowych. Systemy te analizują nie tylko treść, ale także kontekst jej rozprzestrzeniania, dynamikę dyskusji, sentyment, a nawet zachowania użytkowników, co pozwala na wczesne wykrycie celowego, negatywnego trendu.
+3.2. Komponenty systemu wczesnego ostrzegania
+Zaawansowany system wczesnego ostrzegania o dezinformacji oparty na AI i NLP składa się z kilku kluczowych, zintegrowanych komponentów:
+Monitorowanie treści w czasie rzeczywistym:
+Algorytmy skanują media społecznościowe, fora internetowe i serwisy informacyjne, śledząc wzmianki o marce i wykrywając wpisy, które szybko zyskują na popularności i mogą być źródłem dezinformacji.
+Wykrywanie fałszywych źródeł:
+Systemy AI analizują zachowanie użytkowników w poszukiwaniu cech charakterystycznych dla botów i trolli. Wykrywają anomalie, takie jak identyczne treści rozpowszechniane z wielu kont, wykorzystywanie zdjęć profilowych generowanych przez AI, czy nagłe aktywacje dużej liczby profili.
+Analiza sentymentu:
+Technologia ta
+, znana również jako mining opinii, automatycznie klasyfikuje emocje w tekście jako pozytywne, negatywne lub neutralne. Analiza sentymentu wspiera zarządzanie wizerunkiem marki, pomagając zidentyfikować potencjalne problemy i śledzić reakcje użytkowników, co jest szczególnie istotne w wykrywaniu zorganizowanych kampanii mających na celu wywołanie negatywnych emocji.
+Automatyczna weryfikacja faktów:
+Narzędzia oparte na AI mogą automatycznie weryfikować fakty i źródła informacji, porównując je z wiarygodnymi bazami danych.
+W połączeniu, te komponenty tworzą holistyczny system, zdolny do szybkiego identyfikowania i klasyfikowania zagrożeń dezinformacyjnych.
+3.3. Wyzwania w implementacji
+Wdrożenie systemów obronnych w erze dezinformacji wiąże się z wieloma wyzwaniami. Twórcy fałszywych narracji są sprytni i potrafią modyfikować swoje metody, aby uniknąć wykrycia przez algorytmy. To wymaga ciągłego aktualizowania modeli AI. Ponadto,
+algorytmy mają trudności z interpretacją kontekstu, sarkazmu czy ironii
+, co może prowadzić do fałszywych alarmów lub przeoczenia dezinformacji.
+Jednym z najważniejszych wniosków z analizy jest brak
+technologicznego srebrnego pocisku
+w walce z dezinformacją. Skuteczna obrona wymaga warstwowego podejścia, które łączy zaawansowaną technologię z ludzką ekspertyzą. Ostateczne decyzje o usuwaniu lub oznaczaniu treści powinny być podejmowane przez ludzi, co wymaga utrzymania równowagi między automatyzacją a zaangażowaniem ekspertów.
+Tabela 1: Komponenty zintegrowanego systemu wczesnego ostrzegania o dezinformacji
+Problem/Wektor ataku
+Kluczowe technologie
+Działanie systemu
+Wartość dodana dla firmy
+Deepfake/Fałszywy komunikat
+AI (GAN, Text-to-Audio), NLP
+Wykrywanie anomalii w ruchu, analiza metadanych, weryfikacja biometryczna
+Wczesne ostrzeżenie, ochrona reputacji i finansów, minimalizacja strat
+Fałszywe komunikaty o incydentach
+Analiza sentymentu, modele NLP, monitorowanie treści
+Identyfikacja nagłego wzrostu negatywnego sentymentu, wykrywanie fałszywych źródeł i kont
+Szybka reakcja na kryzys, kontrolowanie narracji, minimalizacja paniki
+Spreparowane raporty finansowe
+Modele uczenia maszynowego, Analiza treści, Monitorowanie rynków
+Wykrywanie treści z nieautoryzowanych źródeł przed ogłoszeniem wyników finansowych, korelacja z zachowaniem rynkowym
+Ochrona przed manipulacją giełdową, zachowanie zaufania inwestorów
+Wirusowe memy/ataki na reputację
+AI do analizy obrazu, Analiza sentymentu, Wykrywanie fałszywych kont
+Identyfikacja viralowych treści o negatywnym sentymencie, namierzanie sieci botów i trolli
+Aktywne przeciwdziałanie bojkotom, ochrona lojalności klientów
+4. Integracja operacyjna i zespołowa współpraca
+4.1. Cyber Threat Intelligence (CTI) a monitoring reputacji
+Tradycyjny CTI
+koncentruje się na taktycznej analizie wskaźników kompromitacji (IOC), takich jak złośliwe adresy IP, domeny czy hashe plików. Te wskaźniki mają jednak krótką żywotność. Monitoring reputacji, z kolei, działa jak sensory, zbierając informacje o wzmiankach i nastrojach wokół firmy w czasie rzeczywistym. W dobie hybrydowych ataków dezinformacyjnych, synergia tych dwóch obszarów jest kluczowa.
+Integracja CTI z monitoringiem reputacji pozwala na zrozumienie, czy nagły spadek sentymentu wokół marki, zidentyfikowany przez dział PR, jest wynikiem zorganizowanej kampanii APT, o której posiadają wiedzę specjaliści CTI. Atakujący coraz częściej łączą techniczne TTPs (Tactics, Techniques, and Procedures) z taktykami informacyjnymi, tworząc wskaźniki kompromitacji, które obejmują wzorce narracyjne, specyficzne słownictwo czy techniki amplifikacji w mediach społecznościowych. SOC może wzbogacać alerty o dezinformacji danymi z CTI, co nadaje im kontekst techniczny, kluczowy dla podjęcia odpowiednich działań zaradczych.
+4.2. Rola i współpraca między SOC, PR i zespołem zarządzania ryzykiem
+Zagrożenia dezinformacyjne wymagają
+interdyscyplinarnego modelu reagowania
+, który przełamuje tradycyjne podziały organizacyjne. Konieczne jest stworzenie
+Zespołu Szybkiego Reagowania (RRT – Rapid Response Team)
+, składającego się ze specjalistów z następujących obszarów :
+SOC/dział cyberbezpieczeństwa:
+Odpowiedzialni za analizę techniczną, identyfikację źródeł ataku, weryfikację incydentów i przygotowanie raportów technicznych dla reszty zespołu.
+Dział PR/komunikacji:
+Odpowiedzialni za monitorowanie narracji, opracowanie komunikatów kryzysowych i zarządzanie relacjami z mediami. W ich gestii leży kontrolowanie narracji publicznej.
+Zarządzanie ryzykiem/dział prawny:
+Odpowiedzialni za ocenę potencjalnych strat finansowych i reputacyjnych, a także za przygotowanie ewentualnych działań prawnych.
+Współpraca ta musi być wspierana przez zintegrowane playbooki, które łączą procedury techniczne (np. blokowanie domen, resetowanie haseł) z procedurami komunikacyjnymi (np. przygotowanie oświadczeń, współpraca z agencjami fact-checkingowymi).
+4.3. Automatyzacja reagowania: SIEM i SOAR
+SIEM (Security Information and Event Management)
+i
+SOAR (Security Orchestration, Automation and Response)
+są
+fundamentem nowoczesnych operacji obronnych
+. SIEM agreguje i analizuje dane z różnych źródeł, generując alerty o potencjalnych zagrożeniach. SOAR, z kolei, automatyzuje i orkiestruje reakcje na te alerty, redukując czas i nakład pracy ludzkiej.
+W kontekście dezinformacji, tradycyjne role
+SIEM i SOAR
+muszą zostać rozszerzone. System SIEM może być skonfigurowany do wykrywania nietypowych zdarzeń informacyjnych, takich jak nagły wzrost negatywnych komentarzy, gwałtowna zmiana sentymentu czy masowe udostępnienia treści z niesprawdzonych źródeł. Po wykryciu takiego zdarzenia, SOAR może uruchomić automatyczny playbook reagowania na dezinformację.
+Przykład playbooka SOAR dla dezinformacji:
+Wyzwalacz:
+System AI/NLP wykrywa gwałtowny wzros
+t (+500%) udostępnień treści z niskowiarygodnego źródła, zawierającej słowa kluczowe związane z marką.
+Wzbogacenie:
+SOAR automatycznie pobiera treść, analizuje sentyment, sprawdza wiarygodność autora, a następnie koreluje te dane z wewnętrznymi informacjami o incydentach (np. czy faktycznie doszło do wycieku danych).
+Akcja:
+Na podstawie oceny ryzyka, SOAR może wykonać zautomatyzowane akcje, takie jak:
+Wysłanie powiadomienia do interdyscyplinarnego RRT.
+Przygotowanie wstępnego komunikatu kryzysowego na podstawie predefiniowanych szablonów.
+Uruchomienie procedur do zgłaszania fałszywych kont na platformach społecznościowych.
+Integracja SIEM/SOAR
+w tym kontekście wymaga od nich przetwarzania danych niestrukturalnych (tekst, wideo) i korelacji ich z danymi technicznymi (np. ruch sieciowy), co rozszerza ich tradycyjne zastosowanie i czyni z nich platformy do zarządzania bezpieczeństwem informacji i narracji.
+5. Studia przypadków incydentów APT z elementami dezinformacji 2024-2025
+5.1. Sektor finansowy
+W sektorze finansowym dezinformacja staje się kluczowym elementem zorganizowanych operacji. Główne cele to manipulacja rynkami, wyłudzanie funduszy i podważanie zaufania publicznego.
+Deepfake’i C-suite:
+Incydent z lutego 2024 roku, w którym deepfake’i dyrektorów firm doprowadziły do przelewów milionów dolarów, pokazuje, że atakujący nie potrzebują włamywać się do systemów finansowych. Wystarczy, że podważą procedury weryfikacji tożsamości, co w dobie powszechności deepfake’ów staje się realnym ryzykiem.
+Manipulacja giełdą:
+Badania z 2024 roku
+potwierdzają, że fałszywe doniesienia finansowe, np. o rzekomym fałszowaniu zysków, są celowo rozpowszechniane, aby manipulować cenami akcji i czerpać zyski ze spekulacji.
+Panika finansowa:
+Przykład z Indonezji z 2025 roku pokazuje, jak kampania dezinformacyjna oparta na teoriach spiskowych, wywołała masowe wycofywanie depozytów z banków, destabilizując cały sektor finansowy. To demonstruje, że ataki informacyjne mogą mieć taką samą siłę rażenia jak kryzysy systemowe.
+5.2. Sektor energetyczny
+Sektor energetyczny, kluczowy dla bezpieczeństwa państwa, stał się celem ataków hybrydowych, które łączą sabotaż techniczny z atakami dezinformacyjnymi.
+Ataki na infrastrukturę:
+W 2024 roku doszło do ataków na infrastrukturę wodną (np. w Arkansas City), które łączyły fizyczny sabotaż (manipulacja zaworami) z naruszeniem zaufania publicznego. Tego typu operacje mają na celu wywołanie chaosu i podważenie zaufania do infrastruktury krytycznej.
+Narracje antytechnologiczne:
+Kampanie dezinformacyjne, oparte na fałszywych doniesieniach o szkodliwości nowych technologii (np. rzekoma teoria, że samochody elektryczne palą się częściej niż spalinowe) uderzają w transformację energetyczną, kluczową dla Polski i UE. Celem jest spowolnienie lub zatrzymanie zmian i wywołanie obaw społecznych, co służy interesom podmiotów pragnących zachować status quo.
+5.3. Sektor healthtech
+Branża healthtech jest szczególnie wrażliwa na ataki dezinformacyjne ze względu na dużą ilość wrażliwych danych i kluczową rolę w zaufaniu publicznym.
+Ransomware i wycieki danych:
+Głośne ataki z 2024 roku na
+Change Healthcare
+i
+Synnovis
+spowodowały masowe wycieki danych (w przypadku Synnovis, 300 milionów rekordów) i poważne zakłócenia operacyjne, w tym
+odwoływanie operacji i wizyt
+.
+Analizę ataku
+na Change Healthcare można znaleźć
+tutaj
+.
+Wykorzystanie kryzysu:
+Hakerzy mogą celowo łączyć incydenty techniczne z kampaniami dezinformacyjnymi, które szerzą fałszywe informacje medyczne (np. o niebezpiecznych lekach czy terapiach). Fałszywe narracje mogą być rozpowszechniane w celu wywołania paniki, zwiększenia presji na zapłatę okupu lub po prostu zasiać chaos i podważyć zaufanie do instytucji medycznych.
+6. Rekomendacje i strategie na przyszłość
+6.1. Zalecenia techniczne
+Aby skutecznie bronić się przed atakami dezinformacyjnymi, organizacje muszą zrewidować swoje strategie technologiczne.
+Inwestycja w AI/NLP:
+Kluczowe jest wdrożenie zaawansowanych systemów do monitoringu mediów społecznościowych, forów i platform internetowych w czasie rzeczywistym. Systemy te powinny być oparte na AI i NLP, aby wykrywać anomalie informacyjne, analizować sentyment i identyfikować fałszywe źródła oraz boty.
+Wzbogacenie CTI:
+Dział CTI powinien poszerzyć swoje kompetencje poza tradycyjne IOC. Musi uwzględniać wskaźniki narracyjne, takie jak
+wzorce dezinformacyjne czy taktyki amplifikacji
+.
+Implementacja SIEM/SOAR:
+Organizacje powinny rozszerzyć swoje platformy SIEM/SOAR, aby mogły przetwarzać i korelować dane niestrukturalne (tekst, audio, wideo) z logami technicznymi. Zintegrowane playbooki w SOAR powinny
+automatyzować reakcję na incydenty dezinformacyjne
+, łącząc działania techniczne z komunikacyjnymi.
+6.2. Zalecenia organizacyjne
+Technologia bez odpowiednich procedur i struktury jest nieskuteczna.
+Tworzenie interdyscyplinarnych RRT:
+Konieczne jest powołanie stałych Zespołów Szybkiego Reagowania, w skład których wejdą specjaliści z cyberbezpieczeństwa (SOC), komunikacji (PR) oraz zarządzania ryzykiem i działu prawnego.
+Zintegrowane playbooki kryzysowe:
+Zespoły te powinny opracować i regularnie testować scenariusze reagowania na incydenty dezinformacyjne, w których każdy członek zespołu ma jasno zdefiniowane role i odpowiedzialności.
+Szkolenia dla pracowników:
+Edukacja pracowników w zakresie rozpoznawania dezinformacji i inżynierii społecznej jest kluczowa. Zgodnie z badaniami,
+68% naruszeń cyberbezpieczeństwa ma w sobie element ludzki
+. Zwiększenie świadomości i odporności pracowników może uczynić ich pierwszą linią obrony.
+6.3. Wnioski
+Analiza zagrożeń w 2025 roku jednoznacznie wskazuje, że dezinformacja przestaje być problemem marginalnym, a staje się integralnym elementem zorganizowanych cyberataków. Konsekwencje tych działań są bezpośrednio mierzalne, co czyni je priorytetem strategicznym dla zarządów. Skuteczna obrona przed nimi wymaga holistycznego podejścia, które łączy twarde zabezpieczenia techniczne z miękkimi mechanizmami obrony informacyjnej. Ochrona firmy nie sprowadza się już wyłącznie do zabezpieczania sieci i systemów, lecz wymaga zapewnienia odporności całej organizacji na manipulacje narracją. Odporność informacyjna to nowy filar cyberbezpieczeństwa.
+Slajdy z mojej prezentacji w wersji PDF do pobrania można znaleźć na
+moim Githubie
+:
+Chcesz przygotować swój zespół na przeciwdziałanie dezinformacji? Zapraszam na moje szkolenia!
+Jeśli czujesz, że Twoja firma potrzebuje solidnych fundamentów, by bezpiecznie poruszać się w nowej rzeczywistości, zapraszam do kontaktu. Oferuję praktyczne szkolenia o dezinformacji, które:
+Pokazują
+przykłady takich działań– od prostych po zaawansowane.
+Uczą praktycznych narzędzi
+do weryfikacji i obrony przed dezinformacją.
+Pomagają stworzyć kulturę
+cyfrowej odpowiedzialności w zespole.
+Nie czekaj na kryzys. Napisz do mnie wiadomość i dowiedz się, jak wspólnie możemy wzmocnić Twoją organizację.
+SKONTAKTUJ się
+Share this post:

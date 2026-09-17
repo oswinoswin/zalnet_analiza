@@ -1,0 +1,291 @@
+Sierpniowe kolonie na chmurze Azure
+English version
+: click
+here
+.
+W czasie wakacji dzieci się nudzą: te mniejsze, te większe, a także wewnętrzne dzieci u dorosłych. I u mnie moje wewnętrzne dziecko zaczęło ziewać z nudów. Moi studenci na kierunku MBA 4.0 ukończyli studia na samych 5. Zajęcia z DevOps na WSB Merito – 2 grupy ukończyły edukację, trzecia w końcu ma wakacje. Ja obroniłam pracę podyplomową na Cyber Science na 5.
+Wakacje
+. A wakacje to dobry czas na to, aby w zrobić to, o czym od dawna marzyłam. Czyli mentoring w nauce chmury Azure od podstaw. Ale taki zbiorowy, w ramach społeczności NTHW. Czyli coś, co na zajęciach ze studentami robię dość często.
+Co znajdziesz w tym artykule?
+Sierpniowe kolonie na chmurze Azure
+Czym są Sierpniowe kolonie na chmurze Azure?
+Kto prowadzi darmowe szkolenia na chmurze Azure?
+Harmonogram spotkań i przydatne materiały
+Czym są Sierpniowe kolonie na chmurze Azure?
+🍾
+Cel:
+zdobycie na tyle wiedzy, aby można było zdać egzamin AZ-900.
+🏺
+Zakres:
+zagadnienia z AZ-900, do tego Copilot i inne usługi AI (ze szkolenia AI-900). Oczywiście, będą i trzej muszkieterowie od bezpieczeństwa, czyli Defender, Sentinel i Intune, bo inaczej by się obrazili (egzamin SC-900).
+📅
+Kiedy:
+cały sierpień, od 1 do 31 sierpnia 2025.
+🎧
+Link do spotkań online
+:
+Google Meet
+💾
+Format:
+kilka spotkań w miesiącu online, reszta to codziennie zadania praktyczne do wykonania.
+🫶🏻
+Wsparcie:
+oczywiście, będzie specjalny kanał na Discordzie Not The Hidden Wiki> link do Discorda:
+https://discord.gg/fjwzWFWuzg
+📜
+Czy na zakończenie dostanę certyfikat uczestnika:
+of course.
+📚
+Ile będzie materiałów i zadań:
+DUŻO 🙂
+🤯
+Co będzie potrzebne do nauki:
+laptop z dostępem do przeglądarki, darmowe konto Azure (instrukcję dostaniecie 31.07.2025) i zapał do nauki.
+Kto prowadzi darmowe szkolenia na chmurze Azure?
+👩‍💻
+Kto będzie prowadził?
+Oczywiście, Kto prowadzi darmowe szkolenia na chmurze Azure?JA 🙂
+Nie mam (raczej nie mam) w opisie Top prelegentka na konferencjach Żwirka i Muchomorka, nie jestem wizjonerką, magikiem, jak już to wiedźmą. Nie byłam na liście 40 under 40, nie jestem na 50 under 50, ale jestem na jednej ważnej liście od Not The Hidden Wiki – liście DOWIEZIONYCH obietnic. Wspólnie z innymi prowadzącymi dowiozłam #CyberAdwent, pierwszy sezon #NotTheHiddenKnowledge, 2 sezon #HackujDobroczynnie, sierpniowe wyzwanie też dowiozę.
+Cena:
+Nie zapłacicie za udział w tym wyzwaniu 497 zł, nie zapłacicie 89 zł, bo my dzielimy się wiedzą za DARMO.
+Harmonogram spotkań i przydatne materiały
+📌 Codziennie rano,
+od 31 lipca 2025
+roku na tej stronie w tabelce będzie pojawiał się link do ćwiczeń, tutoriali.
+Idziemy utartymi ścieżkami. We wtorki spotkania online o 18:00 w formie warsztatów, piątki to sesje  online Q&A także o godzinie 18:00, rozwiewanie wątpliwości, dyskusje itd. Będzie jeden i ten sam link do spotkań wtorkowych i piątkowych. Spotykamy się na Google Meet.
+Skróty używane w tabeli poniżej:
+PL
+– nagrania/materiały w języku polskim
+EN
+– nagrania/materiały w języku angielskim
+Data
+Egzamin
+Temat
+Forma
+Link
+31.07.2025
+AZ-900, SC-900
+Rejestracja konta na chmurze Azure
+Wpis na blogu (PL)
+https://zalnet.pl/pl/rejestracja-konta-na-chmurze-azure/
+01.08.2025
+AZ-900
+Podstawy platformy Microsoft Azure: opis pojęć związanych z chmurą, omówienie wymagań egzaminu AZ-900
+Spotkanie online (PL)
+Link do nagrania ze spotkania
+(PL)
+Linki do nauki na portalu Github
+(PL/EN)
+02.08.2025
+AZ-900
+Przetwarzanie w chmurze
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+PL/EN)
+03.08.2025
+AZ-900
+Korzyści z korzystania z usług w chmurze
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(PL/EN)
+04.08.2025
+AZ-900
+Typy usług w chmurze
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+05.08.2025
+AZ-900
+Podstawy platformy Microsoft Azure: opis architektury i usług platformy Azure
+Spotkanie online (PL)
+Link do nagrania ze spotkania
+(PL)
+Linki do nauki na portalu Github
+(PL/EN)
+06.08.2025
+AZ-900
+Opis podstawowych składników architektury platformy Azure
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+07.08.2025
+AZ-900
+Opis usług obliczeniowych i sieciowych platformy Azure
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+08.08.2025
+AZ-900
+Podsumowanie
+Spotkanie online – sesja Q&A (PL)
+Link do nagrania ze spotkania
+(PL)
+Linki do nauki na portalu Github
+(EN)
+09.08.2025
+AZ-900
+Usługi Azure Storage
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+10.08.2025
+AZ-900
+Usługi bazodanowe
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+11.08.2025
+AZ-900
+Aplikacje internetowe, aplikacje logiczne i funkcje Azurowe
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+12.08.2025
+AZ-900
+Środowisko aplikacji internetowych i składowe
+Spotkanie online (PL)
+Link do nagrania ze spotkania
+(PL)
+Linki do nauki na portalu Github
+(EN)
+13.08.2025
+AZ-900
+Kontenery na chmurze Azure i Azure IoT
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+14.08.2025
+AZ-900
+Opis zarządzania kosztami na platformie Azure
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+15.08.2025
+AZ-900
+Funkcje i narzędzia do zarządzania zasobami platformy Azure i wdrażania ich
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+16.08.2025
+AZ-900
+Narzędzia do monitorowania na platformie Azure
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+17.08.2025
+AZ-900
+Usługi związane z tożsamością, dostępem i zabezpieczeniami platformy Azure
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+18.08.2025
+AZ-900
+Przykładowe testy do egzaminu AZ-900 (zasoby MS)
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+19.08.2025
+SC-900
+Wprowadzenie do pojęć związanych z zabezpieczeniami, zgodnością i tożsamościami
+Spotkanie online (PL)
+Link do nagrania ze spotkania
+(PL)
+Linki do nauki na portalu Github
+(EN)
+20.08.2025
+SC-900
+Podstawy zabezpieczeń, zgodności i tożsamości firmy Microsoft
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+21.08.2025
+SC-900
+Wprowadzenie do Microsoft Entra
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(PL/EN)
+22.08.2025
+AZ-900/SC-900
+Zarządzanie, bezpieczeństwo i zgodność na platformie Azure
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(PL/EN)
+23.08.2025
+SC-900
+Wprowadzenie do rozwiązań zabezpieczeń firmy Microsoft
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+24.08.2025
+SC-900
+Wprowadzenie do usług Microsoft Priva i Microsoft Purview
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+25.08.2025
+SC-900
+Przykładowe pytania (zasoby MS)
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+26.08.2025
+AI-900
+Wprowadzenie do tematyki AI
+Spotkanie online (PL)
+Link do nagrania ze spotkania
+(PL)
+Linki do nauki na portalu Github
+(EN)
+27.08.2025
+AI-900
+Wprowadzenie do Microsoft Copilot Chat
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(PL/EN)
+28.08.2025
+AI-900
+Wprowadzenie do Github Copilot i Github Copilot Chat
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+29.08.2025
+AI-900
+Inne Copiloty
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+30.08.2025
+SC-100
+Interaktywne przypadki użycia – kurs cyberbezpieczeństwa SC-100
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(EN)
+31.08.2025
+Wszystkie
+Zakończenie i podsumowanie
+Linki do samodzielnej
+nauki
+Linki do nauki na portalu Github
+(PL/EN)
+A jako, że lubię pszczoły to towarzyszyć w nauce będzie nam pszczoła. Efekt mojej współpracy z Copilotem. Jeszcze bezimienne, ale coś się wymyśli 🙂
+Share this post:

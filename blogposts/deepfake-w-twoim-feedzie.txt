@@ -1,0 +1,287 @@
+Deepfake w Twoim feedzie
+Scrollując Instagrama, niezwykle łatwo natknąć się na zjawisko, jakim jest
+deepfake
+. Nagle widzisz Roberta Lewandowskiego, który z pasją opowiada o nowej, cudownej inwestycji, albo Elona Muska, który obiecuje, że każdy Polak zostanie milionerem dzięki jego tajnemu projektowi inwestycyjnemu. Coś tu jednak nie gra. Głos brzmi odrobinę zbyt metalicznie, a usta poruszają się jak w źle dubbingowanym filmie z lat 90. Witaj w świecie cyfrowych manipulacji.
+Żyjemy w czasach „postprawdy”, gdzie „zobaczyć” nie znaczy wcale „uwierzyć”. Technologia deepfake, czyli generowanie i manipulowanie obrazem oraz dźwiękiem za pomocą sztucznej inteligencji, stała się powszechna. Obecnie, obok zaawansowanych ataków hakerskich i dezinformacji politycznej na wysokim szczeblu, my sami na co dzień stykamy się z tą technologią w znacznie bardziej prozaicznym miejscu: w reklamach w mediach społecznościowych.
+Paradoksalnie, to właśnie ten zalew niskiej jakości scamów (oszustw) na Instagramie, TikToku czy Facebooku może stać się dla nas najlepszym poligonem doświadczalnym i miejscem do nauki. Zamiast ignorować te reklamy, potraktujmy je jako darmowy kurs cyberbezpieczeństwa. Oto, jak analiza instagramowych „fake’ów” może nauczyć Cię odróżniać prawdę od cyfrowej fikcji.
+Co znajdziesz w tym artykule?
+Deepfake w Twoim feedzie
+Czym tak naprawdę jest technologia Deepfake?
+Jak mechanizm sztucznej inteligencji tworzy deepfake?
+Dziki Zachód: Dlaczego w social mediach wciąż widzimy scamy deepfake?
+Lekcja 1: Usta nie kłamią… a może jednak? (Synchronizacja warg)
+Lekcja 2: Martwe oczy i problem mrugania (Analiza mikroekspresji)
+Lekcja 3: Krawędzie twarzy w deepfake i "pływająca maska"
+1. Granica włosów i czoła (The Hairline glitch)
+2. Linia szczęki i „podwójny kontur"
+3. Szyja i węzeł chłonny
+Lekcja 4: Audio Deepfake – głos, który brzmi "zbyt" radiowo
+Lekcja 5: Kontekst to Król – włącz krytyczne myślenie
+Bądźmy sceptyczni, bądźmy bezpieczni
+🔗 Przydatne linki i źródła (Dla dociekliwych)
+Czym tak naprawdę jest technologia Deepfake?
+Zanim przejdziemy do dokładnej analizy, musimy zrozumieć, z czym walczymy. Słowo
+Deepfake
+wg definicji z
+Wikipedii
+powstało z połączenia angielskich słów:
+deep learning
+(głębokie uczenie) oraz
+fake
+(fałszywy). Deepfake to wygenerowane lub zmanipulowane przez sztuczną inteligencję (Artificial Intelligence) obrazy, treści dźwiękowe lub treści wideo, które przypominają istniejące osoby, przedmioty, miejsca, podmioty lub zdarzenia, które odbiorca mógłby niesłusznie uznać za autentyczne lub prawdziwe.
+W sercu tego procesu leżą
+sieci GAN (Generative Adversarial Networks)
+, czyli
+Generatywnych Sieci Przeciwstawnych/Sieci Generatywnych Przeciwników
+. Wyobraź sobie dwóch artystów. Jeden (
+Generator/Twórca
+) próbuje namalować fałszywy obraz Picassa lub Van Gogha. Drugi (
+Dyskryminator/Sędzia
+) jest ekspertem od sztuki i ocenia, czy obraz jest prawdziwy. Generator maluje tak długo i poprawia swoje błędy, aż Dyskryminator nie będzie w stanie odróżnić fałszywki od oryginału.
+Jak mechanizm sztucznej inteligencji tworzy deepfake?
+Aby zrozumieć ich działanie, nie musisz kończyć informatyki – wystarczy, że przypomnisz sobie kultowy film
+„Vinci”
+Juliusza Machulskiego.
+Wyobraź sobie, że wewnątrz algorytmu trwa nieustanny pojedynek dwóch postaci.
+Pierwsza sieć to
+Generator (Twórca)
+. To odpowiednik filmowej Magdy (granej przez
+Kamilę Baar
+), genialnej fałszerki, która w zaciszu pracowni próbuje stworzyć idealną kopię „Damy z gronostajem”.
+Druga sieć to
+Dyskryminator (Sędzia)
+. To cyfrowy odpowiednik Hagena (w tej roli niezapomniany
+Jan Machulski
+) – starego wygi i eksperta, który potrafi dostrzec każde, nawet najmniejsze niedociągnięcie.
+Generator (Magda) tworzy fałszywy obraz i pokazuje go Dyskryminatorowi (Hagenowi). Jeśli Hagen zauważy błąd – np. nienaturalny cień czy złe pociągnięcie pędzla – odrzuca obraz. Generator wraca więc do pracy, poprawia błędy i próbuje znowu. Proces ten w komputerze powtarza się miliony razy z ogromną prędkością, aż w końcu fałszerstwo staje się tak doskonałe, że Dyskryminator nie jest w stanie odróżnić go od oryginału. Tak właśnie powstaje deepfake.
+Zdjecie pochodzi z https://film.org.pl/r/vinci-2004-2-134485
+W przypadku reklam na Instagramie proces ten jest często robiony „po taniości”. Niektórzy użytkownicy biorą gotowe nagranie wideo (np. wywiad z telewizji śniadaniowej) i nakładają na nie nowy ruch warg oraz wygenerowany syntezatorem mowy głos lub używają tanich narzędzi. To właśnie te niedoskonałości taniej produkcji są naszą szansą na naukę.
+📚
+Jeśli chcesz zobaczyć, jak dokładnie działa ten proces od strony technicznej, polecam świetny materiał wideo od CBC News: The National:
+„
+Can you spot the deepfake? How AI is threatening elections
+„
+(YouTube) o tym, jak deepfake może wpływać na nasze decyzje polityczne.
+W styczniu 2026 r. w Sądzie Okręgowym w Warszawie ruszył proces o
+bezprawne komercyjne wykorzystanie głosu lektora
+Jarosława Łukomskiego przy użyciu sztucznej inteligencji. Pełnomocnicy powoda podkreślają, że brak osobnej ustawy o AI nie oznacza braku ochrony prawnej.
+Z kolei
+NASK (Naukowa i Akademicka Sieć Komputerowa)
+przygotował artykuł w języku polskim:
+„
+Deepfaki – prawdziwy problem z fałszywą rzeczywistością
+„
+, który wyjaśnia te mechanizmy i ich wpływ na nasze życie codzienne.
+Dziki Zachód: Dlaczego w social mediach wciąż widzimy scamy deepfake?
+Dlaczego Instagram i Meta pozwalają na to, aby fałszywi celebryci reklamowali fałszywe inwestycje? To temat na oddzielną dyskusję o moderacji treści, ale dla nas kluczowe jest to, że algorytmy reklamowe są zalewane tysiącami takich materiałów dziennie. Twórcy tych reklam liczą na efekt skali i naszą nieuwagę. Wykorzystują naszą tendencję do autorytetu. Skoro „Pan z Telewizji” to mówi, to musi być prawda.
+Oglądając te reklamy krytycznym okiem, możemy wyodrębnić
+5 kluczowych artefaktów
+, które zdradzają ingerencję AI.
+Lekcja 1: Usta nie kłamią… a może jednak? (Synchronizacja warg)
+Najczęstszym błędem w tanich deepfake’ach jest tzw.
+lip-sync error
+. Generatory wideo próbują dopasować ruch warg do nowej ścieżki dźwiękowej, ale rzadko robią to idealnie, zwłaszcza w języku polskim, który jest fonetycznie skomplikowany.
+Na co zwracać uwagę?
+Zgłoski wybuchowe (P, B, M):
+Wypowiedzenie tych liter wymaga całkowitego zwarcia warg. W deepfake’ach usta postaci często pozostają lekko uchylone lub poruszają się w nienaturalny, „gumowy” sposób podczas tych głosek.
+Opóźnienie:
+Często dźwięk wyprzedza obraz o ułamek sekundy, lub odwrotnie. Wygląda to jak błąd transmisji satelitarnej, ale jeśli dzieje się w profesjonalnie wyglądającym „studiu”, to czerwona flaga.
+Rozmycie wokół ust:
+Przyjrzyj się uważnie granicy warg. W deepfake’ach ten obszar bywa często nienaturalnie wygładzony lub rozmyty, jakby ktoś nałożył tam silny filtr upiększający, podczas gdy reszta twarzy jest ostra.
+👀
+Naukowcy z University of Washington stworzyli słynny projekt
+Synthesizing Obama
+. Obejrzyj ten krótki film, aby zobaczyć, jak wczesne wersje deepfake’ów radziły sobie z ustami (i gdzie popełniały błędy, które omawiamy):
+„Synthesizing Obama: Learning Lip Sync from Audio”
+.
+Zwróć uwagę na dolną część twarzy!
+Lekcja 2: Martwe oczy i problem mrugania (Analiza mikroekspresji)
+Podobno oczy są zwierciadłem duszy. I AI wciąż ma problem z ich symulacją. Wczesne algorytmy deepfake miały ogromny problem z mruganiem – postacie nie mrugały wcale. Dziś mrugają, ale często robią to w nienaturalnym rytmie.
+Test spojrzenia:
+Brak spójności emocjonalnej:
+To subtelny, ale potężny sygnał. Jeśli „Robert Lewandowski” w reklamie krzyczy z entuzjazmem o wygranej w grze, ale jego oczy pozostają nieruchome, smutne lub obojętne – masz do czynienia z fałszywką. Ludzka twarz angażuje dziesiątki mięśni wokół oczu, gdy się uśmiechamy (kurze łapki). Tanie deepfake’i ruszają tylko dolną częścią twarzy.
+Kierunek wzroku:
+Często w fałszywych reklamach postać patrzy „przez” widza, a nie w obiektyw, lub jej wzrok błądzi w sposób nieskoordynowany z tym, co mówi.
+🛠️
+MIT Media Lab stworzyło genialną stronę, gdzie możesz sprawdzić swoje umiejętności detektywa. Projekt nazywa się
+Detect DeepFakes
+. Kliknij tutaj:
+Detect Fakes by MIT
+i sprawdź, czy potrafisz odróżnić wideo prawdziwe od wygenerowanego, patrząc tylko na oczy i mimikę.
+Lekcja 3: Krawędzie twarzy w deepfake i „pływająca maska”
+Deepfake (szczególnie typu
+face swap
+, czyli techniki edycji zdjęć lub filmów, która polega na zamianie twarzy jednej osoby twarzą innej osoby przy użyciu specjalnego oprogramowania lub aplikacji mobilnych) polega na nałożeniu nowej twarzy na starą głowę. To miejsce styku – linia szczęki, czoło przy włosach, szyja – jest newralgiczne. Te miejsce styku to tak zwana
+„strefa zero” każdego cyfrowego fałszerstwa
+. Nawet jeśli algorytm (nasza filmowa Magda z „Vinci”) świetnie radzi sobie z oczami, to polega najczęściej na „zszywaniu” nowej twarzy z resztą oryginalnego nagrania.
+Oto dlaczego te konkretne punkty są tak trudne do sfałszowania i na co dokładnie musisz patrzeć, scrollując Instagrama, TikToka czy Facebooka:
+1. Granica włosów i czoła (The Hairline glitch)
+Włosy to jeden z najtrudniejszych elementów do wyrenderowania przez AI. Są cienkie w porównaniu do innych elementów naszego ciała, poruszają się chaotycznie i rzucają mikro-cienie.
+W czym tkwi problem?
+Deepfake często nakłada twarz jako rodzaj „maski”. W miejscu, gdzie czoło styka się z linią włosów, często powstaje nienaturalne wygładzenie skóry.
+Co sprawdzić?
+Szukaj efektu „halo” – dziwnej poświaty lub nagłego rozmycia w miejscu, gdzie skóra powinna naturalnie chować się pod pasmami włosów. Jeśli linia czoła wygląda jak wycięta nożyczkami, to znak, że Hagen (Dyskryminator) powinien bardziej przyłożyć się do pracy.
+2. Linia szczęki i „podwójny kontur”
+Kiedy osoba na wideo mówi lub obraca głowę, kształt jej szczęki ulega dynamicznym zmianom. Tanie algorytmy nie zawsze nadążają z dopasowaniem „maski” do fizycznej struktury kości oryginału.
+W czym tkwi problem?
+Podczas ruchu głowy może dojść do zjawiska
+ghostingu
+(duchów). Obraz nowej twarzy na ułamek sekundy „odkleja się” od prawdziwej żuchwy.
+Co sprawdzić?
+Patrz uważnie na profil. Jeśli zobaczysz, że pod brodą pojawia się na moment drugi, ledwo widoczny kontur albo skóra na szyi wydaje się nieruchoma, podczas, gdy szczęka pracuje – masz dowód na manipulację.
+3. Szyja i węzeł chłonny
+Szyja jest często pomijanym elementem przez twórców scamów, a to ogromny błąd. Napinające się mięśnie szyi (tzw. mięsień szeroki szyi) oraz ruch krtani są nierozerwalnie związane z tym, jak mówimy i jakie emocje wyrażamy.
+W czym tkwi problem?
+Deepfake podmienia twarz, ale rzadko modyfikuje anatomię szyi.
+Co sprawdzić?
+Czy naprężenie mięśni na szyi pasuje do intensywności wypowiedzi? Często zdarza się, że postać w reklamie „krzyczy” o wielkich zyskach, ale jej szyja pozostaje gładka i zrelaksowana, co tworzy niespójny, wręcz „niepokojący” obraz (tzw.
+dolina niesamowitości
+).
+Najlepszym testem dla instagramowego deepfake’a jest moment, gdy postać zasłania lub obraca twarz.
+Złota zasada:
+Szukaj momentu, w którym osoba poprawia okulary, drapie się po nosie lub przejeżdża ręką przed twarzą.
+W profesjonalnym filmie jak „Vinci”, Magda musiała zadbać o każdy detal. W tanim deepfake’u algorytm gubi się, gdy dłoń „wchodzi” w obszar twarzy. Zobaczysz wtedy palce, które nagle stają się przezroczyste, albo twarz, która „przebija” przez rękę. To cyfrowy odpowiednik zostawienia odcisku palca na świeżej farbie fałszywego obrazu.
+Kiedy oglądasz podejrzaną reklamę na Instagramie, patrz na obrzeża twarzy, a nie na jej środek.
+Artefakty przy szybkim ruchu:
+Gdy osoba na wideo gwałtownie przekręci głowę, algorytm może nie zdążyć z wyrenderowaniem klatki. Możesz wtedy zauważyć „przeskok” twarzy, jej chwilowe zniknięcie lub nienaturalne rozciągnięcie skóry na szyi.
+Różnice w oświetleniu:
+Często twarz wklejona przez AI ma nieco inną temperaturę barwową lub kierunek cienia niż reszta ciała i tło. Jeśli twarz jest jasno oświetlona, a szyja tonie w cieniu w sposób, który fizycznie nie ma sensu, jest to manipulacja.
+👀
+Czy Twoje oko jest już wystarczająco wyczulone, by nie dać się nabrać na cyfrowe sztuczki? Czas na  sprawdzian!
+Sprawdź, czy Twój
+„wewnętrzny Hagen”
+(ten z filmu „Vinci”!) poradzi sobie z odróżnieniem prawdy od cyfrowej fikcji. Leon Furze przygotował quiz, który pokaże Ci, jak blisko granicy realizmu jest już dzisiejsza technologia.
+Zasady są proste:
+Patrzysz, oceniasz i sprawdzasz, czy dasz się oszukać.
+Wyzwanie:
+Niektóre przykłady są tak dobre, że nawet eksperci miewają z nimi problem!
+👉
+Podejmij wyzwanie w Deepfake Game
+Jaki będzie Twój wynik – czy jesteś już odporn_ na cyfrowe manipulacje, czy AI zdołało Cię chociaż raz „zagiąć”? Pochwal się swoim rezultatem w komentarzu pod postem!
+Lekcja 4: Audio Deepfake – głos, który brzmi „zbyt” radiowo
+Większość scamów na Instagramie to nie tylko manipulacja wideo, ale przede wszystkim audio (tzw.
+voice cloning
+). Oszuści klonują głosy znanych Polaków. Technologia ta (np. ElevenLabs czy inne modele TTS) jest imponująca, ale w rękach spamerów ma swoje wady.
+Jak usłyszeć fałsz?
+Brak oddechu:
+Ludzie muszą oddychać. AI może generować potok słów bez ani jednej pauzy na wdech przez 30 sekund. To brzmi nienaturalnie dla ludzkiego ucha.
+Metaliczny pogłos:
+Na końcach wyrazów często słychać cyfrowe zniekształcenia, przypominające głos robota lub złą jakość połączenia Microsoft Teams czy Zoom.
+Monotonna intonacja:
+Nawet jeśli głos brzmi jak znany polityk, często brakuje mu charakterystycznej dla tej osoby maniery mówienia, jąkania się, czy specyficznego akcentowania. Deepfake często brzmi jak lektor czytający audiobooka, a nie jak spontaniczna rozmowa.
+🎧
+Technologia klonowania głosu rozwija się dzięki firmom takim jak
+ElevenLabs
+. Na ich stronie (lub w licznych demach na YouTube) możesz posłuchać, jak brzmią głosy generowane przez AI.
+Klonowanie głosu nie tylko teoria – technologia deepfake już od dawna „puka” do naszych drzwi (a raczej wyświetla się na naszych ekranach) w polskim wydaniu. Jeśli chcesz zobaczyć, jak w praktyce wygląda próba manipulacji wizerunkiem jednego z najważniejszych polskich polityków, koniecznie obejrzyj ten materiał.
+To podręcznikowy przykład tego, o czym pisaliśmy wcześniej: były Marszałek Sejmu i kandydat na urząd Prezydenta RP,
+Szymon Hołownia
+, którego znamy z opanowania i parlamentarnej retoryki, nagle… zaczyna obrażać innych, używając sformułowań, których nigdy by nie wypowiedział.
+Dlaczego warto to obejrzeć?
+Zobaczysz, jak łatwo można zmienić kontekst wypowiedzi, by wywołać skrajne emocje.
+Sprawdzisz, czy po lekturze naszych wcześniejszych lekcji usłyszysz nienaturalne pauzy i „robotyczny” ton w wygenerowanym głosie.
+Zrozumiesz, że deepfake to nie tylko zabawa w zamianę twarzy, ale potężne narzędzie dezinformacji.
+👉
+Obejrzyj analizę deepfake’a z Szymonem Hołownią na WP.pl
+To nagranie to idealny test dla Twojego „Dyskryminatora”. Czy bez ostrzeżenia w tytule domyślilibyście się, że to cyfrowa manipulacja?
+Warto też zapoznać się z ostrzeżeniami dotyczącymi oszustw „na wnuczka” z wykorzystaniem głosu AI, opisanymi przez
+CSIRT KNF
+(Zespół Reagowania na Incydenty Bezpieczeństwa Komputerowego polskiego sektora finansowego).
+Lekcja 5: Kontekst to Król – włącz krytyczne myślenie
+Ostatnia lekcja nie dotyczy technologii, ale psychologii. Deepfake technologiczny jest bezużyteczny bez inżynierii społecznej.
+Zadaj sobie pytanie:
+Czy to ma sens?
+Czy
+Prezes NBP nagrywałby wideo telefonem w pionie, zachęcając do inwestycji w nieznaną aplikację kryptowalutową
+? Czy światowej sławy piłkarz reklamowałby niszową grę hazardową, używając łamanego slangu?
+Scamy na Instagramie często celowo obniżają jakość nagrania (dodają szum, ziarno), aby ukryć niedoskonałości deepfake’a (o atakach adwersarialnych na AI pisaliśmy w
+tym poście
+). Paradoksalnie, im lepsza jakość wideo z rzekomym „celebrytą”, tym bardziej powinieneś być podejrzliwy.
+👀
+Jeśli myślał_ś, że kiepskie reklamy z Instagrama to szczyt możliwości AI, to znaczy, że czas pokazać, co się dzieje, gdy filmowa „Magda” (nasz Generator) ma do dyspozycji nie budżet na kawę, ale potężną moc obliczeniową i hollywoodzką precyzję.
+Oto przed Tobą nowy świat manipulacji wideo.
+Dlaczego musisz to zobaczyć?
+Perfekcyjna iluzja:
+To nie jest Tom Cruise. To aktor Miles Fisher, na którego twarz nałożono cyfrową maskę AI. Stopień odwzorowania mimiki, zmarszczek wokół oczu i charakterystycznego śmiechu jest niemal przerażający.
+Wyzwanie dla Dyskryminatora:
+Nawet jeśli bardzo się postarasz, Twój „wewnętrzny Hagen” będzie miał problem ze znalezieniem choćby jednego błędu w krawędziach czy oświetleniu.
+Ruch i dynamika:
+Zobacz, jak postać dynamicznie się porusza, zakłada okulary i wchodzi w interakcję z otoczeniem. To dowód na to, że bariery, o których pisaliśmy (jak zasłanianie twarzy), powoli przestają istnieć.
+To wideo to najlepsza lekcja pokory – pokazuje, że w świecie AI granica między prawdą a fałszem stała się cienka jak włos.
+👉
+Obejrzyj: Very realistic Tom Cruise Deepfake | AI Tom Cruise (YouTube)
+Bądźmy sceptyczni, bądźmy bezpieczni
+Technologia deepfake rozwija się w tempie wykładniczym. Za rok lub dwa odróżnienie fałszywki „na oko” może stać się niemożliwe bez specjalistycznego oprogramowania. Jednak na ten moment, instagramowe reklamy to kopalnia słabej jakości podróbek, które mogą wyczulić nasze zmysły na cyfrowe kłamstwo.
+Nie scrolluj bezmyślnie. Kiedy następnym razem zobaczysz podejrzaną reklamę, zatrzymaj się. Poszukaj błędów w synchronizacji warg, martwych oczu, dziwnego głosu. Zgłoś reklamę jako oszustwo (to bardzo ważne, pomoże ochronić innych!), a potem idź dalej, bogatszy o wiedzę, jak nie dać się oszukać w cyfrowym świecie.
+Twoja uwaga to najdroższa waluta w Internecie. Nie daj jej sobie ukraść przez algorytm.
+🕵️‍♂️ DEEPFAKE CHECKLIST – Lista kontrolna
+Wydrukuj, zapisz na telefonie i korzystaj zawsze, kiedy tylko masz wątpliwości.
+1. 👄 TEST UST (Lip-Sync)
+[ ]
+Zgłoski wybuchowe:
+Czy usta zamykają się całkowicie przy głoskach
+P, B, M
+? (W deepfake’ach często pozostają otwarte).
+[ ]
+Rozmycie:
+Czy kontur ust jest ostry, czy wygląda jak „rozmazana szminka”?
+[ ]
+Opóźnienie:
+Czy dźwięk idealnie pokrywa się z ruchem warg?
+2. 👀 TEST OCZU (Martwe spojrzenie)
+[ ]
+Mruganie:
+Czy postać mruga? Jeśli tak, czy robi to naturalnie, czy w dziwnych, równych odstępach?
+[ ]
+Emocje:
+Czy oczy się „śmieją” (zmarszczki mimiczne), gdy usta się uśmiechają?
+[ ]
+Kierunek:
+Czy wzrok jest skupiony, czy błądzi bez celu?
+3. 🎭 TEST MASKI (Krawędzie)
+[ ]
+Linia włosów/szczęki:
+Czy widać różnicę w kolorze skóry lub ostrości między twarzą a szyją/uszami?
+[ ]
+Nagłe ruchy:
+Czy przy szybkim obrocie głowy twarz „przeskakuje” lub się deformuje?
+4. 🎧 TEST DŹWIĘKU (Audio)
+[ ]
+Oddech:
+Czy słyszysz nabieranie powietrza? (AI rzadko robi przerwy na wdech).
+[ ]
+Ton:
+Czy głos jest monotonny, metaliczny lub brzmi jak lektor z GPS-a?
+[ ]
+Szum:
+Czy w tle słychać dziwne trzaski lub cyfrowy „brud”?
+5. 🧠 TEST LOGIKI (Kontekst)
+[ ]
+Osoba:
+Czy Prezes Banku/Miliarder naprawdę reklamowałby „magiczną aplikację” na TikToku?
+[ ]
+Jakość:
+Czy znana osoba nagrywałaby wideo w rozdzielczości 240p w ciemnym pokoju?
+[ ]
+Call to Action:
+Czy każą Ci
+szybko
+wpłacić pieniądze?
+🔗 Przydatne linki i źródła (Dla dociekliwych)
+Chcesz zgłębić temat? Oto lista sprawdzonych miejsc w sieci, które pomogą Ci być na bieżąco z cyberbezpieczeństwem:
+Demagog
+– polski portal fact-checkingowy. Jeśli widzisz dziwną reklamę z politykiem, tam prawdopodobnie już jest o tym artykuł.
+Niebezpiecznik
+/
+Sekurak
+– polskie serwisy o bezpieczeństwie w sieci. Obserwuj ich, by wiedzieć o nowych metodach oszustów.
+CERT Polska
+– tu możesz (i powinieneś!) zgłaszać wszelkie incydenty bezpieczeństwa i podejrzane strony.
+Sensity
+– firma zajmująca się badaniem zagrożeń deepfake. Ich blog to kopalnia wiedzy o najnowszych wektorach ataków (po angielsku).
+Jeśli chcesz budować odporność organizacji na ataki typu deepfake i nie dopuścić do tego, aby czujność Twoich pracowników przetestowali cyberprzestępcy (np. poprzez sfałszowany głos prezesa), to zapraszamy na bezpłatne, 15-minutowe spotkanie przy wirtualnej kawie.
+To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe w zakresie wykrywania cyfrowych manipulacji i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+Umów spotkanie
+Wyślij wiadomość
+Share this post:

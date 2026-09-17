@@ -1,0 +1,549 @@
+Krok po kroku od prompta do genialnych pomysłów
+Agent Idea Coach w Microsoft 365 Copilot Chat to idealny pomocnik dla każdego, komu zdarzył się moment, w którym patrzył na pusty dokument Worda, czekając na nagły błysk geniuszu. Czasami nawet żółta kaczuszka nie pomaga. Burze mózgów w zespołach bywają produktywne, ale często brakuje nam bezstronnego partnera, który rzuciłby wyzwanie naszym założeniom lub pomógł rozwinąć kiełkujący dopiero koncept.
+W tym miejscu na scenę wkracza Microsoft 365 Copilot oraz możliwość tworzenia dedykowanych asystentów AI. Z tego rozbudowanego przewodnika dowiesz się, jak wykorzystać szablony od twórców i stworzyć własne, innowacyjne wsparcie dla całego zespołu.
+Co znajdziesz w tym artykule?
+Krok po kroku od prompta do genialnych pomysłów
+Czym są agenty utworzone przez firmę Microsoft?
+Dlaczego Twój zespół potrzebuje narzędzia takiego jak agent Idea Coach w M365 Copilot Chat?
+Czym jest agent Idea Coach i dlaczego go potrzebujesz?
+Wymagania wstępne: Co musisz wiedzieć, zanim powstanie Twój agent Idea Coach?
+Możliwości i scenariusze użycia: Jak działa agent Idea Coach?
+Jak zbudować własne rozwiązanie AI? Twój agent Idea Coach w praktyce
+Krok 1: Uruchom aplikację Agent Builder
+Krok 2: Wybierz szablon startowy dla asystenta
+Agent Idea Coach Copilot Chat w praktyce
+Pomysły na funkcje agenta
+1. Inteligentny wywiad wstępny
+2. Generowanie planu żywieniowego
+3. Codzienny monitoring
+4. Coaching behawioralny
+5. Personalizowana motywacja
+6. System mikrocelów
+7. Wczesne wykrywanie nawrotów
+8. Edukacja w małych dawkach
+9. Analiza postępów
+10. Tryb „kryzysowy"
+Zaawansowane funkcje AI
+Cechy idealnego agenta
+Iteracja: Dlaczego powtarzanie to klucz do sukcesu z asystentami AI?
+Agent Idea Coach Copilot Chat – prompt nr 2
+Koncepcja agenta: „Wspierający Coach Żywieniowy"
+Główne zasady działania
+Codzienne działania agenta
+Poranny kontakt
+Kontrola realizacji planu
+Wieczorne podsumowanie
+Monitorowanie postępów
+Dane fizyczne
+Zachowania
+Samopoczucie
+Inteligentna motywacja
+1. Dziennym
+2. Tygodniowym
+3. Długoterminowym
+4. Tożsamościowym
+Moduł zmiany nawyków
+Moduł kryzysowy
+Cotygodniowy raport
+Sukcesy
+Trudności
+Trendy
+Plan na następny tydzień
+Osobowość agenta
+Przykładowy prompt dla agenta
+💬 Gotowe prompty użytkownika (do testów + UI)
+🔒 Zabezpieczenia (guardrails)
+Dodatkowe opcje w agent Idea Coach
+⚙️ Logika reakcji (pseudo-flow)
+Ograniczenia techniczne i bezpieczeństwo danych – o czym musisz pamiętać?
+Podsumowanie: Przenieś brainstorming na nowy poziom
+Czym są agenty utworzone przez firmę Microsoft?
+W ramach subskrypcji Microsoft 365 Copilot masz dostęp do wielu agentów firmy Microsoft, które są wbudowane w rozwiązania Copilot lub można je stworzyć od podstaw. Obsługiwane przez sztuczną inteligencję agenty udzielają wskazówek w czasie rzeczywistym, automatyzują zadania i zwiększają produktywność w aplikacjach platformy Microsoft 365. Co niezwykle istotne w kontekście biznesowym, agenty mogą pobierać dane z zasobów organizacyjnych, udostępniać cytaty i w razie potrzeby proponować alternatywne źródła.
+Agentów można znaleźć w Microsoft 365 Copilot w lewym panelu nawigacyjnym w obszarze
+Agents
+. Jeśli w panelu nie widzisz odpowiedniego bota, przejdź do pozycji
+More agents
+i wybierz tego, którego chcesz dodać.
+Więcej na temat działania tych narzędzi znajdziesz w dokumentacji pod adresem:
+Agenci utworzeni przez firmę Microsoft
+.
+Dlaczego Twój zespół potrzebuje narzędzia takiego jak agent Idea Coach w M365 Copilot Chat?
+Każdemu z nas zdarzył się moment, w którym patrzył na pusty dokument Worda, czekając na nagły błysk geniuszu. Burze mózgów w zespołach bywają produktywne, ale często brakuje nam bezstronnego partnera, który rzuciłby wyzwanie naszym założeniom lub pomógł rozwinąć kiełkujący dopiero koncept.
+W tym miejscu na scenę wkracza
+Microsoft 365 Copilot
+oraz możliwość tworzenia dedykowanych agentów. Jednym z najbardziej przydatnych narzędzi dla kreatywnych zespołów jest szablon
+Idea Coach
+(Trener Pomysłów). Używa on przyjaznego, partnerskiego tonu, aby inspirować do kreatywności i dbać o to, by sesje brainstormingowe były angażujące i produktywne. Co ciekawe, agent ten stale zbiera opinie od użytkowników, aby ulepszać jakość kolejnych sesji.
+Z tego wpisu dowiesz się, jak krok po kroku stworzyć własne narzędzie z tego szablonu, aby przenieść kreatywność w Twojej firmie na zupełnie nowy poziom.
+Niezależnie od tego, czy przeprowadzasz burzę mózgów nad projektem, czy szukasz innowacyjnych rozwiązań, ten agent pobudza kreatywność. Nie musisz konfigurować go od absolutnego zera – korzystasz z oficjalnych szablonów systemowych przygotowanych przez giganta z Redmond.
+Czym jest agent Idea Coach i dlaczego go potrzebujesz?
+Agent Copilot
+to wyspecjalizowana wersja sztucznej inteligencji, którą możesz skonfigurować do wykonywania określonych, często powtarzalnych zadań, korzystając z Twoich własnych baz wiedzy i dokumentów. Jako osobisty asystent, agent zbudowany na tym szablonie pomaga użytkownikom w:
+Generowaniu nowych pomysłów i tematów.
+Planowaniu i strukturyzowaniu sesji burzy mózgów.
+Dobieraniu kreatywnych ćwiczeń aktywizujących zespół.
+Organizowaniu i porządkowaniu chaosu myślowego.
+Ciągłym rozwijaniu i ulepszaniu własnych umiejętności kreatywnych.
+Więcej o tym asystencie przeczytasz w
+artykule Microsoft
+.
+Wymagania wstępne: Co musisz wiedzieć, zanim powstanie Twój agent Idea Coach?
+Zanim przystąpisz do pracy z szablonem w swojej organizacji, upewnij się, że posiadasz:
+Praktyczną wiedzę
+o tym, jak ogólnie buduje się agentów w środowisku Microsoft 365 Copilot.
+Zrozumienie zasad pisania skutecznych instrukcji
+(promptów systemowych) dla tzw. agentów deklaratywnych (declarative agents).
+Możliwości i scenariusze użycia: Jak działa agent Idea Coach?
+Narzędzia budowane na bazie tego szablonu posiadają unikalne funkcje wspierające innowacje. Potrafią prowadzić ustrukturyzowany dialog, dobierać ćwiczenia na podstawie Twoich odpowiedzi oraz zbierać wnioski z sesji, aby każda kolejna burza mózgów była lepsza od poprzedniej.
+Oto zestawienie najpopularniejszych scenariuszy, w których to rozwiązanie sprawdzi się najlepiej:
+Scenariusz
+Opis działania
+Wsparcie w burzy mózgów
+Prowadzi dialog oparty na pytaniach, aby pomóc użytkownikom rozwijać ich koncepcje.
+Planowanie sesji kreatywnej
+Dostosowuje agendę spotkania poprzez zbieranie kontekstu i oferowanie nieszablonowych sugestii.
+Kreatywne ćwiczenia
+Proponuje ćwiczenia (np. rozgrzewki umysłowe) dopasowane do celów zespołu i specyfiki spotkania.
+Organizacja pomysłów
+Oferuje obiektywne, pozbawione uprzedzeń narzędzia do priorytetyzacji i selekcji pomysłów.
+Opinie i ulepszenia
+Zbiera feedback po sesji i rekomenduje zmiany usprawniające przyszłe spotkania.
+Szkolenie i rozwój
+Pomaga użytkownikom w naturalny sposób rozwijać ich własne techniki kreatywnego myślenia.
+Jak zbudować własne rozwiązanie AI? Twój agent Idea Coach w praktyce
+Agenci rozszerzają możliwości Microsoft 365 Copilot, pozwalając dostosować środowisko Copilot do Twoich konkretnych potrzeb. Największą zaletą jest to, że nie potrzebujesz umiejętności kodowania ani zaawansowanych szkoleń technicznych, aby zbudować agenta. Wbudowana aplikacja Agent Builder ułatwia tworzenie zaawansowanych i spersonalizowanych agentów w ciągu zaledwie kilku minut.
+UWAGA
+:
+Ponieważ na co dzień nie korzystam z systemów w wersji polskiej, wszystkie screeny zostały wykonanane z wykorzystaniem Copilota z ustawionym językiem angielskim jako językiem domyślnym.
+Oto jak przebiega ten proces instalacji agenta Idea Coach:
+Krok 1: Uruchom aplikację Agent Builder
+Na samym początku otwórz aplikację
+Microsoft 365 Copilot Chat
+. Z poziomu okienka nawigacji, w sekcji
+Agents
+, wybierz pozycję
+… More agents
+.
+Okno M365 Copilot Chat, dostęp 16.07.2026
+Jeśli nie widać szablomu dla agenta
+Idea Coach
+, to należy kliknąć opcję
+See more
+, aby zobaczyć dodatkowe szablony dla agentów.
+Opcja See more w M365 Copilot Chat See more, dostęp 16.07.2026
+Poniżej na screenie widoczne są wbudowane przez Microsoft dostępne szablony dla agentów w subskrypcji
+Copilot Chat (Basic)
+.
+Wbudowane szablony agentów M365 Copilot Chat (Basic), dostęp 16.07.2026
+Krok 2: Wybierz szablon startowy dla asystenta
+Istnieją dwa sposoby na rozpoczęcie pracy z agentem. Pierwszy to opisanie w prompcie tego, co chcesz, aby robił Twój asystent i kliknięcie
+Wyślij
+. Jednak szybszym sposobem na wykorzystanie eksperckiej wiedzy AI, jest wybór gotowego wzorca. W naszym przypadku będzie to właśnie
+Trener pomysłów (Idea Coach)
+. Klikamy na wybrany szablon, czytamy opis i sekcję o uprawnieniach i jeśli nam wszystko odpowiada, klikamy przycisk
+Add
+.
+Agent Idea Coach Copilot Chat, dostęp 16.07.2026.
+Agent Idea Coach powinien pojawić się po lewej stronie w sekcji Agents. Jeśli tak się nie stało,  to należy odświeżyć stronę i użyć opcji
+Pin
+, aby „przypiąć” agenta na szczycie listy z agentami.
+Agent Idea Coach Copilot Chat w sekcji Agents, dostęp 16.07.2026
+Agent Idea Coach Copilot Chat w praktyce
+Gotowy agent wygląda jak na rysunku poniżej. Możemy wpisać własny prompt lub wybrać jeden z przykładowych promptów.
+Gotowy do użycia agent Idea Coach Copilot Chat, dostęp 16.07.2026
+Ja zazwyczaj używam go do burzy mózgów, jeśli szukam pomysłu na aplikację lub agenta. Wpisuję więc prompt w stylu takim jak poniżej:
+Jesteś dietetykiem zajmującym się układaniem diet i wsparciem w leczeniu otyłości. Chcę stworzyć agenta, który będzie pilnował i tworzył dla mnie plan dietetyczny i motywował mnie do zmiany nawyków żywieniowych. Jakie masz pomysły na działania takiego agenta. Jeśli do zwrócenia wyczerpującej odpowiedzi potrzebne jest doprecyzowanie wymagań to zadaj mi dodatkowe pytania.
+Pierwszy prompt zadany agentowi Idea Coach, dostęp 16.07.2026
+Odpowiedź, jaką otrzymałam od agenta Idea Coach można znaleźć poniżej lub pobrać jako
+plik PDF
+:
+Świetny pomysł 🚀. Agent wspierający leczenie otyłości i zmianę nawyków żywieniowych może być znacznie skuteczniejszy niż zwykła aplikacja do liczenia kalorii, jeśli połączy planowanie, monitorowanie zachowań, motywację i coaching behawioralny.
+Pomysły na funkcje agenta
+1. Inteligentny wywiad wstępny
+Agent na początku zbiera informacje o:
+wieku, płci, wzroście, masie ciała,
+celu (redukcja masy, poprawa zdrowia, utrzymanie wagi),
+chorobach współistniejących,
+przyjmowanych lekach,
+preferencjach żywieniowych,
+aktywności fizycznej,
+historii diet i efektu jo-jo.
+Następnie tworzy profil pacjenta i przewiduje potencjalne trudności.
+2. Generowanie planu żywieniowego
+Agent może:
+układać jadłospis na 1, 3 lub 7 dni,
+dostosowywać kaloryczność,
+generować listę zakupów,
+proponować zamienniki produktów,
+uwzględniać budżet użytkownika,
+planować posiłki pod grafik pracy.
+3. Codzienny monitoring
+Każdego dnia agent:
+pyta o posiłki,
+analizuje zdjęcia jedzenia,
+ocenia zgodność z planem,
+monitoruje nawodnienie,
+śledzi masę ciała i obwody.
+Przykład:
+„Widzę, że dziś zabrakło źródła białka w śniadaniu. Jutro spróbuj dodać jogurt skyr lub jajka.”
+4. Coaching behawioralny
+To często najważniejszy element.
+Agent może:
+identyfikować wyzwalacze podjadania,
+prowadzić dziennik emocji,
+rozpoznawać sytuacje ryzyka,
+proponować alternatywne zachowania.
+Przykład:
+„W ostatnich 10 dniach najczęściej podjadasz między 20:00 a 22:00. Co zwykle dzieje się wtedy w Twoim otoczeniu?”
+5. Personalizowana motywacja
+Agent uczy się, co działa na daną osobę:
+nagrody,
+liczby i statystyki,
+pozytywne komunikaty,
+rywalizacja,
+gamifikacja.
+Przykład:
+„Utrzymujesz deficyt kaloryczny już 14 dni. To najdłuższa seria od 6 miesięcy.”
+6. System mikrocelów
+Zamiast skupiać się tylko na wadze:
+Cele tygodniowe:
+10000 kroków dziennie,
+2 l wody,
+5 porcji warzyw,
+brak słodzonych napojów.
+7. Wczesne wykrywanie nawrotów
+Agent analizuje sygnały ostrzegawcze:
+brak wpisów,
+wzrost masy ciała,
+zwiększenie liczby przekąsek,
+pogorszenie nastroju.
+I reaguje:
+„W ostatnim tygodniu pojawiły się oznaki spadku regularności. Zamiast wracać do pełnego planu, proponuję skupić się tylko na śniadaniach przez najbliższe 3 dni.”
+8. Edukacja w małych dawkach
+Codziennie 1 krótka lekcja:
+sytość,
+białko,
+indeks sytości,
+jedzenie emocjonalne,
+sen i apetyt.
+Trwa 30-60 sekund.
+9. Analiza postępów
+Cotygodniowe raporty:
+zmiana masy ciała,
+realizacja celów,
+najczęstsze błędy,
+największe sukcesy,
+rekomendacje na kolejny tydzień.
+10. Tryb „kryzysowy”
+Na sytuacje:
+wesele,
+wakacje,
+stres w pracy,
+święta.
+Agent nie wymaga idealnego trzymania diety, tylko pomaga minimalizować szkody.
+Zaawansowane funkcje AI
+Agent mógłby pełnić kilka ról jednocześnie:
+Dietetyk
+– układa jadłospis.
+Psychodietetyk
+– wspiera zmianę nawyków.
+Trener motywacyjny
+– pilnuje konsekwencji.
+Analityk danych
+– wykrywa wzorce zachowań.
+Asystent zakupowy
+– tworzy listy zakupów i przepisy.
+Cechy idealnego agenta
+Najważniejsze, aby:
+nie karał za potknięcia,
+koncentrował się na nawykach, nie tylko na wadze,
+był proaktywny,
+dopasowywał strategię do użytkownika,
+budował długoterminową zmianę zachowań.
+Aby pomóc Ci zaprojektować takiego agenta bardziej szczegółowo, mam
+jedno pytanie
+:
+Czy agent ma wspierać wyłącznie Ciebie jako pojedynczego użytkownika, czy ma być rozwiązaniem dla wielu pacjentów gabinetu dietetycznego?
+Jeśli chcesz, mogę również pomóc zaprojektować pełną architekturę agenta (role, prompty, pamięć, wskaźniki postępu i scenariusze rozmów). Czy chciałabyś zmodyfikować któryś z powyższych pomysłów? 😊
+Na koniec daj znać, jak Ci pomogłem. Jeśli korzystasz z Copilota, możesz też użyć 👍 lub 👎, aby ocenić odpowiedź.
+Efekt dzialania pierwszego promptu zadanego agentowi Idea Coach, dostęp 16.07.2026
+Iteracja: Dlaczego powtarzanie to klucz do sukcesu z asystentami AI?
+Zbudowanie i uruchomienie agenta to dopiero połowa sukcesu. Prawdziwa wartość sztucznej inteligencji ujawnia się w procesie zwanym iteracją, czyli stopniowym i cyklicznym udoskonalaniu rezultatów. Nie zniechęcaj się, jeśli pierwsza odpowiedź Copilota nie będzie wybitna – to całkowicie naturalne!
+Aby uzyskać najlepsze wyniki, potraktuj pracę z agentem jak rozmowę z nowym członkiem zespołu. Oto jak skutecznie iterować:
+Zacznij od ogółu, przejdź do szczegółu:
+Pierwszy prompt może być szeroki (np.
+„Daj mi pomysły na promocję nowego produktu”
+). Gdy agent odpowie, wybierz jeden najciekawszy punkt i poproś o jego rozwinięcie (np.
+„Rozwiń pomysł nr 3 i dostosuj go specjalnie do generacji Z”
+).
+Zmieniaj perspektywę:
+Jeśli wygenerowane pomysły wydają się zbyt podobne, zmuś agenta do zmiany perspektywy. Napisz:
+„A teraz wyobraź sobie, że jesteśmy konkurencją – jak byś storpedował ten pomysł?”
+lub
+„Jak ten problem rozwiązałby Steve Jobs?”
+.
+Doprecyzuj format:
+Jeśli treść jest dobra, ale forma nieodpowiednia, poproś o modyfikację. Zamiast zaczynać od nowa, poinstruuj:
+„Przedstaw te same wnioski w formie tabeli, podzielonej na plusy, minusy i ryzyka”
+.
+Udzielaj informacji zwrotnej:
+Narzędzia takie jak
+agent Idea Coach Copilot
+są stworzone do uczenia się na błędach w trakcie sesji. Jeśli odpowiedź mija się z celem, powiedz to wprost:
+„Nie o to mi chodziło. Skupmy się wyłącznie na rozwiązaniach nisko kosztowych. Spróbujmy jeszcze raz.”
+Pamiętaj: proces twórczy z AI rzadko przypomina rzut rzutką do tarczy (jedno trafienie i koniec). Przypomina raczej rzeźbienie w glinie – nadajesz formę, poprawiasz detale, zdejmujesz nadmiar i wygładzasz, aż uzyskasz doskonały rezultat. Im więcej rozmawiasz, poprawiasz i naprowadzasz swojego wirtualnego asystenta, tym wyższa będzie jakość waszej wspólnej pracy.
+Agent Idea Coach Copilot Chat – prompt nr 2
+Teraz musimy odpowiedzieć na zadane nam przez agenta pytanie:
+Czy agent ma wspierać wyłącznie Ciebie jako pojedynczego użytkownika, czy ma być rozwiązaniem dla wielu pacjentów gabinetu dietetycznego?
+Agent ma wspierać jednego użytkownika. Ma być wspierający i rozmowny. Ma monitorować moje wyniki. doradzać, nie krytykować i nie obrażać.
+Odpowiedź jest bardzo obiecująca:
+To bardzo dobra baza. Skoro agent ma wspierać tylko jednego użytkownika i ma być bardziej „towarzyszem zmiany” niż kalkulatorem kalorii, to warto zaprojektować go wokół relacji i codziennych rozmów.
+Koncepcja agenta: „Wspierający Coach Żywieniowy”
+Główne zasady działania
+✅ wspiera, nie ocenia
+✅ szuka rozwiązań, nie winnych
+✅ reaguje na potknięcia spokojnie i konstruktywnie
+✅ motywuje poprzez małe sukcesy
+✅ tworzy poczucie partnerstwa
+Przykład:
+Zamiast:
+„Przekroczyłaś limit kalorii o 700 kcal.”
+Agent mówi:
+„Dzisiaj był trudniejszy dzień niż zwykle. Sprawdźmy wspólnie, co wpłynęło na Twoje wybory i jaki jeden mały krok możemy zrobić jutro.”
+Codzienne działania agenta
+Poranny kontakt
+Agent może codziennie zapytać:
+Jak się dziś czujesz?
+Jak oceniasz swój poziom energii?
+Jakie wyzwania żywieniowe czekają Cię dzisiaj?
+Następnie przygotować plan dnia:
+„Masz dziś spotkanie do późna. Zaplanujmy wcześniej sycącą przekąskę, żeby uniknąć wieczornego podjadania.”
+Kontrola realizacji planu
+W ciągu dnia:
+przypomnienie o posiłkach,
+przypomnienie o wodzie,
+pytanie o głód i sytość,
+analiza zdjęć posiłków,
+propozycje zamienników.
+Wieczorne podsumowanie
+Krótka rozmowa:
+Co poszło dobrze?
+Z czego jesteś dziś zadowolona?
+Co było najtrudniejsze?
+Agent powinien szukać sukcesów nawet w słabszych dniach.
+Przykład:
+„Dziś pojawiło się podjadanie, ale mimo to zjadłaś regularne śniadanie i wypiłaś 2 litry wody. To są nawyki, które budują trwałą zmianę.”
+Monitorowanie postępów
+Agent może śledzić:
+Dane fizyczne
+masa ciała,
+obwód pasa,
+obwód bioder,
+liczba kroków,
+aktywność fizyczna.
+Zachowania
+regularność posiłków,
+spożycie warzyw,
+nawodnienie,
+ilość słodyczy,
+podjadanie wieczorne.
+Samopoczucie
+poziom stresu,
+jakość snu,
+energia,
+nastrój.
+Po kilku tygodniach agent wykrywa zależności:
+„W dniach, w których śpisz krócej niż 6 godzin, częściej sięgasz po słodycze. Warto zwrócić uwagę na sen jako element planu redukcji.”
+Inteligentna motywacja
+Agent powinien budować motywację na 4 poziomach.
+1. Dziennym
+„Zróbmy dziś tylko kolejny mały krok.”
+2. Tygodniowym
+„W tym tygodniu osiągnęłaś 5 z 7 celów. To bardzo dobry wynik.”
+3. Długoterminowym
+„Od początku współpracy schudłaś 7 kg i utrzymujesz regularne śniadania od 42 dni.”
+4. Tożsamościowym
+Najsilniejszy poziom.
+„Budujesz styl życia osoby, która dba o swoje zdrowie każdego dnia.”
+Moduł zmiany nawyków
+Agent nie skupia się wyłącznie na wadze.
+Przykładowe nawyki:
+śniadanie do godziny od pobudki,
+minimum 2 porcje warzyw dziennie,
+woda przed każdym głównym posiłkiem,
+10 minut spaceru po obiedzie.
+Dla każdego nawyku:
+poziom realizacji,
+liczba dni z rzędu,
+najczęstsze przeszkody,
+plan poprawy.
+Moduł kryzysowy
+Jeśli użytkownik napisze:
+„Zawaliłam dietę.”
+Agent nie analizuje kalorii.
+Najpierw:
+„Spokojnie. Jeden dzień nie przekreśla Twoich postępów. Opowiedz, co się wydarzyło.”
+Potem:
+identyfikuje sytuację,
+pomaga wyciągnąć wnioski,
+proponuje plan na kolejny dzień.
+Cotygodniowy raport
+Agent raz w tygodniu przygotowuje:
+Sukcesy
+co poszło najlepiej.
+Trudności
+najczęściej występujące problemy.
+Trendy
+waga,
+aktywność,
+nawodnienie,
+jakość nawyków.
+Plan na następny tydzień
+Maksymalnie 1-3 cele.
+Osobowość agenta
+Polecałbym osobowość:
+ciepłą,
+empatyczną,
+spokojną,
+konkretną,
+opartą na faktach.
+Powinien unikać:
+straszenia,
+zawstydzania,
+krytyki,
+moralizowania.
+Jego główna rola to nie „pilnować diety”, ale pomagać budować trwałe nawyki i wracać na właściwy tor po gorszych dniach.
+Pytanie do dalszego projektowania:
+czy wyobrażasz sobie tego agenta bardziej jako codziennego chatbota prowadzącego rozmowę, czy jako proaktywnego asystenta, który sam inicjuje przypomnienia, raporty i cele?
+Drugi prompt zadany agentowi Idea Coach, dostęp 16.07.2026
+Przykładowy prompt dla agenta
+Jeśli etap analizy mamy już za sobą, to teraz możemy już stworzyć instrukcję dla naszego nowego agenta. Można użyć instrukcji podobnej do tej – wystarczy ją skopiować:
+Jesteś rozmownym trenerem dietetycznym (AI Nutrition Trainer), który łączy wiedzę dietetyczną z naturalną, wspierającą komunikacją.
+Twoim celem jest:
+Pomagać użytkownikowi budować zdrowe nawyki żywieniowe
+Tworzyć i adaptować plan dietetyczny
+Wspierać w podejmowaniu decyzji „tu i teraz”
+Utrzymywać długofalową motywację
+Styl komunikacji:
+Naturalny, lekko luźny, wspierający (jak ogarnięty znajomy + dietetyk)
+Empatyczny, bez oceniania
+Konkret + prostota
+Czasem używaj lekkiego humoru
+Zasady odpowiedzi:
+Każda odpowiedź powinna zawierać:
+1. Empatię / reakcję (np. „OK, rozumiem”, „spoko”, „good call”)
+2. Analizę sytuacji (co się dzieje z dietą)
+3. Konkretną rekomendację (co zrobić teraz)
+4. Pytanie podtrzymujące rozmowę
+Twoje kompetencje:
+Liczenie kalorii i makroskładników (szacunkowe)
+Tworzenie planów dietetycznych (dniowych i tygodniowych)
+Sugerowanie zamienników produktów
+Analiza błędów i nawyków
+Coaching motywacyjny
+Pamięć kontekstu:
+Zapamiętuj preferencje użytkownika (smaki, alergie, styl życia)
+Wykrywaj schematy (np. podjadanie wieczorem)
+Dostosowuj przyszłe odpowiedzi
+Tryby działania:
+Planowanie (tworzenie jadłospisu)
+Reaktywny (korekta po jedzeniu)
+Coachingowy (motywacja i analiza)
+Zawsze:
+Dawaj praktyczne, łatwe do wdrożenia rozwiązania
+Uprość decyzję użytkownika
+Dąż do ciągłej rozmowy (nie jednorazowych odpowiedzi)
+💬 Gotowe prompty użytkownika (do testów + UI)
+Możesz je wrzucić jako
+quick actions / przykłady w aplikacji:
+🥗
+Planowanie
+Ułóż dietę 2000 kcal na 3 dni, prosto i szybko
+Stwórz plan diety pod redukcję z wysokim białkiem
+🍽️
+Sytuacyjne
+Co mogę zjeść mając: jajka, ser, pomidory?
+Nie chce mi się gotować — daj coś szybkiego
+🍕
+Kryzysowe
+Zjadłem pizzę, co teraz?
+Przekroczyłem kalorie — jak uratować dzień?
+📊
+Monitoring
+Dodaj posiłek: owsianka z bananem
+Podsumuj mój dzień
+🧠
+Coaching
+Dlaczego nie chudnę?
+Nie mam motywacji do diety
+🔒 Zabezpieczenia (guardrails)
+Bardzo ważne — żeby agent był „bezpieczny i realny”:
+🚫
+Zakazy
+Nie diagnozuj chorób
+Nie zastępuj lekarza/dietetyka klinicznego
+Nie podawaj ekstremalnych diet (np. <1200 kcal bez kontekstu)
+Nie oceniaj użytkownika („źle zrobiłeś”)
+✅
+Bezpieczne zamienniki
+Zamiast:
+„Masz złą dietę”
+Powiedz:
+„Widzę, gdzie możemy to poprawić i uprościć”
+⚠️
+W trudnych przypadkach:
+Dodaj mechanizm:
+Jeśli użytkownik ma:
+zaburzenia odżywiania
+choroby
+ekstremalne cele
+→ zasugeruj konsultację specjalisty
+Dodatkowe opcje w agent Idea Coach
+⚙️ Logika reakcji (pseudo-flow)
+Możesz odwzorować w logice agenta:
+📥
+INPUT → klasyfikacja:
+planowanie
+kryzys
+pytanie
+logowanie posiłku
+motywacja
+🔄
+OUTPUT template:
+IF kryzys:
+uspokój użytkownika
+zrób „damage control”
+uprość plan
+IF planowanie:
+zapytaj o kontekst (kalorie / cel)
+zaproponuj plan
+dopytaj o preferencje
+IF brak motywacji:
+zaproponuj mikrocel
+zadawaj pytania
+szukaj źródła problemu
+🧩 Bonus — „super prompt” do reakcji agenta
+Możesz używać jako wrapper:
+Odpowiedz jak rozmowny coach dietetyczny:
+krótko, naturalnie
+z empatią
+z konkretną rekomendacją
+zakończ pytaniem
+Po tym setupie Twój agent będzie:
+reagował jak człowiek
+prowadził rozmowę
+naprawdę wpływał na nawyki (a nie tylko liczył kalorie)
+Ograniczenia techniczne i bezpieczeństwo danych – o czym musisz pamiętać?
+Choć technologia ta daje ogromne możliwości, musisz pamiętać o kilku istotnych kwestiach podczas codziennego korzystania z agenta:
+Interakcja „pytanie po pytaniu”:
+Agenty stworzone na tym szablonie są zaprojektowane do odpowiadania na jedno pytanie naraz. Aby uzyskać najlepsze rezultaty, unikaj zadawania wielu złożonych pytań w jednym prompcie.
+Ryzyko błędów (halucynacji AI):
+Mimo zabezpieczeń zapobiegających generowaniu szkodliwych treści, agent korzysta z generatywnej sztucznej inteligencji, która czasami może się pomylić. Zawsze weryfikuj dokładność generowanych pomysłów przed podjęciem kluczowych (szczególnie finansowych) decyzji biznesowych.
+Ochrona danych wrażliwych:
+Pamiętaj, że to na Tobie spoczywa odpowiedzialność za to, aby wszelkie dane osobowe lub poufne informacje biznesowe przesyłane do agenta były przetwarzane zgodnie z polityką prywatności danych Twojej firmy.
+Podsumowanie: Przenieś brainstorming na nowy poziom
+Wdrażanie własnych asystentów AI wewnątrz zamkniętego ekosystemu Microsoft 365 to proces prosty i intuicyjny, niewymagający udziału zespołu deweloperskiego. Wykorzystaj ten ogromny potencjał, wdróż
+agenta Idea Coach w M365 Copilot
+Chat
+w swoich działach projektowych i pokonaj każdą twórczą barierę. Twoje najlepsze pomysły jeszcze nigdy nie były tak blisko realizacji!
+Share this post:

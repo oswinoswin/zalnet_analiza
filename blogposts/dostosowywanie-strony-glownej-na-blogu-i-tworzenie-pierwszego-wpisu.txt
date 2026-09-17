@@ -1,0 +1,46 @@
+Teraz nadszedł czas na modyfikacje na stronie głównej i dodanie pierwszego wpisu. W tym celu przechodzimy na stronę główną i na dole klikamy link
+Edytuj
+(u mnie znajduje się on pod zdjęciem).
+Zmieniam tytuł z
+The Journey Begins
+na swój własny, np.
+Poradnik, jak żyć z kotem i przeżyć
+. Zaznaczamy nasz tytuł po angielsku, klikamy przycisk
+Delete
+, a następnie wpisujemy nowy tytuł.
+Dodajemy swoje własne powitanie dla osób odwiedzających blog, zmieniamy cytat lub go usuwamy całkowicie, dodajemy inne zdjęcie. Aby zmienić obrazek, klikamy na niego, a potem wybieramy ikonę kosza (Usuń). Następnie w przyborniku klikamy link
++Dodaj
+i wybieramy
+Media
+. W następnym oknie klikamy przycisk
+Dodaj nowy
+i wybieramy zdjęcie. Po wszystkich zmianach klikamy przycisk
+Zaktualizuj,
+a potem
+Visit post
+.
+Jeśli chcemy dodać nowy wpis klikamy na przycisk w prawym górnym rogu
+Nowy wpis
+. Pojawi Nam się formularz, na którym możemy dodać nowy wpis. Korzystając z dostępnych narzędzi do edycji, możemy do wpisu dodawać tekst, zdjęcia, wideo itd. Po wprowadzeniu wszystkich zmian klikamy
+Opublikuj
+.
+Wszystkie zdjęcia, które dodajemy, możemy znaleźć w sekcji
+Media
+po lewej stronie.
+Podczas tworzenia wpisu możemy do niego dodawać tagi lub kategorie, aby można było łatwiej wyszukiwać posty. Możemy też zarządzać widocznością posta.
+Jeśli obecny motyw Nam się znudził lub zwyczajnie nie podoba, zawsze możemy zmienić go na inny. W tym celu w sekcji
+Personalizuj
+klikamy przycik
+Motywy
+. Mamy dostępne motywy darmowe i płatne.
+Ja wybieram darmowy szablon o nazwie
+Radcliffe 2
+, klikam na niego i na górze klikam
+Aktywuj ten motyw
+. Motyw ten jest oznaczony jako
+Beginner
+, to znaczy że jest odpowiedni dla osób rozpoczynających przygodę z blogowaniem. Po zmianie motywu moja strona wygląda tak:
+Zawsze, jak chcemy wrócić do edycji, klikamy na przycisk
+Moja witryna
+w lewym górnym rogu.
+Share this post:

@@ -1,0 +1,138 @@
+Narzędzia domowego detektywa – OSINT za darmo
+Darmowe narzędzia OSINT
+(Open-Source Intelligence)
+to w branży bezpieczeństwa podstawa tzw. Białego Wywiadu. To sztuka wyciągania informacji ze źródeł, które są w pełni jawne, bezpłatne i dostępne w internetowej przestrzeni dla każdego z nas. Pokażę Wam techniki, których użycie zajmuje zaledwie kilka minut, a które skutecznie uratują Wasze nerwy i portfele przed fałszywymi sklepami oraz nieuczciwymi portalami.
+Zanim przejdziemy do narzędzi OSINT, zachęcamy do przeczytania artykułu pt.
+Anatomia oszustwa w sieci
+.
+Co znajdziesz w tym artykule?
+Narzędzia domowego detektywa – OSINT za darmo
+7 kroków do bezpieczeństwa: Darmowe narzędzia OSINT w praktyce
+Krok 1: HaveIBeenPwned – darmowe narzędzie OSINT do sprawdzania wycieków
+Krok 2: Bezpiecznedane.gov.pl – darmowe narzędzia OSINT na polskim podwórku
+Krok 3: Baza WHOIS – darmowy Biały Wywiad i metryczka domeny
+Krok 4: Wyszukiwanie obrazem jako kolejne darmowe narzędzie OSINT
+Krok 5: Otwarte źródła informacji (NIP, KRS) – lupa na regulamin sklepu
+Krok 6: Google Maps – darmowe narzędzia OSINT w lokalizacji oszustów
+Krok 7: Analiza opinii w sieci – darmowy cyber-wywiad konsumencki
+2. Co zrobić, gdy darmowe narzędzia OSINT nie wystarczyły? Procedury ratunkowe
+Procedura ratunkowa nr 1: Płatność kartą i legendarny Chargeback
+Procedura ratunkowa nr 2: Zgłoszenie do CERT Polska
+Procedura ratunkowa nr 3: Zawiadomienie o popełnieniu przestępstwa
+Procedura ratunkowa nr 4: Instytucje konsumenckie
+3. Podróż – Jak darmowe narzędzia OSINT chronią Twoje zakupy
+7 kroków do bezpieczeństwa: Darmowe narzędzia OSINT w praktyce
+Krok 1: HaveIBeenPwned – darmowe narzędzie OSINT do sprawdzania wycieków
+Ten krok to Twoja pierwsza linia obrony na arenie międzynarodowej. Serwis
+HaveIBeenPwned
+agreguje dane z największych światowych wycieków (m.in. z Adobe, LinkedIn, czy setek mniejszych sklepów i forów internetowych).
+Co robisz:
+Wchodzisz na stronę, wpisujesz swój adres e-mail (lub numer telefonu w formacie międzynarodowym) i klikasz przycisk „pwned?”.
+Dlaczego to robisz:
+Dowiadujesz się, czy Twoje dane krążą w paczkach sprzedawanych na czarnym rynku. Zapobiegasz w ten sposób tzw.
+credential stuffing
+– sytuacji, w której hakerzy używają hasła wyciekłego z mało ważnego forum, by włamać się na Twoją główną skrzynkę pocztową lub konto bankowe.
+Częstotliwość:
+Raz na 2–3 miesiące.
+Szybka akcja:
+Jeśli system zaświeci się na czerwono i pokaże konkretny wyciek, natychmiast zmień hasło w tym serwisie oraz wszędzie tam, gdzie używałeś takiego samego loginu i hasła!
+HaveIBeenPwned.com – darmowe narzędzie OSINT do sprawdzania wycieków, dostęp: 20.06.2026
+Krok 2: Bezpiecznedane.gov.pl – darmowe narzędzia OSINT na polskim podwórku
+Drugi krok to uderzenie punktowe w zagrożenia, które dotyczą bezpośrednio polskiego podwórka.
+Bezpiecznedane.gov.pl
+to oficjalny, rządowy portal sprawdza bazy danych pod kątem polskich serwisów oraz infekcji złośliwym oprogramowaniem (tzw. stealerami), które mogły wykraść dane wprost z Twojej przeglądarki.
+Co robisz:
+Wchodzisz na stronę, logujesz się bezpiecznie przez Profil Zaufany, aplikację mObywatel lub bankowość elektroniczną i sprawdzasz sekcję alertów.
+Dlaczego to robisz:
+Portal pozwala zweryfikować wycieki nie tylko adresu e-mail czy loginów, ale przede wszystkim numeru PESEL. To kluczowe, ponieważ wyciek PESEL-u grozi kradzieżą tożsamości – przestępcy mogą próbować wyłudzić na Twoje nazwisko pożyczki (chwilówki) lub zakładać fikcyjne firmy.
+Częstotliwość:
+Warto sprawdzać regularnie, zwłaszcza po doniesieniach medialnych o atakach na polskie instytucje, firmy kurierskie czy placówki medyczne.
+Szybka akcja:
+Jeśli polski system wykaże, że Twój PESEL znalazł się w niepowołanych rękach, od razu wejdź w aplikację mObywatel i upewnij się, że masz włączoną usługę Zastrzeż PESEL (jest całkowicie darmowa, a blokuje możliwość wzięcia kredytu przez oszustów).
+Bezpiecznedane.gov.pl – darmowe narzędzia OSINT na polskim podwórku, dostęp: 20.06.2026
+Krok 3: Baza WHOIS – darmowy Biały Wywiad i metryczka domeny
+To absolutna podstawa. Każda strona w internetowej przestrzeni (domena) ma swoją „metryczkę urodzenia”. Rejestry domen na świecie przechowują publiczną informację, kiedy dany adres został wykupiony. Wykorzystując darmowe narzędzia OSINT, możemy w kilka sekund sprawdzić przeszłość danej witryny i zweryfikować jej wiarygodność.
+Wpisz w Google hasło:
+„WHOIS lookup”
+(lub dla polskich domen .pl wejdź bezpośrednio na stronę dns.pl i wybierz zakładkę „Baza WHOIS”).
+Wpisz tam adres sklepu.
+System wypluje Ci tzw.
+„Creation Date”
+(Datę utworzenia).
+Gdy okazuje się, że sklep z „15-letnią tradycją” ma domenę wykupioną kilka tygodni temu, masz praktycznie 100% pewności, z kim masz do czynienia. To oszust, który założył witrynę po to, by za chwilę zniknąć. Choć samo ukrycie danych abonenta w WHOIS nie jest przestępstwem, w połączeniu z brakiem danych firmy na stronie, stanowi ogromną czerwoną flagę.
+Darmowe narzędzia OSINT – WHOIS i przykładowa domena, dostęp 19.07.2026
+Krok 4: Wyszukiwanie obrazem jako kolejne darmowe narzędzie OSINT
+Ten sweter, ta sukienka, ten dysk SSD – widzisz zdjęcie i wygląda na to, że jest unikatowe. Ale jak sprawdzić, czy tak jest na pewno? Niezwykle skuteczne
+darmowe narzędzia OSINT
+obejmują również funkcję odwróconego wyszukiwania obrazem, która działa zarówno na komputerach, jak i smartfonach.
+Na komputerze:
+kliknij zdjęcie produktu prawym przyciskiem myszy i wybierz „Szukaj obrazu w Google” (lub „Search this image with Google Lens”).
+Na telefonie:
+zrób zrzut ekranu, otwórz aplikację Google i kliknij ikonę „Obiektyw” (aparat), a następnie załaduj screen.
+Jeśli zdjęcie „unikalnego włoskiego projektu” w wynikach Google Lens natychmiast wyrzuca kilkanaście identycznych obrazków z chińskich portali handlowych (AliExpress, Temu, Shein), to znak, że to zwykły dropshipping. Zapłacisz pośrednikowi trzy razy więcej za coś, co z innej platformy szłoby do Ciebie tak samo długo, ale znacznie taniej. Zdarza się też, że zdjęcia wygenerowało po prostu narzędzie AI, a produkt w ogóle nie istnieje.
+Sprawdzanie zdjęć za pomocą Google Lens, dostęp: 18.06.2026
+Krok 5: Otwarte źródła informacji (NIP, KRS) – lupa na regulamin sklepu
+Zanim klikniesz „Kupuję i płacę”, zjedź na sam dół strony i kliknij w Regulamin lub Politykę prywatności. Na klawiaturze wciśnij skrót
+Ctrl + F
+(szukaj na stronie) i wpisz:
+„NIP”, „KRS”, „Siedziba”
+.
+Legalnie działający w Polsce (lub w Europie) przedsiębiorca ma prawny obowiązek podać te dane na tacy. Jeśli w całym regulaminie nie znajdziesz numeru NIP (by go sprawdzić w CEIDG lub KRS), to znaczy, że po stronie sprzedawcy jest cyfrowe widmo. Jeśli adres firmy to Hong Kong, Wyspy Marshalla, Cypr czy Seszele – pożegnaj się z darmowymi zwrotami z tytułu praw konsumenta.
+Krok 6: Google Maps – darmowe narzędzia OSINT w lokalizacji oszustów
+Oszuści często wymyślają lub kopiują adresy. Jeśli sklep internetowy podaje polski adres, skopiuj go w Google Maps. Włącz tryb
+„Street View”
+(ten mały żółty ludzik) i rozejrzyj się po okolicy. Wielokrotnie okazuje się, że siedziby „renomowanych” butików znajdują się na środku pola z kapustą, w budce z kebabem czy w obskurnym bloku mieszkalnym, gdzie mieszczą się wirtualne biura firm-krzaków. Zdarza się nawet, że adres prowadzi do… opuszczonego miasta widmo!
+Google Maps – darmowe narzędzia OSINT w lokalizacji oszustów, dostęp: 18.06.2026
+Krok 7: Analiza opinii w sieci – darmowy cyber-wywiad konsumencki
+Nie ufaj sekcji komentarzy na samej stronie sklepu. Zamiast tego otwórz nową kartę wyszukiwarki i wpisz:
+„nazwa_sklepu opinie”
+lub
+„nazwa_sklepu oszustwo” / „nazwa_sklepu scam”
+.
+Sprawdzaj platformy niezależne: polski Wykop czy grupy ostrzegające na Facebooku (np.
+Czarna lista sklepów internetowych
+). Pamiętaj: brak jakichkolwiek zewnętrznych opinii o sklepie, który na własnej stronie chwali się tysiącami zadowolonych klientów, to wielka czerwona flaga. Warto wtedy wykorzystać darmowe narzędzia OSINT, takie jak niezależne fora i wyszukiwarki, by dotrzeć do prawdy o sprzedawcy.
+Darmowe narzędzia OSINT – grupa na Facebooku, dostęp 19.07.2026
+2. Co zrobić, gdy darmowe narzędzia OSINT nie wystarczyły? Procedury ratunkowe
+Rozumiem, że emocje i marketingowe sztuczki robią swoje. Nawet jeśli znasz darmowe narzędzia OSINT, w pośpiechu możesz dać się złapać na haczyk cyberprzestępców. Załóżmy, że kupiłeś towar, który okazał się bezwartościowym plastikiem, podróbką lub wcale nie dotarł. Co robić?
+Procedura ratunkowa nr 1: Płatność kartą i legendarny Chargeback
+To najważniejsza lekcja: w internecie, jeśli sklep nie jest sprawdzony,
+PŁACIMY KARTĄ PŁATNICZĄ
+(kredytową lub debetową), NIGDY BLIKIEM CZY SZYBKIM PRZELEWEM.
+Dlaczego? Płatności kartą chroni procedura
+Chargeback (obciążenie zwrotne)
+. Jeśli paczka nie dotrze, przyjdzie podróbka lub towar będzie niezgodny z opisem, a sklep odmawia zwrotu – dzwonisz do swojego banku i składasz reklamację Chargeback. Jeśli sprzedawca nie udowodni, że wysłał Ci prawidłowy produkt, pieniądze wracają na Twoje konto. To potężne narzędzie, choć wymaga odrobiny cierpliwości.
+Procedura ratunkowa nr 2: Zgłoszenie do CERT Polska
+Choć darmowe narzędzia OSINT służą do samodzielnej weryfikacji stron, to w przypadku wykrycia jednoznacznego oszustwa musimy przekazać sprawę ekspertom. Zgłoś incydent na stronie
+incydent.cert.pl
+lub przesyłając podejrzanego SMS-a na darmowy numer
+8080
+. Jeśli analitycy CERT Polska (NASK) potwierdzą oszustwo, strona trafia na ogólnokrajową Listę Ostrzeżeń, a operatorzy zablokują do niej dostęp na poziomie sieci.
+Strona główna cert.pl, dostęp: 20.06.2026
+Procedura ratunkowa nr 3: Zawiadomienie o popełnieniu przestępstwa
+Jeśli straciłeś pieniądze, nie omijaj Policji. Oszuści liczą na to, że przy kwotach rzędu 150-200 zł nie będzie Ci się chciało iść na komisariat. Zrób kompletne zrzuty ekranu rozmów, potwierdzenia przelewu, wyglądu strony i udaj się na Policję złożyć zawiadomienie z
+art. 286 Kodeksu Karnego (Oszustwo)
+. Skala takich wyłudzeń to w ujęciu krajowym potężne kwoty.
+Procedura ratunkowa nr 4: Instytucje konsumenckie
+Gdy spór dotyczy przedsiębiorcy zarejestrowanego na terenie Unii Europejskiej, Wielkiej Brytanii lub Norwegii, pomoże
+Europejskie Centrum Konsumenckie (ECK)
+. W Polsce wsparcia udzielają
+Powiatowy lub Miejski Rzecznik Konsumentów
+oraz
+UOKiK
+. Pamiętaj jednak: rzecznicy walczą z nieuczciwymi, ale
+prawdziwymi
+przedsiębiorcami. Na anonimowe szajki oszustów z siedzibą na Bahamach działa tylko Policja i prokuratura.
+3. Podróż – Jak darmowe narzędzia OSINT chronią Twoje zakupy
+Nie musisz być zawodowym detektywem ani ekspertem od cyberbezpieczeństwa, aby skutecznie chronić swoje oszczędności i dane osobowe. Jak widzisz,
+darmowe narzędzia OSINT
+są na wyciągnięcie ręki i ich obsługa nie wymaga specjalistycznej wiedzy.
+Wystarczy chwila sceptycyzmu, rzut oka na mapę Google, sprawdzenie wieku domeny czy szybkie wyszukiwanie obrazem, by zdemaskować większość internetowych naciągaczy. Pamiętaj o trzech złotych zasadach udanych zakupów w sieci:
+Weryfikuj
+sprzedawcę przed płatnością, a nie po fakcie.
+Płać kartą
+, aby w razie problemów skorzystać z procedury Chargeback.
+Reaguj
+i zgłaszaj podejrzane strony do CERT Polska – w ten sposób chronisz też innych.
+Internet może być bezpiecznym miejscem, o ile nauczymy się korzystać z prostych narzędzi, które mamy do dyspozycji całkowicie za darmo. Udanych (i bezpiecznych) zakupów!
+Share this post:

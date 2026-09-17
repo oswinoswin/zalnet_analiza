@@ -1,0 +1,325 @@
+FTK Imager
+W dobie wszechobecnej cyfryzacji, gdzie każda sekunda naszej aktywności generuje ślady w pamięci urządzeń,
+informatyka śledcza
+(Digital Forensics) przestała być domeną wyłącznie służb specjalnych. Dziś specjaliści IT, audytorzy bezpieczeństwa, a nawet prawnicy muszą rozumieć, jak poprawnie zabezpieczać dane, by stanowiły one niepodważalny dowód. Na froncie tych działań od lat stoi jedno narzędzie:
+FTK Imager
+.
+Choć technologia idzie do przodu, a systemy operacyjne stają się coraz bardziej złożone,
+FTK Imager
+od firmy
+Exterro
+pozostaje „szwajcarskim scyzorykiem” w rękach analityka. W tym wpisie przeprowadzimy Cię przez każdy aspekt pracy z tym programem – od bezpiecznego pobierania, przez zaawansowaną konfigurację, aż po niuanse tworzenia obrazów śledczych.
+Co znajdziesz w tym artykule?
+FTK Imager
+1. Dlaczego FTK Imager to absolutny „must-have"?
+Kluczowe zalety w 2026 roku:
+2. Skąd bezpiecznie pobrać program w 2026 roku?
+Oficjalna ścieżka dystrybucji:
+Wybór wersji: Installer vs. Lite
+3. Instalacja FTK Imager i przygotowanie stacji roboczej
+Wymagania systemowe
+Proces instalacji:
+4. Architektura interfejsu – Twoje centrum dowodzenia
+5. Jak używać FTK Imager? Przewodnik po najważniejszych zadaniach
+A. Tworzenie fizycznego obrazu dysku (Physical Image)
+B. Zrzucanie pamięci RAM (Capture Memory)
+C. Montowanie obrazów (Image mounting) przez FTK Imager
+D. Otwieranie jako "Evidence Item" (Alternatywa dla montowania)
+Przeglądanie struktury plików i ukrytych danych
+6. Formaty plików i hashing
+7. Najczęstsze błędy FTK Imager i sposoby ich rozwiązywania
+8. FTK Imager vs reszta świata
+Podsumowanie i dalsze kroki
+Co powinieneś zrobić teraz?
+1. Dlaczego FTK Imager to absolutny „must-have”?
+Zanim przejdziemy do technicznych szczegółów, warto zrozumieć fenomen tego narzędzia. FTK Imager nie jest pełnym kombajnem do analizy (jak jego „większy brat” – Forensic Toolkit), ale jest
+najlepszym na świecie narzędziem do akwizycji
+.
+W informatyce śledczej obowiązuje złota zasada
+, tzw.
+zasada Locarda
+, która mówi, że
+każdy kontakt zostawia ślad
+. Jeśli podłączymy dysk podejrzanego do zwykłego systemu Windows, system ten natychmiast zacznie na nim zapisywać dane (choćby datę ostatniego dostępu). To niszczy dowód. FTK Imager, w połączeniu z odpowiednimi procedurami, pozwala na stworzenie wiernej kopii bitowej nośnika, nie zmieniając na nim ani jednego bitu informacji.
+Kluczowe zalety w 2026 roku:
+Darmowy:
+Mimo profesjonalnego charakteru, wersja podstawowa pozostaje bezpłatna.
+Szybki:
+Silnik programu jest zoptymalizowany pod nowoczesne dyski NVMe i interfejsy Thunderbolt 5.
+Wszechstronny:
+Obsługuje niemal każdy system plików, od klasycznego NTFS po nowoczesne APFS czy rozproszone systemy chmurowe.
+2. Skąd bezpiecznie pobrać program w 2026 roku?
+W świecie cyberbezpieczeństwa źródło pochodzenia narzędzi jest krytyczne. Pobieranie FTK Imager z nieoficjalnych serwisów z plikami (typu „warez” czy „softpedia”) to proszenie się o kłopoty – ryzykujemy zainfekowanie swojej stacji roboczej malwarem, co w pracy śledczej całkowicie dyskwalifikuje nasze ustalenia.
+Oficjalna ścieżka dystrybucji:
+Skieruj się na stronę
+Exterro.com
+. Od czasu przejęcia
+AccessData
+, to właśnie Exterro zarządza marką FTK.
+Przejdź do sekcji
+Products
+–> FTK Products Downloads
+.
+Wyszukaj
+Exterro
+FTK Imager
+. Obecnie producent promuje wersję 4.7.
+Kliknij
+Free Download
+.
+5.
+Rejestracja:
+Przygotuj się na wypełnienie formularza. Producenci profesjonalnego softu chcą wiedzieć, kto korzysta z ich narzędzi. Możesz użyć danych firmowych; zazwyczaj link do pobrania przychodzi natychmiast na adres e-mail.
+Wybór wersji: Installer vs. Lite
+To kluczowy moment. Masz do wyboru dwa główne wydania:
+Standardowy instalator (Windows):
+Najlepszy na Twoją główną stację roboczą, na której będziesz przeglądać zabezpieczone już obrazy.
+FTK Imager Lite:
+To wersja przenośna (portable). Nie wymaga instalacji. Możesz ją wrzucić na zabezpieczony przed zapisem pendrive i uruchomić bezpośrednio na komputerze, z którego chcesz pozyskać dane. Jest to rozwiązanie znacznie bardziej „eleganckie” z punktu widzenia śledczego, gdyż minimalizuje ingerencję w system operacyjny celu.
+3. Instalacja FTK Imager i przygotowanie stacji roboczej
+Instalacja wersji standardowej jest prosta, ale diabeł tkwi w szczegółach konfiguracji.
+Wymagania systemowe
+Choć FTK Imager pójdzie nawet na starszym laptopie, w 2026 roku standardem przy tworzeniu obrazów dysków 2TB+ jest:
+Minimum 16GB RAM (dla stabilnego hashowania dużych plików).
+Szybki dysk docelowy (najlepiej macierz SSD lub NVMe), aby proces zapisu nie był wąskim gardłem.
+System Windows 10/11 (wersje Pro/Enterprise są preferowane ze względu na zarządzanie uprawnieniami).
+Proces instalacji:
+Po uruchomieniu instalatora
+.exe
+, należy postępować zgodnie z instrukcjami. Ważne, aby po zainstalowaniu, program zawsze był uruchamiany z uprawnieniami
+Administratora
+. Bez tych uprawnień program nie uzyska dostępu do
+Physical Drive 0
+(dysku systemowego) na poziomie fizycznym, a jedynie na poziomie logicznym (partycji).
+4. Architektura interfejsu – Twoje centrum dowodzenia
+Po uruchomieniu FTK Imager zobaczysz surowy, profesjonalny interfejs podzielony na kilka kluczowych sekcji:
+Evidence Tree (Drzewo dowodów):
+Tutaj pojawią się wszystkie podłączone dyski lub wczytane obrazy. Możesz rozwijać strukturę folderów jak w Eksploratorze Windows.
+File List (Lista plików):
+Środkowy panel pokazujący zawartość wybranego folderu. To tutaj zobaczysz pliki usunięte (często oznaczone czerwonym symbolem „X”).
+Viewer Pane (Podgląd):
+Na dole ekranu zobaczysz zawartość pliku. Może to być tekst, grafika lub – co najważniejsze –
+widok Hexadecimal (szesnastkowy)
+.
+Properties (Właściwości):
+Szczegółowe metadane o pliku: daty utworzenia, modyfikacji, dostępu oraz dokładny rozmiar w bajtach.
+FTK Imager main view
+5. Jak używać FTK Imager? Przewodnik po najważniejszych zadaniach
+A. Tworzenie fizycznego obrazu dysku (Physical Image)
+To najważniejsza funkcja. Obraz fizyczny to kopia całego nośnika – sektor po sektorze.
+1. Kliknij
+File –> Create Disk Image
+.
+FTK Imager main view
+2. Wybierz
+Physical Drive
+. Dlaczego? Ponieważ tylko obraz fizyczny zawiera obszary
+Unallocated Space
+, w których mogą znajdować się fragmenty usuniętych plików.
+3. Wybierz dysk z listy (np.
+Generic Flash Disk
+lub
+Samsung SSD
+).
+4. Kliknij
+Finish
+.
+5. W oknie
+Image Destination(s)
+kliknij
+Add
+. Zaznacz
+Verify images after they are created
+. To krytyczne dla zachowania łańcucha dowodowego.
+6. Wybierz odpowiedni format, w zależności od potrzeb:
+Raw (dd) / .001:
+bit-for-bit copies, czysty zrzut bitowy. Uniwersalny, ale zajmuje tyle samo miejsca, co oryginalny dysk.
+SMART
+: Starszy, oparty na Linuxie format obrazów.
+E01 (EnCase):
+Expert Witness Format, compressed, metadata-supported. Standard, który obsługuje kompresję, chroni hasłem i przechowuje wbudowane metadane (szczegóły sprawy, hashe).
+Rekomendowany.
+AFF
+: Advanced Forensic Format, open-source format. Wspiera kompresję i metadane.
+7. W oknie Case Details wypełnij rzetelnie pola. Te informacje będą częścią raportu weryfikacyjnego.
+8. Wybierz miejsce zapisu (nigdy na tym samym dysku!).
+9. Kliknij przycisk
+Start
+, aby rozpocząć proces tworzenia obrazu. Sprawdź, czy jest zaznaczona opcja
+Verify images
+after they are created
+, aby zweryfikować integralność pliku po zakończeniu operacji.
+10. Po poprawnym zakończeniu procesu, program automatycznie generuje sumy kontrolne obrazu i porównuje je z wartościami źródłowymi, aby potwierdzić integralność danych.
+11. W tym tutorialu tworzony jest
+obraz dysku SSD o pojemności 64 GB
+. Na dysku znajduje się folder o wielkości 129 MB. Zapisany obraz zajmuje 59.7 GB.
+12. Plik FTK Demo.E01.txt to plik raportu, na którego końcu widoczne są informacje, że dysk i utworzony obraz dysku mają takie same sumy kontrolne.
+B. Zrzucanie pamięci RAM (Capture Memory)
+W 2026 roku wiele śladów aktywności (np. klucze szyfrujące, otwarte sesje przeglądarki, malware działający w tle) istnieje tylko w pamięci ulotnej.
+1. Kliknij ikonę procesora na pasku lub
+File -> Capture Memory
+.
+2. Wskaż ścieżkę zapisu, klikając przycisk
+Browse
+.
+3. Możesz dołączyć
+plik stronicowania
+, czyli plik
+pagefile.sys
+, który jest nieodłącznie związany z pamięcią RAM. Komputery z systemem Windows wykorzystują plik pagefile.sys, aby odciążyć pamięć operacyjną RAM. Jest też bardzo przydatny, jeśli urządzenie ulegnie awarii bądź zechcesz włączyć tryb hibernacji. Dzięki pagefile.sys dane o stanie komputera nie przepadną. W krytycznym momencie, czyli kiedy pamięć RAM będzie już pełna, Windows przeniesie na dysk systemowy najważniejsze dane.
+4. Kliknij przycisk
+Capture Memory
+i poczekaj na koniec procesu.
+5. Po zakończeniu przechwytywania pamięci sprawdź status i kliknij przycisk
+Close
+.
+6. Proces przechwytywania pamięci w tym przypadku był wykonany na laptopie z systemem Windows 11 z
+32 GB pamięci RAM
+. Zrzut pamięci zajął 59,9 GB na dysku.
+7. Wynikowy plik
+.mem
+lub
+.raw
+możesz później analizować w narzędziu takim jak
+Volatility
+.
+C. Montowanie obrazów (Image mounting) przez FTK Imager
+Jeśli masz już obraz dysku (np. plik
+.E01
+), nie musisz go wypalać na inny nośnik.
+1. Kliknij
+File –> Image Mounting
+.
+2. Wskaż plik obrazu.
+3.
+Mount Type
+: Physical & Logical / Physical only / Logical only (Fizyczne/Logiczne)
+4.
+Drive Letter
+: Przypisanie litery dysku (np.
+I
+:), co umożliwia dostęp przez Eksplorator Windows.
+5.
+Mount Method
+:
+Block Device
+: Najlepsze do przeglądania struktury partycji.
+File System
+(System plików): Pozwala przeglądać pliki.
+Read-Only (Zalecane)
+: Chroni dowody przed zmianami.
+Writable (Zapisywalne)
+: Pozwala na modyfikację zamontowanego obrazu (rzadko używane w analizie śledczej).
+6. Klikamy przycisk
+Mount
+.
+7. W przypadku tego tutorialu program przypisze obrazowi literę dysku
+I
+. Teraz możemy przeglądać go jak zwykły pendrive, zachowując pewność, że żadne dane nie ulegną zmianie (tryb
+Read-Only
+).
+D. Otwieranie jako „Evidence Item” (Alternatywa dla montowania)
+Jeśli celem jest tylko podgląd plików, a nie dostęp systemowy, można użyć opcji
+Evidence Item
+, która pozwala dodać obraz do „drzewa dowodów” (
+Evidence Tree
+).
+1. Z menu
+File (Plik)
+można wybrać opcję
+Add Evidence Item (
+Dodaj element dowodowy
+)
+, aby dodać pojedynczy element do
+Evidence Tree
+. Można również wybrać opcję
+Add All Attached Devices (
+Dodaj wszystkie podłączone urządzenia
+)
+, aby dodać wszystkie podłączone urządzenia fizyczne i logiczne (jeśli w podłączonym urządzeniu, takim jak napęd CD-ROM, DVD-ROM lub DVD-RW, nie znajduje się żaden nośnik, urządzenie zostanie pominięte). W tym tutorialu dodamy pojedynczy element dowodowy.
+2.
+Typ źródła dowodowego (Source Evidence Type):
+Pierwszym krokiem jest określenie typu źródła, które chcesz poddać analizie. Możesz wybrać
+Dysk fizyczny (Physical Drive)
+lub
+Dysk logiczny (Logical Drive)
+(urządzenie fizyczne może zawierać więcej niż jeden dysk logiczny). Możesz również wybrać
+Plik obrazu (Image File)
+, aby wyświetlić utworzony wcześniej plik obrazu, lub
+Zawartość folderu (Contents of a Folder)
+, aby przejrzeć konkretny folder. W tym przykładzie wybierzemy
+Plik obrazu (Image File)
+, aby wyświetlić obraz utworzonego przez nas pendrive’a i wskazać ścieżkę źródłową pliku obrazu.
+3. Kliknij przycisk
+Next
+.
+4. Podaj ścieżkę do utworzonego wcześniej obrazu.
+5. Kliknij przycisk
+Finish
+.
+6. Opcja ta umożliwia dostęp do usuniętych plików, plików zablokowanych (
+slack
+) oraz przestrzeni nieprzydzielonej (
+unallocated space
+) bez fizycznego montowania litery dysku w systemie. W drzewie dowodów (
+Evidence tree
+) wyświetlony zostanie wybrany element – możesz dodawać kolejne elementy dowodowe, jeśli chcesz przeglądać więcej niż jeden naraz.
+Węzeł nadrzędny
+to wybrany obiekt, z poziomu którego można przejść głębiej do jego zawartości. Obejmuje ona partycje i obszary niepartycjonowane, foldery (począwszy od folderu głównego w dół) oraz obszar nieprzydzielony (
+unallocated space
+), który może zawierać dane możliwe do odzyskania.
+Przeglądanie struktury plików i ukrytych danych
+7. Zaglądając do folderu
+[root]
+, możemy zobaczyć listę znajdujących się w nim plików wraz z tzw.
+file slack
+(wolną przestrzenią pliku). File slack to przestrzeń między fizycznym końcem pliku a końcem klastra dyskowego, w którym plik jest przechowywany. Jest to zjawisko powszechne, ponieważ dane rzadko wypełniają klastry w całości; dane szczątkowe (
+residual data
+) powstają, gdy mniejszy plik zostaje zapisany w tym samym klastrze, w którym wcześniej znajdował się większy plik, pozostawiając fragmenty potencjalnie istotnych informacji.
+8. Można zauważyć również, że niektóre foldery i pliki są oznaczone czerwonym symbolem „X” – są to pliki, które zostały usunięte, ale nie nadpisane. Tak więc dzięki FTK Imager możesz przeglądać nie tylko dane aktywne, ale także dane nieaktywne w usuniętych plikach, przestrzeni
+file slack
+czy
+obszarze nieprzydzielonym (unallocated space)
+! Po kliknięciu na plik możesz podejrzeć jego zawartość bit po bicie w dolnym prawym oknie.
+Możesz także kliknąć prawym przyciskiem myszy na jeden lub więcej plików (a nawet na cały folder), aby wyświetlić menu kontekstowe, które umożliwia wyeksportowanie kopii plików na zewnątrz i przejrzenie ich w natywnym oprogramowaniu.
+9. Kolejną opcją jest
+Add to Custom Content Image (
+Dodaj do obrazu zawartości niestandardowej
+)
+, co pozwala na rozpoczęcie kompilowania listy plików do umieszczenia w obrazie. Umożliwia to selektywne dołączanie wybranych plików (zamiast wszystkich plików z urządzenia) do tworzonego przez Ciebie pliku obrazu.
+10. Aby uzyskać więcej informacji, przejdź do menu
+Pomoc (Help)
+, aby uzyskać dostęp do Podręcznika użytkownika w formacie PDF.
+6. Formaty plików i hashing
+W informatyce śledczej dowód jest wart tyle, ile jego integralność. FTK Imager używa funkcji skrótu (Hashing) do generowania cyfrowego odcisku palca (fingerprint) danych.
+MD5 i SHA-1:
+Choć w kryptografii uważane za przestarzałe, w śledztwach cyfrowych nadal służą do weryfikacji, czy kopia jest identyczna z oryginałem.
+Po zakończeniu tworzenia obrazu, program porównuje sumę kontrolną odczytaną z dysku fizycznego z sumą kontrolną nowo powstałego pliku. Jeśli są identyczne, masz pewność 100%, że dowód nie został zmanipulowany.
+Porada:
+Zawsze przechowuj plik tekstowy
+.txt
+, który generuje FTK Imager obok obrazu. Zawiera on dokładny czas rozpoczęcia/zakończenia prac oraz sumy kontrolne. To Twój pierwszy dokument w „Chain of Custody”.
+7. Najczęstsze błędy FTK Imager i sposoby ich rozwiązywania
+Nawet profesjonalistom zdarzają się błędy. Oto najczęstsze z nich:
+Błąd „Bad Sectors”:
+Jeśli dysk jest uszkodzony fizycznie, FTK Imager może się „zawiesić”. Warto wtedy w opcjach tworzenia obrazu spróbować pominąć uszkodzone sektory, choć w takich przypadkach lepiej użyć profesjonalnych duplikatorów sprzętowych.
+Brak dostępu (Access Denied):
+Upewnij się, że wyłączyłeś programy antywirusowe na stacji roboczej (mogą blokować niskopoziomowy dostęp do dysku) i uruchomiłeś program jako Administrator.
+Błąd miejsca na dysku:
+Pamiętaj, że format E01 kompresuje dane, ale jeśli dysk jest pełen filmów (danych nieskompresowalnych), plik wynikowy będzie miał niemal 1:1 rozmiar oryginału.
+8. FTK Imager vs reszta świata
+Czy istnieją alternatywy? Oczywiście.
+Guymager:
+Świetny, opensource’owy odpowiednik na Linuxa.
+EnCase Imager:
+Bardzo podobny, ale często mniej intuicyjny dla początkujących.
+Belkasoft Evidence Center:
+Płatne, zintegrowane narzędzie.
+FTK Imager wygrywa jednak prostotą i faktem, że jest standardem akceptowanym przez sądy na całym świecie.
+Podsumowanie i dalsze kroki
+Opanowanie FTK Imager to pierwszy krok do stania się specjalistą od cyberbezpieczeństwa lub informatyki śledczej. Narzędzie to uczy dyscypliny w pracy z danymi i pokazuje, jak wiele informacji ukrytych jest pod warstwą graficznego interfejsu Windowsa.
+Co powinieneś zrobić teraz?
+Pobierz wersję Lite na pendrive.
+Wykonaj obraz testowy starej karty SD z Twojego aparatu.
+Spróbuj odnaleźć w widoku Hex pliki, które kiedyś z niej skasowałeś.
+Share this post:

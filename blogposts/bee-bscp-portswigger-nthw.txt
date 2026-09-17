@@ -1,0 +1,150 @@
+Wyzwanie
+Bee BSCP
+to moja kolejna inicjatywa jako ambasadorki
+NTHW
+. Jeśli śledzicie moje działania w społeczności, na pewno pamiętacie, że w tamtym roku w lecie przeprowadziłam serię spotkań
+Sierpniowe kolonie na chmurze Azure
+. Po świetnym odbiorze tamtej letniej akcji chmurowej wiedziałam, że musimy zrobić coś kolejnego – tym razem mocno osadzonego w świecie bezpieczeństwa aplikacji webowych.
+Idealny pretekst pojawił się całkiem niedawno. Ostatnio w moim świecie security sporo się dzieje –
+zostałam mentorką w jednym z projektów
+. Podczas pracy z uczestnikiem rozmawialiśmy o jego pentesterskich planach i okazało się, że jednym z jego głównych celów jest podejście do poważnego egzaminu przygotowującego do bycia pentesterem.
+I w tym momencie muszę Ci się do czegoś przyznać:
+sama od dawna planowałam podejście do dokładnie tego samego egzaminu!
+Zawsze jednak czegoś brakowało – wieczny brak czasu, uciekająca motywacja, a codzienne obowiązki skutecznie spychały ten cel na sam dół mojej listy priorytetów. Znasz to uczucie, kiedy odkładasz coś na „wieczne nigdy”? Rozmowa z moim mentee uświadomiła mi, że czas połączyć siły. Dlaczego uczyć się tylko we dwoje, skoro można to zrobić w większej grupie. Niezbędną do tego energię ma społeczność Not The Hidden Wiki. Skoro my potrzebujemy kopa do nauki, to zapewne wielu z Was również!
+Zanim jednak zdradzę wszystkie szczegóły logistyczne wyzwania, mam do Ciebie szybkie pytanie rozgrzewkowe.
+Co znajdziesz w tym artykule?
+Co dla Ciebie oznacza BSCP?
+O co naprawdę chodzi w wyzwaniu Bee BSCP?
+Przygotowanie do egzaminu Burp Suite Certified Practitioner
+Wymagania techniczne – co mówi sam PortSwigger?
+Przykładowy plan działania w ramach Bee BSCP – Nasz 12-tygodniowy plan lotu
+Efekt roju: Dlaczego wspólna nauka do certyfikatu to klucz do sukcesu?
+Dołącz do nauki w ramach Bee BSCP – szczegóły spotkań
+Sierpniowe kolonie na chmurze Azure – sierpień 2025
+Co dla Ciebie oznacza BSCP?
+Zanim przejdziemy do twardej cyberbezpiecznej rzeczywistości, pobawmy się chwilę słowami. Kiedy słyszysz ten skrót, co jako pierwsze przychodzi Ci do głowy? W kuluarach NTHW zdążyliśmy już wymyślić kilka alternatywnych i dość „pszczelich” rozwinięć.
+Oto nasze ulubione pomysły:
+Bee Suite Certified Practitioner
+– Certyfikowany Praktyk Pszczelego Roju.
+Bees Stealing Carlos’s Passwords
+– Pszczoły kradnące hasła słynnego Carlosa (najbardziej poszukiwanego użytkownika w labach).
+To Bee or not to BSCP
+– Szekspirowski klasyk w wersji dla pentesterów. Być albo nie być… certyfikowanym.
+Busy as a BSC-Bee
+– Stan umysłu, w którym robisz tyle laboratoriów, że zaczynasz bzyczeć.
+Niezależnie od tego, która wersja najbardziej do Ciebie przemawia, cała akcja ma jeden, bardzo konkretny cel.
+O co naprawdę chodzi w wyzwaniu Bee BSCP?
+Odłóżmy żarty na bok – czas na fakty. Wyzwanie Bee BSCP w bezpośredni sposób dotyczy przygotowania do jednego z najbardziej szanowanych i w 100% praktycznych egzaminów na rynku security. Mowa o oficjalnym certyfikacie
+Burp Suite Certified Practitioner
+od firmy
+PortSwigger
+(twórców legendarnego Burpa).
+Egzamin ten jest prawdziwym testem bojowym. W ciągu 4 godzin musisz od zera zhakować dwie niezależne aplikacje webowe, eskalować uprawnienia do admina i dobrać się do plików serwera. Nie ma tu miejsca na teorię – liczą się czyste umiejętności, spryt i odpowiednia technika. Samodzielna nauka potrafi być jednak przytłaczająca, dlatego jako społeczność
+Not The Hidden Wiki
+przejdziemy przez ten proces wspólnie!
+Przygotowanie do egzaminu
+Burp Suite Certified Practitioner
+Egzamin
+Burp Suite Certified Practitioner (BSCP)
+to wyzwanie, które wymaga nie tyle pamięciówki, ile doskonałego opanowania narzędzia i szybkiego kojarzenia faktów pod presją czasu. Egzamin jest w 100% praktyczny, otwarty (open-book) i trwa 4 godziny.
+W tym czasie musisz zhakować
+2 niezależne aplikacje
+, przechodząc w każdej przez 3 sekwencyjne etapy. Te trzy etapy zawsze przebiegają w ten sam sposób i muszą być rozwiązywane po kolei, ponieważ każdy z nich dosłownie odblokowuje część aplikacji, którą zaatakujesz w następnej kolejności:
+Etap 1
+: Zdobądź dostęp do konta DOWOLNEGO konta użytkownika. To nie zawsze Carlos! Przejmij dowolną uwierzytelnioną sesję użytkownika.
+Etap 2
+: Dotrzyj do panelu administratora pod adresem
+/admin
+lub jego odpowiednikiem. Możesz eskalować własne uprawnienia lub przejąć konto administratora.
+Etap 3
+: Odczytaj plik
+/home/carlos/secret
+z systemu plików serwera i prześlij go za pomocą przycisku „Submit solution”.
+Na egzaminie brak punktów cząstkowych – musisz ukończyć wszystkie 6 etapów, by zdać.
+Cel wyzwania Bee BSCP – zdany egzamin, dostęp 03.08.2026
+Wymagania techniczne – co mówi sam PortSwigger?
+Zanim usiądziemy do planowania nauki, musimy wyjaśnić sobie kilka kluczowych kwestii technicznych i logistycznych. Sam zespół PortSwigger postawił kiedyś sprawę niezwykle jasno, aby nikt nie dał się „użądlić” w dniu egzaminu:
+📢
+Oficjalne stanowisko PortSwigger
+:
+Aby zdać egzamin certyfikacyjny,
+musisz mieć dostęp do wersji Burp Suite Pro
+. Nie ma znaczenia, czy jest to licencja opłacona, wersja próbna (trial), licencja firmowa czy jakakolwiek inna. PortSwigger nie weryfikuje rodzaju Twojej subskrypcji, jednak zaliczenie tego egzaminu bez wersji Professional jest po prostu niemożliwe.
+Na podstawie wpisów w sieci, dodatkowo warto wiedzieć, że:
+Od momentu zakupu vouchera masz
+aż 12 miesięcy
+na podejście do egzaminu.
+Darmowa wersja próbna (trial) Burp Suite Professional trwa
+30 dni
+.
+Do samego egzaminu nie możesz użyć systemu Linux!
+Oprogramowanie nadzorujące przebieg testu (proctoring) nie wspiera Linuxa, dlatego musisz przygotować system Windows lub macOS.
+Nie ma opcji resetu laboratorium
+. Jeśli usuniesz własne konto lub „rozwalisz” kluczowy komponent, możesz całkowicie zepsuć to podejście do egzaminu i zmarnować voucher. Przemyśl dwa razy każde destrukcyjne działanie.
+Za każdym kolejnym podejściem do egzaminu możesz trafić na inne podatności i scenariusze… więc jeśli oblejesz pierwsze podejście, następnym razem prawdopodobnie zobaczysz coś zupełnie innego. My jednak opcji
+failed
+nie bierzemy pod uwagę.
+Skoro wiemy już, na czym stoimy sprzętowo, możemy przejść do ksprecyzowania planu nauki.
+Przykładowy plan działania w ramach Bee BSCP – Nasz 12-tygodniowy plan lotu
+Aby ułatwić nam logistykę i systematyczność, podzieliliśmy proces przygotowań na 4 logiczne fazy. Przez najbliższe 3 miesiące będziemy trzymać się poniższej mapy drogowej:
+Faza
+Czas
+Cel główny
+Co robimy?
+Faza 1
+Tygodnie 1–2
+Środowisko i podstawy
+Konfiguracja Burp Suite, opanowanie rozszerzeń (np. Param Miner) i laboratoria
+Apprentice
+.
+Faza 2
+Tygodnie 3–8
+Poziom
+Practitioner
+Przerobienie kluczowych ścieżek w Web Security Academy (SQLi, CSRF, SSRF, Request Smuggling).
+Faza 3
+Tygodnie 9–10
+Presja czasu i blind tests
+Rozwiązywanie
+Mystery Labs
+bez znajomości kategorii podatności. Trening skanowania taktycznego.
+Faza 4
+Tygodnie 11–12
+Symulacje egzaminacyjne
+Oficjalne
+Practice Exams
+od PortSwiggera.
+📝
+Wskazówka na start:
+Podczas przechodzenia przez kolejne tygodnie planu, kluczem będzie tworzenie własnej bazy wiedzy. Zapisuj gotowe ładunki (payloads) i schematy postępowania. Egzamin ma formułę open-book, więc dobra organizacja notatek zaoszczędzi Ci mnóstwo cennego czasu w trakcie właściwego testu.
+Efekt roju: Dlaczego wspólna nauka do certyfikatu to klucz do sukcesu?
+Przygotowanie do tak wymagającego egzaminu w pojedynkę to często droga przez mękę. Kiedy utkniesz na trudnym laboratorium z
+HTTP Request Smuggling
+albo nie możesz rozgryźć zaawansowanego omijania filtrów XSS, łatwo o frustrację. I właśnie tutaj wkracza
+efekt roju
+.
+Wspólna nauka do certyfikatu w grupie to nie tylko potężny kop motywacyjny, ale przede wszystkim wymiana doświadczeń. Kiedy jedna osoba znajdzie nietypowy payload, a druga wyjaśni skomplikowany mechanizm autoryzacji JWT, cała grupa idzie do przodu dwa razy szybciej. W NTHW wierzymy, że dzielenie się wiedzą to najszybsza ścieżka do zdobycia upragnionego statusu
+Certified Practitioner
+. Razem możemy rozpracować każdy algorytm i każdą podatność.
+Dołącz do nauki w ramach Bee BSCP – szczegóły spotkań
+Nie musisz uczyć się sam w ciemnym pokoju. W ramach nowej akcji tworzymy grupę wsparcia, w której będziemy dzielić się wiedzą, payloadami i motywacją.
+Jak to będzie wyglądać w praktyce?
+Gdzie się widzimy?
+Cała akcja przenosi się na oficjalny
+Discord NTHW
+.
+Dedykowany kanał:
+Szukaj nas na specjalnie stworzonym kanale
+bscp_main
+.
+Kiedy?
+Widujemy się na spotkaniach online w
+każdy czwartek
+o godzinie 18:00.
+Rozmowy na Discordzie NTHW toczą się 24/7.
+Spotkania są otwarte dla wszystkich chętnych, którzy chcą solidnie przygotować się do certyfikacji i podnieść swoje skille. Ja ze swojej strony postaram się zagwarantować merytoryczne wstępy do tematów, rzetelne materiały i kilka wpisów na blogu.
+Najbliższe spotkanie, takie zapoznawcze,
+już w czwartek – 6 sierpnia 2026 o godzinie 18:00
+. Wpadnij na kanał, przywitaj się i daj znać w komentarzu pod tym wpisem, co dla Ciebie oznacza skrót BSCP!
+Do zobaczenia w czwartek na Discordzie NTHW!
+Share this post:

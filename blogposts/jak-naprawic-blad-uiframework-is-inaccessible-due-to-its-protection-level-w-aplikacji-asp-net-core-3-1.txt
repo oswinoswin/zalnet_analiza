@@ -1,0 +1,10 @@
+Robiąc upgrade aplikacji z .NET Core 2.2 do .NET Core 3.1, podczas przebudowywania (ang. Build Solution), aplikacja rzuciła mi błędem ”
+Error CS0122 'UIFramework’ is inaccessible due to its protection level”.
+Jak naprawić ten błąd?
+W ASP.NET Core 3.0 i wyżej przeciążenie funkcji
+AddIdentityUI
+, która pobiera parametr
+UIFramework
+, zostało usunięte. Jeśli używamy Bootstrap 4, po prostu wywołujemy
+AddDefaultUI().
+Share this post:

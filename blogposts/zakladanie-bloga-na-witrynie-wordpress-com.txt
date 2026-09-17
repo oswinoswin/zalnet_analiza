@@ -1,0 +1,54 @@
+Aby założyć własnego bloga, możemy do tego celu użyć darmowego konta na witrynie WorPress.com.
+W tym celu przechodzimy na stronę
+WordPressa
+i klikamy albo na przycisk
+Start Your Website
+po lewej stronie albo na link
+Get Started
+w prawym górnym rogu.
+W polu tekstowym pod etykietą
+Your email address
+podajemy Nasz adres emailowy.
+W polu tekstowym pod etykietą
+Choose a username
+podajemy wybraną przez Nas nazwę użytkownika. Nazwa użytkownika musi być unikalna (żaden inny właścieciel bloga założonego na WordPressie nie może mieć takiej), może zawierać tylko małe litery i cyfry, nie może zawierać wielkich liter i znaków specjalnych.
+W polu tekstowym pod etykietą
+Choose a password
+podajemy hasło. Powinno składać się z min. 6 znaków (wielkie i małe litery oraz cyfry).
+Możemy też zamiast podawania emaila, nazwy użytkownika i hasła użyć konta Google.
+Klikamy przycisk
+Continue
+i przechodzimy dalej.
+Następne przechodzimy do kroku drugiego. Wybieramy przeznaczenie naszej witryny, a także określamy poziom naszych umiejętności w tworzeniu witryn.
+Kolejny krokiem jest wybranie odpowiedniej domeny. Mamy do wyboru domenę bezpłatną lub płatne. Ja wybieram bezpłatną domenę
+.home.blog
+. Wybór domeny potwierdzamy klikając na odpowiedni przycisk
+Select
+.
+Mamy też możliwość dodania własnej domeny, o ile taką posiadamy.
+W kolejnym kroku wybieramy plan taryfowy dla naszego bloga. Ja wybieram darmowy plan, czli wersję
+Free
+. Aby potwierdzić wybór, należy kliknąć przycisk
+Start with Free
+.
+Po tych krokach mamy stworzonego bloga.
+Otwierając drugą instancję przeglądarki i wpisując w pasku adres naszego bloga możemy zobaczyć, jak aktualnie on wygląda. Nasz blog posiada informację o ciasteczkach. Moją stronę można znaleźć pod adresem: https://jakdariazkotem.home.blog/. Jeśli chcesz ją zobaczyć kliknij
+tutaj
+.
+Teraz możemy przejść do ulepszania naszego bloga.
+Po pierwsze klikamy na link
+Edit
+po prawej stronie napisu
+You updated your site title
+.  Na zakładce
+General
+możemy zmienić tytuł witryny, język wyświetlany dla wpisów i ikonę witryny. Ustawiamy też odpowiednią strefę czasową.
+Po tych zmianach możemy zauważyć, że informacje o ciasteczkach wyświetlają się po polsku, a tytuł na stronie został zmieniony zgodnie z moimi sugestiami (jest to tytuł ze spacjami).
+Następnie przechodzimy do ustawień profilu. Klikamy na ikonę
+w prawym górnym rogu. Tam zmieniamy język interfejsu (przy zmianie ustawień polecenia będą wyświetlane po polsku, a nie po angielsku). Aby zatwierdzić Nasze zmiany klikamy przycisk
+Save Account Settings
+.
+Po zapisaniu zmian możemy zobaczyć, że wszystkie nasze ustawienia są teraz dostępne w języku polskim.
+Ostatnim krok, który mamy do wykonania na tym etapie to zalogowanie się na Naszą pocztę emailową i kliknięcie na link aktywacyjny od WordPressa, aby potwierdzić, że Nasz email jest prawidłowy i aktywny.
+Po tych krokach mamy stworzonego i wstępnie skonfigurowanego bloga.
+Share this post:

@@ -1,0 +1,428 @@
+Środowisko wirtualne Python w Windows – poradnik
+Środowisko wirtualne Python w systemie Windows
+zapewnia osobną, odizolowaną przestrzeń roboczą dla projektu. Dzięki temu możesz instalować pakiety wymagane przez jedną aplikację bez wpływu na pozostałe projekty oraz główną instalację Pythona.
+W tym poradniku pokażę krok po kroku, jak utworzyć, aktywować i obsługiwać środowisko Python w Windows. Dowiesz się również, jak instalować pakiety, zapisywać zależności projektu, skonfigurować Visual Studio Code oraz rozwiązywać najczęstsze problemy z aktywacją środowiska.
+ENGLISH version of this article – click
+here
+.
+Co znajdziesz w tym artykule?
+Środowisko wirtualne Python w Windows – poradnik
+Czym jest środowisko wirtualne Python?
+Dlaczego warto używać środowiska wirtualnego Python w Windows?
+Co będzie potrzebne do utworzenia środowiska Python w Windows?
+Krok 1. Sprawdź, czy Python jest zainstalowany w Windows
+Co zrobić, gdy Windows nie rozpoznaje polecenia Python?
+Krok 2. Utwórz folder projektu Python
+Krok 3. Utwórz środowisko wirtualne Python w Windows
+Krok 4. Aktywuj środowisko wirtualne Python
+Aktywacja środowiska w PowerShell
+Aktywacja środowiska w Wierszu poleceń
+Aktywacja środowiska w Git Bash
+Jak sprawdzić, czy środowisko wirtualne jest aktywne?
+Krok 5. Zaktualizuj pip w środowisku wirtualnym
+Krok 6. Zainstaluj pakiety w środowisku wirtualnym Python
+Krok 7. Przetestuj środowisko wirtualne
+Krok 8. Zapisz zależności projektu Python
+Środowisko wirtualne Python w Visual Studio Code
+Jak dezaktywować środowisko wirtualne Python?
+Jak usunąć środowisko wirtualne Python?
+Zalecana struktura projektu Python
+Środowisko wirtualne Python – najważniejsze polecenia
+Podsumowanie
+Czym jest środowisko wirtualne Python?
+Środowisko wirtualne Python to osobny katalog zawierający własny interpreter Pythona, instalator pakietów oraz zainstalowane biblioteki.
+Możesz potraktować je jak prywatną skrzynkę z narzędziami przygotowaną dla jednego projektu. Wszystkie narzędzia umieszczone w tej skrzynce należą wyłącznie do niego.
+Bez środowiska wirtualnego pakiety często instaluje się globalnie. W rezultacie aktualizacja jednej biblioteki może przypadkowo spowodować problemy w innym projekcie.
+Środowisko wirtualne rozwiązuje ten problem, ponieważ oddziela zależności poszczególnych projektów.
+Przykładowo:
+Projekt A
+├── Python 3.13.x
+├── pandas 2.x
+└── matplotlib 3.x
+
+Projekt B
+├── Python 3.14.x
+├── pandas 1.x
+└── Django 5.x
+Oba projekty korzystają z Pythona, ale mogą używać różnych wersji bibliotek bez powodowania konfliktów.
+Dlaczego warto używać środowiska wirtualnego Python w Windows?
+Korzystanie ze środowiska wirtualnego Python w Windows sprawia, że zarządzanie projektami jest bezpieczniejsze i bardziej przewidywalne.
+Najważniejsze korzyści to:
+pakiety zainstalowane dla jednego projektu nie wpływają na pozostałe projekty,
+różne projekty mogą korzystać z różnych wersji bibliotek,
+środowisko projektu można odtworzyć na innym komputerze,
+zmniejsza się ryzyko konfliktów między zależnościami,
+globalna instalacja Pythona nie jest zaśmiecana niepotrzebnymi pakietami,
+Visual Studio Code może automatycznie korzystać z odpowiedniego interpretera,
+listę zależności można udostępnić innym programistom.
+Środowiska wirtualne przydają się zarówno osobom początkującym, jak i doświadczonym programistom. Dlatego utworzenie takiego środowiska powinno być jednym z pierwszych kroków podczas rozpoczynania nowego projektu w Pythonie.
+Co będzie potrzebne do utworzenia środowiska Python w Windows?
+Zanim rozpoczniesz, upewnij się, że masz:
+komputer z systemem Windows 10 lub Windows 11,
+zainstalowanego Pythona,
+dostęp do PowerShella albo Wiersza poleceń,
+folder przeznaczony na projekt,
+Visual Studio Code, jeżeli chcesz pisać i uruchamiać kod w edytorze.
+Python zawiera moduł
+venv
+.
+Zwykle nie musisz więc instalować dodatkowego narzędzia przeznaczonego do tworzenia środowisk wirtualnych.
+Krok 1. Sprawdź, czy Python jest zainstalowany w Windows
+Najpierw uruchom
+Visual Studio Code
+. Możesz również skorzystać z
+PowerShella
+,
+Windows Terminal
+albo
+Wiersza poleceń
+(
+Command prompt
+).
+2. W Visual Studio Code wybierz
+Terminal → New Terminal
+.
+3. Następnie wybierz PowerShell lub Bash i wykonaj polecenie:
+python --version
+(EN)Checking Python version in Visual Studio Code/(PL)Sprawdzenie wersji Pythona w Visual Studio Code
+Jeżeli Python został zainstalowany prawidłowo, zobaczysz wynik podobny do poniższego:
+Python 3.14.7
+Na niektórych komputerach z systemem Windows trzeba skorzystać z programu Python Launcher:
+py --version
+Polecenie
+py
+jest zazwyczaj dostępne, jeżeli Python został zainstalowany za pomocą oficjalnego instalatora dla systemu Windows (plik
+.msi
+).
+Co zrobić, gdy Windows nie rozpoznaje polecenia Python?
+Możesz zobaczyć następujący komunikat:
+'python' is not recognized as an internal or external command
+Taki błąd zazwyczaj oznacza, że Python nie został zainstalowany albo jego lokalizacja nie została dodana do środowiskowa wirtualnego
+PATH
+.
+Pobierz Pythona z
+oficjalnej strony projektu Python
+.
+(EN)Python releases for Windows/(PL)Wydania Pythona dla Windows
+Podczas instalacji zaznacz opcję:
+Add python.exe to PATH
+.
+(EN)Adding python.exe to PATH/(PL)Dodanie python.exe do PATH
+Następnie dokończ instalację i ponownie uruchom terminal, PowerShell albo Wiersz poleceń.
+Jeszcze raz sprawdź instalację:
+python --version
+Możesz też użyć polecenia:
+py --version
+Krok 2. Utwórz folder projektu Python
+Każdy projekt w Pythonie powinien mieć własny folder.
+Zwykle tworzę projekty w następującej lokalizacji:
+C:\Users<nazwa_użytkownika>\source\repos
+.
+Przykładowo możesz utworzyć katalog o nazwie
+Python_Fundamentals_Labs
+:
+cd C:\Users\<nazwa_użytkownika>\source\repos
+mkdir Python_Fundamentals_Labs
+Następnie przejdź do nowego katalogu:
+cd Python_Fundamentals_Labs
+Folder możesz także utworzyć w Eksploratorze plików, a później przejść do niego w terminalu:
+cd C:\Users\<nazwa_użytkownika>\source\repos\Python_Fundamentals_Labs
+Upewnij się, że środowisko wirtualne tworzysz we właściwym folderze projektu. W przeciwnym razie później może być trudno ustalić, do którego projektu należy dane środowisko.
+(EN)Creating a folder for Python project/(PL)Dodanie folderu dla projektu Python
+W Visual Studio Code wybierz na
+ekranie powitalnym
+, w menu
+Explorer
+albo w menu
+File
+polecenie:
+Open Folder
+.
+(EN)Open Folder option from Explorer menu/(PL)Opcja Open Folder w menu Explorer
+Wskaż utworzony folder, a następnie kliknij przycisk
+Select Folder
+.
+Wskazówka: Jeżeli Visual Studio Code uruchomi się w trybie ograniczonym, kliknij
+Restricted Mode
+, a następnie wybierz
+Trust
+.
+(EN)Restricted Mode in Visual Studio Code/(PL)Restricted Mode w Visual Studio Code
+Krok 3. Utwórz środowisko wirtualne Python w Windows
+Po przejściu do folderu projektu wykonaj polecenie:
+python -m venv .venv
+Jeżeli na Twoim komputerze używany jest Python Launcher, wpisz:
+py -m venv .venv
+Warto zrozumieć poszczególne elementy tego polecenia:
+python
+lub
+py
+uruchamia Pythona,
+-m
+informuje Pythona, że ma uruchomić wskazany moduł,
+venv
+jest wbudowanym modułem do tworzenia środowisk wirtualnych,
+.venv
+to nazwa folderu, w którym zostanie zapisane środowisko.
+Polecenie utworzy strukturę podobną do poniższej:
+my-python-project
+└── .venv
+    ├── Include
+    ├── Lib
+    ├── Scripts
+    └── pyvenv.cfg
+Po utworzeniu środowiska może być konieczne ponowne otwarcie terminala w Visual Studio Code.
+Nazwa
+.venv
+jest powszechnie stosowaną konwencją. Kropka na początku nazwy ułatwia również odróżnienie katalogu środowiska od folderów zawierających kod źródłowy projektu.
+Możesz wybrać inną nazwę:
+python -m venv environment
+W takim przypadku we wszystkich poleceniach aktywacyjnych musisz zastąpić
+.venv
+nazwą
+environment
+.
+Więcej informacji o działaniu modułu znajdziesz w
+oficjalnej dokumentacji venv
+.
+(EN)Creating a Python Virtual Environment on Windows/(PL)Środowisko wirtualne Python w Windows (tworzenie)
+Krok 4. Aktywuj środowisko wirtualne Python
+Samo utworzenie środowiska nie oznacza jeszcze jego aktywacji. Aktywacja powoduje, że bieżący terminal zaczyna korzystać z interpretera oraz pakietów znajdujących się w folderze .venv.
+Aktywacja środowiska w PowerShell
+W PowerShellu wykonaj polecenie:
+.\.venv\Scripts\Activate.ps1
+Wskazówka
+: Może pojawić się komunikat informujący, że plik
+Activate.ps1
+nie może zostać uruchomiony, ponieważ wykonywanie skryptów jest wyłączone (
+.\.venv\Scripts\Activate.ps1 : File C:\Users<username>\source\repos\Python_Fundamentals_Labs.venv\Scripts\Activate.ps1 cannot be loaded because running scripts is disabled on this system
+).
+W takiej sytuacji najpierw sprawdź aktualną politykę wykonywania skryptów:
+Get-ExecutionPolicy
+Następnie zmień ustawienie dla bieżącego użytkownika:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Ponownie sprawdź politykę:
+Get-ExecutionPolicy
+Wynik powinien mieć wartość:
+RemoteSigned
+.
+(EN)Changing in Execution Policy/(PL)Zmiana Execution Policy
+Teraz jeszcze raz aktywuj środowisko:
+.\.venv\Scripts\Activate.ps1
+Po udanej aktywacji wiersz poleceń powinien zaczynać się od:
+(.venv)
+Przykład:
+(.venv) PS C:\Users\<nazwa_użytkownika>\source\repos\Python_Fundamentals_Labs>
+Prefiks (.venv) potwierdza, że środowisko wirtualne jest aktywne. Od tej chwili polecenia
+python
+i
+pip
+powinny korzystać ze środowiska zapisanego wewnątrz projektu.
+(EN)Activating the Virtual Environment in Windows/(PL)Środowisko wirtualne Python w Windows (aktywacja)
+Aktywacja środowiska w Wierszu poleceń
+Jeżeli korzystasz z tradycyjnego Wiersza poleceń Windows, wykonaj:
+.venv\Scripts\activate.bat
+Po aktywacji zobaczysz:
+(.venv) C:\Projects\my-python-project>
+PowerShell i Wiersz poleceń używają różnych plików aktywacyjnych, ale oba aktywują to samo środowisko.
+Aktywacja środowiska w Git Bash
+W Git Bash wykonaj polecenie:
+source .venv/Scripts/activate
+Po aktywacji nazwa środowiska powinna pojawić się na początku wiersza poleceń.
+Jak sprawdzić, czy środowisko wirtualne jest aktywne?
+Prefiks (.venv) to najprostsza wskazówka. Możesz jednak sprawdzić również, który plik wykonywalny Pythona jest aktualnie używany.
+W PowerShellu wykonaj:
+Get-Command python
+(EN)Confirmation that the Virtual Environment is active/(PL)Potwierdzenie, że środowisko wirtualne Python jest aktywne
+Możesz także użyć polecenia:
+where.exe python
+Gdy środowisko jest aktywne, pierwsza wyświetlona ścieżka powinna prowadzić do katalogu podobnego do poniższego:
+C:\Users\<nazwa_użytkownika>\source\repos\Python_Fundamentals_Labs\.venv\Scripts
+(EN) Python Virtual Environment/(PL)Środowisko wirtualne Python
+Możesz również sprawdzić ścieżkę za pomocą Pythona:
+python -c "import sys; print(sys.executable)"
+Wynik powinien wskazywać interpreter znajdujący się w katalogu .venv.
+Krok 5. Zaktualizuj pip w środowisku wirtualnym
+pip
+jest standardowym instalatorem pakietów dla Pythona. Pozwala dodawać do środowiska biblioteki dostarczane przez zewnętrznych twórców.
+Przed rozpoczęciem instalowania pakietów zaktualizuj pip:
+python -m pip install --upgrade pip
+Korzystanie z polecenia
+python -m pip
+jest dobrym rozwiązaniem, ponieważ jasno wskazuje, który interpreter Pythona uruchamia instalator pakietów.
+Po aktualizacji sprawdź zainstalowaną wersję:
+python -m pip --version
+Wyświetlona ścieżka powinna prowadzić do katalogu
+.venv
+.
+(EN)Upgrading pip/(PL)Aktualizacja pip
+Krok 6. Zainstaluj pakiety w środowisku wirtualnym Python
+Teraz możesz instalować pakiety wewnątrz aktywnego środowiska.
+Przykładowo:
+python -m pip install pandas
+(EN)Installing packages in a Python Virtual Environment/(PL)Instalacja pakietów w środowisku wirtualnym Python
+Aby zainstalować kilka pakietów jednocześnie, wykonaj:
+python -m pip install pandas matplotlib openpyxl
+Biblioteki te są często wykorzystywane do następujących zadań:
+pandas
+– praca z danymi tabelarycznymi,
+matplotlib
+– tworzenie wykresów i wizualizacji,
+openpyxl
+– odczytywanie oraz zapisywanie plików Microsoft Excel.
+Aby wyświetlić wszystkie zainstalowane pakiety, wpisz:
+python -m pip list
+Środowisko jest odizolowane, dlatego zainstalowane biblioteki nie zostaną automatycznie dodane do innych projektów w Pythonie.
+(EN)Checking installed libraries/(PL)Wyświetlenie zainstalowanych bibliotek
+Krok 7. Przetestuj środowisko wirtualne
+W folderze projektu utwórz plik o nazwie
+app.py
+.
+Dodaj do niego poniższy kod:
+import pandas as pd
+
+data = {
+    "Product": ["Laptop", "Monitor", "Keyboard"],
+    "Quantity": [4, 7, 12]
+}
+
+table = pd.DataFrame(data)
+
+print(table)
+Zapisz zmiany, a następnie uruchom plik:
+python app.py
+(EN)Testing the Python Virtual Environment/(PL)Środowisko wirtualne Python
+Jeżeli biblioteka
+pandas
+została zainstalowana prawidłowo, Python wyświetli niewielką tabelę.
+Jeśli zobaczysz błąd:
+ModuleNotFoundError: No module named 'pandas'
+sprawdź, czy:
+środowisko wirtualne jest aktywne,
+biblioteka
+pandas
+została zainstalowana wewnątrz tego środowiska,
+Visual Studio Code korzysta z odpowiedniego interpretera.
+Krok 8. Zapisz zależności projektu Python
+Katalogu środowiska wirtualnego nie należy kopiować ani udostępniać innym osobom. Zamiast tego zapisz listę pakietów wymaganych przez projekt.
+Wykonaj polecenie:
+python -m pip freeze > requirements.txt
+(EN)Creating requirements.txt file/(PL)Utworzenie pliku requirements.txt
+Polecenie utworzy plik
+requirements.txt
+.
+Jego zawartość może wyglądać następująco:
+numpy==2.5.2
+pandas==3.0.5
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.3
+(EN)Content of requirements.txt file/(PL)Zawartość pliku requirements.txt
+Dokładne numery wersji ułatwiają odtworzenie środowiska projektu na innym komputerze.
+Programista, który otrzyma projekt, może utworzyć nowe środowisko, a następnie zainstalować wszystkie zależności za pomocą polecenia:
+python -m pip install -r requirements.txt
+Środowisko wirtualne Python w Visual Studio Code
+Jeżeli folder projektu nie jest jeszcze otwarty w Visual Studio Code, przejdź do niego w terminalu, a następnie wykonaj polecenie:
+code .
+Jeżeli polecenie
+code .
+jest niedostępne, uruchom Visual Studio Code ręcznie i wybierz:
+File → Open Folder
+.
+Wskaż folder projektu, a nie znajdujący się w nim katalog .venv.
+Następnie wybierz właściwy interpreter Pythona:
+Naciśnij
+Ctrl+Shift+P
+.
+Wpisz
+Python
+:
+Select Interpreter
+.
+Wybierz interpreter znajdujący się w katalogu
+.venv
+.
+Jeżeli nie ma go na liście, kliknij
+Enter interpreter path
+.
+Wskaż plik
+.venv\Scripts\python.exe
+.
+Visual Studio Code będzie korzystać z wybranego środowiska podczas uruchamiania kodu, debugowania oraz obsługi funkcji języka Python.
+Edytor zazwyczaj automatycznie wykrywa środowiska zapisane w folderze .venv. Więcej informacji znajdziesz w
+oficjalnej dokumentacji środowisk Python w Visual Studio Code
+.
+Po otwarciu nowego terminala w Visual Studio Code środowisko może zostać aktywowane automatycznie.
+Jak dezaktywować środowisko wirtualne Python?
+Po zakończeniu pracy nad projektem uruchom polecenie:
+deactivate
+Prefiks (.venv) zniknie z wiersza polecenia.
+(EN)Deactivating the Virtual Environment/(PL)Deaktywacja środowiska wirtualnego
+Dezaktywacja nie usuwa środowiska ani zainstalowanych pakietów. Powoduje jedynie, że bieżąca sesja terminala ponownie korzysta z globalnej instalacji Pythona.
+Aby wrócić do projektu, przejdź do jego katalogu i ponownie aktywuj środowisko:
+cd C:\Users\<nazwa_użytkownika>\source\repos\Python_Fundamentals_Labs
+.\.venv\Scripts\Activate.ps1
+Jak usunąć środowisko wirtualne Python?
+Środowisko wirtualne nie wymaga specjalnego polecenia dezinstalacyjnego.
+Najpierw je dezaktywuj:
+deactivate
+Następnie usuń katalog .venv za pomocą Eksploratora plików.
+Jeżeli korzystasz z PowerShella, możesz usunąć folder środowiska przeznaczonego dla danego projektu za pomocą polecenia:
+Remove-Item -Recurse -Force .venv
+Przed wykonaniem polecenia upewnij się, że znajdujesz się we właściwym katalogu projektu.
+Usunięcie folderu .venv powoduje skasowanie zainstalowanych w nim pakietów. Nie powinno jednak usunąć plików z kodem źródłowym projektu.
+Zalecana struktura projektu Python
+Prosty projekt może mieć następującą strukturę:
+my-python-project
+├── .venv
+├── data
+├── tests
+├── .gitignore
+├── app.py
+├── README.md
+└── requirements.txt
+Poszczególne elementy pełnią następujące funkcje:
+.venv
+zawiera środowisko wirtualne,
+data
+przechowuje pliki wejściowe,
+tests
+zawiera testy automatyczne,
+.
+gitignore
+informuje system Git, które pliki i foldery powinny zostać pominięte,
+app.py
+zawiera kod aplikacji,
+README.md
+wyjaśnia sposób uruchomienia i obsługi projektu,
+requirements.txt przechowuje listę wymaganych pakietów.
+Ważne
+: Folderu .venv nie należy dodawać do repozytorium Git. Środowisko powinno być możliwe do odtworzenia na podstawie pliku requirements.txt.
+Środowisko wirtualne Python – najważniejsze polecenia
+Utworzenie katalogu projektu:
+mkdir my-python-project
+cd my-python-project
+Utworzenie środowiska wirtualnego:
+py -m venv .venv
+Aktywacja środowiska w PowerShell:
+.\.venv\Scripts\Activate.ps1
+Aktualizacja pip:
+python -m pip install --upgrade pip
+Instalacja pakietów:
+python -m pip install pandas matplotlib openpyxl
+Zapisanie zależności projektu:
+python -m pip freeze > requirements.txt
+Dezaktywacja środowiska:
+deactivate
+Podsumowanie
+Utworzenie środowiska wirtualnego Python w Windows jest prostym, ale bardzo ważnym etapem pracy nad projektem. Takie środowisko oddziela zależności, zapobiega konfliktom między pakietami oraz ułatwia utrzymanie i udostępnianie aplikacji.
+Cały proces można sprowadzić do czterech najważniejszych poleceń:
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install nazwa-pakietu
+deactivate
+Gdy poznasz te polecenia, bez problemu przygotujesz czyste środowisko dla każdego nowego projektu. Dzięki temu Twoja praca z Pythonem stanie się bardziej uporządkowana, przewidywalna i profesjonalna.
+Jeżeli chcesz rozwijać swoje umiejętności techniczne, sprawdź również
+ofertę szkoleń ZALNET
+.
+Share this post:

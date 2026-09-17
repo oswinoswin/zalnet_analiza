@@ -1,0 +1,44 @@
+Phishing w słoiku. Dlaczego fałszerze miodu byliby świetnymi hakerami?
+Każdy z nas potrzebuje odskoczni od codziennych obowiązków i monitora. Dla mnie tą przestrzenią są pszczoły i praca w pasiece. Jednak po kilku latach w tej branży dochodzę do zaskakującego wniosku: firmy handlujące miodem na masową skalę mogłyby prowadzić profesjonalne szkolenia, których głównym tematem byłby
+phishing
+oraz zaawansowana socjotechnika
+.
+Co znajdziesz w tym artykule?
+Phishing w słoiku. Dlaczego fałszerze miodu byliby świetnymi hakerami?
+Phishing w słoiku, czyli jak nabrać konsumenta
+Pszczelarstwo, czyli nauka weryfikacji i czujności
+Miód to nie wszystko: poznaj pierzgę i wosk
+Phishing w słoiku, czyli jak nabrać konsumenta
+Dlaczego stawiam taką tezę? Ponieważ miód to obecnie jeden z najczęściej fałszowanych produktów spożywczych na świecie, stojący w jednym rzędzie z oliwą z oliwek czy mlekiem. Metody „oszukiwania” zmysłów konsumenta są uderzająco podobne do tych, których używają hakerzy, by wyłudzić nasze dane.
+Jak wygląda „miodowy phishing” w praktyce?
+Fałszowanie pochodzenia:
+Etykieta krzyczy „Miód z polskiej pasieki”, a małym drukiem czytamy o „mieszance miodów z UE i spoza UE”. W branżowym tłumaczeniu to często tani miód techniczny z Chin. To dokładnie jak e-mail z „Twojego banku”, który na pozór wygląda na prawidłowy, a w rzeczywistości w adresie nadawcy ma ukrytą, podejrzaną domenę.
+Syropy zamiast nektaru:
+Dodawanie syropów ryżowych, cukrowych, kukurydzianych czy buraczanych odbywa się tak, by smak i konsystencja oszukały nawet doświadczone podniebienie. To czysta
+socjotechnika
+– produkt ma wyglądać i „zachowywać się” jak oryginał, by uśpić naszą czujność.
+„Tuning” termiczny:
+Przegrzewanie miodu powyżej 42 stopni Celsjusza sprawia, że miód jest zawsze płynny i klarowny. Tego właśnie często oczekuje nieświadomy klient, ale taki proces przegrzania niszczy enzymy, a więc prawie wszystkie właściwości prozdrowotne. To jak piękna, ale pusta strona logowania do serwisu, który nie istnieje – ładna fasada bez żadnej wartości pod spodem.
+Brak pyłku:
+Mechaniczne filtrowanie miodu pozwala usunąć pyłek kwiatowy, który jest „odciskiem palca” pozwalającym zidentyfikować pochodzenie produktu. To zacieranie śladów godne najlepszego malware.
+Pszczelarstwo, czyli nauka weryfikacji i czujności
+Zarówno w pasiece, jak i w sieci, najważniejsza jest weryfikacja źródła. Jeśli miód kosztuje podejrzanie mało, a oferta jest „limitowana i tylko dziś” – włącz czujność. To ten sam mechanizm psychologiczny, który każe nam klikać w podejrzane linki w pogoni za okazją.
+Prawdziwa
+transparentność
+(zarówno w kodzie oprogramowania, jak i w słoiku) to podstawa zaufania. Niestety, obecnie często tylko lokalne pasieki, gdzie znamy pszczelarza osobiście, stanowią najskuteczniejszy „antywirus” na rynku. Bez tego nie ma gwarancji, że nie trafimy na jakieś miodowe
+CVE
+(Common Vulnerabilities and Exposures).
+Miód to nie wszystko: poznaj pierzgę i wosk
+Skoro mowa o autentyczności, warto spojrzeć na to, co w ulu najcenniejsze, a trudne do podrobienia. Na zdjęciach widzicie pierzgę, którą pszczoły gromadzą w ramkach. To prawdziwa bomba witaminowa i naturalny suplement o niesamowitej mocy.
+Proces jej pozyskiwania jest pracochłonny: ramki się mrozi, a następnie mechanicznie oddziela pierzgę od węzy. Sama węza (pszczeli plastry) jest następnie przetapiana na czysty wosk. Tutaj nie ma miejsca na drogę na skróty, jeśli chcemy zachować najwyższą jakość i
+etykę biznesową
+.
+Uważajcie na to, co wkładacie do koszyka – i tego realnego, i tego wirtualnego.
+Rysunek: Ramka z pierzgą, autorka: Beata Zalewa
+Nie tylko seniorzy mogą paść ofiarą oszustów. Jeśli chcesz dowiedzieć się, jak nie dać się nabrać na (nie tylko) socjotechniczne sztuczki atakujących, to nasze szkolenie z cyber awareness może pomóc Tobie i Twoim pracownikom! Więcej informacji możesz uzyskać w trakcie
+bezpłatnego, 15-minutowego spotkania przy wirtualnej kawie
+. To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+Umów się na spotkanie
+wyślij wiadomość
+Share this post:

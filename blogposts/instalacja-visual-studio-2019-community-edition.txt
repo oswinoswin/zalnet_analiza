@@ -1,0 +1,56 @@
+Aby rozpocząć naukę programowania w Visual C# i tworzyć aplikacje, potrzebujemy narzędzia, które nam tą naukę umożliwi. Narzędzia te to tzw. IDE, czyli zintegrowane środowisko programistyczne (ang.
+Integrated Development Environment).
+W przypadku tego kursu będzie to Visual Studio 2019. Można w nim programować w kilkunastu językach m.in. C#, C++, F#, CSS, JavaScript i TypeScript.
+Visual studio 2019 jest dostępne w kilku edycjach:
+Community
+– bezpłatne środowisko programistyczne, w pełni wyposażone i pozwalające na tworzenie i testowanie aplikacji;
+Professional
+– wersja płatna, zawierająca to wszystko, co w wersji Community, rozszerzona o kilka dodatków;
+Enterprise
+– wersja płatna, z korporacyjnymi dodatkami;
+Visual Studio Code
+– lekkie, proste w obsłudze środowisko wspierające dużo więcej języków niż klasyczne Visual Studio.
+W tym wyzwaniu będziemy używali darmowej wersji Visual Studio 2019 RC Community Edition. Poniższy tutorial pokazuje, jak zainstalować VS na systemie Windows 10.
+Najpierw pobieramy Visual Studio 2019 Community Edition ze
+strony Microsoft.
+UWAGA!!
+Jest tutaj pewna nieścisłość, ponieważ po pobraniu pliku Visual Studio 2017 Community tak naprawdę pobieramy plik Visual Studio 2019 RC Community Edition.
+Po pobraniu pliku przechodzimy do lokalizacji, w której znajduje się nasz plik:
+Klikamy podwójnie na plik, aby otworzyć instalator:
+Po uruchomieniu instalatora wybieramy pakiety, które pozwolą na tworzenie określonych typów aplikacji. Istnieje możliwość doinstalowania wybranych komponentów także w późniejszym czasie, więc teraz instalujemy tylko wybrane pakiety.  Z dostępnych poniżej pakietów wybieramy
+.NET desktop development, Universal Windows Platform development
+i
+ASP.NET and web development
+.
+Dodatkowo instaujemy jeszcze pakiet:
+Data storage and processing
+.
+Oczywiście, możemy zainstalować też inne pakiety, musimy tylko pamiętać, że każdy pakiet wymaga określonej ilości wolnego miejsca na dysku.
+W prawym dolnym rogu możemy wybrać, czy chcemy najpierw pobrać plik, a potem go zainstalować (
+Download all, then install
+) czy też instalować podczas pobierania (
+Install while downloading
+). Ja wybieram
+Install while downloading.
+Po wybraniu pakietów klikamy przycisk
+Install
+i czekamy, aż wszystko się pobierze i zainstaluje. Trwa to zazwyczaj dłuższy czas, który możemy poświęcić na wypicie w spokoju kawy lub herbaty 🙂 Jak widać na zdjęciu poniżej ja na swoim komputerze mam już zainstalowane wcześniej Visual Studio 2017 Enterprise Edition.
+Na koniec zostaniemy poproszeni o restart komputera.
+Gdy już nasz komputer uruchomi się ponownie, możemy uruchomić po raz pierwszy Visual Studio 2019 RC.
+Aby sprawdzić, czy instalacja przeszła pomyślnie, tworzymy nowy przykładowy projekt (klikamy
+Create a new project
+w prawym dolnym rogu):
+Tworzymy projekt z szablonu Console App (.NET Framework):
+Podajemy nazwę i lokalizację naszego projektu i klikamy przycisk
+Create
+.
+Do automatycznie wygenerowanego kodu dopisujemy kod z linii 13 i 14.
+Teraz już tylko klikamy na przycisk F5 i upewniamy się, że nasza aplikacja się uruchamia i wyświetla prawidłowy napis. Powinniśmy zobaczyć czarne okno (na zdjęciu poniżej jest tylko jego fragment) z napisem: Witaj świecie.
+Aby pracować z Visual Studio bezproblemowo z niektórymi rodzajami aplikacji,  wymagane jest zalogowanie się do Visual Studio za pomocą naszego konta Microsoft. Jeśli nie mamy takiego konta, możemy je założyć wg instrukcji na tej
+stronie
+.
+Po założeniu takiego konta klikamy na link
+Sign in
+w prawym górnym rogu:
+Mając zainstalowane Visual Studio 2019 jesteśmy już gotowi do tworzenie nowych aplikacji i nauki programowania w Visual C# 🙂
+Share this post:

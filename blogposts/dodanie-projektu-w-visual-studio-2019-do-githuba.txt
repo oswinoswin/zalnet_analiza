@@ -1,0 +1,120 @@
+Każdy programista lub osoba, która chce zacząć przygodę z programowaniem, powinna wiedzieć, jak stworzyć repozytorium na Githubie i dodać do tego repozytorium  projekt stworzony lokalnie.
+Sposobów na pracę z Githubem jest kilka i nie ma lepszego czy gorszego. Każdy powinien znaleźć swój własny. Ważne, aby zapisywać zmiany w projekcie w sposób bezpieczny, tak abyśmy zawsze mieli pewność, że mamy pełną kontrolę nad naszym projektem.
+Pierwsze co musimy zrobić to, jeśli jeszcze nie mamy, założyć konto na Githubie (można je założyć
+tutaj
+), a następnie stworzyć tam repozytorium. Takie repozytorium możemy stworzyć jako
+publiczne
+, widoczne dla wszystkich lub
+prywatne
+, widoczne tylko dla osób pracujących nad projektem, tzw. kontrybutorów.
+Aby stworzyć nowe repozytorium, na stronie głównej przechodzimy na zakładkę
+Repositories
+.
+Na zakładce
+Repositories
+klikamy na zielony przycisk
+New
+.
+Na stronie
+Create a new repository
+podajemy informacje o naszym repozytorium i klikamy zielony przycisk
+Create repository
+.
+Na dowolnej partycji (ja mam na partycji E) tworzymy najpierw folder
+Source
+, a w nim folder
+Repos
+.
+Z internetu pobieramy aplikację o nazwie
+Github Desktop
+(znajdziesz ją na tej
+stronie
+) i instalujemy. Uruchamiamy aplikację i z menu
+File
+wybieramy
+Clone repository
+.
+W oknie dialogowym
+Clone a repository
+przechodzimy na zakładkę
+GitHub.com.
+Obok pola
+Local path
+klikamy przycisk
+Choose
+i wybieramy ścieżkę, gdzie znajduje się folder
+Repos.
+Z listy repozytoriów wybieramy nasze repozytorium (u mnie jest to repozytorium o nazwie
+KursCSharp
+).
+Uwaga!!
+Po podświetleniu dowolnej nazwy repozytorium, w polu
+Local path
+do naszej ścieżki automatycznie dopisywana jest nazwa repozytorium (jest to jednocześnie nazwa folderu jaki domyślnie zostanie utworzony w folderze
+Repos
+).
+Klikamy przycisk
+Clone
+.
+Po tej czynności w folderze
+Repos
+pojawia się nowy folder o nazwie
+KursCSharp
+, a w nim folder
+.git
+i plik
+README.md
+.
+Jeśli na GitHubie dokonaliśmy jakiś zmian, np.
+zmodyfikowaliśmy plik README.md
+i chcemy pobrać zmiany lokalnie, musimy wykonać następujące czynności:
+Z ciekawości sprawdzamy aktualną zawartość pliku README.md na dysku lokalnym:
+Na stronie
+Github.com
+przechodzimy do pliku README.md (zawartość powinna być taka sama, jak na dysku lokalnym) i modyfikujemy go:
+Teraz przechodzimy do aplikacji
+Github Desktop
+i klikamy link
+Pull origin
+. Spowoduje to pobranie zmian wykonanych z poziomu strony Github.com do lokalnego pliku.
+Jeśli zajrzymy do lokalnego pliku
+README.md
+ponownie, tak z czystej ciekawości, to możemy zobaczyć, że zmiany zostały pobrane i zapisane.
+Teraz możemy dodać zmiany z folderu lokalnego do naszego repozytorium na Githubie.
+Do folderu
+KursCSharp
+dodajemy dowolny projekt, folder lub nawet tylko plik. Ja dodaję projekt o nazwie
+Kalkulator
+.
+Kiedy przejdziemy do aplikacji
+Github Desktop
+możemy zobaczyć, że na zakładce
+Changes
+widocznych jest 28 zmian w 28 plikach.
+U góry na środku widzimy napis
+Current branch master
+, a na dole po lewej przycisk
+Commit to branch
+. Branche to gałęzie, które pozwalają na jednoczesną pracę nad projektem wielu osobom równocześnie, bez nadpisywania sobie nawzajem zmian — każdy może pracować na swoim własnym branchu, dopiero po zakończeniu pracy łącząc swoje zmiany ze zmianami innych osób, ewentualnie rozwiązując powstałe konflikty. Branche mogą też być środowiskami typu dev, test czy prod, które pozwalają na przechowywanie różnych etapów projektu i udostępnianiu konkretnych środowisk określonym osobom. Np. na dev jest kod, który nie jest jeszcze idealny, test to środowisko testowe, a prod to środowisko, które „wystawiamy” na widok publiczny. Jeśli nie stworzymy dodatkowych branchy, domyślnie nasze repozytorium posiada tylko jeden branch: master.
+Dodanie opisu w polu
+Summary
+jest obowiązkowe, podanie opisu w polu
+Description
+jest opcjonalne. W polu Description możemy dodać współautora, jeśli przy projekcie pracuje więcej niż jedna osoba i gdy chcemy wskazać, że dana osoba powinna zacząć pracę z określonym plikiem. Ja tutaj dodaję od razu cały projekt, ale często dodajemy pojedyncze pliki i wtedy możemy wskazać, która osoba ma się dalej nad tym plikiem pracować. Klikamy przycisk
+Commit to master
+.
+Teraz klikamy na link
+Push origin
+. Spowoduje to dodanie zmian lokalnych do repozytorium na Githubie.
+Przechodząc na stronę Github możemy zobaczyć, że repozytorium
+KursCSharp
+zostało zaktualizowane o projekt
+Kalkulator
+.
+Kiedy uruchomimy projekt Kalkulator w
+Visual Studio 2019
+możemy zobaczyć na zakładce
+Team Explorer
+, że jesteśmy połączeni z naszym repozytorium i mamy tutaj możliwość podglądania zmian i zarządzania nimi.
+To oczywiście dopiero początek, ale tyle wystarczy, aby można było zarządzać projektami.
+Share this post:

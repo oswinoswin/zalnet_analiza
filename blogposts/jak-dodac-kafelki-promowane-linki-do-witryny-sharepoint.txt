@@ -1,0 +1,103 @@
+Co to są kafelki lub Wyróżnione łącza SharePoint?
+SharePoint posiada funkcję bardzo przydatną przy tworzeniu witryn SharePoint, czyli popularne
+kafelki
+(ang.
+SharePoint tiles).
+Kafelki znane są również jako
+Wyróżnione łącza
+(ang.
+Promoted Links
+). To świetny sposób, aby „uatrakcyjnić” witrynę, uczynić ją bardziej przyjazną dla użytkowników końcowych i oderwać się od szablonowego wyglądu. Poniżej znajduje się instrukcja krok po kroku, jak takie kafelki dodać do witryny.
+Kafelki to w rzeczywistości Wyróżnione łącza.  Jest to lista ikon graficznych połączonych z adresami URL w celu łatwego dostępu do wybranych zasobów. Na poniższym zrzucie ekranu widać kafelki SharePoint, które łączą obrazy z określonymi bibliotekami dokumentów i listami. Użytkownik może oczywiście nadal klikać na te listy i biblioteki z poziomu np. paska Szybkie uruchamianie (ang.
+Quick Launch
+), ale wykorzystanie ikon jest o wiele łatwiejsze.
+Jak dodać kafelki (Wyróżnione łącza) do witryny?
+Konfigurowanie kafelków SharePoint jest dość łatwe. Najpierw musimy dodać grafiki do biblioteki. Może to być już istnejąca lub nowa biblioteka. W tym tutorialu tworzymy nową bibliotekę, wykorzystując szablon
+Biblioteka obrazów
+(ang.
+Picture Library
+).
+Nazywamy bibliotekę
+Kafelki,
+a następnie dodajemy do niej kilka grafik.
+Kilka uwag na temat specyfikacji obrazu:
+Najlepiej, jeśli używamy pliku graficznego PNG (przezroczysty).
+Obraz musi być kwadratem.
+Optymalny rozmiar to 150 pikseli  x 150 pikseli. SharePoint jest bardzo wrażliwy na rozmiar obrazu, więc należy się upewnić się, że obraz ma 150px x 150px, aby uniknąć problemów.
+Kolejny krok to dodanie jeszcze jednej listy do naszej witryny. Aby to zrobić, klikamy na ikonę ząbatki w prawym górnym rogu, następnie wybieramy opcję
+Dodaj aplikację
+, a potem
+Wyróżnione łącza
+. Nadajemy dowolną nazwę (np. Łącza Zalnet) i klikamy przycisk
+Utwórz
+.
+Po stworzeniu listy możemy zobaczyć, że na razie nasz zbiór łączy jest pusty.
+Dodajemy nowe łącza do naszej listy i ponownie sprawdzamy zawartość. W tym celu klikamy na link widoku
+Wszystkie wyróżnione łącza
+(ang.
+All Promoted Links
+). Otworzy się lista, na której widać konfigurację pod nasze kafelki SharePoint. Zasadniczo w każdym wierszu mamy powiązaną ikonę z adresem URL, na który ikona potem wskaże.
+Aby dodać nową ikonę i adres URL z nią związany, klikamy
+nowy element
+(działa to tak, jak każda inna lista lub biblioteka). Następnie wypełniamy formularz:
+Pole Tytuł
+(ang.
+Title
+): W polu Tytuł podajemy tytuł ikony. Ten tytuł będzie nałożony na obraz / kafelek, więc musi faktycznie opisywać, do czego służy. Jeśli na przykład ta ikona wskazuje na bibliotekę dokumentów, wpisujemy
+Dokumenty
+. Jeśli ikona ma wskazywać na listę z kontaktami, wpisujemy
+Kontakty
+.
+Lokalizacja obrazu tła
+(ang.
+Background Image Location
+): Tutaj określamy lokalizację / źródło obrazu, które znajduje się w środowisku SharePoint. Może on fizycznie znajdować się w dowolnej bibliotece, ale zalecane jest umieszczenie go w Zasobach witryny (ang.
+Site Assets
+) lub Bbliotece obrazów (ang.
+Picture Library
+), aby nie został przypadkowo usunięty.
+Po przesłaniu do wybranej biblioteki obrazów notujemy ich adresy URL i wklejamy adres w odpowiednim polu w lokalizacji obrazu tła. Opis adresu URL jest opcjonalny, może pozostać pusty.
+Opis
+(ang.
+Description
+): To jest opis, który pojawia się, gdy użytkownik najedzie kursorem myszy nad ikonę. Może zapewnić dodatkowy opis tego, jaka akcja będzie wykonana po kliknięciu na ikonę. Na przykład: Dokumenty firmowe
+,
+umowy
+,
+raporty i rozliczenia.
+Lokalizacja łącza
+(ang.
+Link Location
+): Tutaj znajduje się URL, pod który użytkownik zostanie przeniesiony, gdy kliknie ikonę. Możemy wpisać opis tuż pod nim, ale znowu jest to opcjonalne.
+Zachowanie po uruchomieniu
+(
+ang.
+Launch Behavior)
+: zachowanie po uruchomieniu informuje program SharePoint, w jaki sposób zostanie otwarty adres URL. Możemy wybierać spośród trzech różnych opcji (Nawigacja w obrębie witryny, Nowa karta oraz Okno dialogowe), ale zwykle pozostawiamy domyślny „Nawigacja w obrębie witryny”.
+Kolejność
+(ang.
+Order
+): Kolejność jest wartością numeryczną, która zawiera listę wszystkich ikon w kolejności od lewej do prawej. Na przykład, jeśli przypiszemy 1 do kafelka 1, 2 do kafelka 2 to kafelek 1 pojawi się jako pierwszy, a kafelek 2 pojawi się jako drugi od lewej strony w rzędzie ikon.
+Kiedy już wszystko ustawiliśmy poprawnie i przetestowaliśmy, przechodzimy do strony, do której chcemy dodać nasze kafelki. W tym tutorialu będzie to strona główna witryny. Na początek usuwamy ze strony sekcję
+Wprowadzenie do witryny
+poprzezkliknięcie linku
+Usuń to
+.
+Przechodzimy do edycji strony. Robimy to albo klikając link
+Edytuj
+w prawym górnym rogu strony albo klikając na zakładkę
+STRONA
+(po lewej) i wybierając opcję
+Edytuj
+.  Na zakładce
+WSTAWIANIE
+klikamy
+Część aplikacji
+(ang.
+App Part
+), wybieramy
+Łącza Zalnet
+i wstawiamy tak jak każdy inny Web Part.
+Mamy to – przyjemny i przyjazny dla użytkownika interfejs dla witryny SharePoint!
+W ten sposób możemy uczynić naszą witrynę przyjemniejszą i bardziej intuicyjną w użyciu.
+Share this post:

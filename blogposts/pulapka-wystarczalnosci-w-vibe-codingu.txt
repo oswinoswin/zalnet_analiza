@@ -1,0 +1,141 @@
+Pułapka „wystarczalności” w vibe codingu
+W świecie zdominowanym przez kulturę
+hustle
+i szybkie zwycięstwa, na LinkedInie zapanowała nowa moda, oparta o zasady
+vibe codingu
+. Firmy prześcigają się w chwaleniu się tym, jak bardzo „uprościły” swoje życie. Schemat jest zawsze ten sam: rezygnacja z drogich rozwiązań (Salesforce, HubSpot, SAP) na rzecz własnoręcznie wyklikanych narzędzi No-Code.
+„Zbudowaliśmy to w 2 godziny za bezcen” – krzyczą nagłówki. „Jest wystarczające” – dodają autorzy. „Za 10 dolarów. Bez programisty, sprintów czy wdrożenia.” Ale czy „wystarczające” to faktycznie nowy standard efektywności, czy może tylko efektowne pudrowanie rzeczywistości?
+Brzmi jak rewolucja? Jak ostateczne zwycięstwo sprytnego przedsiębiorcy nad korporacyjnym molochem? Manifest „wystarczalności” stał się ostanio nową religią startupów i sektora MŚP. Obiecuje wolność, zwinność i oszczędności rzędu tysięcy dolarów. Ale jako ktoś, kto widział i testował setki takich „garażowych” systemów, muszę powiedzieć to głośno:
+To nie ma prawa się udać na dłuższą metę.
+Co znajdziesz w tym artykule?
+Pułapka „wystarczalności" w vibe codingu
+Seduction: Dlaczego owoce vibe codingu tak dobrze się sprzedają?
+Dlaczego „wystarczające" to zazwyczaj eufemizm dla katastrofy?
+1. Mit skalowalności
+2. Dług technologiczny bez kontroli i Bus Factor
+3. Bezpieczeństwo i Compliance (RODO)
+„Wystarczające" to nie standard – to kompromis
+Czy istnieje złoty środek w epoce vibe codingu?
+Rachunek sumienia: Pytania przed startem
+Jakich skilli potrzebujesz (nawet w No-Code, używając narzędzi do vibe codingu)?
+Tabela: Niezbędnik twórcy systemów
+Dlaczego te punkty są "zabójcami" projektów DIY?
+Skille „miękkie", ale techniczne
+Pamiętaj: Bezpieczeństwo to proces, nie da się tego uzyskać jednym promptem.
+Seduction: Dlaczego owoce vibe codingu tak dobrze się sprzedają?
+Żyjemy w czasach przesytu. Systemy typu Enterprise stały się tak skomplikowane, że ich wdrożenie wymaga armii konsultantów,  trwa miesiącami i przypomina operacje na otwartym sercu, a kosztuje tyle, co małe mieszkanie. Nic dziwnego, że wizja posiadania narzędzia „szytego na miarę” przez jednego pracownika w jedno popołudnie jest kusząca.
+W tym kontekście wizja narzędzia „szytego na miarę” przez jednego pracownika w jedno popołudnie jest niezwykle pociągająca. To obietnica pełnej kontroli. Wierzymy, że skoro sami zbudowaliśmy to narzędzie (w narzędziach takich jak Cursor, Lovable czy korzystając z asysty GitHub Copilot w duchu
+vibe codingu
+), to rozumiemy je w 100%. Nie musimy płacić za funkcje, których nie używamy. Nie musimy uczyć się skomplikowanego UI. To wyzwalające uczucie. Niestety, często jest to wolność złudna.
+Niestety, to, co dziś nazywamy „dokładnie tym, czego potrzebujemy”, za kilka miesięcy staje się najwęższym gardłem w całej firmie.
+Dlaczego „wystarczające” to zazwyczaj eufemizm dla katastrofy?
+Kiedy firma chwali się, że zbudowała system w 2 godziny za 10 dolarów, zazwyczaj pomija drobny druczek. A ten druczek zawiera listę ryzyk, które w profesjonalnym świecie IT nazywamy zaciąganiem długu technologicznego na lichwiarskich warunkach.
+Choć na początku wszystko wydaje się działać idealnie, rozwiązania typu „2-hour CRM” mają spore wady, o których nikt nie pisze w viralowych postach.
+1. Mit skalowalności
+Narzędzia zbudowane „pod nasze obecne potrzeby” mają bardzo często jedną zasadniczą wadę: nie uwzględniają przyszłości. To, co działa dla 3 osób w zespole, rozsypuje się, gdy zespół liczy 15 osób. Brak struktury bazy danych, brak uprawnień na poziomie rekordów i limity narzędzi No-Code uderzają w firmę dokładnie wtedy, gdy ta zaczyna odnosić sukcesy. Zamiast skupić się na sprzedaży, zespół spędza czas na naprawianiu „wyklikanych” automatyzacji.
+2. Dług technologiczny bez kontroli i Bus Factor
+Profesjonalne oprogramowanie posiada dokumentację, testy i spełnia standardy bezpieczeństwa. Twój CRM za 10 dolarów posiada zazwyczaj tylko „intuicję” osoby, która go stworzyła. Jeśli ten pracownik odejdzie z firmy, zostajecie z cyfrowym labiryntem, którego nikt nie potrafi rozwikłać. To nie jest oszczędność – to gigantyczne ryzyko operacyjne. System, który „wisi” na jednej osobie, jest najsłabszym ogniwem Twojej strategii.
+3. Bezpieczeństwo i Compliance (
+RODO
+)
+W profesjonalnych systemach CRM bezpieczeństwo danych jest podstawą. Z kolei w rozwiązaniach budowanych „na kolanie” łatwo o wycieki danych lub brak odpowiedniego monitorowania. Co więcej, w LinkedInowych postach nikt nie pisze o logowaniu dostępu, szyfrowaniu danych czy polityce retencji. Budując CRM „bez wdrożenia”, często budujesz go też bez zabezpieczeń. Przechowywanie wrażliwych danych klientów w niezabezpieczonych i amatorskich aplikacjach to proszenie się o kłopoty prawne i wizerunkowe, które będą kosztować znacznie więcej niż subskrypcja profesjonalnego narzędzia.
+„Wystarczające” to nie standard – to kompromis
+Termin „wystarczające” (good enough) w inżynierii ma swoje miejsce – zazwyczaj na etapie MVP lub PoC. Problem zaczyna się wtedy, gdy efekty
+vibe codingu
+stają się docelowym rozwiązaniem dla dojrzałego biznesu.
+Standardem w biznesie powinna być
+solidność i przewidywalność
+. System CRM to nie tylko notes z numerami telefonów. To silnik Twojej firmy: to raporty, prognozy sprzedaży, integracja z marketingiem i obsługa klienta. Czy naprawdę chcesz, aby serce Twojej firmy było napędzane przez silnik zbudowany w przerwie na lunch?
+Czy istnieje złoty środek w epoce vibe codingu?
+Oczywiście, nie każda firma potrzebuje od razu najdroższego pakietu Salesforce. Istnieje przestrzeń pomiędzy „przeładowanym molochem” a „czymś prostym”. Rozwiązaniem jest:
+Podejście modułowe:
+Wybór sprawdzonych narzędzi, które można rozbudowywać.
+Low-code zamiast No-code:
+Korzystanie z platform, które pozwalają na dodanie profesjonalnego kodu, gdy zajdzie taka potrzeba.
+Inwestycja w procesy, nie tylko w UI:
+Zanim zbudujesz narzędzie, musisz zrozumieć proces. Zły proces przeniesiony do darmowego narzędzia nadal będzie złym procesem – tyle że tańszym w utrzymaniu przez pierwszy miesiąc.
+Narzędzie AI to asystent
+: tylko asystent, który nie zastąpi pracy programistów, specjalistów od bezpieczeństwa, ludzi od UX i UI, od infradstruktury.
+Wpisy o „CRM-ie w 2 godziny” to świetny marketing, ale kiepska strategia biznesowa. „Wystarczające” rozwiązanie jest wystarczające tylko do momentu, w którym pierwszy raz zawiedzie – a wtedy koszt naprawy zazwyczaj kilkudziesięciokrotnie przewyższa oszczędności poczynione na początku.
+Prawdziwa efektywność nie polega na robieniu rzeczy najtaniej i najszybciej. Polega na budowaniu systemów, które wspierają wzrost, a nie go ograniczają.
+Budowanie własnego narzędzia, gdy nie ma się twardych kompetencji technicznych, przypomina próbę zbudowania samochodu z klocków LEGO – na dywanie w salonie wygląda super, ale strach tym wyjechać na autostradę.
+Oto lista pytań „sprawdzam” oraz zestawienie kompetencji, które dzielą radosną twórczość od profesjonalnego narzędzia biznesowego.
+Rachunek sumienia: Pytania przed startem
+Zanim zdecydujesz się napisać prompta o napisanie aplikacji, zadaj sobie i zespołowi te 7 pytań. Bądź brutalnie szczery.
+Pytanie o „Bus Factor”:
+Jeśli osoba, która to wyklikała, jutro odejdzie z pracy (albo wpadnie pod przysłowiowy autobus), czy ktokolwiek inny będzie w stanie naprawić błąd w tym systemie w ciągu pół godziny?
+Pytanie o czas ukryty:
+Czy policzyłeś koszt swojego czasu? Budowa to 2 godziny, ale ile godzin miesięcznie spędzisz na „łataniu” automatyzacji, które się wywaliły, bo AI wpisało datę w złym formacie?
+Pytanie o sufit:
+Co się stanie z tym narzędziem, gdy zamiast 100 rekordów będziemy mieli 10 000, a zamiast 2 użytkowników – 20? Czy system to udźwignie, czy po prostu przestanie się wczytywać?
+Pytanie o „Single Source of Truth”:
+Czy to narzędzie będzie potrafiło automatycznie i bezbłędnie wymieniać dane z Twoim programem do faktur, mailem i kalendarzem? Czy będziesz musiał przepisywać dane ręcznie („Copy-Paste Service”)?
+Pytanie o bezpieczeństwo:
+Gdzie fizycznie leżą dane Twoich klientów? Czy to narzędzie pozwala na nadawanie uprawnień (np. handlowiec widzi tylko swoje rekordy, a nie całą bazę firmy)?
+Pytanie o standard rynkowy:
+Czy nowa osoba, którą zatrudnisz, szybciej wdroży się w popularny system (do którego są tysiące tutoriali), czy w Twój „autorski” labirynt w Lovable?
+Pytanie o exit strategy:
+Jeśli za rok zdecydujesz się przejść na profesjonalne rozwiązanie, czy będziesz w stanie wyeksportować dane w czystym formacie, czy zostaniesz z bałaganem, którego nikt nie chce dotknąć?
+Jakich skilli potrzebujesz (nawet w No-Code, używając narzędzi do vibe codingu)?
+To, że nie piszesz kodu w Pythonie czy Javie, nie zwalnia Cię z myślenia jak inżynier. Jeśli chcesz zbudować coś, co przetrwa próbę czasu, potrzebujesz kompetencji z tych czterech obszarów:
+Tabela: Niezbędnik twórcy systemów
+Obszar
+Dlaczego jest kluczowy?
+Co musisz wiedzieć?
+Modelowanie danych
+Bez tego Twój CRM to tylko ładny Excel.
+Czym jest relacja „jeden do wielu”, jak unikać duplikacji danych, jak strukturyzować bazę.
+Logika procesowa
+Narzędzie musi odzwierciedlać realny biznes.
+Jak rysować mapy procesów (BPMN), czym są warunki (IF/THEN) i pętle.
+API & Integracje
+Żadna aplikacja nie jest wyspą.
+Jak działają Webhooki, co to jest JSON, jak autoryzować połączenia między systemami.
+UI/UX Design
+Jeśli system będzie brzydki i trudny, nikt nie będzie go używał.
+Jak projektować intuicyjne formularze, jak zarządzać hierarchią informacji na ekranie.
+Zarządzanie dostępem (RBAC)
+Nie każdy pracownik powinien widzieć wszystko (np. marże lub całą bazę).
+Jak wdrażać
+Role-Based Access Control
+, czym jest
+Row-level security
+i zasada minimalnych uprawnień.
+Compliance & RODO
+Błędy w ochronie danych osobowych mogą kosztować więcej niż najdroższy CRM.
+Gdzie fizycznie znajdują się serwery (rezydencja danych), jak realizować „prawo do zapomnienia” i gdzie są logi.
+Integralność i Audyt
+Musisz wiedzieć, kto, kiedy i dlaczego zmienił dane klienta lub usunął transakcję.
+Jak tworzyć ścieżki audytu (Audit Logs), jak działają kopie zapasowe (Backups) i procedury przywracania danych.
+Autoryzacja i MFA
+Hasło „admin123” to zaproszenie do wycieku danych w 5 minut.
+Jak wdrożyć dwuetapową weryfikację (MFA), jak bezpiecznie zarządzać tokenami i dlaczego unikać współdzielonych kont.
+Dlaczego te punkty są „zabójcami” projektów DIY?
+Większość narzędzi LLM, w których ludzie budują „Caplikacje w 2 godziny”, ma ogromne problemy z
+bezpieczeństwem na poziomie rekordu
+.
+Często działa to tak: albo masz dostęp do całej tabeli, albo do żadnej. W profesjonalnym biznesie to niedopuszczalne – handlowiec z Gdańska nie powinien mieć możliwości wyeksportowania bazy klientów handlowca z Krakowa i odejścia z nią do konkurencji. Budując system samemu, bez powyższych skilli, tworzysz po prostu
+niezabezpieczony magazyn danych
+, do którego klucze leżą pod wycieraczką.
+Skille „miękkie”, ale techniczne
+Oprócz samej „klikalności”, musisz posiąść nawyki rasowego programisty:
+Dokumentowanie:
+Pisanie instrukcji obsługi „dla opornych” w trakcie budowy, a nie po fakcie.
+Obsługa błędów:
+Projektowanie systemu tak, by wiedział, co zrobić, gdy np. API poczty nie odpowie.
+Higiena danych:
+Umiejętność narzucenia użytkownikom dyscypliny (walidacja pól), by w bazie nie panował chaos.
+Moja rada:
+Jeśli Twoja odpowiedź na większość pytań z sekcji pierwszej brzmi: „Nie wiem” lub „Jakoś to będzie”, to znaczy, że budujesz
+prototyp
+, a nie
+narzędzie
+. Prototyp jest super do testowania pomysłów, ale nigdy nie powinien stać się elementem Twojego działającego biznesu.
+Pamiętaj:
+Bezpieczeństwo to proces, nie da się tego uzyskać jednym promptem.
+Jeśli chcesz dowiedzieć się, jak używać narzędzi LLM do tworzenia kodu w bezpieczny sposób, to zapraszamy na bezpłatne, 15-minutowe spotkanie przy wirtualnej kawie.
+To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe lub wdrożeniowe w zakresie hardeningu i zabezpieczania systemów i aplikacji i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+UMÓW SPOTKANIE
+WYŚLIJ WIADOMOŚĆ
+Share this post:

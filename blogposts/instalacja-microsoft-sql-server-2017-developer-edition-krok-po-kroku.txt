@@ -1,0 +1,162 @@
+W tym poście znajduje się instrukcja, jak krok po kroku zainstalować Microsoft SQL Server 2017 Developer Edition wraz z najnowszą wersją SQL Server Management Studio na systemie Windows(u mnie Windows 10 64-bit).
+Instalacja SQL Server 2017 Developer Edition
+Najpierw musimy pobrać instalkę SQL Server ze stron
+Microsoftu
+Po pobraniu szukamy pliku wykonywalnego (
+SQLServer2017-SSEI-Dev.exe
+).
+Po uruchomieniu pliku mamy możliwość zainstalowania albo wersji podstawowej SQL Server (w tej sytuacji plik najpierw zostanie pobrany, a potem automatycznie rozpocznie się instalacja), wersji niestandardowej lub pobrania pliku instalatora (po pobraniu plik musi być ręcznie uruchomiony). Ja wybieram instalację
+Custom
+.
+W kolejnym kroku wybieramy folder, do którego ma być pobrany plik instalacyjny.
+Po kliknięciu na przycisk
+Install
+rozpoczyna się pobieranie pliku.
+Po pobraniu pliku instalacyjnego pojawia się okno dialogowe
+SQL Server Installation Center
+, gdzie możemy wybrać, czy chcemy zainstalować, czy też zaktualizować środowisko Microsoft SQL Server. Na zakładce
+Planning
+wybieramy opcję
+System Configuration Checker
+.
+Sprawdzamy, czy nie ma żadnych błędów. Jeśli jakieś są, to naprawiamy i uruchamiamy sprawdzanie ponownie (w przypadku błędów proszę o komentarz lub kontakt ze mną za pomocą formularza kontaktowego). Klikamy przycisk
+OK
+.
+Na zakładce
+Installation
+wybieramy opcję
+New SQL Server stand-alone installation or add feature to an existing installation.
+Sprawdzamy, czy są dostępne nowe aktualizacje produktu. Potem klikamy przycisk
+Next
+.
+Kolejny krok, to sprawdzenie potencjalnych problemów, jakie mogą nastąpić podczas instalacji SQL Server 2017 (w przypadku błędów proszę o komentarz lub kontakt ze mną za pomocą formularza kontaktowego). Jeśli nie ma żadnych błędów klikamy przycisk
+Next
+.
+W oknie dialogowym
+Installation Type
+możemy wybrać, czy chcemy zainstalować nową instancję SQL Server, czy też doinstalować dodatkowe komponenty do istniejącej instancji. Jak widać na poniższym screenie, ja mam już zainstalowane wcześniej instancje SQL Server, które są widoczne w sekcji
+Installed instances.
+W tym kroku wybieram
+Perform a new installation of SQL Server 2017
+i klikam przycisk
+Next
+.
+Jeśli pobraliśmy instalkę SQL Server 2017
+Developer Edition
+, to w oknie dialogowym
+Produkt Key
+przy opcji
+Specify a free edition
+powinniśmy widzieć napis:
+Developer
+. Jeśli wybraliśmy inną edycję to podajemy klucz aktywacyjny i klikamy przycisk
+Next
+.
+W oknie dialogowym
+License Terms
+zaznaczamy checkbox
+I accept the license terms
+i klikamy przycisk
+Next.
+Widok okna dialogowego
+Feature Selection
+może się różnić od tego poniżej. Wpływ na to będą miały wcześniejsze instalacje SQL Server. Tutaj sprawdzamy, czy mamy już zainstalowane lub zaznaczamy checkboxy przy funkcjonalnościach wymienionych poniżej:
+Database Engine Services
+Full-Text and Semantic Extractions for Search
+Client Tools Connectivity
+Client Tools Connectivity
+Client Tools Connectivity
+Client Tools Backward Compatibility
+Client Tools SDK
+SQL Client Connectivity SDK
+Klikamy przycisk
+Next
+.
+W oknie dialogowym
+Instance Configuration
+w polu tekstowym obok
+Named instance
+wisujemy
+SQLCourse2017
+i klikamy przycisk
+Next
+.
+Kolejne okno dialogowe to
+Server Configuration
+. Tutaj możemy określić konta usługowe i konfigurację ustawień językowych. Na zakładce
+Service Accounts
+zaznaczamy wszystkie opcje jak poniżej i klikamy zakładkę
+Collation
+.
+Na zakładce
+Collation
+wybieramy ustawienia językowe
+Polish_CI_AS
+. Oznacza to, że będziemy mogli bez problemu do bazy wpisywać polskie znaki, a nasze bazy domyślnie będą niewrażliwe na wielkość liter, ale wrażliwe na akcent, czyli w naszym przypadku „ogonki”: ą, ę, ź, dź itd.
+W oknie dialogowym
+Database Engine Configuration
+wybieramy opcję
+Mixed Mode
+i podajemy dowolne hasło spełniające wymagania hasła złożonego. Hasło to należy zapisać, gdyż potem Nam się przyda. W sekcji
+Specify SQL Server administrators
+klikamy
+Add Current User
+.  Nazwa komputera i nazwa użytkownika jest kwestią indywidualną i jest naturalną sprawą, że u Was mogą być te nazwy inne, niż u mnie. Po pojawieniu się nazwy użytkownika (nazwę użytkownika też zapisujemy) klikamy przycisk
+Next
+.
+W oknie
+Ready to Install
+sprawdzamy, czy wszystko jest OK i klikamy przycisk
+Install
+.
+W oknie dialogowym
+Complete
+sprawdzamy, czy wszędzie mamy status
+Succeeded
+. Jeśli tak, to klikamy przycisk
+Close
+.
+Instalacja SQL Server Management Studio 17
+Po instalacji SQL Server 2017 przechodzimy ponownie do
+SQL Server Installation Center
+. Tam klikamy link
+Install SQL Server Management Tools
+. Kliknięcie tego linku spowoduje przeniesienie Nas na
+stronę
+, na której można pobrać plik instalacyjny SSMS.
+Klikamy na link
+Download
+SQL Server Management Studio 17.9.1
+i pobieramy plik.
+Podwójnie klikamy na pobrany plik o nazwie
+SSMS-Setup-ENU.exe.
+Po uruchomieniu klikamy przycisk
+Install
+i czekamy spokojnie na koniec instalacji.
+UWAGA!!
+Do instalacji niektórych składników może być potrzebne połączenie z internetem!
+Po instalacji SSMS wymagany jest restart.
+Aby sprawdzić, czy wszystko działa poprawnie, klikamy lupę w lewym dolnym rogu i wpisujemy
+SSMS
+. W rezultatach wyszukiwania wybieramy
+SQL Server Management Studio 17
+i podwójnie klikamy na link. Po otwarciu się SSMS w okienku
+Connect to Server
+wybieramy:
+Server type:
+Database Engine
+Server name: instancja SQL Server o nazwie
+SQLCOURSE2017
+(pełna nazwa to nazwa komputera\nazwa instancji)
+Authentication:
+Windows Authentication
+Klikamy przycisk
+Connect
+.
+Po zalogowaniu się klikamy na ikonę New Query i wpisujemy przykładowe zapytanie:
+USE master;
+GO
+SELECT * FROM sys.databases;
+GO
+Rezultat podobny do poniższego oznacza, że SQL Server jest prawidłowo zainstalowany i gotowy do dalszego użycia.
+Share this post:

@@ -1,0 +1,177 @@
+W
+poprzednim wpisie
+opisałam, jak stworzyć odpowiednie kontrolery i widoki w aplikacji ASP.NET Core przy użyciu Entity Framework Core.
+Teraz do aplikacji chcemy dodać autoryzację i zarezerwować wybrane akcje tylko dla określonych grup. Najpierw jednak skorygujemy pewne ustawienia w projekcie. Kiedy był tworzony projekt
+Frontend
+, wybrany został domyślny typ uwierzytelnienia dla projektu ASP.NET Core MVC, czyli
+No Authentication
+. Teraz zmienimy to uwierzytelnianie na
+Individual User Accounts
+.
+Jeden ze sposobów na taką aktualizację możemy znaleźć w sieci. Polega on na stworzeniu w nowej lokalizacji nowego projektu o takiej samej nazwie jak nasz projekt, a następnie skopiowaniu kilku plików i folderów.
+Aktualnie aplikacja jest stworzona w oparciu o szablon ASP.NET Core MVC 2.0. Najpierw więc podniesimy wersję Target Framework na ASP.NET Core 2.2 w projektach
+Frontend
+i
+ETBackend
+. Aby to zrobić klikamy prawym przyciskiem myszy na projekcie, wybieramy
+Properties
+, a potem zmieniamy
+Target Framework
+z 2.0 na 2.2. Zapisujemy zmiany.
+Następnie należy zaktualizować pakiety NuGetowe do ostatniej, stabilnej wersji. Ponieważ w projekcie
+Frontend
+mamy referencję do projektu
+ETBackend
+, to
+najpierw musimy zaktualizować pakiety w projekcie Frontend
+, a potem dopiero w
+ETBackend
+. Jeśli zmienimy kolejność to aplikacja zwróci nam komunikat z błędem, wskazujący, że próbujemy zrobić downgrade z wersji 2.2.4 do 2.0.3).
+Teraz musimy przebudować projekt. Może się okazać, że naszym oczom ukaże się taki oto nieoczekiwany błąd:
+U mnie taki błąd wystąpił, ponieważ pakiety zaktualizowałam do wersji 2.2.4, a na systemie (Windows 10) wciąż mam wersję SDK 2.2.105. Aby naprawić ten błąd, musimy przejść na tą
+stronę
+, pobrać i zainstalować aktualne SDK (w chwili pisania tego posta aktualna wersja SDK dla pakietów 2.2.4 to 2.2.203).
+Teraz należy przebudować rozwiązanie, aby sprawdzić, czy wszystko działa jak należy. Kolejny krok to przeniesienie plików i folderów. Stworzyłam nowy projekt ASP.NET Core MVC 2.2 (z taką samą nazwą projektu i rozwiązania, jak w modyfikowanym projekcie, ale w innej lokalizacji), ale tym razem z uwierzytelnianiem
+Individual User Accounts
+. Po lewej stronie widoczne są pliki, jakie są obecnie w projekcie
+Frontend
+z uwierzytelnianiem
+No Authentication
+, a po prawej stronie nowy projekt z uwierzytelnianiem
+Individual User Accounts
+.
+Kopiujemy wybrane foldery i pliki z nowo stworzonego projektu do projektu z uwierzytelnianiem
+No Authentication.
+Do projektu
+Frontend
+kopiujemy:
+Folder \
+Areas
+\
+Z pliku \
+Controllers
+\
+HomeController.cs
+metody akcji
+Privacy
+i
+Error
+Plik \
+Views
+\
+Home
+\
+Index.cshtml
+Folder \
+Data
+\
+Plik \
+Views
+\
+Home
+\
+Privacy.cshtml
+Plik \
+Views
+\
+Shared
+\
+_CookieConsentPartial.cshtml
+Plik \
+Views
+\
+Shared
+\
+_Layout.cshtml
+Plik \
+Views
+\
+Shared
+\
+_LoginPartial.cshtml
+Folder
+wwwroot
+Plik
+appsettings.json
+Kod z pliku
+Startup.cs
+, którego nie ma w starym projekcie (najlepiej różnice porównać w programie typu Notepad++).
+Usuwamy dodatkowo kontroler
+Account
+i cały
+folder Account
+z folderu
+Views
+.
+Kod pliku
+Startup.cs
+w moim projekcie wygląda następująco:
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using ETBackend.Models;
+using Microsoft.AspNetCore.Http;
+using Frontend.Data;
+using Microsoft.AspNetCore.Mvc;
+namespace Frontend
+{
+public class Startup
+{
+public Startup(IConfiguration configuration)
+{
+Configuration = configuration;
+}
+public IConfiguration Configuration { get; }
+// This method gets called by the runtime. Use this method to add services to the container.
+public void ConfigureServices(IServiceCollection services)
+{
+services.Configure<CookiePolicyOptions>(options =>
+{
+// This lambda determines whether user consent for non-essential cookies is needed for a given request.
+options.CheckConsentNeeded = context => true;
+options.MinimumSameSitePolicy = SameSiteMode.None;
+});
+services.AddDbContext<ApplicationDbContext>(options =>
+options.UseSqlServer(
+Configuration.GetConnectionString("DefaultConnection")));
+services.AddDefaultIdentity<IdentityUser>()
+.AddDefaultUI(UIFramework.Bootstrap4)
+.AddEntityFrameworkStores<ApplicationDbContext>();
+services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+var connection = @"Server=ZALNET-PC\SQLCOURSE2017; Database=ETDatabase; Trusted_Connection=True;ConnectRetryCount=0";
+services.AddDbContext<ETDatabaseContext>(options => options.UseSqlServer(connection));
+}
+// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+{
+if (env.IsDevelopment())
+{
+app.UseBrowserLink();
+app.UseDeveloperExceptionPage();
+app.UseDatabaseErrorPage();
+}
+{
+app.UseExceptionHandler("/Home/Error");
+// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+app.UseHsts();
+}
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseCookiePolicy();
+app.UseAuthentication();
+app.UseMvc(routes =>
+{
+routes.MapRoute(
+name: "default",
+template: "{controller=Home}/{action=Index}/{id?}");
+});
+}
+}
+}
+Po tych zmianach uruchamiamy projekt i poprawiamy ewentualne błędy. Ponownie uruchamiamy projekt i sprawdzamy, czy wszystko działa poprawnie.
+Jak widać na obrazku powyżej, aplikacja ma nowy wygląd, a dodatkowo nowy typ uwierzytelniania.
+Share this post:

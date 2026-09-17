@@ -1,0 +1,113 @@
+Copilot Chat w pracy: Czy pomaga i jak pisać skuteczne prompty?
+30 czerwca 2025 roku miałam przyjemność poprowadzić webinar o Copilocie dla jednej z większych firm w Polsce, dla ponad 620 osób. Było bardzo duże zainteresowanie tematem. Jakie są moje przemyślenia i doświadczenia z Copilot Chat?
+Żyjemy obecnie w świecie, gdzie każda minuta się liczy, a nasze skrzynki pocztowe pękają w szwach. Gdy szukasz pomocy przy pisaniu e-maili, notatek, podsumowań ze spotkań czy generowani grafik to wtedy pojawia się on – Microsoft Copilot. To taki Twój asystent, pomocnik, który, jak każdy z nas, czasami się myli, czasami nie słucha poleceń, czasami wie lepiej, ale też taki, który rozumie kontekst, zna język biznesu i potrafi pisać, analizować, tłumaczyć i podsumowywać szybciej niż ktokolwiek z nas.
+Co znajdziesz w tym artykule?
+Copilot Chat w pracy: Czy pomaga i jak pisać skuteczne prompty?
+🧠 Czym właściwie jest Copilot Chat?
+🔐 Bezpieczeństwo i logowanie w komercyjnej wersji Copilot Chat
+✍️ Jak pisać dobre prompty?
+✅ Przykład zastosowania: Tworzenie komunikacji wewnętrznej przez dział HR
+🎯 Cel:
+🧠 Prompt (polecenie do Copilota):
+💡 Dlaczego to działa?
+✨ Przykłady promptów z życia
+📧 Komunikacja wewnętrzna (HR)
+📊 Analiza danych (Excel)
+📣 Marketing i kampanie
+🧾 Notatki ze spotkań
+🧰 Praktyczne zastosowania w firmie
+📚 Źródła i inspiracje
+🧠 Czym właściwie jest Copilot Chat?
+Copilot Chat to część ekosystemu Microsoft 365, która umożliwia prowadzenie rozmowy z AI w języku natywnym dla nas. Copilot potrafi:
+generować teksty (np. e-maile, raporty, posty),
+analizować dane (np. w Excelu),
+podsumowywać dokumenty i spotkania,
+tłumaczyć i przekształcać treści,
+odpowiadać na pytania oparte na wiedzy ogólnej i firmowej.
+Wersja biznesowa działa po zalogowaniu kontem służbowym i różni się od wersji darmowej. Wersja biznesowa zapewnia:
+pełną ochronę danych,
+dostępność tylko dla Twojej organizacji,
+możliwość pracy z dokumentami, danymi i kontekstem organizacyjnym.
+🔐 Bezpieczeństwo i logowanie w komercyjnej wersji Copilot Chat
+Aby korzystać z Microsoft Copilot w pracy:
+Wejdź na stronę
+copilot.microsoft.com
+i
+zaloguj się kontem służbowym
+.
+Upewnij się, że widnieje oznaczenie „Chronione” – to znak, że aktywna jest komercyjna ochrona danych:
+Microsoft Copilot Chat
+Wersja biznesowa Copilota działa w trybie z ochroną komercyjną. Oznacza to, że:
+Microsoft w tej wersji
+nie zapisuje Twoich danych
+, nie wykorzystuje ich do trenowania modeli i działa w zgodzie z polityką bezpieczeństwa firmy
+dane nie są analizowane przez Microsoft (chyba, ze kiedyś, w którejś wersji wyrazisz na to zgodę,
+nikt poza Tobą nie ma dostępu do historii Twoich promptów.
+Widzisz historię swoich zapytań, ale rezultaty tych zapytań są widoczne tylko w danej sesji, nie są widoczne między sesjami.
+Nie wklejasz danych poufnych
+(np. danych klientów, numerów kont, umów).
+✍️ Jak pisać dobre prompty?
+Skuteczny prompt powinien zawierać:
+Rola i kontekst
+– kim jesteś i czego dotyczy zadanie, np. jestem pracownikiem działu HR.  Dotyczy nowego programu szkoleniowego…
+Cel
+– co chcesz osiągnąć, np. Chcę przygotować e-mail do pracowników…
+Format
+– jakiej formy oczekujesz (e-mail, lista, tabela, streszczenie), np. Wygeneruj szkic e-maila i 3 propozycje tytułu.
+Styl
+– np. formalny, zwięzły, kreatywny.
+✅ Przykład zastosowania: Tworzenie komunikacji wewnętrznej przez dział HR
+Poniżej przykład konkretnego scenariusza użycia Copilota przez pracownika działu HR. Oto jak wygląda ten proces krok po kroku:
+🎯 Cel:
+Przygotowanie e-maila do wszystkich pracowników firmy/konkretnego działu z informacją o nowym programie szkoleniowym z zakresu cyberbezpieczeństwa.
+🧠 Prompt (polecenie do Copilota):
+Jestem pracownikiem działu HR. Utwórz szkic e-maila do wszystkich pracowników firmy. Celem e-maila jest poinformowanie o nowym, wewnętrznym programie szkoleniowym z zakresu cyberbezpieczeństwa. Podkreśl korzyści dla pracownika (rozwój kompetencji) i dla firmy (zwiększenie bezpieczeństwa). Zaproponuj trzy chwytliwe warianty tytułu wiadomości.
+💡 Dlaczego to działa?
+Prompt zawiera
+kontekst
+i
+użytkownika
+z działu HR.
+Określa
+cel
+.
+Prosi o
+konkretne formaty wyjściowe
+(szkic e-maila + warianty tytułu).
+Nie zawiera danych wrażliwych, więc jest zgodny z zasadami bezpieczeństwa.
+Microsoft Copilot Chat – e-mail HR
+✨ Przykłady promptów z życia
+📧 Komunikacja wewnętrzna (HR)
+Jestem specjalistą HR. Napisz e-mail do wszystkich pracowników działu sprzedaży z informacją o nowym programie rozwoju kompetencji. Podkreśl korzyści dla pracownika i firmy. Dodaj 3 propozycje tytułu wiadomości.
+Microsoft Copilot Chat – e-mail
+📊 Analiza danych (Excel)
+Przeanalizuj dane sprzedażowe z ostatniego kwartału i wskaż 3 główne trendy. Zasugeruj możliwe działania dla zespołu marketingu.
+📣 Marketing i kampanie
+Wygeneruj 5 pomysłów na kampanię promującą nową linię zabawek dla dzieci w wieku 3–6 lat. Uwzględnij sezonowość i trendy rynkowe.
+🧾 Notatki ze spotkań
+Stwórz podsumowanie spotkania zespołu projektowego na podstawie poniższych punktów. Wypunktuj decyzje i zadania.
+🧰 Praktyczne zastosowania w firmie
+Działy HR
+– tworzenie komunikacji, ogłoszeń, opisów stanowisk,
+Marketing
+– analiza trendów, tworzenie treści, kampanii,
+Sprzedaż
+– analiza danych, przygotowanie ofert,
+Zarządzanie projektami
+– podsumowania spotkań, tworzenie planów,
+Obsługa klienta
+– tłumaczenia, odpowiedzi na zapytania.
+📚 Źródła i inspiracje
+Build agents in Copilot Chat – Online workshop –
+https://learn.microsoft.com/en-us/training/modules/agents-copilot-chat/
+Boost Productivity with Copilot Chat –
+https://www.microsoft.com/en-us/microsoft-365/copilot/learn-copilot-chat-today
+Introducing the Great Copilot Journey for Copilot Chat –
+https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-the-great-copilot-journey-for-copilot-chat/4401065
+Jeśli chcesz lepiej poznać możliwości Copilotów i dowiedzieć się, jak efektywnie wykorzystywać je w codziennej pracy – napisz do mnie!
+Możesz skontaktować się ze mną
+mailowo
+lub za pośrednictwem
+formularza kontaktowego
+. Chętnie pomogę i dopasuję formę szkolenia lub webinaru do potrzeb Twoich i Twojej firmy.
+Share this post:

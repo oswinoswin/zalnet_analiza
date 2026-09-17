@@ -1,0 +1,162 @@
+Instalacja Dockera na Ubuntu
+Instrukcja, jak zainstalować serwer Ubuntu dla Dockera na maszynie wirtualnej Azure znajduje się
+tutaj
+.
+Otwieramy maszynę wirtualną z zainstalowanym serwerem Ubuntu i zapisujemy adres IP (klikamy link
+dockerdemo-ip
+). Możemy przypisać opcjonalnie
+etykietę nazwy DNS
+i/lub zamienić adres IP na statyczny (zakładka
+Konfiguracja
+).
+Możemy się połączyć z serwerem Ubuntu za pomocą poleceń
+ssh
+:
+Uwierzytelnianie SSH:
+ssh
+username
+@
+IPAddress
+-i ~/
+privatekey
+Password Authentication:
+ssh
+username
+@
+IPAddress
+Usunięcie innych instalacji Dockera
+Usuwamy Dockera (jeśli wcześniej był zainstalowany):
+$ sudo apt-get remove docker docker-engine docker.io
+$
+sudo
+apt-get remove docker docker-engine docker.io containerd runc
+Aktualizujemy indeksy pakietu
+apt
+:
+$
+sudo
+apt-get update
+Instalujemy pakiety, aby pozwolić
+apt
+na używanie repozytoriów poprzez HTTPs. Jeśli wcześniej już instalowaliśmy jakieś pakiety, to będzie sprawdzona ich zgodność z najnowszymi wersjami.
+$ sudo
+apt-get install
+\
+apt-transport-https
+\
+ca-certificates
+\
+curl
+\
+gnupg2
+\
+software-properties-common
+Dodajemy oficjalny klucz GPG Dockera:
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+Weryfikujemy, że teraz mamy klucz z  fingerprintem
+9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+, poprzez przeszukanie ostatnich 8 znaków.
+$
+sudo
+apt-key fingerprint 0EBFCD88
+Używamy następującego polecenia, aby skonfigurować
+stabilne
+(
+ang. stable
+) repozytorium.
+Zawsze potrzebujemy
+stabilnego
+repozytorium, nawet jeśli chcemy zainstalować kompilacje
+(ang. builds)
+z repozytoriami
+brzegowym
+(ang. edge)
+lub
+testowym
+(ang. test)
+.
+Aby dodać repozytoria
+brzegowe
+lub
+testowe
+, dodajemy słowo
+edge
+lub
+test
+(lub oba) po słowie
+stable
+w poleceniach poniżej.
+Ważne
+:
+Polecenie
+lsb_release -cs
+poniżej zwraca nazwę naszej dystrybucji Ubuntu, na przykład
+xenial
+.
+Czasami, w dystrybucji takiej jak Linux Mint, możemy potrzebować zmienić
+$(lsb_release -cs)
+na naszą macierzystą dystrybucję Ubuntu.
+Na przykład, jeśli korzystamy z
+Linux Mint Tessa
+,
+możemy użyć
+bionic
+.
+x86_64 / amd64
+armhf
+arm64
+ppc64le (IBM Power)
+s390x (IBM Z)
+$
+sudo
+add-apt-repository
+\
+"deb [arch=amd64] https://download.docker.com/linux/ubuntu
+\
+$(
+lsb_release
+-cs
+)
+\
+stable"
+Ważne
+: Począwszy od Dockera 17.06,
+stabilne
+(ang. stable)
+wydania są również przekazywane do repozytorów brzegowych
+(ang. edge)
+i testowych
+(ang. test)
+.
+Aktualizujemy raz jeszcze:
+$ sudo apt-get update
+Instalujemy ostatnią wersję Docker CE lub przechodzimy do następnego kroku, aby zainstalować specyficzną wersję:
+$ sudo apt-get install docker-ce
+To install a
+specific version
+of Docker CE, list the available versions in the repo, then select and install:
+Aby zainstalować
+konkretną wersję
+programu Docker CE, wyświetlamy listę dostępnych wersji w repozytorium, a następnie wybieramy i instalujemy:
+a.
+Sprawdzamy wersje dostępne w repozytorium
+:
+$
+apt-cache madison docker-ce
+b.
+Instalujemy konkretną wersję, używając ciągu wersji z drugiej kolumny, na przykład:
+5:18.09.1~3-0~ubuntu-xenial
+.
+$
+sudo
+apt-get install docker-ce
+=
+<VERSION_STRING>
+Sprawdzamy, czy Docker CE jest poprawnie zainstalowany, uruchamiając obraz
+hello-world
+.
+$
+sudo
+docker run hello-world
+Powininniśmy zobaczyć rezultat podobny do poniższego, jeśli wszystko działa poprawnie:
+Share this post:

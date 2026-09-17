@@ -1,0 +1,93 @@
+Po ostatniej aktualizacji wtyczki Contact Form 7 na moim formularzu kontaktowym przestała działać reCAPTCHA v2 (Checkbox I’m not a robot). Nie mam możliwości na jej dodanie z opcji formularza kontaktowego.
+Możemy to jednak naprawić. Aby móc korzystać z reCAPTCHA v2, najpierw musimy wygenerować specjalne klucze. W tym celu klikamy na link
+Integracje
+w sekcji
+Formularze
+. Następnie klikamy na link
+google.com/recaptcha
+.
+Link przenosi Nas na stronę główną dla reCAPTCHA (domyślnie jest to reCAPTCHA v3). Czyli nową zaporę dla spamująch botów.
+Klikamy na przycisk
+My reCAPTCHA
+w prawym górnym rogu.
+Po przejściu na stronę z ustwieniami rejestrujemy nową witrynę. Podajemy etykietę (u mnie to ZALNET) i wybieramy reCAPTCHA v2 oraz Checkbox (Validate requests with the „I’m not a robot” checkbox).
+.
+Podajemy nazwę lub nazwy domen, na których będzie dostępny formularz wraz z reCAPTCHA. Akceptujemy warunki usługi reCAPTCHA i klikamy przycisk
+Register
+.
+Po rejestracji możemy zauważyć, ze system wygenerował dla Nas
+Site key
+i
+Secret key
+. Mamy też podany snippet do integracji z formularzem, który potem użyjemy.
+Teraz musimy zainstalować nową wtyczkę. Przechodzimy do sekcji
+Wtyczki
+i klikamy link
+Dodaj nową
+. W polu wyszukiwania (Szukaj wtyczek) wpisujemy „Contact Form 7 – reCAPTCHA v2” . W wynikach wyszukiwania wybieramy wtyczkę
+Contact Form 7 – reCAPTCHA v2
+autorstwa
+IQComputing
+, którą następnie instalujemy i aktywujemy.
+Teraz przechodzimy do sekcji Formularze i klikamy link
+reCaptcha Version
+. Z listy rozwijanej na stronie wybieramy w liście rozwijanej zastępujemy Default Usage za pomocą
+reCaptcha Version 2
+. Klikamy przycisk
+Submit
+.
+Przechodzimy do sekcji
+Formularze
+i klikamy link
+Formularze
+(ten drugi, pod napisem Formularze z ikoną Listu). Klikamy opcję
+Edytuj
+dla formularza, do którego chcemy dodać reCAPTCHA.  Po przejściu na formularz, widzimy, że opcja
+reCAPTCHA
+jest dostępna w opcjach formularza. Nad kodem: [submit „Wyślij”] dodajemy etykietę z wiadomością dla użytkownika, np.:
+* Potwierdź, ze jesteś człowiekiem
+, a potem klikamy na opcję reCAPTCHA w opcjach formularza. Wybieramy wielkość (
+Size
+), skórkę (
+Theme
+) i klikamy przycisk
+Insert Tag
+.
+Nad elementem [recaptcha] wklejamy kod wygenerowany dla reCAPTCHA zaczynający się od <div …, czyli w moim przypadku
+<div class="g-recaptcha" data-sitekey="6LfBmoUUAAAAAAFSPxfH5EG7Z5tmrB66OY7Pf0goG"></div>
+. Klikamy na przycisk
+Zapisz
+w prawym górnym rogu.
+Ponownie klikamy na link
+Integracje
+w sekcji
+Formularze.
+Podajemy
+Klucz strony
+(Site key)
+i
+Sekretny klucz
+(Secret key)
+i klikamy przycisk
+Save changes
+.
+Przechodzimy ponownie do sekcji
+Formularze
+i kopiujemy kod skrótowy dla Naszego formularza. U mnie ten kod to
+Błąd:
+Brak formularza kontaktowego.
+. Następnie przechodzimy do sekcji strony i wybieramy stronę, na której chcemy umieścić Nasz formularz kontaktowy. U mnie ta strona nazywa się
+Kontakt
+. Jeśli takiej strony nie mamy to możemy stworzyć nową. Wybieramy opcję
+Edytuj
+, aby wyedytować stronę.
+Na stronie podajemy inne informacje dla użytkowników (np. zachęcające do wysłania wiadomości) i wklejamy kod wskazujący na wybrany przez Nas formularz. Klikamy przycisk
+Zaktualizuj
+po prawej stronie.
+Klikamy na bezpośredni odnośnik z linkiem, który pokaże Nam, jak teraz wygląda Nasza strona z formularzem. Możemy zauważyć, że na stronie mamy formularz wraz z reCAPTCHA.
+Kiedy zaznaczymy, że nie jesteśmy robotem, wiadomość z formularza zostaje wysłana.
+Ale kiedy nie zaznaczymy tego checkboxa, nie ma możliwości wysłania formularza.
+W taki oto sposób możemy wciąż korzystać z reCAPTCHA v2 na stronie  z formularzem Contact Form 7.
+Wpis ten jest aktualizacją wcześniejszego wpisu o dodawaniu reCAPTCHA v2 do formularza Contact Form 7, który możecie znaleźć
+tutaj.
+Share this post:

@@ -1,0 +1,58 @@
+Security bez kontroli
+Czytacie regulaminy? Wiecie, na co się zgadzacie? A jak zarządzacie stronami, to sprawdzacie literówki? Czy uznajecie, że przecież to tylko literówka? Zwykłe typo i nie ma o co kruszyć kopii. Ale nie zawsze tak jest. Ja ostatnio postanowiłam zrobić test w celach edukacyjnych, który doskonale pokazuje, czym w praktyce jest
+security bez kontroli
+.
+Co znajdziesz w tym artykule?
+Security bez kontroli
+Wyrzucenie z kursu i dziwny regulamin
+Security bez kontroli: dziesiątki literówek w regulaminie sklepu
+Zagrożenia edukacyjne a ciemna strona mocy
+Wyrzucenie z kursu i dziwny regulamin
+W styczniu zostałam wyrzucona z 30-dniowego wyzwania security organizowanego przez Akademia Security bez Tabu. W tamtym
+wpisie
+pisalam, że zostało mi zablokowane konto „
+z uwagi na punkt 9 regulaminu szkolenia z powodu naruszenia praw autorskich. W przypadku, kiedy szkolenie nie odpowiada jest możliwość jego zwrotu. Nie dotyczy to natomiast tego przypadku
+„. Czyli zostałam bez dostępu do kursu i bez kasy. Już wtedy wskazywałam na różne zapisy w regulaminie, które mi się w nie podobały.
+Mamy 25 lipca 2025, minęło ponad 7 miesięcy, a regulamin jak mi się nie podobał, tak dalej mi się nie podoba. Nic nowego, droga pani, wszystko bez zmian.
+Security bez kontroli: dziesiątki literówek w regulaminie sklepu
+Bez zmian są też literówki w domenach. W
+regulaminie sklepu online
+Akademii Security Bez Tabu na dzień 25.07.2025 roku, godzina 16:20 tylko
+3 razy
+pojawia się domena
+securitybeztabu.pl
+, czyli należąca do Wojciecha Ciemskiego, i aż
+18 razy
+domena
+seciuritybeztabu.pl
+(z dodatkową literką
+i
+) i
+1 raz
+domena
+seciuritybeztaby.pl
+(z dodatkową literką
+i
+i literką
+y
+zamiast
+u
+).
+Mamy na tej stronie Regulamin korzystania
+z
+seciuritybeztabu.pl
+.
+Więc kilka dni temu tak z ciekawości sprawdziłam, czy te 2 domeny są do kupienia – były. Więc je kupiłam całkowicie legalnie. Od zakupu minęło 9 dni. Literówki nie zniknęły z regulaminu. Więc dzisiaj napisałam swój własny „Regulamin sklepu online”, w którym to
+wg punktu 9 nie mogę być wyrzucona z żadnego kursu Akademii Security Bez Tabu
+. Na razie na tych witrynach są tam strony utworzone na szybko, co będzie kiedyś – nie wiem. To zależy, generalnie wszystko 🙂
+Zagrożenia edukacyjne a ciemna strona mocy
+Te strony zostały utworzone w celach edukacyjnych, ale co by było gdyby domenę wykupiła osoba, która działa po ciemnej stronie mocy? I chciałaby naprawdę wyrządzić krzywdę? Która by wykorzystała te „literówki”, przed którymi nawet Google ostrzega?
+W regulaminie sklepu Wojciecha Ciemskiego w § 1 mamy info, że
+Wydawcą portalu internetowego seciuritybeztabu.pl („Portal”) jest SeciurityBezTabu z siedzibą w Warszawie….
+. No nie, nieprawda, wydawcą portalu jest firma
+ZALNET
+. I wg „regulaminu” na stronie seciuritybeztabu.pl, a zwlaszcza punktu 9, jestem nie do ruszenia, mogę mówić i pisać co chcę! Na zawsze. Może za jakiś czas dodam sobie w regulaminie jakieś benefity i odszkodowania itd.
+Na koniec mam pytanie, ile jeszcze czasu potrzebuje Wojciech Ciemski, człowiek z listy 40 under 40, na
+poprawienie regulaminu
+? Na co czeka? Co musi się stać, aby do tego doszło?
+Share this post:

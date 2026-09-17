@@ -1,0 +1,93 @@
+Poniżej znajduje się instrukcja, jak stworzyć na Azurze maszynę wirtualną z serwerem Ubuntu, na której można zainstalować Dockera.
+Stworzenie nowej maszyny wirtualnej z serwerem Ubuntu
+Logujemy się na portal
+Azure
+i klikamy przycisk
+Utwórz zasób
+. W sekcji
+Popularne
+wybieramy
+Ubuntu Server 18.04 VM
+lub wpisujemy
+Ubuntu
+w pole wyszukiwania
+.
+Podajemy niezbędne informacje:
+wybieramy subscrypcję,
+używamy istniejącej lub tworzymy nową grupę zasobów,
+podajemy nazwę maszyny wirtualnej,
+wybieramy region, w którym nasza maszyna ma być przechowywana,
+opcjonalnie wybieramy opcje dostępności,
+wybieramy obraz Ubuntu (ja mam dostępne Ubuntu Server 16.04 LTS i Ubuntu Server 18.04 LTS),
+rozmiar maszyny.
+Następnie tworzymy konto dla administratora i wybieramy preferowany tryb uwierzytelniania. Jeśli wybierzemy SSH to musimy wygenerować publiczny klucz SSH.
+Stworzenie publicznego klucza SSH
+Otwieramy
+Terminal
+(na Mac’u) lub
+Git Bash
+(na Windowsie) i wpisujemy polecenie:
+ssh-keygen -t rsa -b 4096 -C "twoj_
+email@domena.com
+"
+.
+Kopiujemy publiczny klucz przy użyciu poleceń:
+Mac:
+pbcopy < ~/.ssh/dockerdemo.pub
+Git Bash:
+clip < ~/dockerdemo.pub
+Podajemy nazwę użytkownika.
+Wklejamy skopiowany klucz w pole
+Klucz publiczny SSH
+.
+Możemy też wybrać uwierzytelnianie za pomocą hasła.
+Reguły portów wejściowych
+Wybieramy, które porty sieciowe maszyny wirtualnej są dostępne z publicznego Internetu. Na karcie Sieć możemy określić bardziej lub mniej ograniczony dostęp sieciowy.
+Mamy też możliwość na wskazanie wybranych portów spośród kilku dostępnych opcji. Ja do celów demo wybieram wszystkie porty.
+Po wybraniu portów pojawia się ostrzeżenie o tym, że porty będą widoczne z poziomu Internetu.
+Po wybraniu portów klikamy przycisk
+Następny: Dyski
+.
+DYSKI
+Maszyny wirtualne platformy Azure mają jeden dysk systemu operacyjnego i dysk tymczasowy na potrzeby przechowywania krótkoterminowego. Możemy do tych maszyn dołączać dodatkowe dyski danych. Rozmiar maszyny wirtualnej określa typ magazynu, którego można używać oraz liczbę dozwolonych dysków danych.
+Mamy tutaj możliwość wyboru
+OPCJI DYSKU
+z trzech wariantów: SSD w warstwie Premium, SSD w warstwie Standardowa i HDD w warstwie Standardowa. Jeśli istnieje taka potrzeba możemy
+dodać i skonfigurować dodatkowe dyski danych dla maszyny wirtualnej lub dołączyć istniejące dyski w sekcji
+DYSKI Z DANYMI
+. Ta maszyna wirtualna zawiera również dysk tymczasowy
+.
+W sekcji
+ZAAWANSOWANE
+możemy dodać usługę Managed Disks.
+Klikamy przycisk
+Następny: Sieć
+.
+SIEĆ
+Na zakładce
+Sieć
+możemy
+zdefiniować łączność sieciową dla swojej maszyny wirtualnej, konfigurując ustawienia karty sieciowej. Możemy kontrolować porty oraz łączność przychodzącą i wychodzącą za pomocą reguł grupy zabezpieczeń lub umieścić maszynę za istniejącym rozwiązaniem do równoważenia obciążenia.
+Możemy też zdecydować, czy nasza maszyna będzie używana do równoważenia obciążenia.
+Klikamy przycisk
+Następny: Zarządzanie
+.
+Zarządzanie
+Zakładka Zarządzanie pozwala na
+skonfigurowanie opcji monitorowania i zarządzania dla maszyny wirtualnej. Możemy wybrać, czy chcemy, aby maszyna była zamykana automatycznie o określonej godzinie.Jeśli chcemy otrzymywać powiadomienia o zamknięciu maszyny, podajemy adres email. Domyślnie powiadomienia takie są wyłączone.
+Aby chronić maszynę wirtualną przed przypadkowym usunięciem i uszkodzeniem danych, zalecane jest skonfigurowanie kopii zapasowej na tej maszynie wirtualnej. Kopia zapasowa maszyny wirtualnej będzie zapisywana w magazynie usługi Recovery Services zgodnie ze skonfigurowanymi zasadami, a opłaty za nią będą naliczane zgodnie z cennikiem kopii zapasowych.
+Klikamy przycisk
+Następny: Konfiguracja gościa
+.
+Klikamy przycisk
+Następny: Tagi
+.
+Klikamy przycisk
+Następny: Przeglądanie i tworzenie.
+Sprawdzamy, czy weryfikacja przeszła pomyślnie i klikamy przycisk
+Utwórz.
+Sprawdzamy, czy wdrożenie zakończyło się pomyślnie.
+Instrukcję, jak na takiej maszynie dodać Dockera, znajduje się w tym
+wpisie
+.
+Share this post:

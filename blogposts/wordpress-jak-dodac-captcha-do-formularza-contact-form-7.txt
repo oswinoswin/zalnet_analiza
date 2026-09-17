@@ -1,0 +1,38 @@
+Tutorial ten pokazuje, jak dodać captcha (reCAPTCHA v2) do formularza Contact Form 7 w WordPressie.
+Wersja WordPressa użyta w tym tutorialu to 4.9.8, a wersja Contact Form 7 to 5.0.5.
+Wtyczka Contact Form 7 ma już wbudowaną funkcjonalność captcha.
+1. Aby dodać reCAPTCHA do formularza, potrzebujemy konta Google i zarejestrowania strony oraz wygenerowanie kluczy API:
+Logujemy się do konta Google i otwieramy
+panel administratora reCAPTCHA.
+Rejestrujemy nową stronę: podajemy nazwę etykiety, wybieramy wersję captcha, wpisujemy nazwę domeny lub domen, na których chcemy używać captcha (rejestracja jest ograniczona do wpisanych nazw domen plus każdej jej poddomeny). Tzn. że jeżeli zarejestruję domenę zalnet.pl to zarejestrowana zostanie także poddomena blog.zalnet.pl.
+Klikamy przycisk
+Register
+.
+4. Po rejestracji otrzymujemy klucz strony (site key) i sekretny klucz (secret key).
+2. Logujemy się do panelu administratora WordPress.
+Przechodzimy do sekcji
+Formularze
+-> Formularze -> Integracje.
+Znajdujemy sekcję
+reCAPTCHA
+i klikamy przycisk
+Konfiguruj klucze
+.
+3. Wpisujemy klucz strony i sekretny klucz w odpowiednie pola. Klikamy przycisk
+Zapisz
+.
+4. Przechodzimy do sekcji
+Formularze
+-> Formularze i wybieramy formularz, do którego chcemy dodać captcha.
+5. Na formularzu umieszczamy 2 wpisy:
+a)
+<div class="g-recaptcha" data-sitekey="6LcV5XkUAAAAAH_SidWjXh6h1TqO02VcDKCivWSm"></div>
+, który pobieramy ze strony Google reCAPTCHA.
+b)
+[recaptcha]
+.
+6. Klikamy przycisk
+Zapisz
+.
+7. Po tych krokach widzimy, że na formularzu kontaktowym pojawił się nowy element: captcha.
+Share this post:

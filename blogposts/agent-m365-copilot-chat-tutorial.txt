@@ -1,0 +1,173 @@
+Twój własny agent M365 Copilot Chat bez szablonu (Poradnik krok po kroku)
+Czy samodzielnie zbudowany
+agent M365 Copilot Chat
+to dobre rozwiązanie dla Twojej firmy? W naszym poprzednim artykule, w którym omawialiśmy
+agenta Idea Coach
+, przeszliśmy drogę od pustej kartki do genialnych pomysłów. Wykorzystaliśmy tam gotowe szablony, które są świetnym punktem wyjścia. Jednak w miarę rozwoju biznesu szybko pojawia się potrzeba stworzenia czegoś bardziej unikalnego i dopasowanego do wewnętrznych procesów.
+Dziś zrobimy krok naprzód. Pokażemy Ci, jak zbudować spersonalizowanego asystenta bez użycia jakichkolwiek szablonów – bezpośrednio w oknie aplikacji, bez opuszczania środowiska pracy Twojego zespołu.
+Co najważniejsze, tworzenie własnych rozwiązań pozwala na pełną kontrolę nad stylem wypowiedzi AI oraz dokumentami, do których ma ona dostęp.
+Co znajdziesz w tym artykule?
+Twój własny agent M365 Copilot Chat bez szablonu (Poradnik krok po kroku)
+Kiedy agent M365 Copilot Chat "szyty na miarę" to dobry pomysł?
+Rewolucja "Pay-as-you-go": Ile kosztuje agent M365 Copilot Chat?
+Krok po kroku: Jak zbudować agent M365 Copilot Chat bez szablonu
+Krok 1: Uruchomienie kreatora agent M365 Copilot Chat
+Krok 2: Definiowanie roli przez język naturalny
+ROLE & PERSONA
+CEL (MISSION)
+ZAKRES OBOWIĄZKÓW (SCOPE OF KNOWLEDGE)
+BEZWZGLĘDNE ZABEZPIECZENIA (GUARDRAILS) – KLUCZOWE
+STYL ODPOWIEDZI (OUTPUT FORMAT)
+Krok 3: Agent M365 Copilot Chat – tworzenie agenta
+Krok 4: Baza wiedzy dla Twojego agenta
+Krok 5: Jak przetestować agenta M365 Copilot Chat?
+Krok 6: Dodanie przykładowych promptów dla agenta
+Podsumowanie i dalsze kroki
+Kiedy agent M365 Copilot Chat „szyty na miarę” to dobry pomysł?
+Korzystanie z gotowych szablonów bywa wygodne, ale ma swoje ograniczenia. Kiedy projektujesz agent M365 Copilot Chat od czystej karty, zyskujesz pełną elastyczność. Samodzielne definiowanie asystenta pozwala precyzyjnie określić jego zachowanie, ton (np. skrajnie analityczny lub kreatywny) oraz granice działania.
+Niedawno zaktualizowano podejście do interfejsu konwersacyjnego. Jeśli Twoja firma korzysta z platformy Microsoft 365, podstawowy czat z pełną ochroną danych firmowych jest dostępny bez dodatkowych opłat, co szczegółowo opisuje oficjalna
+strona produktowa Microsoft Copilot Chat
+.
+Zgodnie z zasadami bezpieczeństwa, każdy stworzony w ten sposób asystent działa wewnątrz bezpiecznej granicy Twojej organizacji (
+Enterprise Data Protection
+). To zapewnienie od formy Microsoft, że dane z Twojego OneDrive czy SharePointa  nie wyciekną na zewnątrz.
+Rewolucja „Pay-as-you-go”: Ile kosztuje agent M365 Copilot Chat?
+Zamiast płacić stały abonament za licencję Copilot dla każdego użytkownika, płacisz tylko za faktyczne zużycie (model
+Pay-as-you-go
+), które jest liczone w wygenerowanych wiadomościach. Zgodnie z
+oficjalnymi materiałami Microsoft Mechanics
+(link zewnętrzny), to idealny sposób, aby zoptymalizować koszty, gdy w Twojej firmie pojawia się nowy
+agent M365 Copilot Chat
+.
+Oto szczegółowa instrukcja, jak krok po kroku okiełznać wbudowany kreator (Agent Builder).
+Krok po kroku: Jak zbudować agent M365 Copilot Chat bez szablonu
+Cały proces odbywa się bezpośrednio w interfejsie czatu, z którego korzystasz na co dzień w pracy (np. w aplikacji Microsoft Teams lub przeglądarce). Non-code w najczystszej postaci!
+Krok 1: Uruchomienie kreatora agent M365 Copilot Chat
+Otwórz aplikację
+M365 Copilot Chat
+(w Teams, Outlooku lub na stronie office.com).
+Microsoft 365 Copilot Chat, dostęp 27.07.2026
+2. W lewym panelu bocznym odszukaj sekcję z listą Twoich agentów (Agents) i kliknij przycisk New agent lub kliknij przycisk
+Więcej agentów
+(More agents).
+3. Na ekranie wyboru
+zrezygnuj z gotowych kafelków
+(takich jak Idea Coach czy Asystent Pisania). Zamiast tego wybierz opcję stworzenia nowego asystenta od zera, z czystą kartą.
+Tworzenie nowego agenta w M365 Copilot Chat, dostęp 27.07.2026
+Krok 2: Definiowanie roli przez język naturalny
+Po uruchomieniu czatu twórcy (Agent Builder), system zapyta Cię, czym ma się zajmować Twój nowy pomocnik.
+Możesz wpisać prompt w stylu „
+Chcę, abyś działał jako analityk finansowy o nazwie 'Audytor-Pro’. Twoim zadaniem jest weryfikacja raportów kwartalnych pod kątem anomalii. Twój ton musi być formalny, zwięzły i nastawiony na liczby.
+” Wbudowany kreator automatycznie przetworzy te instrukcje i zakoduje je jako tożsamość asystenta.
+Ja jednak rekomenduję, aby w  tym celu wykorzystać
+agenta Prompt Coach
+, który pomaga w tworzeniu zaawansowanych promptów albo wykorzystać prompt wygenerowany przez Idea Coach, do znalezienia we wcześniejszym wpisie.
+Szablony agentów, m.in. Prompt Coach, dostęp 27.07.2026
+3. Zamiast zdawać się na automatyczne podpowiedzi, przejdź na zakładkę
+My Agents
+i kliknij
+Skip –>
+.
+Agent Builder w M365 Copilot Chat, dostęp 27.07.2026
+4. W nowym oknie podaj nazwę agenta i dodaj opis. Inaczej nie pojawi się przycisk
+Create
+.
+5. Wpisz w oknie
+Instructions
+swój autorski, zaawansowany prompt. Mój przykładowy prompt można znaleźć poniżej:
+ROLE & PERSONA
+Jesteś oficjalnym, dedykowanym asystentem AI firmy ZALNET. Twój ton wypowiedzi jest profesjonalny, ekspercki, a zarazem pomocny i uprzejmy. Reprezentujesz markę ZALNET, dlatego dbasz o poprawność językową, transparentność oraz wysoką kulturę osobistą.
+CEL (MISSION)
+Twoim jedynym i nadrzędnym zadaniem jest dostarczanie użytkownikom dokładnych, rzetelnych informacji na temat działalności firmy ZALNET. Pomagasz klientom i pracownikom szybko odnaleźć potrzebne dane w zasobach firmy.
+ZAKRES OBOWIĄZKÓW (SCOPE OF KNOWLEDGE)
+Możesz udzielać informacji wyłącznie w oparciu o poniższe trzy obszary:
+Oferta firmy ZALNET: Usługi doradcze, wdrożenia chmurowe, wsparcie IT oraz rozwiązania z zakresu sztucznej inteligencji.
+Szkolenia ZALNET: Zarówno autorskie szkolenia zespołu ZALNET, jak i autoryzowane szkolenia Microsoft.
+Baza wiedzy i blog: Informacje, porady i instrukcje zawarte we wpisach na blogu ZALNET (np. poradniki dotyczące M365 Copilot Chat).
+BEZWZGLĘDNE ZABEZPIECZENIA (GUARDRAILS) – KLUCZOWE
+Ścisłe ograniczenie wiedzy: NIE WOLNO Ci odpowiadać na pytania, które nie dotyczą bezpośrednio firmy ZALNET. Twoja wiedza ogólna (LLM) została zablokowana do tematów spoza firmy ZALNET.
+Zakaz tematów zewnętrznych: Jeśli użytkownik zapyta o pogodę, programowanie, ogólne definicje niezwiązane z Twoimi materiałami, konkurencję, politykę, gotowanie czy jakikolwiek inny temat ogólny – musisz odmówić odpowiedzi.
+Formuła odmowy: W przypadku pytań spoza zakresu, odpowiedz zawsze w uprzejmy sposób, według schematu: „Przepraszam, ale jako asystent firmy ZALNET odpowiadam wyłącznie na pytania dotyczące naszej oferty, szkoleń oraz wpisów na blogu. Chętnie pomogę Ci w jednym z tych tematów!”.
+Halucynacje: Jeśli nie znajdziesz odpowiedzi na pytanie dotyczące ZALNET w podpiętej bazie wiedzy (SharePoint/OneDrive), nie zmyślaj informacji. Odpowiedz: „Nie znalazłem precyzyjnych informacji na ten temat w naszych aktualnych materiałach. Zachęcam do bezpośredniego kontaktu z naszym zespołem przez stronę zalnet.pl/kontakt/”.
+STYL ODPOWIEDZI (OUTPUT FORMAT)
+Jeśli odwołujesz się do konkretnego szkolenia lub wpisu na blogu, zawsze podawaj jego dokładną nazwę i (jeśli są dostępne) linki źródłowe z podpiętych dokumentów.
+”
+Pisz zwięźle i konkretnie. Unikaj „ścian tekstu”.
+Stosuj listy punktowane i pogrubienia, aby odpowiedzi były czytelne.
+6. Kliknij przycisk
+Create
+.
+Agent M365 Copilot Chat, dostęp 27.7.2026
+Krok 3: Agent M365 Copilot Chat – tworzenie agenta
+Odpowiadając na pytanie, które wielokrotnie słyszę na moichh szkoleniach: ten agent domyślnie jest widoczny tylko dla jego twórcy.
+Domyślne ustawienia agenta M365 Copilot Chat po utworzeniu, dostęp 27.07.2026
+Dopiero klikcięcie przycisk
+Share
+spowoduje, że możemy wybrać komu chcemy udostępnić naszego agenta: każdemu w organizacji, określonym użytkownikom.
+Udostępnianie agenta, dostęp 27.07.2026
+Krok 4: Baza wiedzy dla Twojego agenta
+To najważniejszy moment budowania agenta bez szablonu. Musisz dać sztucznej inteligencji dostęp do unikalnych plików Twojej firmy.
+1. W lewym panelu bocznym odszukaj sekcję z listą Twoich agentów (Agents) i kliknij nowo utworzonego agenta. Jeśli nie widać go na liście kliknij przycisk
+Więcej agentów
+(More agents). Agent powinien być widoczny w sekcji
+Your agents
+(Twoje agenty).
+Sekcja Your agents w Agent Store, dostęp 27.07.2026
+WSKAZÓWKA
+: Ja nie chcesz, aby Twój agent ciągle znikał, kliknij ikonę
+szpilki
+, aby przypiąć agenta na górze sekcji.
+2. Kliknij 3 kropki obok nazwy Twojego agenta i wybierz iocję
+Edit
+(Edytuj).
+Opcja edycji agenta, dostęp 27.07.2026
+3. W panelu konfiguracyjnego przejdź do sekcji
+Knowledge
+(Wiedza).
+4. Wskaż konkretne strony lub określone foldery w usłudze SharePoint lub wybrane pliki z Twojego firmowego OneDrive (np. procedury, cenniki, szablony umów).
+5. Na koniec kliknij przycisk
+Update
+.
+WSKAZÓWKA
+: Pamiętaj: Twój
+agent M365 Copilot Chat
+będzie przeszukiwał tylko te pliki, do których Ty sam masz uprawnienia dostępowe. System nie pokaże nikomu dokumentów, które powinny pozostać tajne.
+Wskazanie źródeł wiedzy dla agenta, dostęp 27.07.2026
+Krok 5: Jak przetestować agenta M365 Copilot Chat?
+Zanim udostępnisz asystenta współpracownikom, warto upewnić się, że działa on zgodnie z planem.
+1. Skorzystaj z panelu testowego, który wyświetla się po prawej stronie kreatora.
+2. Wpisz testowe pytanie, na które odpowiedź znajduje się w podpiętych dokumentach (np.
+„Jakie konkretnie usługi doradcze w zakresie sztucznej inteligencji (AI) oferuje firma ZALNET?”
+).
+3. Jeśli asystent odpowiada poprawnie i precyzyjnie wskazuje przypisy do plików – wszystko działa jak należy. Jeśli generuje zbyt ogólne wnioski, doprecyzuj instrukcje w oknie czatu kreatora.
+Od tego momentu Twój nowy, spersonalizowany asystent jest gotowy do użycia. Wystarczy, że w oknie głównego czatu wpiszesz znak
+@
+i wybierzesz go z listy (np.
+@ZALNET Nawigator
+), aby błyskawicznie delegować mu zadania.
+Testowanie agenta, dostęp 27.07.2026
+Krok 6: Dodanie przykładowych promptów dla agenta
+Po testach agenta, dobrym pomysłem może być zapisanie najczęściej używanych promptów i dodanie ich jako sugerowanych promptów.
+1. W lewym panelu bocznym odszukaj sekcję z listą Twoich agentów (Agents) i kliknij Twojego agenta.
+2. Kliknij 3 kropki obok nazwy Twojego agenta i wybierz iocję
+Edit
+(Edytuj).
+3. W panelu konfiguracyjnego przejdź do sekcji
+Suggested prompts
+(Sugerowane prompty).
+4. Dodaj najczęściej używane prompty.
+Sugerowane prompty, dostęp 27.07.2026
+5. Na koniec kliknij przycisk
+Update
+.
+Po zapisaniu zmian i odświeżeniu strony agent wyświetla sugerowane prompty, które mogą być pomocne zwłaszcza osobom, które po raz pierwszy używają naszego agenta.
+Agent M365 Copilot Chat – sugerowane prompty, dostęp 27.07.2026
+Podsumowanie i dalsze kroki
+Samodzielne projektowanie asystentów bez użycia szablonów pozwala idealnie dopasować sztuczną inteligencję do realiów Twojego biznesu. Wbudowany w Microsoft 365 kreator daje ogromne możliwości bez konieczności napisania choćby jednej linii kodu.
+Chcesz dowiedzieć się więcej o optymalizacji pracy z AI? Przeczytaj nasze pozostałe teksty w kategorii
+Microsoft 365 Copilot Chat
+, gdzie regularnie dzielimy się technicznymi trikami.
+Jeśli chcesz skutecznie wdrożyć te narzędzia w swoim zespole lub potrzebujesz pomocy w ustrukturyzowaniu bazy wiedzy dla sztucznej inteligencji,
+skontaktuj się z zespołem ZALNET
+. Chętnie pomożemy Ci okiełznać potencjał nowoczesnego środowiska pracy!
+Share this post:

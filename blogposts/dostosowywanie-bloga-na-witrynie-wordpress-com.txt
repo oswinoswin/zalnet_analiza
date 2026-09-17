@@ -1,0 +1,73 @@
+Jednym z kolejnych kroków, który powinniśmy wykonać, to dopasowanie formularza kontaktowego. Jest on wykorzystywany w sytuacji, gdy ktoś chce się z Nami skontaktować i wysłać wiadomość.
+Aby przejść do ustawień formularza kontaktowego, należy po lewej stronie w sekcji
+Zarządzaj
+kliknąć link
+Strony witryny
+.
+Przechodzimy na stronę
+Contact
+.  Klikamy na przycisk
+po prawej stronie.  W ustawieniach możemy zmienić obrazek wyróżniający, nazwę uproszczoną (zostanie zmieniona nazwa strony w adresie URL). Klikamy przycisk
+Zaktualizuj
+i podglądamy zmiany.
+Następnie klikamy na formularz i klikamy na znak edycji (ikona ołówka).
+Tutaj mamy możliwość edycji pól formularza, zmiany nazwy pól na polskie itd.
+Ja zmieniłam
+Name
+na Imię i nazwisko,
+Email
+na Adres email,
+Comment
+na Temat (zmieniam typ danych (Field Type) z Text Area na Tekst). Dodaję też nową kolumnę o nazwie
+Treść wiadomości
+i z Field Type ustawionym na Text Area i zaznaczamy checkbox obok pozycji wymagane.
+Przechodzimy na zakładkę ustawienia. Na tej stronie możemy m.in. zmienić tytuł maili, które będą przychodziły na Naszą pocztę po wysłaniu wiadomości z wykorzystaniem formularza. Ja zmieniam tytuł
+Contact
+na
+Wiadomość z bloga
+. W polu tekstowym pod etykietą
+Wprowadź swój adres email
+podajemy adres email, na który mają być wysyłane maile. Klikamy na przycisk
+Zaktualizuj
+, aby zaktualizować formularz. Potem klikamy przycisk
+Zaktualizuj
+w prawym górnym rogu, aby zaktualizować całą stronę.
+Po tych wszystkich zmianach klikamy link
+Visit page
+w prawym górnym rogu. Możemy teraz przetestować wysyłanie wiadomości. Aby wysyłanie wiadomości zadziałało, mail musi być wcześniej aktywowany. Wpisujemy swoje imię i nazwisko, adres email, tytuł i treść wiadomości. Klikamy przycisk
+Wyślij
+.
+Po wysłaniu wiadomości na stronie pojawia się podsumowanie.
+Po przejściu na pocztę mailową sprawdzamy, czy mail dotarł i jak jest jego zawartość.
+Aby zmienić tytuł strony z
+Contact
+na Kontakt, należy zaznaczyć słowo
+Contact
+, kliknąć przycisk
+Delete
+, aby usunąć stary tytuł, a następnie wpisać nowy tytuł. Ja wybieram tytuł
+Formularz kontaktowy
+. Klikamy przycisk
+Zaktualizuj
+w prawym górnym rogu, aby zapisać zmiany i sprawdzamy rezultat.
+Aby zmienić angielskie nazwy w menu na polskie, należy w sekcji
+Personalizuj
+po lewej stronie kliknąć link
+Dostosuj
+. Z dostępnych opcji wybieramy
+Menu
+, klikamy na nagłówek
+Primary
+, potem na
+Home
+i tam zmieniamy etykietę nawigacji z Home na
+Strona główna
+(lub na taki, który Tobie pasuje). W taki sam sposób zmieniamy w menu
+Contact
+na
+Kontakt
+. Następnie klikamy przycisk
+Publikuj
+na górze, aby zapisać zmiany.
+Tak jak widać tytuł strony został zmieniony, mamy także polskie menu.
+Share this post:

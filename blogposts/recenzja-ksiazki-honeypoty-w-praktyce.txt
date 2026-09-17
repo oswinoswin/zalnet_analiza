@@ -1,0 +1,348 @@
+Recenzja książki „Honeypoty w praktyce” Wojciecha Ciemskiego. Dlaczego ta książka mnie tak rozczarowała?
+Książka
+Honeypoty w praktyce
+autorstwa Wojciecha Ciemskiego z
+Security Bez Tabu
+od razu przykuła moją uwagę, ponieważ
+pułapki sieciowe (honeypots)
+to moja zawodowa pasja. Prywatnie zajmuję się
+pszczelarstwem
+, więc doskonale wiem, jak działają słodkie wabiki. Gdy tylko dowiedziałam się, że na rynku debiutuje ta pozycja, kupiłam ją natychmiast, licząc na mięsisty przewodnik techniczny.
+Nietechnicznie rzecz ujmując – zamiast miodu pełnego eksperckiej wiedzy, dostałam lanie wody i chaos.
+Mówiąc wprost: nie polecam książki „Honeypoty w praktyce” i drugi raz nie wydałabym na nią pieniędzy.
+W obecnej formie ta publikacja jest dla mnie całkowicie nie do zaakceptowania.
+Poniżej znajdziesz moją, popartą dowodami analizę, która wyjaśnia, dlaczego ta książka to zmarnowany potencjał.
+Co znajdziesz w tym artykule?
+Recenzja książki „Honeypoty w praktyce" Wojciecha Ciemskiego. Dlaczego ta książka mnie tak rozczarowała?
+Obietnice marketingowe a zawartość książki "Honeypoty w praktyce"
+STRONA OBIEKTYWNA, czyli które cechy książki sprawiają, że NIE polecam pozycji „Honeypoty w praktyce"
+1. Spis treści
+2. "Honeypoty w praktyce" jako przewodnik techniczny bez ani jednego wykresu i screena
+3. Budowanie pierwszego honeypota (od zera) i Netcat – sieciowy „scyzoryk", który nie działa
+4. Cowrie (SSH/Telnet) – instalacja i konfiguracja krok po kroku – dramat w kilku aktach
+Akt 1 – czy polecanie -y w polecaniach apt-get install faktycznie ma sens?
+Akt 2 – https bez -s – czy ktoś w ogóle testował te linki?
+Akt 3 – copy-paste dokumentacji
+Akt 4 – to dla kogo w końcu jest ta książka "Honeypoty w praktyce"?
+Akt 5 – I gdzie to obiecane doświadczenie z pierwszej ręki?
+5. Dionaea (honeypot typu multi-protocol) – instalacja i konfiguracja krok po kroku – czy na pewno?
+6. Inne przykłady
+OPINIA SUBIEKTYWNA, czyli moje osobiste wrażenia po przeczytaniu książki "Honeypoty w praktyce"
+1. Biologia, czyli miód kontra lep
+2. Profil „ofiary" w cyberbezpieczeństwie
+3. Niechlujny wygląd książki "Honeypoty w praktyce"
+4. Nie lubię, jak mam obiecany działający kod, a dostaję pseudokod
+5. Brak best practices
+6. Brak standardów to standard w książce "Honeypoty w praktyce"
+7. Używanie zwrotów bez tłumaczenia
+8. Kompletny chaos w książce "Honeypoty w praktyce"
+9. Dla kogo jest ta pozycja? Moim zdaniem – dla nikogo
+Podsumowanie: Czy nie warto kupić książkę „Honeypoty w praktyce"?
+Obietnice marketingowe a zawartość książki „Honeypoty w praktyce”
+Strona sprzedażowa kusi chwytliwymi hasłami. Autor obiecuje „praktyczną technologię”, „techniczny przewodnik”, „wdrażanie krok po kroku” oraz integracje z systemami Wazuh czy ELK. Jako wykładowca akademicki i praktyk cyberbezpieczeństwa oczekiwałam listingów gotowych do użycia, schematów architektury i realnych
+best practices
+. Co zamiast tego kryje się na niemal 400 stronach?
+Moja ocena nie wynika ze złośliwości, ale z rzetelnej analizy zawartości PDF-a, za który zapłaciłam 57 zł. Oto kluczowe powody, dla których uważam, że ta pozycja nie jest warta uwagi.
+STRONA OBIEKTYWNA, czyli które cechy książki sprawiają, że NIE polecam pozycji „Honeypoty w praktyce”
+Wchodząc na
+stronę sprzedażową książki
+na easy.tools mamy dość krótki opis, ale ciekawy. Pogrubiłam te zwroty, które zwróciły moją uwagę:
+Honeypoty to jedna z najbardziej praktycznych technologii cyberbezpieczeństwa — ta książka pokazuje, jak wykorzystać je do wykrywania ataków, analizy malware i budowy realnej warstwy deception w organizacji.
+To
+techniczny przewodnik
+obejmujący zarówno podstawy honeypotów, jak i praktyczne wdrożenia w środowiskach Linux, Windows, IoT, SCADA oraz SOC.
+Co otrzymujesz:
+•
+Projektowanie i wdrażanie
+honeypotów w środowiskach IT
+krok po kroku
+•
+Integracje
+honeypotów
+z Wazuh, ELK, SIEM i systemami monitoringu
+•
+Analiza technik ataków, malware i aktywności intruzów
+obserwowanych przez honeypoty
+• Honeytokeny, deception i mechanizmy aktywnej obrony
+•
+Budowa oraz konfiguracja własnych środowisk honeypotowych
+•
+Architektura, izolacja i operacyjne wykorzystanie
+honeypotów
+w praktyce
+Strona sprzedażowa książki Honeypoty w praktyce
+Moje oczekiwania w stosunku co do tego opisu? Techniczny przewodnik, z wdrożeniami krok po kroku, listingami, przykładami i integracjami gotowymi do użycia.
+A co dostałam? Tutaj trzeba się trochę rozpisać.
+1. Spis treści
+To pierwsze, co rzuca się w oczy. Dlaczego tematy związane z
+instalacją i konfiguracją honeypotów Cowrie i Dionaea
+znajdują się w rozdziale
+Honeypoty w praktyce — systemy Linux
+, a temat
+OpenCanary — konfiguracja krok po kroku
+w rozdziale
+Honey services i honeytokeny
+– tego dalej nie rozumiem.
+2. „Honeypoty w praktyce” jako przewodnik techniczny bez ani jednego wykresu i screena
+Książka liczy blisko 400 stron (z czego po poprawnym sformatowaniu zostałoby pewnie 300). Przez całą lekturę nie uświadczysz
+ani jednego wykresu, grafiki, infografiki, diagramu sieciowego czy zrzutu ekranu
+. Tłumaczenie autora na Discordzie, że rezygnacja ze screenshotów miała zapewnić „trwałość treści”, zupełnie do mnie nie trafia. Jak można pisać o architekturze i dashboardach w Kibanie, serwując czytelnikowi wyłącznie „morze tekstu”?
+Screenshoty również ograniczyłem celowo. Zależało mi bardziej na trwałości treści technicznych niż na dużej liczbie obrazów z interfejsów, które często dezaktualizują się po kilku miesiącach. Postawiłem bardziej na opis architektury, integracji, procesów i praktycznych wdrożeń.
+Ale to stwierdzenie nie pasuje mi do przykładów logów w książce i gryzie się z timestampami sprzed ponad roku, takimi jak 2025-02-14 czy też 2025-06-16.
+Czym różni się zrzut ekranu ze starą datą od przykładowego logu z taką samą datą?
+Przykład logu z książki Honeypoty w praktyce z datą 14.02.2025
+3. Budowanie pierwszego honeypota (od zera)
+i
+Netcat – sieciowy „scyzoryk”
+, który nie działa
+W tym rozdziale znajdziemy info o tym, czym jest
+netcat
+, kto go wymyślił, jak działa – tutaj opisano kilka podstawowych komend. IMO początkujący nie skorzysta z tego za wiele, zanim nie sprawdzi w innym źródle, jak zainstalować netcata, jakie są możliwe opcje, a jak już znajdzie odpowiednią dokumentację, to nie tylko podstawowe, ale także zaawansowane komendy tam znajdzie, z kolei osoba doświadczona podstawowe komendy zna i oczekuje konkretów a nie tłumaczenia, co robi komenda
+nc -l -p 8000
+czy
+nc 192.168.1.100 22
+. A poświęcenie backdoor/shell i komendzie
+nc -l -p 4444 -e /bin/bash
+8 linijek tekstu ciężko uznać za wyczerpanie tematu. W sekcji netcat nie znalazłam nic o instalacji itd.
+Mamy w tym rozdziale także
+tworzenie podstawowego honeypota Telnet
+i polecenie:
+sudo nc -l -p 23 -v -k > /tmp/telnet_honeypot.log
+. Do tego polecenia jest podany przykładowy fragment logu z omówieniem. A następnie modyfikujemy to polecenie dodając
+tee
+, ale przykładu z wynikowy logiem
+już nie dostajemy
+, tylko wspomnienie np. o
+xinetd
+:
+Alternatywnie wiele zewnętrznych narzędzi (np. systemd, script czy nawet użycie
+xinetd
+do uruchamiania netcata) mogłoby zadbać o logowanie z datą, ale to dodatkowa komplikacja —
+na razie staramy się zachować minimalizm
+.
+To „
+na razie
+” oznacza, że w książce temat xinetd
+nie został już szerzej omówiony
+.
+4.
+Cowrie (SSH/Telnet) – instalacja i konfiguracja krok po kroku
+– dramat w kilku aktach
+Akt 1 – czy polecanie -y w polecaniach apt-get install faktycznie ma sens?
+Przechodzimy dalej, do modułu, w którym jest podrozdział o instalacji i konfiguracji
+Cowrie
+. Aby móc ocenić kod rzetelnie, a nie tylko na oko przetestowałam go na własnym środowisku. I to, co od razu wzbudza mój sprzeciw, to użycie
+-y
+w poleceniach takich jak to z książki:
+sudo apt-get install
+-y
+git python3-venv build-essential libssl-dev
+libffi-dev libpython3-dev python3-minimal authbind
+Ten niepozorny
+-y
+to pozwolenia na to, aby wszystkie pakiety, także zależne, zostały zainstalowane bez sprawdzenia przez nas, ile i jakie, bez wyrażenia przez nas zgody. Ja w dokumentacji takich rekomendacji nie znalazłam.
+Akt 2 – https bez -s – czy ktoś w ogóle testował te linki?
+Potem mamy polecenie
+git
+clone http://github.com/cowrie/cowrie
+, gdzie
+http
+zgubiło
+s
+. Bo obecny adres to:
+https://github.com/cowrie/cowrie
+. Niby „drobiazg”, ale dzięki temu można dostrzec wyraźne podobieństwo między kodem w książce, a
+dokumentacją cowri
+e
+. W dokumentacji też jest instalacja bibliotek na początku, ale bez
+-y
+. Potem tworzenie użytkownika cowrie, przełączenie na tego użytkownika. Potem w obu źródłach jest git clone
+po zwykłym http
+:
+git clone http://github.com/cowrie/cowrie
+.
+I okazuje się, że obecnie ten projekt jest o kilka MB większy, ma dużo więcej obiektów. Na dodatek ma warning o przekierowaniu na
+stronę z https
+. Po lewej jest moje środowisko, po prawej screen z dokumentacji. Prawda, że się różnią. A w książce jest ta wersja po prawej.
+Rys. Porównanie poleceń git clone
+Akt 3 – copy-paste dokumentacji
+To podobieństw ciąg dalszy: ta sama nazwa virtualenv: cowrie-env, aktywacja zmiennych, to samo polecenie do upgrade’u pip, zmodyfikowane polecenie do instalacji zależności. I to jeszcze jest do wytłumaczenia.
+Ale do tej pory, podczas procesu instalacji cowrie, było  prowadzenie czytelnika za rękę, jeśli chodzi o instalację virtualenv i instalację pakietów. Ale jak przechodzimy do konfiguracji, to zaczyna się etap:
+radź sobie człowieku sam
+. W książce mamy taki tekst:
+W katalogu
+cowrie/etc/
+znajdują się dwa ważne pliki:
+cowrie.cfg.dist
+(domyślna konfiguracja) i cowrie.cfg (właściwa konfiguracja użytkownika). Na początku
+cowrie.cfg
+może nie istnieć — należy utworzyć jego kopię z pliku
+.dist
+.
+Wykonujemy polecenie:
+cp etc/cowrie.cfg.dist etc/cowrie.cfg
+Teraz możemy edytować
+etc/cowrie.cfg
+zależnie od potrzeb
+. Domyślna konfiguracja Cowrie działa od razu po instalacji, więc na początku nie musimy wprowadzać żadnych zmian.”
+A w dokumentacji:
+The configuration for Cowrie is stored in
+cowrie.cfg.dist
+and
+cowrie.cfg
+(located in
+cowrie/etc
+). Both files are read on startup, where entries from
+cowrie.cfg
+take precedence. The
+.dist
+file can be overwritten by upgrades,
+cowrie.cfg
+will not be touched
+. To run with a standard configuration, there is no need to change anything.
+Akt 4 – to dla kogo w końcu jest ta książka „Honeypoty w praktyce”?
+Taki początkujący czytelnik dostaje instrukcję krok po kroku, jak zainstalować virtualenv, z komentarzami nawet, ale jak otworzyć plik konfiguracyjny, żeby go wyedytować – tego już nie ma. Jedyny fragment takiego pliku konfiguracyjnego to 2 linie jak te poniżej. I co ciekawe, w dokumentacji jest też akurat mowa o telnecie. Oba dokumenty opisują też konfigurację portów i Iptables. Więc równie dobrze można przeczytać dokumentację, nie trzeba płacić.
+[telnet]
+enabled = true
+Więc traktujmy czytelnika do końca jako juniora, tym bardziej, że tytuł podrozdziału to instalacja i
+konfiguracja krok po kroku
+, a nie tylko instalacja. Tym bardziej, że ta konfiguracja wcale nie jest taka prosta, jak to opisano w książce czy wspomnianej przeze mnie dokumentacji. Jest trochę więcej kroków do wykonania, można przykład zobaczyć
+tutaj
+.
+Akt 5 – I gdzie to obiecane doświadczenie z pierwszej ręki?
+Ale trafiamy w końcu na rozdział z przykładami rzeczywistych ataków. Oczekujemy doświadczenia z pierwszej ręki, a dostajemy tekst:
+W analizie przeprowadzonej przez serwis
+HackerTarget
+honeypot w Singapurze
+zanotował w dobę ponad 200 unikalnych adresów atakujących. Rozkład geograficzny ujawnił najczęstsze kierunki, z których pochodziły ataki: Brazylię i Chiny.
+Jest też jako przypis link do raportu. Raport od
+HackerTarget
+ciekawy, z wizualizacjami, danymi, wykresami, interaktywną mapą. A w książce: tylko morze tekstu.
+5. Dionaea (honeypot typu multi-protocol) – instalacja i konfiguracja krok po kroku – czy na pewno?
+Przy Dionaea też mamy polecenie
+sudo apt-get install
+-y
+. Zastanawiałam się, kto lub co ten przełącznik podpowiada i okazało się, że GenAI lubi to 😉
+Rys. Gemini o instalacji Dionaea
+Kod w książce jest taki sam jak ten od Gemini, czy z dokumentacji. Ocean słów, od czasu do czasu jakieś polecenie, praktycznie zero listingów.
+6. Inne przykłady
+Mamy w książce też teksty w stylu:
+Przykładowe wyniki w Kibanie: Możemy uzyskać dynamiczne dashboardy. Na przykład:
+o Mapa świata z punktami/nasyceniem pokazująca, z jakich krajów następuje
+najwięcej ataków (logi Cowrie mają pole src_ip, które geokodujemy do pola
+country).
+Ja nie chcę czytać o wizualizacjach w praktycznym przewodniku, ja chcę je zobaczyć, mieć dowód na to, że to działa, że warto w to zainwestować czas. Ja nie chcę czytać, że pole src_ip mogę geokodować na country, ja chcę się dowiedzieć, jak to zrobić i jak wygląda efekt końcowy.
+I mamy
+szumnie zapowiadaną integrację z Wzuhem
+, a tak naprawdę to jedna strona A4 z integracjami w stylu:
+…reguła Wazuh może z tego zrobić alert. Oto przykład reguły: if
+cowrie.login.success and password matches regex '^(?=.{6,}$).’ (tzn. dość długie hasło),
+wtedy severity medium* — to czysto teoretycznie.
+Tak samo jest z opisem instalacji
+OpenCanary
+– jest konfiguracja krok po kroku, czyli to, co można znaleźć w dokumentacji i na stronie projektu. A jak zaczyna się praktyczna konfiguracja to są tylko jakieś fragmenty, jakieś opisy, brak praktycznych wdrożeń. I tak w koło Macieju.
+Przy instalacji Conpota mamy polecenie
+sudo apt-get update
+, przy Cowrie, Dionaea i Honeyd także, a przy OpenCanary jest już
+sudo apt update && sudo apt upgrade -y
+. Pracujemy w cyberbezpieczeństwie, szkolimy innych, aby trzymać standardy, bo wtedy łatwiej wykryć anomalie. Ta książka tego nie uczy.
+OPINIA SUBIEKTYWNA, czyli moje osobiste wrażenia po przeczytaniu książki „Honeypoty w praktyce”
+Dlaczego na okłace jest mucha, a nie pszczoła? Mnie tutaj taki owad nie pasuje. Skojarzenie muchy z
+honeypotem
+(pułapką miodową) jest dość powszechnym błędem myślowym. Wynika ono z pomieszania dwóch zupełnie różnych metafor i rodzajów pułapek.
+Oto dlaczego mucha to kiepskie skojarzenie z honeypotami – zarówno w świecie natury, jak i w cyberbezpieczeństwie:
+1. Biologia, czyli miód kontra lep
+Wbrew potocznemu powiedzeniu „lgną jak muchy do miodu”, w świecie przyrody mechanizm ten wygląda inaczej:
+Miód przyciąga niedźwiedzie lub pszczoły.
+Jest dla nich synonimem cennego, wysokokalorycznego i pożądanego łupu.
+Na muchy stosuje się lep (ang.
+flypaper
+).
+Mucha nie szuka wyrafinowanych, ukrytych skarbów – lgnie do wszystkiego, co jest wilgotne, słodkie lub po prostu gnije.
+Garniec miodu (honeypot) to pułapka na kogoś, kto szuka konkretnego, wartościowego zasobu. Mucha złapie się na zwykły pasek kleju z cukrem zawieszony pod sufitem.
+2. Profil „ofiary” w cyberbezpieczeństwie
+W świecie IT honeypot to fałszywy system lub zasób, który celowo udaje realną, cenną infrastrukturę (np. serwer banku, bazę danych), aby zwabić intruza i przeanalizować jego zachowanie.
+Haker to „niedźwiedź”:
+Prawdziwy, zaawansowany honeypot projektuje się z myślą o sprytnych, ludzkich napastnikach (np. grupach APT). Haker – jak niedźwiedź – działa celowo, analizuje zabezpieczenia i szuka konkretnych, drogich „słodkości” (wrażliwych danych, dostępów roota).
+Mucha to internetowy „bot”:
+Jeśli pułapka łapie masowe, zautomatyzowane skrypty, które na oślep skanują cały internet w poszukiwaniu jakichkolwiek otwartych portów, to nie mamy do czynienia z wyrafinowaną strategią. Te boty działają bezmyślnie, uderzając we wszystko, co napotkają po drodze.
+W skrócie:
+Łapanie bezmyślnych, masowych automatów (much) to domena prostych mechanizmów, takich jak
+spam-traps
+czy firewalle, które działają jak
+lep na muchy
+. Prawdziwy
+honeypot
+to wyższa szkoła jazdy – buduje się go na znacznie większego, sprytniejszego i bardziej wybrednego zwierzaka.
+3. Niechlujny wygląd książki „Honeypoty w praktyce”
+Po otworzeniu PDFa, można zauważyć, że za
+zawartość książki, projekt okładki, projekt typograficzny i skład, redakcję i korektę
+odpowiada jedna osoba:
+Wojciech Ciemski
+. Napisałam kilka profesjonalnych artykułów, sporo dokumentacji i wiem, jak nieoceniona jest pomoc kogoś, kto zrobi korektę, poprawi błędy, sprawdzi merytorycznie zawartość naszej pracy. Moja wersja PDFa, którą otrzymałam, w temacie formatowania pozostawia wiele do życzenia. Moi studenci, którzy piszą u mnie prace dyplomowe, nie chcą mi wysyłać draftów, bo mówią, że muszą poprawić, sformatować, bo w takim stanie jak teraz nie mogą wysłać, bo wstyd, a ja zapłaciłam 57 zł.
+Informacje o książce Honeypoty w praktyce
+4. Nie lubię, jak mam obiecany działający kod, a dostaję pseudokod
+Oto przykład fragmentu pliku konfiguracyjnego Dionaea (
+pseudokod dla zilustrowania idei, nie oddaje rzeczywistej składni pliku dionaea.conf, tylko ideę
+).
+<listen> 
+    <device>any</device>        --> 
+    <port>21</port>             
+    <port>80</port>             
+    <port>445</port>            
+... 
+</listen>
+Rys. Fragment przykładowego pseudokodu
+23 linie pseudokodu z ideą. Powyżej tylko fragment. Taką ideę to ja mogę znaleźć w dokumentacji, nie potrzebuję za to płacić. I nie lubię płacić za 400 stron, jak spora część strony jest pusta. I skoro to techniczny przewodnik to oczekuję porządnych listingów.
+5. Brak best practices
+Kupując taki przewodnik techniczny, oczekuję best practices, doświadczenia życiowego, a nie opisów, co jest w dokumentacji, czy tekstów:
+z dokumentacji wynika
+. Ja oczekuję doświadczenia autora, a nie info, co mozna znaleźć w dokumentacji. Ja nie kupuję książki po to, aby dowiedzieć się o rzeczywistych atakach, opisanych na publicznej stronie. Takie informacje mogę sobie znaleźć w sieci za darmo albo spytać AI. Ja oczekuję zwrotów: Z mojego zawodowego doświadczenia/praktyki wynika, a nie: z dokumentacji wynika.
+Fragment książki „Honeypoty w praktyce”.
+6. Brak standardów to standard w książce „Honeypoty w praktyce”
+Brak standardów, konwencji. Od lat uczę moich studentów, że standaryzacja to podstawa. Pozwala na wyłapywanie pomyłek, anomalii itd. A w tej książce raz jest kursywą, innym razem już nie, nie ma screenów i często nie wiadomo, o co chodzi. Patrząc na poniższy tekst nie sposób dojść, co oznacza
+pogrubienie
+, co oznacza
+pochylenie
+.
+Rys. Brak konwencji w formatowaniu
+Po logach ciężko mi ocenić, kiedy ta książka była pisana. Czy te rady są aktualne? Po kodzie i tym, co jest w książce, a co po samodzielnym wpisaniu w konsoli dostajemy, widać, że przynajmniej parę rzeczy się zmieniło. Logi mają daty z 2025 roku.
+7. Używanie zwrotów bez tłumaczenia
+W tej książce są używane słowa, które nigdy nie zostały czytelnikowi porządnie wytłumaczone. Takim przykładem niech będzie slowo
+demon
+. Parę sekund mi zajęło, zanim skojarzyłam, że tu chodzi o angielskie słowo
+daemon
+. W książce pojawia się to słowo 20 razy. W różnych kombinacjach: „syslog-ng oraz inne demony syslog (np. rsyslog)”, „w samym demonie honeypota”. Niektóre sformułowania brzmią ciekawie, np. „zdemonizować proces (puścić w tle)” (to info o puszczaniu w tle pojawia się w okolicach 150 strony lub „Po zainstalowaniu upewniamy się, że demony nie startują automatycznie”.
+Rys. Pierwsze wystąpienie słowa demon w książce
+8. Kompletny chaos w książce „Honeypoty w praktyce”
+W tej książce te same informacje są wielokrotnie powtarzane, co kojarzy mi się z pisaniem rozdziałów przy pomocy GenAI, gdzie ten sam temat pojawia się jako odpowiedź na kolejny prompt. Książka jest chaotyczna: gdzieś koło 50 strony jest mowa o podstawowej konfiguracji OpenCanary, a kilka rozdziałów dalej, w okolicach 200 jest instalacja i konfiguracja krok po kroku. Jaki jest tego cel – nie mam pojęcia. Słowo OpenCanary występuje w książce 126 razy, a Cowrie – 588.
+W książce miało być o architekturze wdrożeń, ale jak mówić o architekturze bez schematów, diagramów. W takiej formie jak obecnie, ta książka jest dla mnie totalnie nie do zaakceptowania. To są tylko słowa, nie ma nic, co pozwoli mózgowi odpocząć, co wywoła zainteresowanie. Są rozdziały, gdzie 99,999% to tekst, a brakujące 0,001% to kod. Tylko opisy. Czyli czytasz, ale dopóki sam/a nie sprawdzisz, nie masz pojęcia, czy to działa, czy nie działa, czy da się to na produkcję wdrożyć. Książka pełna przypisów do darmowych w większości źródeł.
+Rys. Uruchomiony conpot – dokumentacja: https://conpot.readthedocs.io/en/latest/installation/quick_install.html
+Rys. Przykład działania conpot w książce
+9. Dla kogo jest ta pozycja? Moim zdaniem – dla nikogo
+Początkujący? Nie.
+Osoba stawiająca pierwsze kroki potrzebuje zrzutów ekranu, precyzyjnych schematów i prowadzenia za rękę, aby nie poddać się przy pierwszym błędzie konfiguracji, którego książka nie wyjaśnia.
+Eksperci i zaawansowani? Tym bardziej nie.
+Doświadczony specjalista doskonale zna oficjalną dokumentację narzędzi. W książkach szuka unikalnego doświadczenia autora z pracy na froncie walki z cyberzagrożeniami. Zwroty typu „z dokumentacji wynika” lub opisywanie publicznych raportów z serwisu
+HackerTarget
+to zdecydowanie za mało. Chcę czytać:
+„Z mojej praktyki zawodowej wynika, że…”
+– tego tu kompletnie zabrakło.
+Podsumowanie: Czy nie warto kupić książkę „Honeypoty w praktyce”?
+Podręcznik miał ogromny potencjał, ale w obecnej formie
+nie jest wart swojej ceny
+. Około 80% zawartości to teoretyczne rozważania, lanie wody i powielanie ogólnodostępnych informacji ze stron projektów open-source. Predyspozycje techniczne tej pozycji oceniam na maksymalnie 20% wartości.
+Jeżeli chcesz marnować czas na czytanie „suchego tekstu” o dynamicznych dashboardach – kup tę książkę. Jeśli jednak szukasz realnej wiedzy i działania krok po kroku, lepszym (i darmowym) rozwiązaniem będzie samodzielne przeklikanie np. oficjalnej
+dokumentacji Conpot
+lub innych popularnych systemów deception.
+Aby zobaczyć, jak pułapki sieciowe sprawdzają się w prawdziwym życiu, przeczytaj mój wcześniejszy artykuł:
+Mój garnuszek z miodem: jak honeypoty chronią moje WordPressy przed botami
+.
+A jeśli chcesz zobaczyć, jak naprawdę można połączyć analizę zagrożeń z OSINT-em w codziennej pracy – zapraszam na moje autorskie, w pełni praktyczne
+szkolenie HoneyINT
+. Tam teorii jest minimum, a screeny, analizy logów i działające środowiska laboratoryjne to absolutna podstawa.
+I niezmiernie mnie dziwią te opinie z 5 gwiazdkami o
+książce Honeypoty w praktyce na easy.tools
+🙂 Mam nadzieję, że ktoś jeszcze się w tym temacie wypowie, może to ja mam za duże wymagania. Ale, od Wojciecha, człowieka na liście 40 under 40, mam chyba prawo wymagać, żeby poprzeczkę ustawił bardzo wysoko, czyż nie? Bo moja opinia o książce z 12.05.2026 r. wciąż nie doczekała się publikacji.
+Opinia o Honeypoty w praktyce, data wystawienia 12.05.2026
+Share this post:

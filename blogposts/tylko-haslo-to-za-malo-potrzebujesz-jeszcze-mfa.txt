@@ -1,0 +1,54 @@
+Multi-Factor Authentication: Twoja cyfrowa tarcza
+Ostatni incydent bezpieczeństwa u jednego z popularnych polskich hostingodawców odbił się szerokim echem w branży IT. Choć ataki hakerskie nie są nowością, ten konkretny przypadek potwierdził skuteczność jednej, prostej funkcji. Dowiedz się, dlaczego
+Multi-Factor Authentication (MFA)
+to już nie luksus, a absolutna konieczność i jak jeden „ptaszek” w ustawieniach mógł uchronić tysiące użytkowników przed utratą danych.
+Co znajdziesz w tym artykule?
+Multi-Factor Authentication: Twoja cyfrowa tarcza
+Dlaczego MFA to podstawa: Incydent w HostedWindows.pl
+Czym właściwie jest MFA i dlaczego hasło to za mało?
+Różne oblicza ochrony: Rodzaje uwierzytelniania dwuetapowego
+Nie czekaj na własny incydent
+Pamiętaj: Bezpieczeństwo to proces, a 2FA to jego najważniejszy element.
+Dlaczego MFA to podstawa: Incydent w HostedWindows.pl
+Niedawne
+doniesienia serwisu CyberDefence24
+o włamaniu na skrzynki e-mail obsługiwane przez jednego z polskich dostawców usług hostingowych wywołały spore poruszenie. Analiza tego zdarzenia przynosi jednak niezwykle cenny wniosek, który powinien stać się fundamentem strategii bezpieczeństwa każdego internauty i przedsiębiorcy.
+W powyższym artykule
+Oskar Klimczuk
+zadał firmie HostedWindows.pl niezwykle istotne pytanie: „
+Czy logowanie na skrzynkę umożliwiało lub wymagało dwuetapowego uwierzytelniania?
+”. Odpowiedź na nie stanowiła linię demarkacyjną między ofiarą a osobą bezpieczną. Jak czytamy w artykule: „
+Jeśli na skrzynce było zabezpieczenie 2fa skrzynka nie została objęta incydentem
+”.
+To zdanie to najsilniejszy argument za stosowaniem MFA, jaki pojawił się w ostatnim czasie. Pokazuje ono czarno na białym, że nawet w obliczu ataku na infrastrukturę czy masowych prób przejęcia haseł, dodatkowa warstwa weryfikacji stanowi barierę trudną do przebicia dla standardowych metod hakerskich.
+Źródło: https://cyberdefence24.pl/cyberbezpieczenstwo/cyberataki/incydent-u-polskiego-hostingodawcy-urzad-wlam-na-maila
+Czym właściwie jest MFA i dlaczego hasło to za mało?
+Multi-Factor Authentication (MFA), znane również jako uwierzytelnianie wieloskładnikowe (lub 2FA w przypadku dwóch składników), to proces weryfikacji tożsamości użytkownika za pomocą co najmniej dwóch niezależnych dowodów. Tradycyjnie opierają się one na trzech kategoriach:
+Coś, co wiesz
+(np. hasło lub PIN).
+Coś, co masz
+(np. smartfon z aplikacją, klucz sprzętowy, token).
+Coś, czym jesteś
+(np. odcisk palca, skan twarzy).
+Dlaczego samo hasło zawiodło w przypadku wspomnianego incydentu? Ponieważ hasła można wyłudzić (phishing), odgadnąć używając metody brute-force lub kupić na czarnym rynku po innym wycieku. MFA sprawia, że nawet jeśli haker wejdzie w posiadanie Twojego hasła, wciąż nie ma fizycznego dostępu do drugiego składnika, co czyni skradzione dane niewystarczającymi do przeprowadzenia ataku.
+Różne oblicza ochrony: Rodzaje uwierzytelniania dwuetapowego
+Nie każda metoda 2FA jest sobie równa, ale każda jest lepsza niż jej brak. Oto najpopularniejsze z nich:
+Kody SMS/E-mail:
+Najprostsza forma, polegająca na otrzymaniu jednorazowego kodu. Choć podatna na ataki typu SIM-swapping, wciąż skutecznie chroni przed większością masowych ataków.
+Aplikacje typu Authenticator (TOTP):
+Programy takie jak Google Authenticator, Microsoft Authenticator czy Authy generują kody zmieniające się co 30 sekund. Nie wymagają zasięgu sieci komórkowej i są znacznie bezpieczniejsze niż SMS-y.
+Powiadomienia Push:
+Rozwiązanie znane z bankowości mobilnej. Po wpisaniu hasła na komputerze, na telefonie pojawia się komunikat z pytaniem: „Czy to Ty próbujesz się zalogować?”. Wymaga jedynie kliknięcia „Zatwierdź”.
+Klucze sprzętowe (np. YubiKey):
+Uznawane za złoty standard bezpieczeństwa. To fizyczne urządzenia wkładane do portu USB lub zbliżane do telefonu (NFC). Są całkowicie odporne na phishing, ponieważ wymagają fizycznej obecności klucza przy urządzeniu logującym.
+Nie czekaj na własny incydent
+Przypadek polskiego hostingodawcy to potężne memento dla nas wszystkich. W świecie, gdzie dane są najcenniejszą walutą, ich ochrona nie może opierać się na jednym, często słabym ogniwie, jakim jest hasło.
+Jeśli po przeczytaniu tego artykułu masz zrobić jedną rzecz dla swojego bezpieczeństwa, niech będzie to sprawdzenie ustawień swojej skrzynki e-mail, konta w mediach społecznościowych oraz panelu klienta u swojego dostawcy usług. Włącz MFA już dziś. Jak pokazała praktyka – to właśnie ta decyzja decyduje o tym, czy znajdziesz się na liście poszkodowanych, czy będziesz mógł spać spokojnie.
+Pamiętaj:
+Bezpieczeństwo to proces, a 2FA to jego najważniejszy element.
+Jeśli chcesz budować odporność organizacji na takie incydenty i nie dopuścić do tego, aby czujność Twoich systemów przetestowali cyberprzestępcy, to zapraszamy na bezpłatne, 15-minutowe spotkanie przy wirtualnej kawie.
+To niezobowiązujący sposób, by omówić Twoje potrzeby szkoleniowe lub wdrożeniowe w zakresie hardeningu i zabezpieczania systemów i aplikacji i sprawdzić, jak możemy pomóc.
+Wystarczy kliknąć przycisk poniżej, aby wybrać dogodny termin. Jeśli wolisz wysłać maila – możesz przesłać wiadomość przez formularz kontaktowy.
+UMÓW SPOTKANIE
+Wyślij wiadomość
+Share this post:

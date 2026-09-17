@@ -1,0 +1,103 @@
+W
+poprzednim wpisie
+opisałam, jak stworzyć odpowiednie kontrolery i widoki w aplikacji ASP.NET Core przy użyciu Entity Framework Core.
+Teraz do aplikacji dodamy autoryzację.
+W pliku
+appsettings.json
+widzimy następujące ustawienia:
+Zmieniamy nazwę serwera z
+(localdb)\mssqllocaldb
+na nazwę własnego serwera (
+np. ZALNET-PC\SQLCOURSE2017
+) oraz skracamy nazwę bazy danych na
+aspnet_Frontend
+.
+SQL Server od wersji 2012 został wyposażony w nową funkcjonalność –
+SQL Express LocalDb
+. Celem LocalDb jest zapewnienie programistom lokalnego środowiska, które jest znacznie łatwiejsze do zainstalowania i zarządzania. Zamiast instalować usługę i konfigurować zabezpieczenia, po prostu uruchamiają instancję tego nowego środowiska lokalnego LocalDb, kiedy tego potrzebują. Ponadto pobieranie instalki Express LocalDB to tylko około 33 MB (lub 27 MB, jeśli nadal korzystamy z  architektury x86), w porównaniu do 100 s MB wymaganych do pobrania pełnej wersji SQL Server Express. Ja mimo tych wszytskich zalet LocalDb wolę jednak zainstalowane wersje SQL Server.
+Na serwerze SQL tworzymy bazę danych o nazwie
+aspnet_Frontend
+, tak jak zadeklarowaliśmy to w
+DefaultConnection
+.
+CREATE DATABASE aspnet_Frontend;
+GO
+Teraz przechodzimy do Package Manager Console i tam wywołujemy polecenie:
+Update-Database -Context ApplicationDbContext
+.
+Polecenie to stworzy w naszej bazie danych wszystkie tabele, do których odwołujemy się w
+ApplicationDbContext
+.
+Po wykonaniu powyższego polecenia możemy zobaczyć, że w naszej bazie danych pojawiły się odpowiednie tabele:
+Testy widoków Register i Login
+Uruchamiamy aplikację i rejestrujemy nowego użytkownika.
+Sprawdzamy, czy jesteśmy poprawnie zalogowani.
+Sprawdzamy, czy możemy się wylogować z aplikacji, a następnie ponownie logujemy się do aplikacji.
+Teraz przechodzimy do bazy danych i sprawdzamy zawartość tabeli
+dbo.AspNetUsers
+:
+Jak uruchomimy aplikację, możemy zaobserwować, że gdy klikniemy na link
+Register
+, to przekierowuje nas do widoku
+Register
+i kontrolera
+Account
+w folderze
+Identity
+. Folder
+Identity
+znajduje się w folderze
+Areas
+. Ale jego aktualna zawartość to tylko folder
+Pages
+i plik
+_ViewStart.cshtml
+. Nie ma żadnych innych folderów i plików.
+Ale jak przejdziemy na stronę rejestracji, to widzimy, że wszystko działa i że w URL zawiera i nazwę kontrolera i nazwę metody akcji .
+Ale jak to wszystko działa i dlaczego? Aby zobaczyć w strukturze naszego projektu wykorzystywane tutaj widoki i kontrolery, klikamy prawym przyciskiem myszy na folderze
+Identity
+, potem klikamy
+Add
+, a potem
+New Scaffolded Item …
+.
+W oknie dialogowym
+Add Scaffold
+po lewej stronie wybieramy
+Identity
+i klikamy przycisk
+Add
+.
+W oknie dialogowym
+Add Identity
+możemy dodać wszystkie lub wybrane widoki powiązane z kontrolerem
+Account
+.
+Jak widać, do projektu zostały dodane nowe widoki.
+Teraz uruchamiamy aplikację, aby sprawdzić, czy wszystko działa tak jak trzeba. Klikamy na link
+Register
+i dodajemy nowe konto.
+Sprawdzamy, czy konto zostało prawidłow dodane do bazy danych.
+Jak to wszystko działa?
+Usługi są dodawane do
+ConfigureServices
+. Typowy wzorzec to wywołanie metody
+Add{Service}
+, a potem wywołanie wszystkich metod
+services.Configure{Service}
+.
+Identity
+jest konfigurowane z domyślnymi wartościami. Usługi są dostępne dla aplikacji poprzez  dependency injection. Identity jest włączone poprzez wywołanie
+UseAuthentication
+.
+Jak działają poszczególne metody możemy przeczytać na tej
+stronie
+.
+Możemy sprawdzić tabelę
+dbo.aspNetUsers
+, aby zobaczyć utworzonych przez nas użytkowników. Możemy także zobaczyć, że tabele
+dbo.ASPNetRoles
+i
+dbo.ASPNetUserRoles
+nie mają żadnych rekordów, ponieważ nie utworzyliśmy jeszcze żadnych ról ani nie dodaliśmy użytkowników do ról.
+Share this post:

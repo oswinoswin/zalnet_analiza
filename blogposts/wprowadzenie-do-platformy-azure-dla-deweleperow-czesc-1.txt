@@ -1,0 +1,498 @@
+Tworzenie projektu ASP.NET Core 5.0 Web API
+Utworzenie nowego projektu ASP.NET Core
+1. Uruchamiamy wiersz poleceń jako
+administrator
+(command prompt wywoływany za pomocą polecenia cmd):
+2. Tworzymy nowy projekt
+ASP.NET Core Web API
+. W tym celu w wierszu poleceń wpisujemy  poniższe polecenie i klikamy przycisk
+Enter.
+Polecenie to utworzy nam nowy projekt o nazwie
+BlueYonder.Flights
+na dysku
+C
+w folderze
+Azure:
+dotnet new webapi --name BlueYonder.Flights --output C:\Azure\BlueYonder.Flights
+3. Jak już projekt zostanie utworzony, zmieniamy domyślny folder wiersza poleceń na nasz folder z projektem za pomocą następującego polecenia:
+cd C:\Azure\BlueYonder.Flights
+Utworzenie modelu Entity Framework Core
+1.
+Abyśmy mogli używać
+Entity Framework Core
+w naszym projekcie, potrzebujemy zainstalować odpowiedni pakiet przy użyciu poniższego polecenia:
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+2. Aby przywrócić wszystkie pakiety i biblioteki, wymagane w naszym projekcie, uruchamiamy poniższe polecenie z poziomu wiersza poleceń:
+dotnet restore
+3. Aby otworzyć naszą aplikację w
+Visual Studio Code
+, w wierszu poleceń wpisujemy poniższe polecenie:
+code .
+4. Folder z naszym projektem
+BlueYonder.Flights
+został otwarty w
+Visual Studio Code
+:
+Klikamy
+Yes
+przy wiadomości
+Required assets to build and debug are missing from 'BlueYonder.Flights’.Add them?
+. Pozwoli to na zbudowanie (ang.
+build
+) naszego projektu i sprawdzenie, czy nie ma błędów w kodzie.
+Jeśli pojawi się informacja
+There are unresolved dependencies
+, klikamy opcję
+Restore
+:
+5. Prawym przyciskiem myszy klikamy wewnątrz panelu
+File Explorer
+po lewej stronie i wybieramy opcję
+New Folder
+, a następnie nazywamy go
+Models
+:
+6. Prawym przyciskiem myszy klikamy na folderze
+Models
+, wybieramy opcję
+New C# Class
+i nazywamy ją
+Flight.cs.
+Opcja New C# Class jest dostępna dzięki rozszerzeniu do VS Code
+„C# Extensions”, autor: jchannon
+:
+7. Na górze klasy dodajemy następującą przestrzeń (ang.
+namespace
+):
+using System;
+8. Aby nasz model spełniał swoje zadanie, dodajemy następujące właściwości do klasy
+Flight
+:
+public int Id { get ;set; }
+public string Origin { get; set; }
+public string Destination { get; set; }
+public string FlightNumber { get; set; }
+public DateTime DepartureTime { get; set; }
+Stworzenie klasy DbContext
+1. Prawym klikamy folder
+Models
+, wybieramy opcję
+New C# Class
+, a potem nazywamy ją
+FlightsContext.cs
+:
+2. Na górze pliku
+FlightsContext.cs
+dodajemy następującą przestrzeń:
+using Microsoft.EntityFrameworkCore;
+3. Nasza klasa
+FlightsContext
+będzie dziedziczyła z klasy
+DbContext
+, więc po nazwie klasy dodajemy takie dziedziczenie:
+public class FlightsContext : DbContext
+4. Wewnątrz klasy dodajemy konstruktor i właściwość
+Flights
+, która będzie zapewniała nam dostęp do naszych danych, przy użyciu następującego kodu:
+public FlightsContext(DbContextOptions<FlightsContext> options) : base(options)
+{
+}
+public DbSet<Flight> Flights { get; set; }
+5. Przechodzimy do klasy
+Startup.cs
+i dodajemy następujące przestrzenie:
+using BlueYonder.Flights.Models;
+using Microsoft.EntityFrameworkCore;
+6. W metodzie
+ConfigureServices
+dodajemy połączenie (ang.
+connection string
+) do bazy danych Microsoft SQL Server, którą zaraz utworzymy w chmurze Azure:
+services.AddDbContext<FlightsContext>(opt =>
+opt.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
+Stworzenie kontrolera dla Web API
+1. Prawym przyciskiem myszy klikamy na folderze
+Controllers
+i wybieramy opcję
+New C# Class
+. Nazywamy naszą klasę
+FlightsController.cs
+:
+2. Dodajemy referencję do folderu
+Models
+:
+using BlueYonder.Flights.Models;
+3. Dodajemy pole prywatne
+_context
+:
+private readonly FlightsContext _context;
+4. Aby wstrzyknąć kontekst bazy danych do kontrolera (inaczej mówiąc pozwolić na to, aby metody z naszego kontrolera mogły używać naszej bazy danych i operować na danych), używamy do tego konstruktora jak poniżej:
+public FlightsController(FlightsContext context)
+{
+   _context = context;
+}
+Stworzenie akcji i użycie kontekstu Entity Framework Core
+1. Aby pobrać listę wszystkich lotów, dodajemy metodę
+Get
+, w której użyjemy pola
+_context
+, dzięki któremu połączymy się do naszej bazy danych i z tabeli
+dbo.Flights
+pobierzemy wszystkie loty i zwrócimy je w postaci listy:
+// GET api/flights
+[HttpGet]
+public IEnumerable<Flight> Get()
+{
+    return _context.Flights.ToList();
+}
+2. Do kontrolera dodajemy 3 nowe przestrzenie nazw (ang.
+namespaces
+):
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.AspNetCore.Mvc;
+3. Aby dodać nowy przelot i zapisać go w bazie danych, dodajemy metodę
+Post
+, która w parametrze
+flight
+będzie przekazywała właściwości z modelu
+Flight
+, a następnie dodawała ten nowy lot do innych lotów. Następnie zapisujemy lot do bazy danych, za pomocą metody
+SaveChanges
+wracamy do akcji
+Get
+, która ma wyświetlić nam dodany właśnie przelot:
+// POST api/flights
+[HttpPost]
+public IActionResult Post([FromBody]Flight flight)
+{
+    _context.Flights.Add(flight);
+    _context.SaveChanges();
+    return CreatedAtAction(nameof(Get), flight.Id);
+}
+4. Nad klasą kontrolera dodajemy atrybut
+[Route(„api/[controller]”)]
+oraz dodajemy dziedziczenie z klasy
+ControllerBase
+, aby wskazać, że to jest
+API controller
+:
+public class FlightsController : ControllerBase
+Wdrożenie aplikacji na platformę Azure
+Stworzenie Azure Web App i bazy danych Azure SQL Server
+1. Otwieramy przeglądarkę.
+2 Przechodzimy do adresu
+https://portal.azure.com.
+3. Jeśli strona poprosi o dane do logowania, wpisujemy adres email, klikamy przycisk
+Next (Następny)
+, wpisujemy hasło, a potem klikamy przycisk
+Sign In (Zaloguj się)
+.
+4. Jeśli pojawi się okno z pytaniem
+Stay signed in?
+, klikamy
+Yes
+:
+Uwaga
+: Jeśli podczas procesu logowania zostanie wyświetlona strona z monitem o wybranie konta z listy wcześniej używanych kont, wybieramy konto, z którego wcześniej korzystaliśmy, a następnie kontynuujemy podawanie swoich poświadczeń.
+5. Aby wyświetlić wszystkie zasoby na Azurze, klikamy przycisk
++Create a resource
+:
+6. Aby wybrać szablon dla
+app service
+, w oknie
+Create a resource
+, w polu wyszukiwania wpisujemy
+Web App + SQL
+i wybieramy z podpowiedzi szablon
+Web App + SQL
+:
+7. W oknie
+Web App + SQL
+, klikamy przycisk
+Create
+:
+8. W oknie
+WebApp + SQL
+wypełniamy następujące pola:
+W polu
+App Name
+, wpisujemy nazwę
+blueyonderflightsbz
+:
+Uwaga:
+Nazwa
+App Name
+będzie częścią URL i będzie obsługiwana przez domenę
+azurewebsites.net
+. Nazwa naszej aplikacji musi być unikalna w obrębie domeny. Możemy także skonfigurować na Azurze ustawienia dla naszej własnej domeny i wtedy nazwa taka musi być unikalna w obrębie naszej domeny.
+Wybieramy subskrypcję.
+W
+Resource Group
+, klikamy link
+Create new
+, and potem wpisujemy nazwę grupy zasobów
+BlueYonderFlightsRG
+i klikamy
+OK:
+W polu
+App Service plan/Location
+klikamy znak
+>
+po prawej stronie:
+Klikamy przycisk
++ Create new
+:
+W oknie
+New App Service Plan
+w polu
+App Service Plan
+wpisujemy
+BlueYonderFlightsPlan
+,
+z listy rozwijanej
+Location
+wybieramy lokalizację, w której chcemy hostować naszą aplikację:
+Klikamy strzałkę po prawej stronie obok pozycji
+Pricing tier
+. Na stronie
+Spec Picker
+możemy wybrać parametry hostingu dla naszej aplikacji. Na zakładce
+Dev/Test
+wybieramy maszynę
+F1
+(zapewni nam to darmowe użytkowanie aplikacji przez godzinę dziennie)  i klikamy
+Apply
+:
+W oknie
+New App Service Plan
+klikamy przycisk
+OK
+:
+Na stronie
+Web App + SQL
+klikamy znak
+>
+po prawej obok pola
+SQL Database
+:
+W oknie
+SQL Database
+wpisujemy następujące informacje:
+W polu
+Name
+wpisujemy
+BlueYonderFlightsDB
+.
+Klikamy link
+Select Server
+poniżej
+Target server
+:
+W oknie
+New server
+wpisujemy następujące informacje:
+W polu
+Server name
+wpisujemy
+blueyonderflightsserverdbbz
+.
+Uwaga:
+Nazwa serwera powinna być unikalna w ramach domeny
+.database.windows.net
+.
+W polu
+Server admin login
+wpisujemy
+Admin123
+.
+W polach
+Password
+i
+Confirm password
+wpisujemy silne hasło.
+W polu
+Location
+wybieramy lokalizację, w którym chcemy hostować naszą bazę danych.
+Klikamy przycisk
+Select
+.
+Klikamy link
+Configure database
+pod polem
+Pricing tier
+:
+Wybieramy opcję
+Serverless
+i klikamy przycisk
+Apply
+:
+Uwaga
+: W opcji
+Serverless
+opłaty są naliczane co sekundę w oparciu o zużycie vCores. W opcji
+Provisioned
+opłaty są naliczane co godzinę w oparciu o wcześniej zadeklarowaną liczbę vCores i wielkość miejsca na przechowywanie danych. Możemy także wybrać inne rodzaje i wielkości baz danych, w tym bazę darmową po kliknięciu na link
+Looking for basic, standard, premium?
+:
+Klikamy przycisk
+Select
+:
+Klikamy przycisk
+Create
+:
+9. Po utworzeniu bazy danych, aby przejść do naszej bazy danych, po lewej stronie klikamy na menu, a potem wybieramy
+SQL Databases
+:
+10. W oknie
+SQL databases
+klikamy na link prowadzący do naszej bazy danych:
+11. W oknie bazy danych klikamy na zakładce
+Overview
+klikamy przycisk
+Set server firewall
+na pasku na środku pod nazwą naszej bazy danych:
+12. W oknie
+Firewall settings
+klikamy przycisk
++ Add client IP
+. W regułach zostaje nam dodany nasz adres IP, który pozwoli na połączenie do bazy danych. Klikamy przycisk
+Save
+, a potem przycisk
+Continue
+:
+13. Na samej górze klikamy link do naszej bazy danych, aby powrócić na zakładkę
+Overview
+. W panelu po lewej stronie klikamy
+Query editor (preview)
+:
+14. Klikamy
+Login
+, wpisujemy nasze hasło, a potem klikamy
+OK
+:
+15. Aby stworzyć nową tabelę w naszej bazie, wewnątrz zakładki
+Query 1
+, wklejamy następujący skrypt i klikamy przycisk
+Run
+:
+CREATE TABLE [dbo].[Flights](
+[Id] [int] IDENTITY(1,1) NOT NULL,
+[Origin] [varchar](50) NOT NULL,
+[Destination] [varchar](50) NOT NULL,
+[FlightNumber] [varchar](50) NOT NULL,
+[DepartureTime] [date] NOT NULL,
+PRIMARY KEY CLUSTERED
+(
+[Id] ASC
+));
+GO
+16. Zamykamy zakładkę
+Query 1
+i w bazie danych sprawdzamy, czy nasza tabela jest widoczna:
+Wdrożenie  Azure Web App
+1. Wracamy na stronę główną Azure Portal klikając link Home w lewym górnym rogu.
+Uwaga
+: Jeśli pojawi się nam takie okno dialogowe klikamy przycisk
+OK
+:
+2. Aby wyświetlić nasz App Service, klikamy menu po lewej stronie i wybieramy
+App Services
+:
+3. Żeby zobaczyć konfigurację naszego w zakładce App Services klikamy link do naszej aplikacji:
+4. Aby dodać poświadczenia, dzięki którym będziemy mogli wdrożyć naszą aplikację do app service, pod sekscją
+DEPLOYMENT
+klikamy
+Deployment Center
+, a potem przechodzimy na zakładkę
+FTPS Credentials
+:
+5. W sekcji User scope dodajemy następujące dane:
+W
+FTP/deployment username
+wpisujemy
+FTPBlueYonderFlightsUserBZ
+.
+W polach
+Password
+i
+Confirm password
+wpisujemy
+złożone hasło
+.
+Klikamy
+Save
+:
+Uwaga:
+Powyższe poświadczenia udostępniają opcje wdrażania aplikacji z wiersza polecenia.
+6. W panelu po lewej stronie w sekcji
+Monitoring
+klikamy
+App Service Logs
+i zapisujemy w notatniku nazwę
+FTP/deployment username
+:
+7. Przełączamy się do Visual Studio Code.
+8. Klikamy prawym przyciskiem myszy w panelu File Explorer po lewej stronie, wybieramy folder
+Properties
+.
+9. Klikamy prawym przyciskiem myszy na folderze
+Properties
+, wybieramy New Folder i nazywamy ten folder PublishProfiles.
+10. Do folderu PublishProfiles dodajemy plik
+Azure.pubxml
+:
+11. Wklejamy następujący kod, modyfikując odpowiednio nazwy
+PublishSiteName
+(
+FTP
+z notatnika) i
+Username
+(
+deployment username
+z notatnika) :
+<Project>
+<PropertyGroup>
+<PublishProtocol>Kudu</PublishProtocol>
+<PublishSiteName>blueyonderflights{TwojeInicjały}</PublishSiteName>
+<UserName>FTPBlueYonderFlightsUser{TwojeInicjały}</UserName>
+<Password>Pa55w.rd12345</Password>
+</PropertyGroup>
+</Project>
+12. W wierszu poleceń wklejamy następującą komendę:
+dotnet publish /p:PublishProfile=Azure /p:Configuration=Release
+Uwaga
+: W przypadku, kiedy Publish nie przechodzi, należy zrestartować app service
+blueyonderflightsbz
+na Azurze (zakładka
+Overview
+). Po uruchomieniu możemy zobaczyć pustą tablicę jako rezultat:
+Test Web API
+1. Przechodzimy do portalu Azure.
+2. Po lewej stronie klikamy
+SQL Databases
+.
+3. Klikamy nazwę naszej bazy danych, a po przejściu do bazy danych po lewej stronie klikamy Query editor(preview).
+4. Klikamy Login, a następnie wpisujemy nasze hasło.
+5. W oknie klikamy
++New Query
+i wywołujemy następujące polecenie, które stworzy nam 6 lotów:
+INSERT INTO dbo.Flights(Origin, Destination, FlightNumber, DepartureTime)
+VALUES('Paris', 'London', 'ABC123', '2021-06-13'),
+('London', 'Warsaw', 'WEQ675', '2021-06-14'),
+('Warsaw', 'New York', 'JHE543', '2021-06-15'),
+('New York', 'Washington', 'CXD654', '2021-06-16'),
+('Washington', 'Miami', 'MNK098', '2021-06-17'),
+('Miami', 'Paris', 'DCT543', '2021-06-18');
+GO
+6. Aby pobrać wszystkie przeloty z bazy danych, wklejamy następujący skrypt do
+Query 1
+, and potem klikamy Run:
+Select * from dbo.Flights;
+GO
+7. Jeśli odświeżymy naszą aplikację, możemy zobaczyć, że aplikacja także zwraca nasze przeloty:
+W ten oto sposób stworzyliśmy aplikację, za pomocą której możemy odczytać dane z bazy AzureSQL Server.
+Gotowa aplikacja do pobrania z mojego
+Githuba
+.
+Share this post:

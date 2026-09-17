@@ -1,0 +1,125 @@
+Iluzja bezpieczeństwa. Dlaczego faktura za sprzęt IT nie chroni przed cyberatakiem?
+Wielu menedżerów, dyrektorów i decydentów w sektorze publicznym oraz prywatnym wpada w pułapkę, którą jest
+iluzja bezpieczeństwa
+. Żyją oni w bardzo niebezpiecznym przekonaniu:
+„Wydaliśmy miliony na nowoczesne oprogramowanie i sprzęt, więc jesteśmy bezpieczni”
+. Kupno drogiego systemu traktowane jest jak polisa ubezpieczeniowa albo magiczny talizman, który samym swoim istnieniem w serwerowni odpędza cyberprzestępców.
+Niestety, rzeczywistość rzadko bywa tak łaskawa. Najnowszy
+raport
+Najwyższej Izby Kontroli (NIK)
+, opublikowany 12 czerwca 2026 r., obnaża poważne nieprawidłowości we wdrożeniu systemów informatycznych i zarządzaniu bezpieczeństwem informacji. Wskazuje on również na zmiany w umowach naruszające prawo zamówień publicznych oraz błędy w ewidencjonowaniu praw majątkowych w dwóch publicznych uczelniach lubelskich.
+Kontrolę przeprowadzono od kwietnia do października 2025 r. na Politechnice Lubelskiej (PL) i Uniwersytecie Medycznym (UML). Jej celem było sprawdzenie systemów finansowanych z Funduszy Europejskich.
+Ten raport to bolesne, ale niezwykle potrzebne zderzenie z ziemią.
+Pokazuje czarno na białym, że cyfrowe bezpieczeństwo i efektywność operacyjna to nie są towary, które można po prostu wziąć z półki, opłacić i zostawić w serwerowni, by zbierały kurz.
+Poniżej wyjaśniamy, dlaczego zakupiony sprzęt IT lub oprogramowanie nie gwarantuje bezpieczeństwa oraz jakie wnioski z kontroli NIK powinna wyciągnąć każda organizacja w Polsce.
+Co znajdziesz w tym artykule?
+Iluzja bezpieczeństwa. Dlaczego faktura za sprzęt IT nie chroni przed cyberatakiem?
+Lekcja z Lublina: 16,5 miliona złotych na systemy, które… nie działały
+Anatomia samozadowolenia, czyli jak powstaje iluzja bezpieczeństwa
+1. Brak kontroli administratorów nad zasobami serwerowymi
+2. Niewłaściwe i nieterminowe przechowywanie logów systemowych
+3. Luki w zarządzaniu uprawnieniami użytkowników
+Zakup technologii a iluzja bezpieczeństwa w praktyce
+Triada PPT: Ludzie, Procesy, Technologia
+Jak pokonać pułapkę, którą jest iluzja bezpieczeństwa?
+Podsumowanie
+Lekcja z Lublina: 16,5 miliona złotych na systemy, które… nie działały
+Raport NIK opisujący wydatkowanie
+środków publicznych na systemy IT
+na lubelskich uczelniach to lektura obowiązkowa dla każdego, kto zarządza projektami technologicznymi. Kontrolerzy przyjrzeli się wydatkom rzędu
+ponad 16,5 miliona złotych
+. Wyniki? Porażające.
+Wiele z zakupionych systemów informatycznych w praktyce nigdy nie zostało wdrożonych, nie działało prawidłowo lub nie spełniało podstawowych założeń. Jaskrawym przykładem tej niemocy była
+aplikacja za prawie 572 tys. zł
+, dedykowana osobom z niepełnosprawnościami. Została ona zaprojektowana i uruchomiona z rażącym naruszeniem zasad dostępności cyfrowej (
+WCAG
+).
+Jednakże, to, co najbardziej niepokoi, kryje się głębiej. Dokładniej mówiąc, chodzi o
+rażące zaniedbania w obszarze bezpieczeństwa informacji
+. Ostatecznie, posiadanie drogiej infrastruktury nie uchroniło jednostek przed podstawowymi błędami, które dla sprawnego hakera byłyby otwartym zaproszeniem do cyberataku.
+Anatomia samozadowolenia, czyli jak powstaje iluzja bezpieczeństwa
+Zatem, dlaczego dochodzi do takich sytuacji? Bez wątpienia winna jest wspomniana na początku
+iluzja bezpieczeństwa
+. Z reguły, kupując systemy klasy Enterprise, firewalle nowej generacji czy zaawansowane systemy ERP, organizacje często uznają zadanie z zakresu
+„Cyberbezpieczeństw
+a” za zakończone.
+Pamiętaj:
+Pudełko z oprogramowaniem postawione w szafie rackowej (lub wykupiona subskrypcja w chmurze) nie konfiguruje się samo, nie wdraża procedur i nie edukuje pracowników. Nie monitoruje, nie reaguje, nie naprawia.
+Co ważne, kontrolerzy NIK wskazali trzy kluczowe obszary, w których zawiodły nie same systemy, ale ludzie i procesy:
+1. Brak kontroli administratorów nad zasobami serwerowymi
+Mówiąc prościej, to sytuacja, w której kupujesz najdroższe, pancerne drzwi do banku, ale nie wiesz, kto z personelu ma do nich zapasowy klucz. Z pewnością administratorzy IT posiadają tzw.
+uprawnienia uprzywilejowane
+(ang. Privileged permissions). W związku z tym, jeśli organizacja nie ma pełnego wglądu w to, co, kiedy i jak konfigurują administratorzy, traci kontrolę nad własnymi danymi.
+2. Niewłaściwe i nieterminowe przechowywanie logów systemowych
+Zasadniczo,
+logi (dzienniki zdarzeń)
+to „czarna skrzynka” każdego systemu informatycznego. W szczególności to tam zapisuje się:
+każda próba logowania,
+każda zmiana konfiguracji,
+każdy nietypowy ruch w sieci.
+Tymczasem, NIK wykazał, że logi nie były odpowiednio zabezpieczane i analizowane. W konsekwencji, w przypadku incydentu zespół IT mógłby nawet nie dowiedzieć się, jak doszło do włamania, co skradziono i jak długo przestępca buszował w systemie.
+3. Luki w zarządzaniu uprawnieniami użytkowników
+Zasada minimalnych uprawnień
+(ang.
+Principle of Least Privilege
+) to absolutny fundament cyberbezpieczeństwa. Każdy pracownik powinien mieć dostęp tylko do tych zasobów, które są mu niezbędne do wykonywania codziennych obowiązków. Tymczasem chaos w uprawnieniach prowadzi do sytuacji, w których szeregowi użytkownicy mają dostęp do krytycznych danych. Jeśli konto takiego pracownika zostanie przejęte poprzez zwykły
+phishing
+, napastnik natychmiast zyskuje dostęp do wrażliwych informacji całej instytucji.
+Zakup technologii a iluzja bezpieczeństwa w praktyce
+Aby lepiej zobrazować różnicę między czysto zakupowym podejściem a rzetelnym dbaniem o infrastrukturę IT, warto zestawić te dwa światy w tabeli. W tym celu przygotowaliśmy poniższe zestawienie:
+Podejście „Kup i zapomnij” (Iluzja)
+Podejście procesowe (Realne bezpieczeństwo)
+Kupujemy drogi firewall
+i uznajemy, że sieć jest w 100% zablokowana dla zagrożeń.
+Konfigurujemy zakupiony firewall
+, regularnie aktualizujemy reguły i analizujemy ruch sieciowy pod kątem anomalii.
+Wdrażamy system logowania
+i cieszymy się, że spełniamy wymogi formalne.
+Przechowujemy logi w bezpiecznym, odizolowanym miejscu
+i monitorujemy je w czasie rzeczywistym (np. przez system
+SIEM
+).
+Nadajemy uprawnienia „hurtowo”
+, żeby pracownicy nie narzekali, że coś im nie działa.
+Rygorystycznie zarządzamy kontami
+, natychmiast odbieramy uprawnienia byłym pracownikom i stosujemy zasadę minimalnych przywilejów.
+Traktujemy procedury jak zbędną biurokrację
+potrzebną tylko na czas audytu.
+Procedury są żywym dokumentem
+, regularnie testowanym w praktyce (np. poprzez symulacje ataków).
+Triada PPT: Ludzie, Procesy, Technologia
+Ogólnie rzecz biorąc, w świecie ochrony danych obowiązuje sprawdzona formuła –
+triada PPT
+(People, Processes, Technologies). Ponadto, pokazuje ona, że technologia to zaledwie jeden z trzech filarów i wcale nie najważniejszy na starcie.
+[ BEZPIECZEŃSTWO ]
+              /\
+             /  \
+            /    \
+  LUDZIE <-- ------> PROCESY
+     \                /
+      \              /
+       v            v
+        TECHNOLOGIA
+Ludzie:
+To najczęściej najsłabsze ogniwo, ale też pierwsza linia obrony. Bez przeszkolonych użytkowników, świadomej kadry zarządzającej i kompetentnych (oraz rozliczanych ze swojej pracy) administratorów czy też konsultantów, żadna technologia sama z siebie nie zadziała. To te osoby analizują procesy, optymalizują, dopasowują odpowiednie procesy do firmy.
+Procesy:
+To zbiór reguł, polityk i procedur, które mówią organizacji, jak ma działać na co dzień oraz jak reagować w sytuacjach kryzysowych. Proces definiuje m.in. jak nadaje się uprawnienia, jak przebiega audyt IT oraz jak wygląda zarządzanie podatnościami.
+Technologia:
+Jest dopiero narzędziem do egzekwowania procedur i wspierania ludzi. Kupowanie technologii bez wcześniejszego poukładania procesów i przeszkolenia ludzi to stawianie wozu przed koniem. Kupowanie oprogramowania i dopasowywanie pod nie procesów i ludzi to jak kupowanie wdrzwi antywłamaniowych do domu przed zakupem mieszkania. Wymarzone, solidne, polecane przez znajomych i sprzedawcę w sklepie, są za duże i nie mieszczą się w ościeżnicę i stoją nieużywana w garażu. I stoi taki
+przydaś
+, bo może kiedyś jeszcze „przydadzą się”, zrobimy większy otwór na drzi przy okazji remontu. Pieniądze wydane, pożytku z tego nie ma.
+Jak się okazuje, w przypadku kontroli NIK skupiono się wyłącznie na technologii. (wydanie budżetu na oprogramowanie), całkowicie ignorując dwa pozostałe filary. Efekt? Na skutek tego, systemy warte miliony stały się bezużytecznymi pomnikami cyfrowej rozrzutności.
+Jak pokonać pułapkę, którą jest iluzja bezpieczeństwa?
+Niezależnie od tego, czy zarządzasz administracją publiczną, uczelnią czy biznesem – te wnioski z raportu NIK musisz wdrożyć jak najszybciej:
+Przestań wierzyć w „święty spokój” po podpisaniu faktury.
+Każde wdrożenie nowego systemu IT kończy się dopiero wtedy, gdy system przejdzie pomyślnie testy akceptacyjne, procedury jego utrzymania zostaną spisane, a personel przejdzie realne szkolenie z jego obsługi i będzie na co dzień kontrolował działanie systemu i reagował odpowiednio do potrzeb.
+Wprowadź regularne audyty wewnętrzne i zewnętrzne.
+Nie czekaj na kontrolę NIK, UKNF czy innego regulatora. Regularny
+audyt bezpieczeństwa IT
+przeprowadzony przez niezależnych ekspertów pozwoli wykryć luki w uprawnieniach, brak logów czy błędy konfiguracyjne, zanim zostaną one wykorzystane przez przestępców.
+Zadbaj o higienę uprawnień i logowania.
+Zacznij od podstaw, które nic nie kosztują: zweryfikuj konta administratorów, ogranicz dostępy, włącz dwuskładnikowe uwierzytelnianie (2FA) i upewnij się, że Wasze logi systemowe nie są kasowane po kilku dniach, lecz bezpiecznie archiwizowane.
+Podsumowanie
+Raport NIK to przypomnienie, że w świecie IT i cyberbezpieczeństwa droga na skróty nie istnieje. Wydanie milionów złotych ze środków publicznych lub prywatnych na nowoczesny sprzęt nie czyni nikogo bezpiecznym, jeśli brakuje odpowiedniego nadzoru, procedur i kompetencji.
+Organizacja dbająca o bezpieczeństwo to nie taka, która dysponuje najdroższymi zabawkami technologicznymi, ale taka, która potrafi w sposób kontrolowany, świadomy i ustrukturyzowany zarządzać tym, co posiada. Rozwiązania open-source, ale dobrze zarządzane, dają większą kontrolę nad organizacją, niż te za miliony złotych, leżące na półkach i zbierające kurz. Czas najwyższy wyciągnąć wnioski z tej lekcji – zanim kolejny raport (lub informacja o potężnym wycieku danych) dotyczyć będzie Twojej organizacji.
+Share this post:
